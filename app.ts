@@ -2,6 +2,7 @@ import express from 'express';
 import { errorHandler } from './src/middlewares/ErrorHandler.js'
 const app = express();
 
+import userRouter from './src/routes/user.route.js'
 // import healthcheckRouter from './src/HealthCheck/healthcheck.route.js';
 // import countryRouter from './src/Country/countryRoute.js'
 // import schoolRouter from './src/School/schoolRoute.js';
@@ -15,6 +16,7 @@ app.use(express.urlencoded({ extended: true, limit: '16kb' }));
 app.use(cookieParser());
 
 // Health check route
+app.use("/api/v1/student", userRouter);
 // app.use("/api/v1", healthcheckRouter);
 // app.use("/api/v1/country", countryRouter);
 // app.use("/api/v1/school", schoolRouter);
