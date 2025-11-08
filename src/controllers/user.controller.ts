@@ -1,13 +1,14 @@
 import 'dotenv/config';
 import { Request, Response, NextFunction } from 'express';
-import { User } from '../models/user.model.js';
+
 import { supabaseAdmin } from '../lib/supabase.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { logger } from '../utils/logger.js';
+import { User } from '../Models/user.model.js';
 
 export const registerUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { email, password, fullname, fullName, phoneNumber, parentPhoneNumber, username } = req.body;
+    const { email, password, fullname, fullName, phoneNumber, parentPhoneNumber,  } = req.body;
 
     if (!email || !password) {
       return res.status(400).json({ message: 'Email and password are required' });
@@ -24,9 +25,18 @@ export const registerUser = async (req: Request, res: Response, next: NextFuncti
         fullName: finalFullName,
         phoneNumber,
         parentPhoneNumber,
-        username,
+     
       },
+      
     });
+    console.log('Creating Supabase user with:', {
+  email,
+  password,
+  fullName: finalFullName,
+  phoneNumber,
+  parentPhoneNumber,
+  
+});
 
     if (error || !data.user) {
       logger.error('Supabase signup failed', { error });
@@ -59,7 +69,7 @@ export const registerUser = async (req: Request, res: Response, next: NextFuncti
       profile = await User.create({
         supabase_user_id: supaUser.id,
         email: email.toLowerCase(),
-        username: username?.toLowerCase() || supaUser.user_metadata?.username?.toLowerCase() || '',
+
         fullname: finalFullName,
         phoneNumber: phoneNumber || supaUser.user_metadata?.phoneNumber || '',
         parentPhoneNumber: parentPhoneNumber || supaUser.user_metadata?.parentPhoneNumber || '',
@@ -141,3 +151,4 @@ export const loginUser = async (req: Request, res: Response, next: NextFunction)
     next(err);
   }
 };
+
