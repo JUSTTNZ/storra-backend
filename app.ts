@@ -2,6 +2,7 @@ import express from 'express';
 import { errorHandler } from './src/middlewares/ErrorHandler.js'
 const app = express();
 
+import userRouter from './src/routes/user.route.js'
 // import healthcheckRouter from './src/HealthCheck/healthcheck.route.js';
 // import countryRouter from './src/Country/countryRoute.js'
 // import schoolRouter from './src/School/schoolRoute.js';
@@ -13,8 +14,11 @@ import cookieParser from 'cookie-parser';
 app.use(express.json({limit: "16kb"}));
 app.use(express.urlencoded({ extended: true, limit: '16kb' }));
 app.use(cookieParser());
-
+app.get("/", (req, res) => {
+  res.send("Hello World 🌍, my name is Nz i dey owe billie 1k");
+});
 // Health check route
+app.use("/api/v1/student", userRouter);
 // app.use("/api/v1", healthcheckRouter);
 // app.use("/api/v1/country", countryRouter);
 // app.use("/api/v1/school", schoolRouter);

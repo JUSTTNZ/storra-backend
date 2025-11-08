@@ -1,95 +1,154 @@
 import 'dotenv/config';
 import { Request, Response, NextFunction } from 'express';
-import { User } from '../models/user.model.js';
 
+import { supabaseAdmin } from '../lib/supabase.js';
+import { ApiResponse } from '../utils/ApiResponse.js';
+import { logger } from '../utils/logger.js';
+import { User } from '../Models/user.model.js';
 
-export const initProfile = async (req: Request, res: Response, next: NextFunction) => {
+export const registerUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const supaUser = (req as any).supabaseUser as {
-      id: string;
-      email: string | null;
-      user_metadata?: Record<string, any>;
-      app_metadata?: Record<string, any>;
-    };
+    const { email, password, fullname, fullName, phoneNumber, parentPhoneNumber,  } = req.body;
 
-    if (!supaUser || !supaUser.id) {
-      return res.status(400).json({ error: 'Missing Supabase user data' });
+    if (!email || !password) {
+      return res.status(400).json({ message: 'Email and password are required' });
     }
 
-    const { id, email, user_metadata, app_metadata } = supaUser;
+    const finalFullName = (fullName || fullname || '').trim();
 
-    // From frontend body
-    const { username, fullname, phoneNumber, parentPhoneNumber } = req.body as {
-      username?: string;
-      fullname?: string;
-      phoneNumber?: string;
-      parentPhoneNumber?: string;
-    };
+    // 1️⃣ Create user in Supabase
+    const { data, error } = await supabaseAdmin.auth.admin.createUser({
+      email,
+      password,
+      email_confirm: true, // auto-confirm for testing
+      user_metadata: {
+        fullName: finalFullName,
+        phoneNumber,
+        parentPhoneNumber,
+     
+      },
+      
+    });
+    console.log('Creating Supabase user with:', {
+  email,
+  password,
+  fullName: finalFullName,
+  phoneNumber,
+  parentPhoneNumber,
+  
+});
 
-    // Try to find an existing MongoDB user
-    let profile = await User.findOne({ supabase_user_id: id });
+    if (error || !data.user) {
+      logger.error('Supabase signup failed', { error });
+      return res.status(400).json({ message: error?.message || 'Failed to create user' });
+    }
 
+    const supaUser = data.user;
+
+    // 2️⃣ Sign in to get access token
+    const { data: sessionData, error: sessionError } = await supabaseAdmin.auth.signInWithPassword({
+      email,
+      password,
+    });
+
+    if (sessionError) {
+      logger.warn('Failed to create session', { error: sessionError });
+    }
+
+    // 3️⃣ Initialize MongoDB profile
+    // 3️⃣ Initialize MongoDB profile
+    let profile = await User.findOne({ supabase_user_id: supaUser.id });
+    if (!profile) {
+      const count = await User.countDocuments();
+
+      let role: 'superadmin' | 'admin' | 'user';
+      if (count === 0) role = 'superadmin';
+      else if (count === 1) role = 'admin';
+      else role = 'user';
+
+      profile = await User.create({
+        supabase_user_id: supaUser.id,
+        email: email.toLowerCase(),
+
+        fullname: finalFullName,
+        phoneNumber: phoneNumber || supaUser.user_metadata?.phoneNumber || '',
+        parentPhoneNumber: parentPhoneNumber || supaUser.user_metadata?.parentPhoneNumber || '',
+        role,
+        isVerified: true,
+      });
+
+      logger.info('MongoDB profile created', { userId: profile._id, role });
+    }
+
+
+    // 4️⃣ Return profile + access token
+    return res.status(201).json(
+      new ApiResponse(201, 'User registered successfully', {
+        profile,
+        supabaseUser: supaUser,
+        accessToken: sessionData?.session?.access_token,
+      })
+    );
+  } catch (err: any) {
+    logger.error('Registration error', { error: err.message });
+    next(err);
+  }
+};
+
+export const loginUser = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({ message: 'Email and password are required' });
+    }
+
+    // 1️⃣ Sign in with Supabase
+    const { data, error } = await supabaseAdmin.auth.signInWithPassword({
+      email,
+      password,
+    });
+
+    if (error || !data.session) {
+      logger.warn('Supabase login failed', { error });
+      return res.status(401).json({ message: error?.message || 'Invalid email or password' });
+    }
+
+    const supaUser = data.user;
+
+    // 2️⃣ Fetch MongoDB profile (optional)
+    let profile = await User.findOne({ supabase_user_id: supaUser.id });
+
+    // Optional: if you want to auto-create profile (like initProfile)
     if (!profile) {
       const count = await User.countDocuments();
       const role = count === 0 ? 'superadmin' : 'user';
 
-      // Merge data sources: body → Supabase metadata → fallback
-      const safeUsername =
-        username?.trim() ||
-        user_metadata?.username?.trim() ||
-        (email ? email.split('@')[0] : `user_${id.slice(0, 6)}`);
-
-      const safeFullname =
-        fullname?.trim() ||
-        user_metadata?.full_name?.trim() ||
-        user_metadata?.fullname?.trim() ||
-        user_metadata?.name?.trim() ||
-        '';
-
-      const safePhone =
-        phoneNumber?.trim() ||
-        user_metadata?.phone_number?.trim() ||
-        user_metadata?.phoneNumber?.trim() ||
-        '';
-
-      const safeParentPhone =
-        parentPhoneNumber?.trim() ||
-        user_metadata?.parent_phone_number?.trim() ||
-        user_metadata?.parentPhoneNumber?.trim() ||
-        '';
-
-      const isGoogleAuth =
-        (app_metadata?.provider === 'google') ||
-        user_metadata?.isGoogleAuth === true;
-
       profile = await User.create({
-        supabase_user_id: id,
-        email: (email || '').toLowerCase(),
-        username: safeUsername.toLowerCase(),
-        fullname: safeFullname,
-        phoneNumber: safePhone,
-        parentPhoneNumber: safeParentPhone || undefined,
+        supabase_user_id: supaUser.id,
+        email: supaUser.email!.toLowerCase(),
+        username: supaUser.user_metadata?.username || supaUser.email!.split('@')[0],
+        fullname: supaUser.user_metadata?.fullName || '',
+        phoneNumber: supaUser.user_metadata?.phoneNumber || '',
+        parentPhoneNumber: supaUser.user_metadata?.parentPhoneNumber || '',
         role,
         isVerified: true,
-        isGoogleAuth,
       });
-    } else {
-      // Optionally update profile info if metadata has changed
-      const updates: Record<string, any> = {};
 
-      if (fullname && fullname !== profile.fullname) updates.fullname = fullname;
-      if (phoneNumber && phoneNumber !== profile.phoneNumber) updates.phoneNumber = phoneNumber;
-      if (parentPhoneNumber && parentPhoneNumber !== profile.parentPhoneNumber)
-        updates.parentPhoneNumber = parentPhoneNumber;
-
-      if (Object.keys(updates).length > 0) {
-        profile = await User.findByIdAndUpdate(profile._id, updates, { new: true });
-      }
+      logger.info('MongoDB profile auto-created on login', { userId: profile._id });
     }
 
-    res.json({ ok: true, profile });
-  } catch (e) {
-    console.error('Error in initProfile:', e);
-    next(e);
+    // 3️⃣ Return access token + profile
+    return res.status(200).json(
+      new ApiResponse(200, 'Login successful', {
+        profile,
+        supabaseUser: supaUser,
+        accessToken: data.session.access_token,
+      })
+    );
+  } catch (err: any) {
+    logger.error('Login error', { error: err.message });
+    next(err);
   }
 };
+

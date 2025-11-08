@@ -16,7 +16,7 @@ const __dirname = dirname(__filename);
 dotenv.config({path: join(__dirname, ".env")});
 
 const PORT = Number(process.env.PORT) || 7001;
-
+const HOST = "0.0.0.0";
 
 const startup = async () => {
   try {
@@ -44,10 +44,9 @@ const startup = async () => {
     // await initChildCounter();
     // logger.info('✅ Individual counter initialized')
 
-    app.listen(PORT, "0.0.0.0", () => {
-      logger.info(`🚀 Server running on port ${PORT}`);
-    });
-  
+ app.listen(PORT, HOST, () => {
+  console.log(`🚀 Server running on http://${HOST}:${PORT}`);
+});
 
   } catch (error) {
     logger.error('🔥 Startup failed:', {
