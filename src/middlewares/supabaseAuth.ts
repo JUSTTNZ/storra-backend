@@ -9,7 +9,7 @@ declare global {
   namespace Express {
     interface Request {
       supabaseUser?: SupaUser;
-      profile?: import('../models/user.model.js').UserDocument;
+      user?: import('../models/user.model.js').UserDocument;
     }
   }
 }
@@ -40,13 +40,13 @@ export async function requireSupabaseUser(req: Request, res: Response, next: Nex
     req.supabaseUser = data.user
 
     // (optional) try to load profile; don’t block init if not found
-    const profile = await User.findOne({ supabase_user_id: data.user.id })
-    if (profile) {
-      req.profile = profile
+    const user = await User.findOne({ supabase_user_id: data.user.id })
+    if (user) {
+      req.user = user
       // console.log(`📄 Mongo profile found: role=${profile.role}`)
     } else {
       // console.log('⚠️ No Mongo profile found for this user')
-      req.profile = undefined
+      req.user = undefined
     }
 
     next()
@@ -59,28 +59,28 @@ export async function requireSupabaseUser(req: Request, res: Response, next: Nex
 // role guard you can use for admin-only routes
 export function requireRole(...roles: Array<'user' | 'admin' | 'superadmin'>) {
   return (req: Request, res: Response, next: NextFunction) => {
-    const role = req.profile?.role as 'user' | 'admin' | 'superadmin' | undefined
+    const role = req.user?.role as 'user' | 'admin' | 'superadmin' | undefined
     if (!role || !roles.includes(role)) return res.status(403).json({ message: 'Forbidden' })
     next()
   }
 }
 
 export function requireMongoProfile(req: Request, res: Response, next: NextFunction) {
-  if (!req.profile) {
+  if (!req.user) {
     console.warn('❌ requireMongoProfile failed: No profile attached to request')
     return res.status(403).json({ message: 'Profile not initialized' })
   }
-  console.log(`✅ Mongo profile OK: role=${req.profile.role}`)
+  console.log(`✅ Mongo profile OK: role=${req.user.role}`)
   next()
 }
 
 export function superAdminAuth(req: Request, res: Response, next: NextFunction) {
-  if (!req.profile) {
+  if (!req.user) {
     console.warn('❌ superAdminAuth failed: No profile')
     return res.status(403).json({ message: 'Profile not initialized' })
   }
-  if (req.profile.role !== 'superadmin') {
-    console.warn(`❌ superAdminAuth failed: role=${req.profile.role}`)
+  if (req.user.role !== 'superadmin') {
+    console.warn(`❌ superAdminAuth failed: role=${req.user.role}`)
     return res.status(403).json({ message: 'Access denied: superadmin only' })
   }
   console.log('✅ superAdminAuth passed')

@@ -17,6 +17,11 @@ app.use(cookieParser());
 app.get("/", (req, res) => {
   res.send("Hello World 🌍, my name is Nz i dey owe billie 1k");
 });
+
+app.get("/api/v1/test", (req, res) => {
+  res.status(200).json({ message: "Test OK!" });
+});
+
 // Health check route
 app.use("/api/v1/student", userRouter);
 // app.use("/api/v1", healthcheckRouter);

@@ -1,10 +1,10 @@
 import 'dotenv/config';
 import { Request, Response, NextFunction } from 'express';
-
 import { supabaseAdmin } from '../lib/supabase.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
+import { ApiError } from '../utils/ApiError.js';
 import { logger } from '../utils/logger.js';
-import { User } from '../Models/user.model.js';
+import { User } from '../models/user.model.js';
 
 export const registerUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
@@ -151,4 +151,30 @@ export const loginUser = async (req: Request, res: Response, next: NextFunction)
     next(err);
   }
 };
+
+export const getCurrentUser = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    // The supabaseUser object is attached to the request by the auth middleware
+    const supabaseUser = req.supabaseUser;
+
+    if (!supabaseUser) {
+      throw new ApiError({statusCode:401, message: 'Not authenticated'});
+    }
+
+    const profile = await User.findOne({ supabase_user_id: supabaseUser.id })
+      .select('email username fullname role phoneNumber createdAt');
+
+    if (!profile) {
+      throw new ApiError({statusCode: 404, message: 'User profile not found'});
+    }
+
+    return res.status(200).json(
+      new ApiResponse(200, 'User profile fetched successfully', profile)
+    );
+  } catch (err: any) {
+    logger.error('Get current user error', { error: err.message });
+    next(err);
+  }
+};
+
 
