@@ -1,0 +1,351 @@
+{
+  "classId": "jss-3",
+  "className": "JSS 3",
+  "educationLevel": "junior-secondary",
+  "courses": [
+    {
+      "courseId": "jss3-math",
+      "courseName": "Mathematics",
+      "courseCode": "MATH-JSS3",
+      "description": "JSS3 Mathematics course covering number systems, algebra, geometry, and statistics.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Elementary_math_classroom.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss3-math-lesson1",
+          "lessonTitle": "Number Systems",
+          "lessonType": "text",
+          "description": "Conversion between number bases and binary operations.",
+          "textContent": "This lesson covers number bases, including conversion between base ten and other bases. It also introduces binary operations and their applications."
+        },
+        {
+          "lessonId": "jss3-math-lesson2",
+          "lessonTitle": "Algebra: Factorization and Equations",
+          "lessonType": "text",
+          "description": "Factorization of algebraic expressions and solving equations with fractions.",
+          "textContent": "This lesson focuses on the factorization of algebraic expressions and solving equations that involve fractions. It also covers simultaneous linear equations."
+        },
+        {
+          "lessonId": "jss3-math-lesson3",
+          "lessonTitle": "Geometry: Pythagoras Rule and Trigonometry",
+          "lessonType": "text",
+          "description": "Understanding Pythagoras' rule and basic trigonometric ratios.",
+          "textContent": "This lesson introduces Pythagoras' rule for right-angled triangles and the basic trigonometric ratios: sine, cosine, and tangent."
+        },
+        {
+          "lessonId": "jss3-math-lesson4",
+          "lessonTitle": "Statistics: Data Presentation",
+          "lessonType": "text",
+          "description": "Introduction to data presentation and measures of central tendency.",
+          "textContent": "This lesson covers methods of data presentation and introduces measures of central tendency, such as mean, median, and mode."
+        },
+        {
+          "lessonId": "jss3-math-lesson5",
+          "lessonTitle": "Commercial Arithmetic",
+          "lessonType": "text",
+          "description": "Calculating compound interest and solving problems on proportion.",
+          "textContent": "This lesson deals with commercial arithmetic, including the calculation of compound interest and solving problems involving direct and inverse proportions."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss3-math-quiz",
+        "quizTitle": "Mathematics — JSS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Convert 25 in base 10 to a binary number (base 2).",
+            "options": [
+              "11001",
+              "10011",
+              "11010",
+              "10101"
+            ],
+            "correctAnswer": "11001"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Factorize the expression: x² - 9",
+            "options": [
+              "(x-3)(x+3)",
+              "(x-9)(x+1)",
+              "(x-3)(x-3)",
+              "(x+3)(x+3)"
+            ],
+            "correctAnswer": "(x-3)(x+3)"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "In a right-angled triangle, the sides are 3cm and 4cm. What is the length of the hypotenuse?",
+            "options": [
+              "5cm",
+              "6cm",
+              "7cm",
+              "8cm"
+            ],
+            "correctAnswer": "5cm"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss3-english",
+      "courseName": "English Language",
+      "courseCode": "ENG-JSS3",
+      "description": "JSS3 English course focusing on grammar, speech, composition, and literature.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Children_reading_books.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss3-english-lesson1",
+          "lessonTitle": "Grammar: Phrases and Clauses",
+          "lessonType": "text",
+          "description": "Understanding phrases and clauses and their use in sentences.",
+          "textContent": "This lesson explains the difference between phrases and clauses and how they are used to construct complex sentences. It also covers direct and indirect speech."
+        },
+        {
+          "lessonId": "jss3-english-lesson2",
+          "lessonTitle": "Speech Work: Stress and Intonation",
+          "lessonType": "text",
+          "description": "Study of stress and intonation patterns in English.",
+          "textContent": "This lesson focuses on the use of stress and intonation in spoken English to convey meaning and emotion."
+        },
+        {
+          "lessonId": "jss3-english-lesson3",
+          "lessonTitle": "Composition: Argumentative Essays",
+          "lessonType": "text",
+          "description": "Learning to write argumentative essays.",
+          "textContent": "This lesson teaches students how to write argumentative essays, including how to structure an argument, provide evidence, and write a conclusion."
+        },
+        {
+          "lessonId": "jss3-english-lesson4",
+          "lessonTitle": "Literature: Fiction and Non-fiction",
+          "lessonType": "text",
+          "description": "Introduction to fiction and non-fiction and their characteristics.",
+          "textContent": "This lesson introduces the concepts of fiction and non-fiction in literature and discusses their key characteristics and differences."
+        },
+        {
+          "lessonId": "jss3-english-lesson5",
+          "lessonTitle": "Vocabulary Development: Idiomatic Expressions",
+          "lessonType": "text",
+          "description": "Expanding vocabulary with a focus on idiomatic expressions.",
+          "textContent": "This lesson focuses on expanding vocabulary by learning and using common idiomatic expressions in English."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss3-english-quiz",
+        "quizTitle": "English Language — JSS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is a clause?",
+            "options": [
+              "On the table",
+              "Because it was raining",
+              "The big brown dog",
+              "Running quickly"
+            ],
+            "correctAnswer": "Because it was raining"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What is the correct stress pattern for the word 'photograph'?",
+            "options": [
+              "PHO-to-graph",
+              "pho-TO-graph",
+              "pho-to-GRAPH",
+              "None of the above"
+            ],
+            "correctAnswer": "PHO-to-graph"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What does the idiom 'bite the bullet' mean?",
+            "options": [
+              "To eat something hard",
+              "To face a difficult situation with courage",
+              "To be very angry",
+              "To make a mistake"
+            ],
+            "correctAnswer": "To face a difficult situation with courage"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss3-basicscience",
+      "courseName": "Basic Science",
+      "courseCode": "BSC-JSS3",
+      "description": "JSS3 Basic Science covering health, environment, and physics concepts.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/0/05/Primary_science_lab.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss3-basicscience-lesson1",
+          "lessonTitle": "Drug and Substance Abuse",
+          "lessonType": "text",
+          "description": "Effects, prevention, and control of drug and substance abuse.",
+          "textContent": "This lesson discusses the effects of drug and substance abuse, and the roles of agencies like NAFDAC and NDLEA in prevention and control."
+        },
+        {
+          "lessonId": "jss3-basicscience-lesson2",
+          "lessonTitle": "Family Traits and Genetics",
+          "lessonType": "text",
+          "description": "Introduction to genetics and the importance of family traits.",
+          "textContent": "This lesson introduces the concept of genetics and explains the importance of family traits and heredity."
+        },
+        {
+          "lessonId": "jss3-basicscience-lesson3",
+          "lessonTitle": "Environmental Hazards",
+          "lessonType": "text",
+          "description": "Understanding soil erosion, deforestation, and other environmental hazards.",
+          "textContent": "This lesson covers various environmental hazards such as soil erosion, deforestation, flooding, and the depletion of the ozone layer."
+        },
+        {
+          "lessonId": "jss3-basicscience-lesson4",
+          "lessonTitle": "Resources from Living and Non-living Things",
+          "lessonType": "text",
+          "description": "Exploring resources from plants, animals, and solid minerals.",
+          "textContent": "This lesson explores the various resources that can be obtained from living things (plants and animals) and non-living things (solid minerals)."
+        },
+        {
+          "lessonId": "jss3-basicscience-lesson5",
+          "lessonTitle": "Introduction to Radioactivity",
+          "lessonType": "text",
+          "description": "A basic introduction to the concept of radioactivity.",
+          "textContent": "This lesson provides a basic introduction to the concept of radioactivity, including its properties and uses."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss3-basicscience-quiz",
+        "quizTitle": "Basic Science — JSS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which agency is responsible for regulating drugs in Nigeria?",
+            "options": [
+              "NDLEA",
+              "NAFDAC",
+              "SON",
+              "FRSC"
+            ],
+            "correctAnswer": "NAFDAC"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What is the process of wearing away of the topsoil called?",
+            "options": [
+              "Deforestation",
+              "Erosion",
+              "Flooding",
+              "Desertification"
+            ],
+            "correctAnswer": "Erosion"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which of the following is a solid mineral?",
+            "options": [
+              "Crude oil",
+              "Water",
+              "Coal",
+              "Natural gas"
+            ],
+            "correctAnswer": "Coal"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss3-socialstudies",
+      "courseName": "Social Studies",
+      "courseCode": "SOS-JSS3",
+      "description": "JSS3 Social Studies covering family, social issues, and peace and conflict.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Children_in_classroom_learning_together.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss3-socialstudies-lesson1",
+          "lessonTitle": "The Family as a Basic Unit of Society",
+          "lessonType": "text",
+          "description": "Understanding the role of the family in society.",
+          "textContent": "This lesson explains why the family is considered the basic unit of society and discusses the roles of extended family members in child development."
+        },
+        {
+          "lessonId": "jss3-socialstudies-lesson2",
+          "lessonTitle": "Human Trafficking",
+          "lessonType": "text",
+          "description": "Factors, consequences, and prevention of human trafficking.",
+          "textContent": "This lesson covers the issue of human trafficking, including the factors that contribute to it, its consequences, and ways to prevent it."
+        },
+        {
+          "lessonId": "jss3-socialstudies-lesson3",
+          "lessonTitle": "Harmful Traditional Practices",
+          "lessonType": "text",
+          "description": "Definition and consequences of harmful traditional practices.",
+          "textContent": "This lesson defines harmful traditional practices and discusses their negative consequences on individuals and society."
+        },
+        {
+          "lessonId": "jss3-socialstudies-lesson4",
+          "lessonTitle": "Peace and Conflict Resolution",
+          "lessonType": "text",
+          "description": "The importance of peace and methods of conflict resolution.",
+          "textContent": "This lesson discusses the importance of peace and explores various methods of conflict management and resolution."
+        },
+        {
+          "lessonId": "jss3-socialstudies-lesson5",
+          "lessonTitle": "Goal Setting and Decision Making",
+          "lessonType": "text",
+          "description": "The importance of goal setting and how to make good decisions.",
+          "textContent": "This lesson covers the importance of setting personal goals and provides guidance on how to make effective decisions."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss3-socialstudies-quiz",
+        "quizTitle": "Social Studies — JSS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is a role of the extended family?",
+            "options": [
+              "Providing emotional support",
+              "Passing on cultural heritage",
+              "Providing financial assistance",
+              "All of the above"
+            ],
+            "correctAnswer": "All of the above"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which of the following is a harmful traditional practice?",
+            "options": [
+              "Celebrating festivals",
+              "Female genital mutilation",
+              "Respect for elders",
+              "Traditional marriage rites"
+            ],
+            "correctAnswer": "Female genital mutilation"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What is the first step in conflict resolution?",
+            "options": [
+              "Choosing a solution",
+              "Identifying the problem",
+              "Blaming the other party",
+              "Ignoring the conflict"
+            ],
+            "correctAnswer": "Identifying the problem"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "classId": "jss-2",
+  "className": "JSS 2",
+  "educationLevel": "junior-secondary",
+  "courses": [
+    {
+      "courseId": "jss2-math",
+      "courseName": "Mathematics",
+      "courseCode": "MATH-JSS2",
+      "description": "JSS2 Mathematics course covering algebraic processes, geometry, numbers, and statistics.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Elementary_math_classroom.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss2-math-lesson1",
+          "lessonTitle": "Algebraic Processes",
+          "lessonType": "text",
+          "description": "Introduction to simple equations, linear inequalities, and algebraic expressions.",
+          "textContent": "This lesson covers the basics of algebraic processes, including solving simple equations, understanding linear inequalities, and working with algebraic expressions. Students will learn to solve for variables and represent solutions on a number line."
+        },
+        {
+          "lessonId": "jss2-math-lesson2",
+          "lessonTitle": "Geometry and Mensuration",
+          "lessonType": "text",
+          "description": "Properties of plane shapes and construction of angles.",
+          "textContent": "This lesson focuses on the properties of plane shapes like squares, rectangles, and parallelograms. It also covers the construction of various angles using a compass and ruler."
+        },
+        {
+          "lessonId": "jss2-math-lesson3",
+          "lessonTitle": "Numbers and Numeration",
+          "lessonType": "text",
+          "description": "Working with whole numbers, prime factors, LCM, and HCF.",
+          "textContent": "This lesson deals with numbers and numeration, including expressing whole numbers in standard form, finding prime factors, and calculating the Lowest Common Multiple (LCM) and Highest Common Factor (HCF) of numbers."
+        },
+        {
+          "lessonId": "jss2-math-lesson4",
+          "lessonTitle": "Statistics and Probability",
+          "lessonType": "text",
+          "description": "Introduction to data collection, analysis, and probability.",
+          "textContent": "This lesson introduces the basic concepts of statistics and probability. Students will learn how to collect and analyze data, and calculate the probability of simple events."
+        },
+        {
+          "lessonId": "jss2-math-lesson5",
+          "lessonTitle": "Bearings and Distances",
+          "lessonType": "text",
+          "description": "Understanding bearings, distances, angles of elevation and depression.",
+          "textContent": "This lesson covers the concepts of bearings and distances, including how to calculate angles of elevation and depression. Students will learn to solve practical problems involving navigation and measurement."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss2-math-quiz",
+        "quizTitle": "Mathematics — JSS2 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Solve the equation: 2x + 5 = 15",
+            "options": [
+              "x = 5",
+              "x = 10",
+              "x = 7.5",
+              "x = 20"
+            ],
+            "correctAnswer": "x = 5"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What is the sum of the angles in a parallelogram?",
+            "options": [
+              "180 degrees",
+              "360 degrees",
+              "90 degrees",
+              "270 degrees"
+            ],
+            "correctAnswer": "360 degrees"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Find the LCM of 12 and 18.",
+            "options": [
+              "6",
+              "36",
+              "24",
+              "72"
+            ],
+            "correctAnswer": "36"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss2-english",
+      "courseName": "English Language",
+      "courseCode": "ENG-JSS2",
+      "description": "JSS2 English course focusing on speech, grammar, reading, and writing.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Children_reading_books.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss2-english-lesson1",
+          "lessonTitle": "Speech Work: Vowels and Consonants",
+          "lessonType": "text",
+          "description": "Revision of vowel and consonant sounds, including diphthongs and consonant clusters.",
+          "textContent": "This lesson revises the sounds of English vowels and consonants, with a focus on diphthongs and consonant clusters. Students will practice pronunciation and listening skills."
+        },
+        {
+          "lessonId": "jss2-english-lesson2",
+          "lessonTitle": "Grammar: Parts of Speech",
+          "lessonType": "text",
+          "description": "Revision of parts of speech and sentence construction.",
+          "textContent": "This lesson revises the parts of speech (nouns, pronouns, verbs, adjectives) and focuses on constructing sentences using conjunctions and prepositions."
+        },
+        {
+          "lessonId": "jss2-english-lesson3",
+          "lessonTitle": "Reading and Comprehension",
+          "lessonType": "text",
+          "description": "Review of reading techniques and identifying facts and opinions.",
+          "textContent": "This lesson reviews reading techniques like SPQ3R, scanning, and skimming. Students will learn to identify facts and opinions in written passages."
+        },
+        {
+          "lessonId": "jss2-english-lesson4",
+          "lessonTitle": "Composition: Letter Writing",
+          "lessonType": "text",
+          "description": "Focus on writing informal letters.",
+          "textContent": "This lesson focuses on the art of composition, with a specific emphasis on writing informal letters. Students will learn the correct format and style for personal letters."
+        },
+        {
+          "lessonId": "jss2-english-lesson5",
+          "lessonTitle": "Literature in English",
+          "lessonType": "text",
+          "description": "Revisiting features of prose and figures of speech.",
+          "textContent": "This lesson revisits the features of prose, such as setting, theme, and characterization. It also covers figures of speech like alliteration, personification, and onomatopoeia."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss2-english-quiz",
+        "quizTitle": "English Language — JSS2 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is a diphthong?",
+            "options": [
+              "/a/",
+              "/e/",
+              "/oi/",
+              "/p/"
+            ],
+            "correctAnswer": "/oi/"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Identify the part of speech of the underlined word: 'The **quick** brown fox jumps over the lazy dog.'",
+            "options": [
+              "Noun",
+              "Verb",
+              "Adjective",
+              "Adverb"
+            ],
+            "correctAnswer": "Adjective"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What is the main purpose of an informal letter?",
+            "options": [
+              "To apply for a job",
+              "To complain about a product",
+              "To communicate with friends and family",
+              "To request official information"
+            ],
+            "correctAnswer": "To communicate with friends and family"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss2-basicscience",
+      "courseName": "Basic Science",
+      "courseCode": "BSC-JSS2",
+      "description": "JSS2 Basic Science exploring living things, energy, and chemicals.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/0/05/Primary_science_lab.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss2-basicscience-lesson1",
+          "lessonTitle": "Living Things and Their Habitats",
+          "lessonType": "text",
+          "description": "Understanding habitats and the adaptations of organisms.",
+          "textContent": "This lesson explores the concept of habitats and how living organisms adapt to their environment. It also discusses the uniqueness of human beings."
+        },
+        {
+          "lessonId": "jss2-basicscience-lesson2",
+          "lessonTitle": "Human Body Systems",
+          "lessonType": "text",
+          "description": "Introduction to the skeletal, digestive, and circulatory systems.",
+          "textContent": "This lesson provides an introduction to the human body, focusing on the skeletal, digestive, and circulatory systems and their functions."
+        },
+        {
+          "lessonId": "jss2-basicscience-lesson3",
+          "lessonTitle": "Forms of Energy",
+          "lessonType": "text",
+          "description": "Understanding different forms of energy like heat, light, kinetic, and potential energy.",
+          "textContent": "This lesson introduces the different forms of energy, including heat, light, kinetic, and potential energy. It also covers the concepts of work, energy, and power."
+        },
+        {
+          "lessonId": "jss2-basicscience-lesson4",
+          "lessonTitle": "Elements, Compounds, and Mixtures",
+          "lessonType": "text",
+          "description": "Understanding the differences between elements, compounds, and mixtures.",
+          "textContent": "This lesson explains the basic concepts of chemistry, focusing on the differences between elements, compounds, and mixtures, with examples of each."
+        },
+        {
+          "lessonId": "jss2-basicscience-lesson5",
+          "lessonTitle": "Earth in Space",
+          "lessonType": "text",
+          "description": "An introduction to the Earth's position in the solar system.",
+          "textContent": "This lesson provides an introduction to the Earth's place in space, discussing the solar system, planets, and other celestial bodies."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss2-basicscience-quiz",
+        "quizTitle": "Basic Science — JSS2 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of these is NOT a part of the digestive system?",
+            "options": [
+              "Stomach",
+              "Lungs",
+              "Intestine",
+              "Esophagus"
+            ],
+            "correctAnswer": "Lungs"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What form of energy does a moving car possess?",
+            "options": [
+              "Potential energy",
+              "Kinetic energy",
+              "Chemical energy",
+              "Thermal energy"
+            ],
+            "correctAnswer": "Kinetic energy"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which of the following is an element?",
+            "options": [
+              "Water",
+              "Salt",
+              "Oxygen",
+              "Sugar"
+            ],
+            "correctAnswer": "Oxygen"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss2-socialstudies",
+      "courseName": "Social Studies",
+      "courseCode": "SOS-JSS2",
+      "description": "JSS2 Social Studies covering family, society, and social issues.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Children_in_classroom_learning_together.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss2-socialstudies-lesson1",
+          "lessonTitle": "Fundamentals of Social Studies",
+          "lessonType": "text",
+          "description": "Meaning, objectives, and goals of social studies.",
+          "textContent": "This lesson introduces the fundamentals of social studies, including its meaning, objectives, and goals, and its importance in understanding society."
+        },
+        {
+          "lessonId": "jss2-socialstudies-lesson2",
+          "lessonTitle": "Family and Society",
+          "lessonType": "text",
+          "description": "The concept of family bond and the purposes of marriage.",
+          "textContent": "This lesson explores the concept of the family bond, the advantages of living together, and the different purposes and forms of marriage in society."
+        },
+        {
+          "lessonId": "jss2-socialstudies-lesson3",
+          "lessonTitle": "Group Behavior",
+          "lessonType": "text",
+          "description": "Definition and characteristics of positive group behavior.",
+          "textContent": "This lesson defines group behavior and discusses the characteristics and benefits of positive group behavior, such as companionship and security."
+        },
+        {
+          "lessonId": "jss2-socialstudies-lesson4",
+          "lessonTitle": "Social Issues: Drug Abuse",
+          "lessonType": "text",
+          "description": "Understanding drug abuse, its causes, consequences, and prevention.",
+          "textContent": "This lesson focuses on the social issue of drug abuse, defining what it is, its causes and consequences, and ways to discourage it."
+        },
+        {
+          "lessonId": "jss2-socialstudies-lesson5",
+          "lessonTitle": "Culture and Social Values",
+          "lessonType": "text",
+          "description": "The role of religion and other social values in society.",
+          "textContent": "This lesson discusses the importance of culture and social values, with a focus on the role of religion in shaping societal norms and behaviors."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss2-socialstudies-quiz",
+        "quizTitle": "Social Studies — JSS2 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "What is the primary unit of society?",
+            "options": [
+              "The individual",
+              "The family",
+              "The community",
+              "The government"
+            ],
+            "correctAnswer": "The family"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which of the following is a negative social behavior?",
+            "options": [
+              "Cooperation",
+              "Bullying",
+              "Sharing",
+              "Helping others"
+            ],
+            "correctAnswer": "Bullying"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What is a major consequence of drug abuse?",
+            "options": [
+              "Improved health",
+              "Addiction",
+              "Better grades",
+              "Stronger friendships"
+            ],
+            "correctAnswer": "Addiction"
+          }
+        ]
+      }
+    }
+  ]
+}
