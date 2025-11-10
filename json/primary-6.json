@@ -1,0 +1,596 @@
+{
+  "courses": [
+    {
+      "courseId": "pry6-mathematics",
+      "courseName": "Mathematics",
+      "courseCode": "MATH-P6",
+      "description": "Building advanced foundational skills in numbers, operations, geometry, and problem-solving.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Primary_math_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-math-lesson1",
+          "lessonTitle": "Whole Numbers and Place Value",
+          "lessonType": "text",
+          "description": "Understanding numbers up to 1,000,000 and their positions.",
+          "textContent": "Pupils explore digits, hundreds, thousands, and millions. Teachers demonstrate reading, writing, and comparing numbers. Activities include ordering numbers, identifying largest and smallest, and understanding their use in real-life contexts like money, population, and distances."
+        },
+        {
+          "lessonId": "pry6-math-lesson2",
+          "lessonTitle": "Fractions and Decimals",
+          "lessonType": "text",
+          "description": "Introduction to fractions, decimals, and conversions.",
+          "textContent": "Pupils learn about halves, quarters, tenths, and hundredths. Teachers use visual aids like fraction pies and number lines. Activities include comparing fractions, adding/subtracting fractions with same denominators, and understanding decimals in money and measurements."
+        },
+        {
+          "lessonId": "pry6-math-lesson3",
+          "lessonTitle": "Basic Geometry",
+          "lessonType": "video",
+          "description": "Identifying shapes, angles, and geometric properties.",
+          "textContent": "Pupils study 2D and 3D shapes, sides, vertices, and angles. Teachers demonstrate using classroom objects. Pupils draw shapes, classify them, and identify angles in daily life. Videos show examples in architecture and nature.",
+          "videoUrl": "https://www.youtube.com/watch?v=2V-MGxMzdyE",
+          "audioUrl": "https://www.youtube.com/watch?v=2V-MGxMzdyE"
+        },
+        {
+          "lessonId": "pry6-math-lesson4",
+          "lessonTitle": "Measurement and Time",
+          "lessonType": "text",
+          "description": "Learning units of length, weight, capacity, and reading clocks.",
+          "textContent": "Pupils measure objects using meters, liters, and kilograms. Teachers demonstrate measuring tools. Pupils calculate time intervals, read calendars, and apply measurement to cooking, travel, and school activities."
+        },
+        {
+          "lessonId": "pry6-math-lesson5",
+          "lessonTitle": "Introduction to Algebra",
+          "lessonType": "text",
+          "description": "Understanding simple algebraic expressions and equations.",
+          "textContent": "Pupils learn to use letters to represent numbers, simplify expressions, and solve simple equations. Teachers demonstrate with examples like x + 5 = 10. Pupils practice problem-solving skills in age-appropriate contexts."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-math-quiz",
+        "quizTitle": "Mathematics — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "What is 452,673 rounded to the nearest thousand?",
+            "options": ["452,000", "453,000", "452,600", "452,700"],
+            "correctAnswer": "453,000"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which fraction is equivalent to 0.5?",
+            "options": ["1/2", "1/4", "2/5", "3/4"],
+            "correctAnswer": "1/2"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Solve: x + 7 = 12",
+            "options": ["x=5", "x=7", "x=12", "x=19"],
+            "correctAnswer": "x=5"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry6-english-language",
+      "courseName": "English Language",
+      "courseCode": "ENG-P6",
+      "description": "Developing reading, writing, listening, and speaking skills through engaging texts and exercises.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/2/27/Primary_english_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-eng-lesson1",
+          "lessonTitle": "Grammar: Nouns and Verbs",
+          "lessonType": "text",
+          "description": "Understanding parts of speech.",
+          "textContent": "Pupils learn common, proper, and collective nouns. Teachers explain action verbs and linking verbs. Activities include identifying nouns and verbs in sentences and creating their own examples from everyday life."
+        },
+        {
+          "lessonId": "pry6-eng-lesson2",
+          "lessonTitle": "Comprehension Skills",
+          "lessonType": "text",
+          "description": "Improving reading understanding.",
+          "textContent": "Pupils read short passages and answer questions on main ideas, details, and inference. Teachers model comprehension strategies. Pupils practice summarizing stories, identifying characters, and discussing morals or lessons learned."
+        },
+        {
+          "lessonId": "pry6-eng-lesson3",
+          "lessonTitle": "Writing Letters",
+          "lessonType": "text",
+          "description": "Learning formal and informal letters.",
+          "textContent": "Pupils practice writing letters to friends and family. Teachers explain greetings, body, and closing statements. Pupils develop writing, organization, and communication skills through practical exercises."
+        },
+        {
+          "lessonId": "pry6-eng-lesson4",
+          "lessonTitle": "Spelling and Vocabulary",
+          "lessonType": "text",
+          "description": "Expanding word knowledge and correct spelling.",
+          "textContent": "Pupils learn new words, spelling patterns, synonyms, and antonyms. Teachers use word games and quizzes. Pupils practice using words in sentences and understanding meanings in context."
+        },
+        {
+          "lessonId": "pry6-eng-lesson5",
+          "lessonTitle": "Speaking and Listening",
+          "lessonType": "audio",
+          "description": "Developing verbal communication skills.",
+          "textContent": "Pupils practice speaking in class discussions, role-plays, and storytelling. Teachers provide listening exercises. Pupils improve pronunciation, comprehension, and confidence in speaking.",
+          "audioUrl": "https://www.youtube.com/watch?v=QkG9cZxD1pA"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-eng-quiz",
+        "quizTitle": "English Language — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Identify the verb in this sentence: The cat sleeps on the mat.",
+            "options": ["cat", "sleeps", "mat", "on"],
+            "correctAnswer": "sleeps"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which is a proper noun?",
+            "options": ["school", "London", "teacher", "city"],
+            "correctAnswer": "London"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Choose the correct spelling:",
+            "options": ["Accomodate", "Accommodate", "Acommodate", "Acommadate"],
+            "correctAnswer": "Accommodate"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry6-basic-science",
+      "courseName": "Basic Science",
+      "courseCode": "SCI-P6",
+      "description": "Advanced topics in biology, chemistry, physics, and environment suitable for upper primary level.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Primary_science_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-sci-lesson1",
+          "lessonTitle": "Classification of Living Things",
+          "lessonType": "text",
+          "description": "Understanding how plants and animals are grouped.",
+          "textContent": "Pupils learn about vertebrates and invertebrates, flowering and non-flowering plants. Teachers provide examples and charts. Pupils classify items around them, strengthening observation and categorization skills."
+        },
+        {
+          "lessonId": "pry6-sci-lesson2",
+          "lessonTitle": "Human Body Systems",
+          "lessonType": "text",
+          "description": "Introduction to circulatory, digestive, and respiratory systems.",
+          "textContent": "Pupils study major organs and their functions. Teachers use diagrams and models. Pupils identify organs, discuss health tips, and understand basic physiology."
+        },
+        {
+          "lessonId": "pry6-sci-lesson3",
+          "lessonTitle": "Force and Motion",
+          "lessonType": "video",
+          "description": "Exploring pushes, pulls, and movement.",
+          "textContent": "Pupils learn how force makes objects move. Teachers demonstrate with simple experiments. Videos illustrate real-life applications in vehicles, swings, and playgrounds.",
+          "videoUrl": "https://www.youtube.com/watch?v=GzrtX3kVqXs",
+          "audioUrl": "https://www.youtube.com/watch?v=GzrtX3kVqXs"
+        },
+        {
+          "lessonId": "pry6-sci-lesson4",
+          "lessonTitle": "Materials and Their Properties",
+          "lessonType": "text",
+          "description": "Understanding solids, liquids, gases, and materials around us.",
+          "textContent": "Pupils identify materials like wood, metal, water, and air. Teachers explain properties such as hardness, flexibility, and density. Pupils conduct simple tests and record observations."
+        },
+        {
+          "lessonId": "pry6-sci-lesson5",
+          "lessonTitle": "Environmental Awareness",
+          "lessonType": "text",
+          "description": "Learning about conservation and natural resources.",
+          "textContent": "Pupils explore pollution, deforestation, and waste management. Teachers discuss ways to protect the environment. Pupils engage in class projects to improve local surroundings."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-sci-quiz",
+        "quizTitle": "Basic Science — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which is an invertebrate?",
+            "options": ["Fish", "Frog", "Worm", "Bird"],
+            "correctAnswer": "Worm"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which organ pumps blood?",
+            "options": ["Lungs", "Heart", "Stomach", "Kidney"],
+            "correctAnswer": "Heart"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Solid, liquid, and gas are types of:",
+            "options": ["Materials", "Numbers", "Plants", "Animals"],
+            "correctAnswer": "Materials"
+          }
+        ]
+      }
+    },
+     {
+  "courses": [
+    {
+      "courseId": "pry6-social-studies",
+      "courseName": "Social Studies",
+      "courseCode": "SS-P6",
+      "description": "Understanding society, culture, government, and community life in Nigeria.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/4/44/Primary_social_studies.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-ss-lesson1",
+          "lessonTitle": "Community and Culture",
+          "lessonType": "text",
+          "description": "Exploring the community and cultural practices.",
+          "textContent": "Pupils learn about family structures, local customs, and festivals. Teachers explain how culture shapes behaviors. Pupils discuss and share their experiences, creating awareness of diversity and tradition."
+        },
+        {
+          "lessonId": "pry6-ss-lesson2",
+          "lessonTitle": "Government and Leadership",
+          "lessonType": "text",
+          "description": "Introduction to local government and leadership roles.",
+          "textContent": "Pupils explore traditional and modern leadership in Nigeria. Teachers explain roles of chiefs, councilors, and government officials. Pupils learn about elections, decision-making, and civic responsibility."
+        },
+        {
+          "lessonId": "pry6-ss-lesson3",
+          "lessonTitle": "National Symbols",
+          "lessonType": "text",
+          "description": "Learning about flags, anthems, and national identity.",
+          "textContent": "Pupils identify Nigerian flag, coat of arms, and anthem. Teachers explain symbolism and importance. Pupils engage in activities to recognize and respect national symbols."
+        },
+        {
+          "lessonId": "pry6-ss-lesson4",
+          "lessonTitle": "Economic Activities",
+          "lessonType": "text",
+          "description": "Understanding jobs, trade, and resources in the community.",
+          "textContent": "Pupils learn about farming, trading, and services in Nigeria. Teachers explain supply, demand, and basic money concepts. Pupils discuss their family occupations and local markets."
+        },
+        {
+          "lessonId": "pry6-ss-lesson5",
+          "lessonTitle": "Environmental Awareness",
+          "lessonType": "video",
+          "description": "Learning to protect the environment.",
+          "textContent": "Pupils explore waste management, recycling, and tree planting. Teachers demonstrate activities. Videos show real-life examples of environmental care in Nigerian communities.",
+          "videoUrl": "https://www.youtube.com/watch?v=Vd6rOYFQ2ec",
+          "audioUrl": "https://www.youtube.com/watch?v=Vd6rOYFQ2ec"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-ss-quiz",
+        "quizTitle": "Social Studies — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which is a national symbol?",
+            "options": ["Flag", "Chair", "Table", "Book"],
+            "correctAnswer": "Flag"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Farmers produce:",
+            "options": ["Crops", "Cars", "Clothes", "Pens"],
+            "correctAnswer": "Crops"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "A community consists of:",
+            "options": ["People living together", "Cars only", "Trees only", "Buildings only"],
+            "correctAnswer": "People living together"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry6-basic-technology",
+      "courseName": "Basic Technology",
+      "courseCode": "BT-P6",
+      "description": "Introduction to basic tools, machines, energy, and practical skills.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Primary_basic_technology.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-bt-lesson1",
+          "lessonTitle": "Simple Tools and Their Uses",
+          "lessonType": "text",
+          "description": "Learning about common tools.",
+          "textContent": "Pupils identify hammers, screwdrivers, and knives. Teachers explain safe usage. Pupils practice handling tools under supervision and discuss their uses in daily life."
+        },
+        {
+          "lessonId": "pry6-bt-lesson2",
+          "lessonTitle": "Machines Around Us",
+          "lessonType": "video",
+          "description": "Introduction to simple and complex machines.",
+          "textContent": "Pupils learn about pulleys, levers, and wheels. Teachers demonstrate machines in class. Videos show machines used in agriculture, transport, and home chores.",
+          "videoUrl": "https://www.youtube.com/watch?v=EXQJtN0Pl3Y",
+          "audioUrl": "https://www.youtube.com/watch?v=EXQJtN0Pl3Y"
+        },
+        {
+          "lessonId": "pry6-bt-lesson3",
+          "lessonTitle": "Energy and Sources",
+          "lessonType": "text",
+          "description": "Understanding light, heat, and electricity.",
+          "textContent": "Pupils explore solar, wind, and electrical energy. Teachers explain energy in daily life. Pupils conduct simple experiments to understand sources and uses of energy."
+        },
+        {
+          "lessonId": "pry6-bt-lesson4",
+          "lessonTitle": "Food Processing and Preservation",
+          "lessonType": "text",
+          "description": "Learning basic cooking and preservation.",
+          "textContent": "Pupils study drying, freezing, and storing food. Teachers discuss hygiene and safety. Pupils engage in supervised activities like drying fruits and storing snacks."
+        },
+        {
+          "lessonId": "pry6-bt-lesson5",
+          "lessonTitle": "Design and Making",
+          "lessonType": "text",
+          "description": "Creating simple projects and models.",
+          "textContent": "Pupils use paper, cardboard, and clay to make simple models. Teachers demonstrate steps and techniques. Pupils practice creativity and problem-solving in projects."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-bt-quiz",
+        "quizTitle": "Basic Technology — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which is a lever?",
+            "options": ["Seesaw", "Book", "Table", "Pen"],
+            "correctAnswer": "Seesaw"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Solar energy comes from:",
+            "options": ["Sun", "Water", "Wind", "Coal"],
+            "correctAnswer": "Sun"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "A hammer is a:",
+            "options": ["Tool", "Machine", "Plant", "Animal"],
+            "correctAnswer": "Tool"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry6-creative-arts",
+      "courseName": "Creative Arts",
+      "courseCode": "CA-P6",
+      "description": "Exploring visual arts, music, dance, and drama for creative expression.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/6/62/Primary_creative_arts.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-ca-lesson1",
+          "lessonTitle": "Drawing and Painting",
+          "lessonType": "text",
+          "description": "Developing artistic skills with colors and shapes.",
+          "textContent": "Pupils learn basic drawing techniques, use of colors, and textures. Teachers guide practice on paper. Pupils create artworks inspired by nature, culture, and imagination."
+        },
+        {
+          "lessonId": "pry6-ca-lesson2",
+          "lessonTitle": "Singing and Music Appreciation",
+          "lessonType": "audio",
+          "description": "Exploring songs, rhythm, and instruments.",
+          "textContent": "Pupils learn traditional and modern songs. Teachers demonstrate instruments and rhythms. Pupils practice singing, clapping, and simple instrument playing.",
+          "audioUrl": "https://www.youtube.com/watch?v=H7xOS9yC9a0"
+        },
+        {
+          "lessonId": "pry6-ca-lesson3",
+          "lessonTitle": "Dance and Movement",
+          "lessonType": "video",
+          "description": "Learning traditional and creative dances.",
+          "textContent": "Pupils explore Nigerian dances and body movements. Teachers show steps and guide practice. Videos illustrate cultural and modern dance performances.",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "audioUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "lessonId": "pry6-ca-lesson4",
+          "lessonTitle": "Drama and Role Play",
+          "lessonType": "text",
+          "description": "Developing storytelling and acting skills.",
+          "textContent": "Pupils learn to perform short skits and dialogues. Teachers guide scripts, expressions, and roles. Pupils practice teamwork, communication, and imagination."
+        },
+        {
+          "lessonId": "pry6-ca-lesson5",
+          "lessonTitle": "Crafts and Creativity",
+          "lessonType": "text",
+          "description": "Making models and creative items.",
+          "textContent": "Pupils use paper, clay, and fabric to make crafts. Teachers demonstrate techniques and safety. Pupils showcase their creations, enhancing creativity and fine motor skills."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-ca-quiz",
+        "quizTitle": "Creative Arts — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which is a musical instrument?",
+            "options": ["Drum", "Book", "Table", "Chair"],
+            "correctAnswer": "Drum"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Drawing helps develop:",
+            "options": ["Creativity", "Sleep", "Eating", "Running"],
+            "correctAnswer": "Creativity"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Drama improves:",
+            "options": ["Acting skills", "Cooking", "Walking", "Swimming"],
+            "correctAnswer": "Acting skills"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry6-physical-health-education",
+      "courseName": "Physical & Health Education",
+      "courseCode": "PHE-P6",
+      "description": "Promoting fitness, hygiene, nutrition, and overall wellbeing.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Primary_physical_education.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-phe-lesson1",
+          "lessonTitle": "Exercise and Fitness",
+          "lessonType": "video",
+          "description": "Learning importance of physical activity.",
+          "textContent": "Pupils engage in running, jumping, and stretching exercises. Teachers explain benefits of exercise for heart, muscles, and mood. Videos show fun fitness routines for children.",
+          "videoUrl": "https://www.youtube.com/watch?v=1U1hQ06uHdA",
+          "audioUrl": "https://www.youtube.com/watch?v=1U1hQ06uHdA"
+        },
+        {
+          "lessonId": "pry6-phe-lesson2",
+          "lessonTitle": "Healthy Eating",
+          "lessonType": "text",
+          "description": "Understanding nutrition and balanced meals.",
+          "textContent": "Pupils learn about fruits, vegetables, proteins, and grains. Teachers explain portion sizes and meal planning. Pupils discuss their daily diet and identify healthy choices."
+        },
+        {
+          "lessonId": "pry6-phe-lesson3",
+          "lessonTitle": "Personal Hygiene",
+          "lessonType": "text",
+          "description": "Practicing cleanliness and safety.",
+          "textContent": "Pupils learn handwashing, brushing teeth, and bathing routines. Teachers demonstrate proper hygiene practices. Pupils understand how hygiene prevents illness."
+        },
+        {
+          "lessonId": "pry6-phe-lesson4",
+          "lessonTitle": "Safety and First Aid",
+          "lessonType": "text",
+          "description": "Basic safety at home, school, and road.",
+          "textContent": "Pupils learn to recognize hazards, follow safety rules, and provide basic first aid. Teachers demonstrate bandaging, calling for help, and preventing accidents."
+        },
+        {
+          "lessonId": "pry6-phe-lesson5",
+          "lessonTitle": "Games and Recreation",
+          "lessonType": "text",
+          "description": "Engaging in fun activities for wellbeing.",
+          "textContent": "Pupils participate in team games, relay races, and outdoor activities. Teachers emphasize fair play, cooperation, and enjoyment."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-phe-quiz",
+        "quizTitle": "Physical & Health Education — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Why exercise is important?",
+            "options": ["To stay fit", "To sleep", "To watch TV", "To eat more"],
+            "correctAnswer": "To stay fit"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which food is healthy?",
+            "options": ["Vegetables", "Candy", "Chips", "Soda"],
+            "correctAnswer": "Vegetables"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Handwashing prevents:",
+            "options": ["Illness", "Math errors", "Traffic", "Reading mistakes"],
+            "correctAnswer": "Illness"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry6-civic-education",
+      "courseName": "Civic Education",
+      "courseCode": "CE-P6",
+      "description": "Understanding rights, responsibilities, and national values.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Primary_civic_education.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry6-ce-lesson1",
+          "lessonTitle": "Being a Responsible Citizen",
+          "lessonType": "text",
+          "description": "Understanding duties in the community and nation.",
+          "textContent": "Pupils learn about honesty, respect, and helping others. Teachers discuss civic duties at home, school, and community. Pupils engage in role-play and discussions on responsible behavior."
+        },
+        {
+          "lessonId": "pry6-ce-lesson2",
+          "lessonTitle": "Understanding Rights",
+          "lessonType": "text",
+          "description": "Knowing basic rights as citizens.",
+          "textContent": "Pupils learn about education, safety, and play. Teachers explain how rights are protected. Pupils discuss scenarios of rights and responsibilities in daily life."
+        },
+        {
+          "lessonId": "pry6-ce-lesson3",
+          "lessonTitle": "Law and Order",
+          "lessonType": "text",
+          "description": "Importance of rules and laws.",
+          "textContent": "Pupils explore classroom, school, and national rules. Teachers explain consequences of breaking laws. Pupils identify ways to follow rules and maintain order."
+        },
+        {
+          "lessonId": "pry6-ce-lesson4",
+          "lessonTitle": "Community Service",
+          "lessonType": "text",
+          "description": "Helping and participating in community activities.",
+          "textContent": "Pupils learn about cleaning, planting trees, and assisting neighbors. Teachers explain benefits of service. Pupils plan small community projects."
+        },
+        {
+          "lessonId": "pry6-ce-lesson5",
+          "lessonTitle": "National Pride",
+          "lessonType": "video",
+          "description": "Learning about Nigerian identity, symbols, and patriotism.",
+          "textContent": "Pupils explore Nigerian flag, anthem, and cultural symbols. Teachers show videos of celebrations and national events. Pupils discuss ways to promote unity and pride.",
+          "videoUrl": "https://www.youtube.com/watch?v=jJXyEj_4NnI",
+          "audioUrl": "https://www.youtube.com/watch?v=jJXyEj_4NnI"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry6-ce-quiz",
+        "quizTitle": "Civic Education — Primary 6 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Being responsible means:",
+            "options": ["Helping others", "Ignoring rules", "Fighting", "Stealing"],
+            "correctAnswer": "Helping others"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Community service can involve:",
+            "options": ["Cleaning surroundings", "Watching TV", "Sleeping", "Playing video games"],
+            "correctAnswer": "Cleaning surroundings"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "National pride includes:",
+            "options": ["Respecting flag", "Ignoring anthem", "Destroying symbols", "Cheating"],
+            "correctAnswer": "Respecting flag"
+          }
+        ]
+      }
+    }
+  ]
+}
