@@ -1,0 +1,595 @@
+{
+  "courses": [
+    {
+      "courseId": "pry4-mathematics",
+      "courseName": "Mathematics",
+      "courseCode": "MATH-P4",
+      "description": "Developing number sense, basic operations, shapes, measurements, and problem-solving skills.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Primary_math_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-math-lesson1",
+          "lessonTitle": "Place Value and Numbers",
+          "lessonType": "text",
+          "description": "Understanding digits and their positions in numbers.",
+          "textContent": "Pupils learn about ones, tens, hundreds, and thousands. Teachers demonstrate reading and writing numbers, comparing values, and arranging numbers in ascending or descending order. Exercises include identifying numbers in real-life contexts like bus numbers, Naira notes, and house numbers. This builds a strong foundation for addition, subtraction, and mental math."
+        },
+        {
+          "lessonId": "pry4-math-lesson2",
+          "lessonTitle": "Addition and Subtraction",
+          "lessonType": "text",
+          "description": "Adding and subtracting numbers up to 1000.",
+          "textContent": "Pupils practice adding and subtracting multi-digit numbers using place value strategies. Teachers show step-by-step methods with examples from money, counting objects, or everyday situations. Word problems enhance comprehension and critical thinking. Pupils are encouraged to explain their methods and check their work."
+        },
+        {
+          "lessonId": "pry4-math-lesson3",
+          "lessonTitle": "Multiplication and Division",
+          "lessonType": "text",
+          "description": "Learning basic multiplication tables and simple division.",
+          "textContent": "Pupils learn multiplication tables from 2 to 12. Teachers explain multiplication as repeated addition and division as sharing equally. Word problems include dividing sweets among friends or calculating total fruits. Exercises are designed to develop speed, accuracy, and mental calculations."
+        },
+        {
+          "lessonId": "pry4-math-lesson4",
+          "lessonTitle": "Introduction to Fractions",
+          "lessonType": "text",
+          "description": "Understanding parts of a whole.",
+          "textContent": "Pupils learn about halves, thirds, quarters, and other simple fractions. Teachers use examples like cutting a cake or sharing fruit. Pupils draw and shade fractions, compare sizes, and recognize equivalent fractions. This lesson develops spatial awareness and early algebraic thinking."
+        },
+        {
+          "lessonId": "pry4-math-lesson5",
+          "lessonTitle": "Shapes and Measurements",
+          "lessonType": "video",
+          "description": "Identifying 2D and 3D shapes and measuring length and weight.",
+          "textContent": "Pupils explore shapes like squares, rectangles, triangles, circles, cubes, spheres, and cylinders. Teachers show measuring length using rulers, weight using scales, and capacity using containers. Real-life examples include measuring tables, books, and water in bottles. Hands-on activities enhance understanding of geometry and measurement.",
+          "videoUrl": "https://www.youtube.com/watch?v=XZ8hbL6ZdGI",
+          "audioUrl": "https://www.youtube.com/watch?v=XZ8hbL6ZdGI"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-math-quiz",
+        "quizTitle": "Mathematics — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "What is 345 + 256?",
+            "options": ["501", "601", "601", "611"],
+            "correctAnswer": "601"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which fraction represents half of a cake?",
+            "options": ["1/3", "1/4", "1/2", "1/5"],
+            "correctAnswer": "1/2"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which shape has 6 faces?",
+            "options": ["Cube", "Sphere", "Cylinder", "Triangle"],
+            "correctAnswer": "Cube"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry4-english-language",
+      "courseName": "English Language",
+      "courseCode": "ENG-P4",
+      "description": "Improving reading, writing, speaking, and listening skills with basic grammar and vocabulary.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/4/41/Primary_english_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-eng-lesson1",
+          "lessonTitle": "Reading Comprehension",
+          "lessonType": "text",
+          "description": "Developing understanding of simple texts.",
+          "textContent": "Pupils read short passages and answer questions about the main idea, characters, setting, and events. Teachers model reading strategies like predicting, questioning, and summarizing. Pupils discuss stories in pairs and groups. Comprehension lessons improve critical thinking, vocabulary, and fluency."
+        },
+        {
+          "lessonId": "pry4-eng-lesson2",
+          "lessonTitle": "Writing Simple Paragraphs",
+          "lessonType": "text",
+          "description": "Constructing clear and coherent sentences.",
+          "textContent": "Pupils learn to write simple paragraphs with topic sentences, supporting details, and a closing sentence. Teachers demonstrate using examples from daily life, such as describing their home, school, or favorite activity. Pupils practice spelling, punctuation, and neat handwriting."
+        },
+        {
+          "lessonId": "pry4-eng-lesson3",
+          "lessonTitle": "Grammar Basics",
+          "lessonType": "text",
+          "description": "Understanding nouns, verbs, adjectives, and pronouns.",
+          "textContent": "Pupils identify different parts of speech in sentences. Teachers explain their functions and provide examples. Pupils create sentences using correct grammar. Activities include filling blanks, matching, and sentence construction. Grammar lessons build clarity and effective communication."
+        },
+        {
+          "lessonId": "pry4-eng-lesson4",
+          "lessonTitle": "Vocabulary Development",
+          "lessonType": "text",
+          "description": "Expanding word knowledge for daily use.",
+          "textContent": "Pupils learn new words and phrases related to school, home, food, weather, and animals. Teachers use flashcards, storytelling, and reading activities. Pupils practice spelling, synonyms, and antonyms. Vocabulary enrichment strengthens reading comprehension and writing skills."
+        },
+        {
+          "lessonId": "pry4-eng-lesson5",
+          "lessonTitle": "Listening and Speaking",
+          "lessonType": "audio",
+          "description": "Improving listening and oral communication skills.",
+          "textContent": "Pupils listen to stories, songs, or instructions and answer questions or retell them. Teachers model pronunciation, intonation, and conversational skills. Pupils participate in dialogues, role-plays, and oral presentations. Listening and speaking lessons enhance confidence and effective communication.",
+          "audioUrl": "https://www.youtube.com/watch?v=kfQJpjxKN-Q"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-eng-quiz",
+        "quizTitle": "English Language — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which is a noun?",
+            "options": ["Run", "Happy", "Dog", "Quickly"],
+            "correctAnswer": "Dog"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What is the opposite of 'hot'?",
+            "options": ["Cold", "Warm", "Cool", "Fire"],
+            "correctAnswer": "Cold"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which sentence is correct?",
+            "options": ["He go to school", "He goes to school", "He going to school", "He gone to school"],
+            "correctAnswer": "He goes to school"
+          }
+        ]
+      }
+    },
+    {
+  "courses": [
+    {
+      "courseId": "pry4-basic-science",
+      "courseName": "Basic Science",
+      "courseCode": "SCI-P4",
+      "description": "Exploring living and non-living things, the environment, and basic physical concepts.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/2/29/Primary_science_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-sci-lesson1",
+          "lessonTitle": "Plants and Their Parts",
+          "lessonType": "text",
+          "description": "Learning about roots, stems, leaves, flowers, and fruits.",
+          "textContent": "Pupils explore the different parts of plants and their functions. Teachers demonstrate with live examples, explaining how roots absorb water, leaves make food, and flowers produce seeds. Pupils draw plants, label parts, and discuss their importance in everyday life, including fruits and vegetables in their diet."
+        },
+        {
+          "lessonId": "pry4-sci-lesson2",
+          "lessonTitle": "Animals and Their Habitats",
+          "lessonType": "text",
+          "description": "Studying where animals live and how they survive.",
+          "textContent": "Pupils learn about domestic and wild animals, their habitats, food, and behaviors. Teachers use examples like farms, forests, rivers, and homes. Pupils observe pictures or videos, describe animals, and explain how each habitat provides shelter and food, fostering appreciation for biodiversity."
+        },
+        {
+          "lessonId": "pry4-sci-lesson3",
+          "lessonTitle": "Water and Its Uses",
+          "lessonType": "text",
+          "description": "Understanding water and its importance to life.",
+          "textContent": "Pupils explore sources of water, such as rivers, wells, and taps, and learn about drinking, cooking, washing, and farming. Teachers explain water conservation and hygiene. Pupils perform simple experiments to see water’s properties, emphasizing why clean water is essential for health."
+        },
+        {
+          "lessonId": "pry4-sci-lesson4",
+          "lessonTitle": "Air and Its Importance",
+          "lessonType": "text",
+          "description": "Recognizing air as essential for life.",
+          "textContent": "Pupils understand that air surrounds us and is necessary for breathing. Teachers demonstrate air’s presence through simple experiments like blowing balloons or moving papers. Pupils discuss pollution, ways to keep air clean, and the importance of trees and plants in providing oxygen."
+        },
+        {
+          "lessonId": "pry4-sci-lesson5",
+          "lessonTitle": "Weather and Seasons",
+          "lessonType": "video",
+          "description": "Exploring different weather patterns and seasons in Nigeria.",
+          "textContent": "Pupils learn about sunny, rainy, cloudy, and windy weather, and understand Nigeria’s rainy and dry seasons. Teachers use charts, videos, and outdoor observations. Pupils record daily weather, discuss its effects on activities, crops, and clothing. Lessons encourage observation and scientific thinking.",
+          "videoUrl": "https://www.youtube.com/watch?v=8XwV9lzAxgQ",
+          "audioUrl": "https://www.youtube.com/watch?v=8XwV9lzAxgQ"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-sci-quiz",
+        "quizTitle": "Basic Science — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which part of a plant makes food?",
+            "options": ["Root", "Stem", "Leaf", "Flower"],
+            "correctAnswer": "Leaf"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which animal lives in the forest?",
+            "options": ["Dog", "Lion", "Cat", "Goat"],
+            "correctAnswer": "Lion"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which season is usually dry in Nigeria?",
+            "options": ["Rainy", "Dry", "Windy", "Cold"],
+            "correctAnswer": "Dry"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry4-social-studies",
+      "courseName": "Social Studies",
+      "courseCode": "SOC-P4",
+      "description": "Understanding the community, family, and environment, including roles, rights, and responsibilities.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Primary_social_studies.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-ss-lesson1",
+          "lessonTitle": "Our Family",
+          "lessonType": "text",
+          "description": "Learning about family members and roles.",
+          "textContent": "Pupils discuss father, mother, siblings, and extended family. Teachers explain responsibilities of each member and importance of cooperation. Pupils draw their family trees and share stories about daily activities and celebrations, reinforcing social values and respect."
+        },
+        {
+          "lessonId": "pry4-ss-lesson2",
+          "lessonTitle": "Our School",
+          "lessonType": "text",
+          "description": "Understanding school structure and roles.",
+          "textContent": "Pupils explore classrooms, playgrounds, library, and staff roles. Teachers guide discussions on rules, respect for teachers and peers, and responsibilities of pupils. Pupils participate in group activities to understand teamwork, organization, and problem-solving within the school community."
+        },
+        {
+          "lessonId": "pry4-ss-lesson3",
+          "lessonTitle": "Our Community",
+          "lessonType": "text",
+          "description": "Learning about people, jobs, and places in the community.",
+          "textContent": "Pupils identify market, hospital, police station, and other places. Teachers explain roles of community members such as doctors, traders, and policemen. Pupils discuss how people contribute to community development and how to be responsible citizens, promoting awareness and civic responsibility."
+        },
+        {
+          "lessonId": "pry4-ss-lesson4",
+          "lessonTitle": "Nigerian Culture",
+          "lessonType": "text",
+          "description": "Exploring traditional festivals, clothing, and customs.",
+          "textContent": "Pupils learn about dances, music, foods, and attire from various Nigerian ethnic groups. Teachers show videos or pictures of cultural events. Pupils discuss similarities and differences, and participate in cultural appreciation activities, encouraging pride and respect for diversity."
+        },
+        {
+          "lessonId": "pry4-ss-lesson5",
+          "lessonTitle": "Caring for Our Environment",
+          "lessonType": "video",
+          "description": "Learning ways to protect and clean our surroundings.",
+          "textContent": "Pupils explore littering, recycling, planting trees, and keeping water sources clean. Teachers demonstrate proper disposal and conservation methods. Pupils organize clean-up exercises. Lessons foster responsibility and environmental awareness.",
+          "videoUrl": "https://www.youtube.com/watch?v=Jp1z0-bO9ZI",
+          "audioUrl": "https://www.youtube.com/watch?v=Jp1z0-bO9ZI"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-ss-quiz",
+        "quizTitle": "Social Studies — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Who helps keep our community safe?",
+            "options": ["Doctor", "Policeman", "Teacher", "Farmer"],
+            "correctAnswer": "Policeman"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Planting trees helps to:",
+            "options": ["Make noise", "Provide shade and oxygen", "Waste time", "Attract animals only"],
+            "correctAnswer": "Provide shade and oxygen"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Who is part of your family?",
+            "options": ["Friend", "Mother", "Teacher", "Stranger"],
+            "correctAnswer": "Mother"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry4-basic-technology",
+      "courseName": "Basic Technology",
+      "courseCode": "TECH-P4",
+      "description": "Introduction to simple tools, materials, and basic practical skills.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/5/55/Primary_tech_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-tech-lesson1",
+          "lessonTitle": "Simple Tools",
+          "lessonType": "text",
+          "description": "Learning about common tools and their uses.",
+          "textContent": "Pupils identify tools like hammers, scissors, pencils, and rulers. Teachers demonstrate safe handling. Pupils discuss uses, care, and importance of tools in daily life, building awareness of technology around them."
+        },
+        {
+          "lessonId": "pry4-tech-lesson2",
+          "lessonTitle": "Materials Around Us",
+          "lessonType": "text",
+          "description": "Exploring natural and man-made materials.",
+          "textContent": "Pupils classify materials like wood, metal, cloth, and plastic. Teachers explain properties such as strength, flexibility, and durability. Pupils perform simple experiments like bending or stretching, observing results, and discussing uses in houses, clothes, and furniture."
+        },
+        {
+          "lessonId": "pry4-tech-lesson3",
+          "lessonTitle": "Building Simple Structures",
+          "lessonType": "text",
+          "description": "Constructing basic models using safe materials.",
+          "textContent": "Pupils use clay, sticks, or cardboard to make small models like houses or bridges. Teachers guide measurements, stability, and design. Pupils learn planning, creativity, and teamwork. Lessons develop spatial thinking and problem-solving skills."
+        },
+        {
+          "lessonId": "pry4-tech-lesson4",
+          "lessonTitle": "Energy and Machines",
+          "lessonType": "text",
+          "description": "Understanding simple machines and energy sources.",
+          "textContent": "Pupils learn about pulleys, levers, wheels, and basic electricity concepts like batteries and bulbs. Teachers demonstrate how machines make work easier. Pupils discuss examples from daily life and perform simple experiments, fostering curiosity and practical understanding."
+        },
+        {
+          "lessonId": "pry4-tech-lesson5",
+          "lessonTitle": "Safety While Using Tools",
+          "lessonType": "video",
+          "description": "Learning safe practices when handling tools and materials.",
+          "textContent": "Pupils learn to wear protective gear, use tools correctly, and follow instructions. Teachers demonstrate safe and unsafe practices. Pupils discuss potential hazards and prevention. Safety lessons reduce accidents and build responsible habits.",
+          "videoUrl": "https://www.youtube.com/watch?v=1lX4FPs4zqI",
+          "audioUrl": "https://www.youtube.com/watch?v=1lX4FPs4zqI"
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-tech-quiz",
+        "quizTitle": "Basic Technology — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which is a simple machine?",
+            "options": ["Lever", "Book", "Chair", "Pencil"],
+            "correctAnswer": "Lever"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What should you wear when using tools?",
+            "options": ["Shoes", "Protective gear", "Hat", "Nothing"],
+            "correctAnswer": "Protective gear"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which material is natural?",
+            "options": ["Plastic", "Metal", "Wood", "Glass"],
+            "correctAnswer": "Wood"
+          }
+        ]
+      }
+    },
+      {
+  "courses": [
+    {
+      "courseId": "pry4-creative-arts",
+      "courseName": "Creative Arts",
+      "courseCode": "ART-P4",
+      "description": "Exploring visual arts, music, dance, drama, and cultural expressions.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Primary_creative_arts.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-art-lesson1",
+          "lessonTitle": "Drawing and Coloring",
+          "lessonType": "text",
+          "description": "Learning basic drawing and coloring techniques.",
+          "textContent": "Pupils practice drawing simple objects like fruits, houses, and animals. Teachers demonstrate shading, coloring within lines, and mixing colors. Pupils express creativity through art projects, enhancing observation, fine motor skills, and imagination."
+        },
+        {
+          "lessonId": "pry4-art-lesson2",
+          "lessonTitle": "Music and Singing",
+          "lessonType": "audio",
+          "description": "Exploring rhythm, melody, and singing.",
+          "textContent": "Pupils learn popular Nigerian songs and simple melodies. Teachers demonstrate rhythm, clapping patterns, and proper pronunciation. Pupils sing in groups, improving listening skills, memory, and confidence in musical expression.",
+          "audioUrl": "https://www.youtube.com/watch?v=VZgKzKfnJtk"
+        },
+        {
+          "lessonId": "pry4-art-lesson3",
+          "lessonTitle": "Dance and Movement",
+          "lessonType": "video",
+          "description": "Learning traditional and modern dances.",
+          "textContent": "Pupils practice simple dances from different Nigerian cultures and basic contemporary moves. Teachers demonstrate steps and encourage pupils to create their own. Dancing lessons develop coordination, physical fitness, and cultural appreciation.",
+          "videoUrl": "https://www.youtube.com/watch?v=3hXZG3v5q6Q",
+          "audioUrl": "https://www.youtube.com/watch?v=3hXZG3v5q6Q"
+        },
+        {
+          "lessonId": "pry4-art-lesson4",
+          "lessonTitle": "Drama and Role Play",
+          "lessonType": "text",
+          "description": "Acting out stories and everyday situations.",
+          "textContent": "Pupils perform simple skits, role-plays, and storytelling. Teachers guide them to express emotions, use voice and gestures, and understand storylines. Drama lessons enhance creativity, communication, and confidence in social interaction."
+        },
+        {
+          "lessonId": "pry4-art-lesson5",
+          "lessonTitle": "Crafts and Decorations",
+          "lessonType": "text",
+          "description": "Making simple crafts using paper, clay, and other materials.",
+          "textContent": "Pupils create items like greeting cards, masks, and small models. Teachers demonstrate folding, cutting, and assembling techniques. Craft activities develop fine motor skills, creativity, patience, and appreciation for handmade work."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-art-quiz",
+        "quizTitle": "Creative Arts — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which activity uses colors and pencils?",
+            "options": ["Drawing", "Singing", "Dancing", "Drama"],
+            "correctAnswer": "Drawing"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Role play helps pupils to:",
+            "options": ["Read faster", "Express emotions", "Measure objects", "Cook food"],
+            "correctAnswer": "Express emotions"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Music lessons improve:",
+            "options": ["Coordination", "Listening skills", "Cooking skills", "Math"],
+            "correctAnswer": "Listening skills"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry4-physical-health-education",
+      "courseName": "Physical & Health Education",
+      "courseCode": "PHE-P4",
+      "description": "Promoting physical fitness, healthy habits, and safety awareness.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Primary_physical_education.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-phe-lesson1",
+          "lessonTitle": "Exercises and Fitness",
+          "lessonType": "video",
+          "description": "Learning different physical exercises for fitness.",
+          "textContent": "Pupils practice stretching, jogging, jumping, and simple exercises to stay healthy. Teachers demonstrate routines suitable for the classroom and playground. Physical activities improve strength, coordination, and stamina.",
+          "videoUrl": "https://www.youtube.com/watch?v=3JX9B2q6dGQ",
+          "audioUrl": "https://www.youtube.com/watch?v=3JX9B2q6dGQ"
+        },
+        {
+          "lessonId": "pry4-phe-lesson2",
+          "lessonTitle": "Healthy Eating",
+          "lessonType": "text",
+          "description": "Understanding the importance of a balanced diet.",
+          "textContent": "Pupils learn about foods from different groups, their benefits, and how to make healthy choices. Teachers explain the consequences of unhealthy eating and demonstrate meal planning. Pupils discuss their favorite healthy meals and reflect on improving daily diet."
+        },
+        {
+          "lessonId": "pry4-phe-lesson3",
+          "lessonTitle": "Personal Hygiene",
+          "lessonType": "text",
+          "description": "Maintaining cleanliness to prevent illness.",
+          "textContent": "Pupils practice washing hands, brushing teeth, bathing, and keeping clothes clean. Teachers explain germs, disease prevention, and safe habits. Pupils share experiences and understand the connection between hygiene and overall health."
+        },
+        {
+          "lessonId": "pry4-phe-lesson4",
+          "lessonTitle": "Safety at Home and School",
+          "lessonType": "text",
+          "description": "Learning to avoid accidents and follow safety rules.",
+          "textContent": "Pupils learn about avoiding sharp objects, electrical hazards, and running indoors. Teachers guide safe behaviors on playgrounds and classrooms. Pupils role-play scenarios to understand consequences of unsafe actions and develop responsibility."
+        },
+        {
+          "lessonId": "pry4-phe-lesson5",
+          "lessonTitle": "First Aid Basics",
+          "lessonType": "text",
+          "description": "Understanding simple first aid procedures.",
+          "textContent": "Pupils learn to clean minor cuts, apply bandages, and seek help for injuries. Teachers demonstrate safe techniques and emphasize asking adults for guidance. First aid lessons build confidence and awareness of caring for themselves and others."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-phe-quiz",
+        "quizTitle": "Physical & Health Education — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which activity improves physical fitness?",
+            "options": ["Reading", "Jogging", "Sleeping", "Watching TV"],
+            "correctAnswer": "Jogging"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Washing hands helps to prevent:",
+            "options": ["Illness", "Homework", "Playing", "Eating"],
+            "correctAnswer": "Illness"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What should you do if someone is injured?",
+            "options": ["Ignore", "Clean and bandage", "Run away", "Play"],
+            "correctAnswer": "Clean and bandage"
+          }
+        ]
+      }
+    },
+
+    {
+      "courseId": "pry4-civic-education",
+      "courseName": "Civic Education",
+      "courseCode": "CIV-P4",
+      "description": "Learning about rights, responsibilities, and participation in community life.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Primary_civic_education.jpg",
+      "lessons": [
+        {
+          "lessonId": "pry4-civ-lesson1",
+          "lessonTitle": "Being a Responsible Citizen",
+          "lessonType": "text",
+          "description": "Understanding duties in family, school, and community.",
+          "textContent": "Pupils learn that being responsible means following rules, helping others, and taking care of property. Teachers provide examples from school and home. Pupils discuss situations where responsibility matters and reflect on personal behavior."
+        },
+        {
+          "lessonId": "pry4-civ-lesson2",
+          "lessonTitle": "Rights and Duties of Children",
+          "lessonType": "text",
+          "description": "Learning about the basic rights every child has.",
+          "textContent": "Pupils learn they have rights to education, health, play, and protection. Teachers explain duties such as respecting elders, attending school, and helping at home. Pupils discuss how rights and responsibilities balance each other."
+        },
+        {
+          "lessonId": "pry4-civ-lesson3",
+          "lessonTitle": "Helping the Community",
+          "lessonType": "text",
+          "description": "Ways to contribute positively to society.",
+          "textContent": "Pupils learn small acts like cleaning, planting trees, and assisting neighbors. Teachers encourage class projects and teamwork. Pupils share ideas on making the community better, promoting empathy and civic pride."
+        },
+        {
+          "lessonId": "pry4-civ-lesson4",
+          "lessonTitle": "Honesty and Respect",
+          "lessonType": "text",
+          "description": "Understanding moral values in daily life.",
+          "textContent": "Pupils learn that telling the truth, keeping promises, and respecting others are important traits. Teachers use role-play and stories. Pupils practice these values in classroom and at home, reinforcing good character."
+        },
+        {
+          "lessonId": "pry4-civ-lesson5",
+          "lessonTitle": "Following Rules and Laws",
+          "lessonType": "text",
+          "description": "Importance of rules in society for safety and fairness.",
+          "textContent": "Pupils learn that rules in school, community, and country ensure safety and fairness. Teachers give examples like road safety, classroom behavior, and obeying elders. Pupils discuss consequences of breaking rules and ways to follow them responsibly."
+        }
+      ],
+      "quiz": {
+        "quizId": "pry4-civ-quiz",
+        "quizTitle": "Civic Education — Primary 4 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Being a responsible citizen means:",
+            "options": ["Helping others", "Breaking rules", "Ignoring laws", "Fighting"],
+            "correctAnswer": "Helping others"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Children have the right to:",
+            "options": ["Education", "Stealing", "Skipping school", "Ignoring rules"],
+            "correctAnswer": "Education"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Following rules helps to:",
+            "options": ["Create chaos", "Ensure safety", "Confuse people", "Make noise"],
+            "correctAnswer": "Ensure safety"
+          }
+        ]
+      }
+    }
+  ]
+}
