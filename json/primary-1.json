@@ -34,8 +34,8 @@
           "lessonType": "text",
           "description": "Understanding how to combine two or more numbers together.",
           "textContent": "Addition means putting things together to find out how many we have in total. For example, if you have two oranges and your friend gives you one more, you now have three oranges. In this lesson, pupils will learn how to add small numbers using real-life examples and pictures. Teachers can demonstrate with bottle tops or counting blocks. Pupils should say each step out loud as they add: ‘Two plus one equals three’. This repetition helps them understand that addition increases a number’s value. With continued practice, they will be able to perform simple additions mentally or by writing them down. Addition is the building block for all higher mathematical operations.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=0_932pytnZM",
+          "audioUrl": "https://www.youtube.com/watch?v=0_932pytnZM"
         },
         {
           "lessonId": "pry1-math-lesson4",
@@ -43,8 +43,8 @@
           "lessonType": "text",
           "description": "Learning how to take away or remove numbers.",
           "textContent": "Subtraction is the opposite of addition. It means taking away a number or object from another. For instance, if you have five apples and you eat two, you have three left. In this lesson, pupils will explore subtraction using items they can see and touch. Teachers can use classroom materials such as pencils or books to show how quantities decrease when something is removed. Pupils will learn subtraction symbols and how to say subtraction sentences like ‘five minus two equals three’. Understanding subtraction helps pupils in solving problems related to sharing, buying, and giving change in real-life situations. The lesson emphasizes practical examples to make learning meaningful.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=p8J77xDfnAo",
+          "audioUrl": "https://www.youtube.com/watch?v=p8J77xDfnAo"
         },
         {
           "lessonId": "pry1-math-lesson5",
@@ -52,8 +52,8 @@
           "lessonType": "text",
           "description": "Learning to identify numbers that are greater, smaller, or equal.",
           "textContent": "This lesson teaches pupils how to compare two or more numbers to know which is larger, smaller, or equal. Comparing helps pupils understand order and quantity. For instance, when comparing 4 and 7, we can say 7 is greater than 4, while 4 is less than 7. Pupils will also learn to use the symbols >, <, and = correctly. Teachers can make this interesting by using items like pencils or fruits to represent numbers. As pupils practice, they begin to see patterns and relationships between numbers. This skill becomes important in later topics like number sequencing and problem solving.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=3hgQ03vWUyQ",
+          "audioUrl": "https://www.youtube.com/watch?v=3hgQ03vWUyQ"
         }
       ],
       "quiz": {
@@ -66,19 +66,34 @@
           {
             "questionId": "q1",
             "questionText": "What number comes after 9?",
-            "options": ["8", "10", "11", "7"],
+            "options": [
+              "8",
+              "10",
+              "11",
+              "7"
+            ],
             "correctAnswer": "10"
           },
           {
             "questionId": "q2",
             "questionText": "A plate is shaped like a ____.",
-            "options": ["Triangle", "Circle", "Square", "Rectangle"],
+            "options": [
+              "Triangle",
+              "Circle",
+              "Square",
+              "Rectangle"
+            ],
             "correctAnswer": "Circle"
           },
           {
             "questionId": "q3",
             "questionText": "If you have 3 oranges and get 2 more, how many do you have?",
-            "options": ["4", "5", "6", "2"],
+            "options": [
+              "4",
+              "5",
+              "6",
+              "2"
+            ],
             "correctAnswer": "5"
           }
         ]
@@ -106,8 +121,8 @@
           "lessonType": "text",
           "description": "Introducing short, common words and what they mean.",
           "textContent": "In this lesson, pupils will learn short and simple words that are part of their everyday life. Words like boy, girl, sun, dog, and cup will be introduced with explanations. The teacher can show pictures or real objects to help pupils understand each word better. Learning word meanings helps pupils communicate clearly and express themselves. They will practice forming simple sentences like ‘The dog runs’ or ‘The sun is hot’. By using words they already know in real life, pupils develop confidence in reading and speaking English. Teachers should repeat new words often to help pupils remember and use them correctly.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=eI3ApSpR68o",
+          "audioUrl": "https://www.youtube.com/watch?v=eI3ApSpR68o"
         },
         {
           "lessonId": "pry1-english-lesson3",
@@ -115,8 +130,8 @@
           "lessonType": "text",
           "description": "How to combine words to make short and clear sentences.",
           "textContent": "A sentence is a group of words that makes sense. In this lesson, pupils learn how to join words together to form short sentences. Teachers will show examples like ‘I am a boy’ or ‘The cat is big’. Pupils will understand that every sentence begins with a capital letter and ends with a full stop. The lesson also covers how to speak in full sentences instead of single words. Practice activities include reading aloud, writing short sentences on the board, and using pictures to describe what they see. Forming sentences correctly is the foundation for reading, writing, and communication.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=NfKZsGm2gKM",
+          "audioUrl": "https://www.youtube.com/watch?v=NfKZsGm2gKM"
         },
         {
           "lessonId": "pry1-english-lesson4",
@@ -124,8 +139,8 @@
           "lessonType": "audio",
           "description": "Learning about verbs that describe actions.",
           "textContent": "Action words tell us what someone or something is doing. Words like run, jump, sing, and eat are examples of verbs. In this lesson, pupils will learn how to use these words in sentences. Teachers can make the lesson active by asking pupils to perform each action while saying the word aloud. This method helps them understand meaning through movement. Pupils will also learn that verbs change when we talk about the past or present. For example, ‘I run’ becomes ‘I ran’. The lesson makes language learning fun and practical through games and chants.",
-          "videoUrl": "https://www.youtube.com/watch?v=7fW1U3X_5Cw",
-          "audioUrl": "https://www.youtube.com/watch?v=7fW1U3X_5Cw"
+          "videoUrl": "https://www.youtube.com/watch?v=Bh4ua951SCw",
+          "audioUrl": "https://www.youtube.com/watch?v=Bh4ua951SCw"
         },
         {
           "lessonId": "pry1-english-lesson5",
@@ -133,8 +148,8 @@
           "lessonType": "video",
           "description": "Introducing pupils to short and simple stories to improve reading skills.",
           "textContent": "Reading stories helps pupils develop imagination and vocabulary. In this lesson, pupils will read short stories with simple words and clear messages. Stories like ‘The Boy and His Dog’ or ‘A Day at School’ teach lessons about kindness, sharing, and honesty. Teachers should read aloud slowly while pupils follow along. Pupils can then act out parts of the story or answer questions about what happened. This builds comprehension and confidence. The goal is for pupils to enjoy reading while learning moral values from each story.",
-          "videoUrl": "https://www.youtube.com/watch?v=Z8FhD5tRr2E",
-          "audioUrl": "https://www.youtube.com/watch?v=Z8FhD5tRr2E"
+          "videoUrl": "https://www.youtube.com/watch?v=2Ea1weK84SI",
+          "audioUrl": "https://www.youtube.com/watch?v=2Ea1weK84SI"
         }
       ],
       "quiz": {
@@ -147,19 +162,34 @@
           {
             "questionId": "q1",
             "questionText": "How many letters are in the English alphabet?",
-            "options": ["24", "25", "26", "30"],
+            "options": [
+              "24",
+              "25",
+              "26",
+              "30"
+            ],
             "correctAnswer": "26"
           },
           {
             "questionId": "q2",
             "questionText": "Which word is an action word?",
-            "options": ["Table", "Run", "Sun", "Ball"],
+            "options": [
+              "Table",
+              "Run",
+              "Sun",
+              "Ball"
+            ],
             "correctAnswer": "Run"
           },
           {
             "questionId": "q3",
             "questionText": "Which of these sentences is correct?",
-            "options": ["boy the runs", "The boy runs", "runs the boy", "Boy runs the"],
+            "options": [
+              "boy the runs",
+              "The boy runs",
+              "runs the boy",
+              "Boy runs the"
+            ],
             "correctAnswer": "The boy runs"
           }
         ]
@@ -196,8 +226,8 @@
           "lessonType": "text",
           "description": "Learning about the sun and why it is important to life on Earth.",
           "textContent": "The sun is a very big ball of fire that gives light and heat to the earth. Without the sun, plants cannot grow, and animals and humans would not survive. Pupils will learn how the sun helps us see during the day and keeps us warm. The sun also helps in drying clothes and gives energy to plants. Teachers can use outdoor activities to show how sunlight feels and helps living things grow. This lesson helps pupils appreciate nature and understand the role of the sun in daily life.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=viGuK2QjU04",
+          "audioUrl": "https://www.youtube.com/watch?v=viGuK2QjU04"
         },
         {
           "lessonId": "pry1-basicscience-lesson4",
@@ -205,8 +235,8 @@
           "lessonType": "text",
           "description": "Understanding why air and water are important for living things.",
           "textContent": "We cannot see air, but we can feel it when the wind blows. All living things need air to breathe and water to live. In this lesson, pupils learn how air and water support life. Teachers can demonstrate how air fills a balloon and how water is used for washing, drinking, and cooking. Pupils also learn that clean air and water are important for good health. They are encouraged to avoid polluting their surroundings to keep air and water clean.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=_uh-8PzT4ds",
+          "audioUrl": "https://www.youtube.com/watch?v=_uh-8PzT4ds"
         },
         {
           "lessonId": "pry1-basicscience-lesson5",
@@ -228,19 +258,34 @@
           {
             "questionId": "q1",
             "questionText": "Which of these is a living thing?",
-            "options": ["Stone", "Dog", "Chair", "Cup"],
+            "options": [
+              "Stone",
+              "Dog",
+              "Chair",
+              "Cup"
+            ],
             "correctAnswer": "Dog"
           },
           {
             "questionId": "q2",
             "questionText": "The eyes are used for ____.",
-            "options": ["Walking", "Seeing", "Hearing", "Eating"],
+            "options": [
+              "Walking",
+              "Seeing",
+              "Hearing",
+              "Eating"
+            ],
             "correctAnswer": "Seeing"
           },
           {
             "questionId": "q3",
             "questionText": "What does the sun give us?",
-            "options": ["Light and heat", "Rain", "Snow", "Darkness"],
+            "options": [
+              "Light and heat",
+              "Rain",
+              "Snow",
+              "Darkness"
+            ],
             "correctAnswer": "Light and heat"
           }
         ]
@@ -259,8 +304,8 @@
           "lessonType": "text",
           "description": "Learning about family members and their roles.",
           "textContent": "A family is made up of people who are related by blood or marriage. Families can be small or large, but all families care for one another. Pupils will learn about different family members such as father, mother, brothers, and sisters. Each person in the family has duties, like parents providing for the home and children helping with chores. This lesson teaches love, respect, and cooperation among family members.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=d0jJuxNbt5Y",
+          "audioUrl": "https://www.youtube.com/watch?v=d0jJuxNbt5Y"
         },
         {
           "lessonId": "pry1-socstudies-lesson2",
@@ -277,15 +322,15 @@
           "lessonType": "text",
           "description": "Learning how to behave politely and respectfully.",
           "textContent": "Good manners make us loved and respected by others. Pupils will learn to say ‘please’, ‘thank you’, and ‘sorry’. They will also learn not to interrupt when others are speaking and to greet elders respectfully. Teachers can role-play common situations to practice manners. Developing good manners builds discipline and positive social habits.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=9yud1VdC42E",
+          "audioUrl": "https://www.youtube.com/watch?v=9yud1VdC42E"
         },
         {
           "lessonId": "pry1-socstudies-lesson4",
           "lessonTitle": "Our Community Helpers",
           "lessonType": "video",
           "description": "Learning about people who work to keep the community safe and clean.",
-          "textContent": "Every community has people who help make life better. Pupils will learn about doctors, teachers, farmers, police officers, and cleaners. Each helper plays an important role in the society. For example, doctors treat the sick, farmers grow food, and police keep us safe. Pupils will appreciate their efforts and learn to respect all types of work.",
+          "textContent": "Every community has people who help make life better. Pupils will learn about doctors, teachers, farmers, police officers, and cleaners. Each helper plays an important role in society. For example, doctors treat the sick, farmers grow food, and police keep us safe. Pupils will appreciate their efforts and learn to respect all types of work.",
           "videoUrl": "https://www.youtube.com/watch?v=hwACyxU3XJQ",
           "audioUrl": "https://www.youtube.com/watch?v=hwACyxU3XJQ"
         },
@@ -295,8 +340,8 @@
           "lessonType": "text",
           "description": "Understanding how to care for the surroundings.",
           "textContent": "A clean environment makes people healthy and happy. Pupils will learn not to litter the classroom or playground and to dispose of waste properly. They will understand that cleanliness prevents diseases and keeps the school beautiful. Teachers can organize cleanup activities to help pupils practice cleanliness and teamwork.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=zd8J7i5P1aE",
+          "audioUrl": "https://www.youtube.com/watch?v=zd8J7i5P1aE"
         }
       ],
       "quiz": {
@@ -309,19 +354,34 @@
           {
             "questionId": "q1",
             "questionText": "Who teaches pupils in school?",
-            "options": ["Driver", "Teacher", "Farmer", "Doctor"],
+            "options": [
+              "Driver",
+              "Teacher",
+              "Farmer",
+              "Doctor"
+            ],
             "correctAnswer": "Teacher"
           },
           {
             "questionId": "q2",
             "questionText": "Which of these shows good manners?",
-            "options": ["Interrupting", "Saying thank you", "Fighting", "Ignoring elders"],
+            "options": [
+              "Interrupting",
+              "Saying thank you",
+              "Fighting",
+              "Ignoring elders"
+            ],
             "correctAnswer": "Saying thank you"
           },
           {
             "questionId": "q3",
             "questionText": "Who helps to keep the environment clean?",
-            "options": ["Cleaner", "Tailor", "Pilot", "Baker"],
+            "options": [
+              "Cleaner",
+              "Tailor",
+              "Pilot",
+              "Baker"
+            ],
             "correctAnswer": "Cleaner"
           }
         ]
@@ -349,8 +409,8 @@
           "lessonType": "text",
           "description": "Understanding common materials and their uses.",
           "textContent": "We use different materials every day, such as wood, metal, plastic, and glass. Pupils will learn how these materials are used to make items like chairs, doors, spoons, and bottles. They will also learn how to care for materials so they last longer. The lesson encourages observation and appreciation for how things are made.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=uIaNf2o_TH8",
+          "audioUrl": "https://www.youtube.com/watch?v=uIaNf2o_TH8"
         },
         {
           "lessonId": "pry1-btech-lesson3",
@@ -358,8 +418,8 @@
           "lessonType": "text",
           "description": "Learning how to stay safe while using tools or playing.",
           "textContent": "Safety means avoiding danger. Pupils will learn not to run in the classroom, play with sharp objects, or touch electric sockets. Teachers should demonstrate correct ways to handle school tools. Practicing safety keeps everyone healthy and prevents accidents.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=PRybHqv7zlw",
+          "audioUrl": "https://www.youtube.com/watch?v=PRybHqv7zlw"
         },
         {
           "lessonId": "pry1-btech-lesson4",
@@ -390,19 +450,34 @@
           {
             "questionId": "q1",
             "questionText": "Which of these is a simple machine?",
-            "options": ["Book", "Scissors", "Pencil", "Paper"],
+            "options": [
+              "Book",
+              "Scissors",
+              "Pencil",
+              "Paper"
+            ],
             "correctAnswer": "Scissors"
           },
           {
             "questionId": "q2",
             "questionText": "What gives us solar energy?",
-            "options": ["The Sun", "Battery", "Water", "Wind"],
+            "options": [
+              "The Sun",
+              "Battery",
+              "Water",
+              "Wind"
+            ],
             "correctAnswer": "The Sun"
           },
           {
             "questionId": "q3",
             "questionText": "We should not play with ____ in the classroom.",
-            "options": ["Toys", "Electric sockets", "Books", "Chalk"],
+            "options": [
+              "Toys",
+              "Electric sockets",
+              "Books",
+              "Chalk"
+            ],
             "correctAnswer": "Electric sockets"
           }
         ]
@@ -439,8 +514,8 @@
           "lessonType": "text",
           "description": "Using paper, clay, and other materials to create objects.",
           "textContent": "Crafts help pupils express their imagination and practice fine motor skills. In this lesson, pupils will create simple items such as paper flowers, clay animals, and decorations using basic materials. Teachers guide pupils on folding, cutting, and shaping safely. This hands-on activity promotes creativity, patience, and pride in making something with their own hands.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=YjMDq8iYIH8",
+          "audioUrl": "https://www.youtube.com/watch?v=YjMDq8iYIH8"
         },
         {
           "lessonId": "pry1-arts-lesson4",
@@ -471,19 +546,34 @@
           {
             "questionId": "q1",
             "questionText": "Which shapes are basic in drawing?",
-            "options": ["Circle, Square, Triangle", "Star, Moon, Heart", "Hexagon, Octagon, Oval", "All of the above"],
+            "options": [
+              "Circle, Square, Triangle",
+              "Star, Moon, Heart",
+              "Hexagon, Octagon, Oval",
+              "All of the above"
+            ],
             "correctAnswer": "Circle, Square, Triangle"
           },
           {
             "questionId": "q2",
             "questionText": "Mixing red and yellow makes which color?",
-            "options": ["Green", "Orange", "Purple", "Blue"],
+            "options": [
+              "Green",
+              "Orange",
+              "Purple",
+              "Blue"
+            ],
             "correctAnswer": "Orange"
           },
           {
             "questionId": "q3",
             "questionText": "What do we learn from role play?",
-            "options": ["Creativity", "Confidence", "Social skills", "All of the above"],
+            "options": [
+              "Creativity",
+              "Confidence",
+              "Social skills",
+              "All of the above"
+            ],
             "correctAnswer": "All of the above"
           }
         ]
@@ -511,8 +601,8 @@
           "lessonType": "text",
           "description": "Learning to keep our body clean and healthy.",
           "textContent": "Personal hygiene includes washing hands, bathing regularly, brushing teeth, and wearing clean clothes. Pupils will learn why hygiene prevents sickness and helps them feel good. Teachers can demonstrate proper handwashing techniques and discuss daily hygiene routines. Healthy habits learned now will last a lifetime.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=IisgnbMfKvI",
+          "audioUrl": "https://www.youtube.com/watch?v=IisgnbMfKvI"
         },
         {
           "lessonId": "pry1-phe-lesson3",
@@ -520,8 +610,8 @@
           "lessonType": "text",
           "description": "Understanding foods that help us grow and stay healthy.",
           "textContent": "Pupils will learn about nutritious foods like fruits, vegetables, grains, and proteins. Eating healthy foods helps them grow strong, have energy, and avoid sickness. Teachers can discuss balanced meals and the benefits of drinking clean water. Pupils are encouraged to share what they eat at home and try new healthy foods.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=7G8Aw0vVtHk",
+          "audioUrl": "https://www.youtube.com/watch?v=7G8Aw0vVtHk"
         },
         {
           "lessonId": "pry1-phe-lesson4",
@@ -538,8 +628,8 @@
           "lessonType": "text",
           "description": "Learning how to stay safe and avoid accidents.",
           "textContent": "Safety means being careful to prevent harm. Pupils will learn to avoid touching sharp objects, stay away from fires, and report dangerous situations. Teachers can demonstrate safe practices at school and at home. Pupils are encouraged to think about safety in their environment and help others stay safe too.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=Uavl6b_J_UE",
+          "audioUrl": "https://www.youtube.com/watch?v=Uavl6b_J_UE"
         }
       ],
       "quiz": {
@@ -552,19 +642,34 @@
           {
             "questionId": "q1",
             "questionText": "Why do we exercise?",
-            "options": ["To grow strong", "To sleep more", "To eat less", "To watch TV"],
+            "options": [
+              "To grow strong",
+              "To sleep more",
+              "To eat less",
+              "To watch TV"
+            ],
             "correctAnswer": "To grow strong"
           },
           {
             "questionId": "q2",
             "questionText": "Which is a healthy habit?",
-            "options": ["Washing hands", "Skipping meals", "Playing near fire", "Throwing garbage on the floor"],
+            "options": [
+              "Washing hands",
+              "Skipping meals",
+              "Playing near fire",
+              "Throwing garbage on the floor"
+            ],
             "correctAnswer": "Washing hands"
           },
           {
             "questionId": "q3",
             "questionText": "Team games help us learn ____.",
-            "options": ["Sharing", "Friendship", "Coordination", "All of the above"],
+            "options": [
+              "Sharing",
+              "Friendship",
+              "Coordination",
+              "All of the above"
+            ],
             "correctAnswer": "All of the above"
           }
         ]
@@ -583,8 +688,8 @@
           "lessonType": "text",
           "description": "Learning why rules are important at home, school, and community.",
           "textContent": "Rules help everyone live safely and fairly. Pupils will learn why they must follow classroom rules, respect elders, and wait their turn. Teachers will discuss the consequences of breaking rules and how rules help prevent conflicts. Pupils are encouraged to suggest simple rules for their classroom and home.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=j4ow6pJtQHI",
+          "audioUrl": "https://www.youtube.com/watch?v=j4ow6pJtQHI"
         },
         {
           "lessonId": "pry1-civic-lesson2",
@@ -592,8 +697,8 @@
           "lessonType": "text",
           "description": "Learning how to take care of ourselves, belongings, and surroundings.",
           "textContent": "Responsibility means doing what we are supposed to do. Pupils will learn to tidy their desks, care for their books, and help at home. Teachers can assign small classroom chores to practice responsibility. Pupils will understand that being responsible earns trust and respect from others.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=EBfHcfFKIKM",
+          "audioUrl": "https://www.youtube.com/watch?v=EBfHcfFKIKM"
         },
         {
           "lessonId": "pry1-civic-lesson3",
@@ -601,8 +706,8 @@
           "lessonType": "text",
           "description": "Understanding how to treat people politely and fairly.",
           "textContent": "Respect is treating others as you want to be treated. Pupils will learn to listen, greet others, and share. Teachers can role-play situations to show polite and impolite behaviors. Respect helps build friendships and a peaceful environment.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=4lFXy5WcCw8",
+          "audioUrl": "https://www.youtube.com/watch?v=4lFXy5WcCw8"
         },
         {
           "lessonId": "pry1-civic-lesson4",
@@ -610,8 +715,8 @@
           "lessonType": "text",
           "description": "Learning how small acts of kindness can make a difference.",
           "textContent": "Pupils will learn to help classmates, friends, and family. Simple acts like carrying a book for someone or helping a friend in need teach empathy. Teachers encourage pupils to share experiences of helping others. This lesson builds compassion and social skills.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=DKJ7_PMu0bU",
+          "audioUrl": "https://www.youtube.com/watch?v=DKJ7_PMu0bU"
         },
         {
           "lessonId": "pry1-civic-lesson5",
@@ -619,8 +724,8 @@
           "lessonType": "text",
           "description": "Understanding the importance of truthfulness in daily life.",
           "textContent": "Honesty means telling the truth and not cheating. Pupils will learn that honesty earns trust and respect. Teachers can share stories showing the consequences of lying. Pupils are encouraged to always speak the truth and admit mistakes. Practicing honesty helps pupils grow as trustworthy individuals.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=H_YgwC5g2s8",
+          "audioUrl": "https://www.youtube.com/watch?v=H_YgwC5g2s8"
         }
       ],
       "quiz": {
@@ -633,19 +738,34 @@
           {
             "questionId": "q1",
             "questionText": "Why do we need rules?",
-            "options": ["To create order", "To make people unhappy", "To confuse others", "To waste time"],
+            "options": [
+              "To create order",
+              "To make people unhappy",
+              "To confuse others",
+              "To waste time"
+            ],
             "correctAnswer": "To create order"
           },
           {
             "questionId": "q2",
             "questionText": "Helping others teaches us ____.",
-            "options": ["Empathy", "Greed", "Anger", "Laziness"],
+            "options": [
+              "Empathy",
+              "Greed",
+              "Anger",
+              "Laziness"
+            ],
             "correctAnswer": "Empathy"
           },
           {
             "questionId": "q3",
             "questionText": "Being honest helps us ____.",
-            "options": ["Build trust", "Lose friends", "Get punished", "Make noise"],
+            "options": [
+              "Build trust",
+              "Lose friends",
+              "Get punished",
+              "Make noise"
+            ],
             "correctAnswer": "Build trust"
           }
         ]

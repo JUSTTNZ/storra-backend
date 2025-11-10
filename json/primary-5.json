@@ -44,8 +44,8 @@
           "lessonType": "video",
           "description": "Learning about 2D and 3D shapes and measuring objects.",
           "textContent": "Pupils identify circles, triangles, squares, rectangles, cubes, and spheres. Teachers demonstrate measuring length, weight, and capacity using rulers, scales, and measuring jugs. Pupils solve practical problems involving perimeter, area, and volume. Visual and video examples strengthen understanding.",
-          "videoUrl": "https://www.youtube.com/watch?v=9H63RrbMPVQ",
-          "audioUrl": "https://www.youtube.com/watch?v=9H63RrbMPVQ"
+          "videoUrl": "https://www.youtube.com/watch?v=gk_u1xr7jQg",
+          "audioUrl": "https://www.youtube.com/watch?v=2wUsdsae0ro"  
         }
       ],
       "quiz": {
@@ -118,7 +118,7 @@
           "lessonType": "audio",
           "description": "Practicing clear speech, listening, and oral presentations.",
           "textContent": "Pupils engage in storytelling, role-play, and discussions. Teachers guide pronunciation, tone, and active listening. Pupils listen to audio recordings and respond appropriately. Activities enhance confidence, comprehension, and communication skills.",
-          "audioUrl": "https://www.youtube.com/watch?v=5q3r0kPk_dA"
+          "audioUrl": "https://www.youtube.com/watch?v=oc4QS2USKmk"  
         }
       ],
       "quiz": {
@@ -149,6 +149,7 @@
         ]
       }
     },
+
     {
       "courseId": "pry5-basic-science",
       "courseName": "Basic Science",
@@ -169,8 +170,8 @@
           "lessonType": "video",
           "description": "Learning about roots, stems, leaves, flowers, and fruits.",
           "textContent": "Pupils study plant parts and their functions. Teachers demonstrate using real plants and visual aids. Pupils identify parts in school garden and in pictures. Understanding plants promotes knowledge of food sources, environment, and scientific observation.",
-          "videoUrl": "https://www.youtube.com/watch?v=2pLT-olgUJs",
-          "audioUrl": "https://www.youtube.com/watch?v=2pLT-olgUJs"
+          "videoUrl": "https://www.youtube.com/watch?v=Ux_kLd7qAcY", 
+          "audioUrl": "https://www.youtube.com/watch?v=Ux_kLd7qAcY"
         },
         {
           "lessonId": "pry5-sci-lesson3",
@@ -215,7 +216,7 @@
           },
           {
             "questionId": "q3",
-            "questionText": "Which season is characterized by dry and dusty winds in Nigeria?",
+          "questionText": "Which season is characterised by dry and dusty winds in Nigeria?",
             "options": ["Rainy", "Dry", "Harmattan", "Wet"],
             "correctAnswer": "Harmattan"
           }
@@ -264,8 +265,8 @@
           "lessonType": "video",
           "description": "Exploring Nigerian festivals and cultural practices.",
           "textContent": "Pupils learn about traditional dances, music, and cultural celebrations. Teachers show videos of Eyo, Osun-Osogbo, and Durbar festivals. Pupils discuss cultural diversity, traditions, and community values.",
-          "videoUrl": "https://www.youtube.com/watch?v=fv1ZTP8b6X0",
-          "audioUrl": "https://www.youtube.com/watch?v=fv1ZTP8b6X0"
+          "videoUrl": "https://www.youtube.com/watch?v=TKDfoy9LsAw",  
+          "audioUrl": "https://www.youtube.com/watch?v=-rG33c1wJzE"   
         }
       ],
       "quiz": {
@@ -290,8 +291,8 @@
           {
             "questionId": "q3",
             "questionText": "Which is a Nigerian national symbol?",
-            "options": ["Flag", "Car", "School", "River"],
-            "correctAnswer": "Flag"
+          "options": ["Flag", "Car", "School", "River"],
+          "correctAnswer": "Flag"
           }
         ]
       }
@@ -338,8 +339,8 @@
           "lessonType": "video",
           "description": "Learning safe practices when using machines and tools.",
           "textContent": "Pupils understand the importance of caution when handling tools. Teachers show videos of proper tool use, wearing protective gear, and avoiding hazards. Pupils practice safety in classroom activities.",
-          "videoUrl": "https://www.youtube.com/watch?v=Z7E9g7pdp3I",
-          "audioUrl": "https://www.youtube.com/watch?v=Z7E9g7pdp3I"
+          "videoUrl": "https://www.youtube.com/watch?v=StetyUnY8jY",  
+          "audioUrl": "https://www.youtube.com/watch?v=StetyUnY8jY"
         }
       ],
       "quiz": {
@@ -363,9 +364,9 @@
           },
           {
             "questionId": "q3",
-            "questionText": "Energy can come from:",
+          "questionText": "Energy can come from:",
             "options": ["Sun", "Pencil", "Chair", "Paper"],
-            "correctAnswer": "Sun"
+          "correctAnswer": "Sun"
           }
         ]
       }
@@ -399,8 +400,7 @@
           "lessonType": "video",
           "description": "Learning traditional dances and simple choreography.",
           "textContent": "Pupils practice cultural dances and basic modern steps. Teachers demonstrate moves and encourage creativity. Dancing enhances coordination, physical fitness, and cultural appreciation.",
-          "videoUrl": "https://www.youtube.com/watch?v=3hXZG3v5q6Q",
-          "audioUrl": "https://www.youtube.com/watch?v=3hXZG3v5q6Q"
+          "videoUrl": "https://www.youtube.com/watch?v=vzA8wMx-gew"
         },
         {
           "lessonId": "pry5-art-lesson4",
@@ -458,9 +458,9 @@
           "lessonTitle": "Exercises and Fitness",
           "lessonType": "video",
           "description": "Learning exercises to stay fit.",
-          "textContent": "Pupils practice stretching, jogging, and games. Teachers demonstrate routines. Exercises improve strength, stamina, and coordination.",
-          "videoUrl": "https://www.youtube.com/watch?v=3JX9B2q6dGQ",
-          "audioUrl": "https://www.youtube.com/watch?v=3JX9B2q6dGQ"
+          "textContent": "Pupils practise stretching, jogging, and games. Teachers demonstrate routines. Exercises improve strength, stamina, and coordination.",
+          "videoUrl": "https://www.youtube.com/watch?v=T8jI4RnHHw",  
+          "audioUrl": "https://www.youtube.com/watch?v=T8jI4RnHHw"
         },
         {
           "lessonId": "pry5-phe-lesson2",
@@ -474,9 +474,10 @@
           "lessonTitle": "Personal Hygiene",
           "lessonType": "text",
           "description": "Maintaining cleanliness.",
-          "textContent": "Pupils practice hand washing, brushing teeth, and bathing. Teachers explain germs and illness prevention."
+          "textContent": "Pupils practise hand washing, brushing teeth, and bathing. Teachers explain germs and illness prevention."
         },
         {
+          "questionId": "q4",
           "lessonId": "pry5-phe-lesson4",
           "lessonTitle": "Safety at Home and School",
           "lessonType": "text",
@@ -532,7 +533,7 @@
           "lessonTitle": "Being a Good Citizen",
           "lessonType": "text",
           "description": "Understanding what it means to be responsible in society.",
-          "textContent": "Pupils learn about respect, honesty, and helping others. Teachers discuss roles of citizens at home and school. Pupils practice kindness and responsibility."
+          "textContent": "Pupils learn about respect, honesty, and helping others. Teachers discuss roles of citizens at home and school. Pupils practise kindness and responsibility."
         },
         {
           "lessonId": "pry5-ce-lesson2",
@@ -553,7 +554,7 @@
           "lessonTitle": "Community Participation",
           "lessonType": "text",
           "description": "Contributing to the wellbeing of the community.",
-          "textContent": "Pupils explore helping in cleanup, planting trees, and assisting neighbors. Teachers explain benefits of participation."
+          "textContent": "Pupils explore helping in cleanup, planting trees, and assisting neighbours. Teachers explain benefits of participation."
         },
         {
           "lessonId": "pry5-ce-lesson5",
@@ -561,8 +562,8 @@
           "lessonType": "video",
           "description": "Learning about Nigeria, unity, and patriotism.",
           "textContent": "Pupils learn about the Nigerian flag, anthem, and national symbols. Teachers show videos of unity celebrations. Pupils discuss national pride and respect for diversity.",
-          "videoUrl": "https://www.youtube.com/watch?v=jJXyEj_4NnI",
-          "audioUrl": "https://www.youtube.com/watch?v=jJXyEj_4NnI"
+          "videoUrl": "https://www.youtube.com/watch?v=TKDfoy9LsAw",  
+          "audioUrl": "https://www.youtube.com/watch?v=-rG33c1wJzE"   
         }
       ],
       "quiz": {
@@ -593,5 +594,5 @@
         ]
       }
     }
-    ]
+  ]
 }

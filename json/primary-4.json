@@ -36,7 +36,7 @@
           "lessonTitle": "Introduction to Fractions",
           "lessonType": "text",
           "description": "Understanding parts of a whole.",
-          "textContent": "Pupils learn about halves, thirds, quarters, and other simple fractions. Teachers use examples like cutting a cake or sharing fruit. Pupils draw and shade fractions, compare sizes, and recognize equivalent fractions. This lesson develops spatial awareness and early algebraic thinking."
+          "textContent": "Pupils learn about halves, thirds, quarters, and other simple fractions. Teachers use examples like cutting a cake or sharing fruit. Pupils draw and shade fractions, compare sizes, and recognise equivalent fractions. This lesson develops spatial awareness and early algebraic thinking."
         },
         {
           "lessonId": "pry4-math-lesson5",
@@ -44,8 +44,8 @@
           "lessonType": "video",
           "description": "Identifying 2D and 3D shapes and measuring length and weight.",
           "textContent": "Pupils explore shapes like squares, rectangles, triangles, circles, cubes, spheres, and cylinders. Teachers show measuring length using rulers, weight using scales, and capacity using containers. Real-life examples include measuring tables, books, and water in bottles. Hands-on activities enhance understanding of geometry and measurement.",
-          "videoUrl": "https://www.youtube.com/watch?v=XZ8hbL6ZdGI",
-          "audioUrl": "https://www.youtube.com/watch?v=XZ8hbL6ZdGI"
+          "videoUrl": "https://www.youtube.com/watch?v=t3NUb5B-tWI", 
+          "audioUrl": "https://www.youtube.com/watch?v=t3NUb5B-tWI"
         }
       ],
       "quiz": {
@@ -63,7 +63,7 @@
           },
           {
             "questionId": "q2",
-            "questionText": "Which fraction represents half of a cake?",
+          "questionText": "Which fraction represents half of a cake?",
             "options": ["1/3", "1/4", "1/2", "1/5"],
             "correctAnswer": "1/2"
           },
@@ -76,7 +76,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry4-english-language",
       "courseName": "English Language",
@@ -89,14 +88,14 @@
           "lessonTitle": "Reading Comprehension",
           "lessonType": "text",
           "description": "Developing understanding of simple texts.",
-          "textContent": "Pupils read short passages and answer questions about the main idea, characters, setting, and events. Teachers model reading strategies like predicting, questioning, and summarizing. Pupils discuss stories in pairs and groups. Comprehension lessons improve critical thinking, vocabulary, and fluency."
+          "textContent": "Pupils read short passages and answer questions about the main idea, characters, setting, and events. Teachers model reading strategies like predicting, questioning, and summarising. Pupils discuss stories in pairs and groups. Comprehension lessons improve critical thinking, vocabulary, and fluency."
         },
         {
           "lessonId": "pry4-eng-lesson2",
           "lessonTitle": "Writing Simple Paragraphs",
           "lessonType": "text",
           "description": "Constructing clear and coherent sentences.",
-          "textContent": "Pupils learn to write simple paragraphs with topic sentences, supporting details, and a closing sentence. Teachers demonstrate using examples from daily life, such as describing their home, school, or favorite activity. Pupils practice spelling, punctuation, and neat handwriting."
+          "textContent": "Pupils learn to write simple paragraphs with topic sentences, supporting details, and a closing sentence. Teachers demonstrate using examples from daily life, such as describing their home, school, or favourite activity. Pupils practice spelling, punctuation, and neat handwriting."
         },
         {
           "lessonId": "pry4-eng-lesson3",
@@ -118,7 +117,7 @@
           "lessonType": "audio",
           "description": "Improving listening and oral communication skills.",
           "textContent": "Pupils listen to stories, songs, or instructions and answer questions or retell them. Teachers model pronunciation, intonation, and conversational skills. Pupils participate in dialogues, role-plays, and oral presentations. Listening and speaking lessons enhance confidence and effective communication.",
-          "audioUrl": "https://www.youtube.com/watch?v=kfQJpjxKN-Q"
+          "audioUrl": "https://www.youtube.com/watch?v=uG1mUoQ8gEI"
         }
       ],
       "quiz": {
@@ -168,20 +167,20 @@
           "lessonTitle": "Animals and Their Habitats",
           "lessonType": "text",
           "description": "Studying where animals live and how they survive.",
-          "textContent": "Pupils learn about domestic and wild animals, their habitats, food, and behaviors. Teachers use examples like farms, forests, rivers, and homes. Pupils observe pictures or videos, describe animals, and explain how each habitat provides shelter and food, fostering appreciation for biodiversity."
+          "textContent": "Pupils learn about domestic and wild animals, their habitats, food, and behaviours. Teachers use examples like farms, forests, rivers, and homes. Pupils observe pictures or videos, describe animals, and explain how each habitat provides shelter and food, fostering appreciation for biodiversity."
         },
         {
           "lessonId": "pry4-sci-lesson3",
           "lessonTitle": "Water and Its Uses",
           "lessonType": "text",
           "description": "Understanding water and its importance to life.",
-          "textContent": "Pupils explore sources of water, such as rivers, wells, and taps, and learn about drinking, cooking, washing, and farming. Teachers explain water conservation and hygiene. Pupils perform simple experiments to see water’s properties, emphasizing why clean water is essential for health."
+          "textContent": "Pupils explore sources of water, such as rivers, wells, and taps, and learn about drinking, cooking, washing, and farming. Teachers explain water conservation and hygiene. Pupils perform simple experiments to see water’s properties, emphasising why clean water is essential for health."
         },
         {
           "lessonId": "pry4-sci-lesson4",
           "lessonTitle": "Air and Its Importance",
           "lessonType": "text",
-          "description": "Recognizing air as essential for life.",
+          "description": "Recognising air as essential for life.",
           "textContent": "Pupils understand that air surrounds us and is necessary for breathing. Teachers demonstrate air’s presence through simple experiments like blowing balloons or moving papers. Pupils discuss pollution, ways to keep air clean, and the importance of trees and plants in providing oxygen."
         },
         {
@@ -190,8 +189,8 @@
           "lessonType": "video",
           "description": "Exploring different weather patterns and seasons in Nigeria.",
           "textContent": "Pupils learn about sunny, rainy, cloudy, and windy weather, and understand Nigeria’s rainy and dry seasons. Teachers use charts, videos, and outdoor observations. Pupils record daily weather, discuss its effects on activities, crops, and clothing. Lessons encourage observation and scientific thinking.",
-          "videoUrl": "https://www.youtube.com/watch?v=8XwV9lzAxgQ",
-          "audioUrl": "https://www.youtube.com/watch?v=8XwV9lzAxgQ"
+          "videoUrl": "https://www.youtube.com/watch?v=ZguiIg6sMeE",
+          "audioUrl": "https://www.youtube.com/watch?v=ZguiIg6sMeE"
         }
       ],
       "quiz": {
@@ -208,10 +207,10 @@
             "correctAnswer": "Leaf"
           },
           {
-            "questionId": "q2",
-            "questionText": "Which animal lives in the forest?",
-            "options": ["Dog", "Lion", "Cat", "Goat"],
-            "correctAnswer": "Lion"
+          "questionId": "q2",
+          "questionText": "Which animal lives in the forest?",
+          "options": ["Dog", "Lion", "Cat", "Goat"],
+          "correctAnswer": "Lion"
           },
           {
             "questionId": "q3",
@@ -222,7 +221,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry4-social-studies",
       "courseName": "Social Studies",
@@ -242,7 +240,7 @@
           "lessonTitle": "Our School",
           "lessonType": "text",
           "description": "Understanding school structure and roles.",
-          "textContent": "Pupils explore classrooms, playgrounds, library, and staff roles. Teachers guide discussions on rules, respect for teachers and peers, and responsibilities of pupils. Pupils participate in group activities to understand teamwork, organization, and problem-solving within the school community."
+          "textContent": "Pupils explore classrooms, playgrounds, library, and staff roles. Teachers guide discussions on rules, respect for teachers and peers, and responsibilities of pupils. Pupils participate in group activities to understand teamwork, organisation, and problem-solving within the school community."
         },
         {
           "lessonId": "pry4-ss-lesson3",
@@ -263,9 +261,9 @@
           "lessonTitle": "Caring for Our Environment",
           "lessonType": "video",
           "description": "Learning ways to protect and clean our surroundings.",
-          "textContent": "Pupils explore littering, recycling, planting trees, and keeping water sources clean. Teachers demonstrate proper disposal and conservation methods. Pupils organize clean-up exercises. Lessons foster responsibility and environmental awareness.",
-          "videoUrl": "https://www.youtube.com/watch?v=Jp1z0-bO9ZI",
-          "audioUrl": "https://www.youtube.com/watch?v=Jp1z0-bO9ZI"
+          "textContent": "Pupils explore littering, recycling, planting trees, and keeping water sources clean. Teachers demonstrate proper disposal and conservation methods. Pupils organise clean-up exercises. Lessons foster responsibility and environmental awareness.",
+          "videoUrl": "https://www.youtube.com/watch?v=Y9zKQYL9usu",
+          "audioUrl": "https://www.youtube.com/watch?v=Y9zKQYL9usu"
         }
       ],
       "quiz": {
@@ -296,7 +294,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry4-basic-technology",
       "courseName": "Basic Technology",
@@ -370,8 +367,6 @@
         ]
       }
     },
-      {
-  "courses": [
     {
       "courseId": "pry4-creative-arts",
       "courseName": "Creative Arts",
@@ -446,7 +441,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry4-physical-health-education",
       "courseName": "Physical & Health Education",
@@ -468,131 +462,128 @@
           "lessonTitle": "Healthy Eating",
           "lessonType": "text",
           "description": "Understanding the importance of a balanced diet.",
-          "textContent": "Pupils learn about foods from different groups, their benefits, and how to make healthy choices. Teachers explain the consequences of unhealthy eating and demonstrate meal planning. Pupils discuss their favorite healthy meals and reflect on improving daily diet."
+          "textContent": "Pupils learn about foods from different groups, their benefits, and how to make healthy choices. Teachers explain the consequences of unhealthy eating and demonstrate meal planning. Pupils discuss their favourite healthy meals and reflect on improving daily diet."
         },
         {
           "lessonId": "pry4-phe-lesson3",
-          "lessonTitle": "Personal Hygiene",
-          "lessonType": "text",
-          "description": "Maintaining cleanliness to prevent illness.",
-          "textContent": "Pupils practice washing hands, brushing teeth, bathing, and keeping clothes clean. Teachers explain germs, disease prevention, and safe habits. Pupils share experiences and understand the connection between hygiene and overall health."
+          "lessonType":"text",
+          "lessonTitle":"Personal Hygiene",
+          "description":"Maintaining cleanliness to prevent illness.",
+          "textContent":"Pupils practice washing hands, brushing teeth, bathing, and keeping clothes clean. Teachers explain germs, disease prevention, and safe habits. Pupils share experiences and understand the connection between hygiene and overall health."
         },
         {
           "lessonId": "pry4-phe-lesson4",
           "lessonTitle": "Safety at Home and School",
-          "lessonType": "text",
-          "description": "Learning to avoid accidents and follow safety rules.",
-          "textContent": "Pupils learn about avoiding sharp objects, electrical hazards, and running indoors. Teachers guide safe behaviors on playgrounds and classrooms. Pupils role-play scenarios to understand consequences of unsafe actions and develop responsibility."
+          "lessonType":"text",
+          "description":"Learning to avoid accidents and follow safety rules.",
+          "textContent":"Pupils learn about avoiding sharp objects, electrical hazards, and running indoors. Teachers guide safe behaviours on playgrounds and classrooms. Pupils role-play scenarios to understand consequences of unsafe actions and develop responsibility."
         },
         {
           "lessonId": "pry4-phe-lesson5",
-          "lessonTitle": "First Aid Basics",
-          "lessonType": "text",
-          "description": "Understanding simple first aid procedures.",
-          "textContent": "Pupils learn to clean minor cuts, apply bandages, and seek help for injuries. Teachers demonstrate safe techniques and emphasize asking adults for guidance. First aid lessons build confidence and awareness of caring for themselves and others."
+          "lessonType":"text",
+          "lessonTitle":"First Aid Basics",
+          "description":"Understanding simple first aid procedures.",
+          "textContent":"Pupils learn to clean minor cuts, apply bandages, and seek help for injuries. Teachers demonstrate safe techniques and emphasise asking adults for guidance. First aid lessons build confidence and awareness of caring for themselves and others."
         }
       ],
       "quiz": {
-        "quizId": "pry4-phe-quiz",
-        "quizTitle": "Physical & Health Education — Primary 4 Quiz",
-        "totalQuestions": 3,
-        "passingScore": 60,
-        "timeLimit": "10 mins",
-        "questions": [
+        "quizId":"pry4-phe-quiz",
+        "quizTitle":"Physical & Health Education — Primary 4 Quiz",
+        "totalQuestions":3,
+        "passingScore":60,
+        "timeLimit":"10 mins",
+        "questions":[
           {
-            "questionId": "q1",
-            "questionText": "Which activity improves physical fitness?",
-            "options": ["Reading", "Jogging", "Sleeping", "Watching TV"],
-            "correctAnswer": "Jogging"
+            "questionId":"q1",
+            "questionText":"Which activity improves physical fitness?",
+            "options":["Reading","Jogging","Sleeping","Watching TV"],
+            "correctAnswer":"Jogging"
           },
           {
-            "questionId": "q2",
-            "questionText": "Washing hands helps to prevent:",
-            "options": ["Illness", "Homework", "Playing", "Eating"],
-            "correctAnswer": "Illness"
+            "questionId":"q2",
+            "questionText":"Washing hands helps to prevent:",
+            "options":["Illness","Homework","Playing","Eating"],
+            "correctAnswer":"Illness"
           },
           {
-            "questionId": "q3",
-            "questionText": "What should you do if someone is injured?",
-            "options": ["Ignore", "Clean and bandage", "Run away", "Play"],
-            "correctAnswer": "Clean and bandage"
+            "questionId":"q3",
+            "questionText":"What should you do if someone is injured?",
+            "options":["Ignore","Clean and bandage","Run away","Play"],
+            "correctAnswer":"Clean and bandage"
           }
         ]
       }
     },
-
     {
-      "courseId": "pry4-civic-education",
-      "courseName": "Civic Education",
-      "courseCode": "CIV-P4",
-      "description": "Learning about rights, responsibilities, and participation in community life.",
-      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Primary_civic_education.jpg",
-      "lessons": [
+      "courseId":"pry4-civic-education",
+      "courseName":"Civic Education",
+      "courseCode":"CIV-P4",
+      "description":"Learning about rights, responsibilities, and participation in community life.",
+      "courseImage":"https://upload.wikimedia.org/wikipedia/commons/8/80/Primary_civic_education.jpg",
+      "lessons":[
         {
-          "lessonId": "pry4-civ-lesson1",
-          "lessonTitle": "Being a Responsible Citizen",
-          "lessonType": "text",
-          "description": "Understanding duties in family, school, and community.",
-          "textContent": "Pupils learn that being responsible means following rules, helping others, and taking care of property. Teachers provide examples from school and home. Pupils discuss situations where responsibility matters and reflect on personal behavior."
+          "lessonId":"pry4-civ-lesson1",
+          "lessonTitle":"Being a Responsible Citizen",
+          "lessonType":"text",
+          "description":"Understanding duties in family, school, and community.",
+          "textContent":"Pupils learn that being responsible means following rules, helping others, and taking care of property. Teachers provide examples from school and home. Pupils discuss situations where responsibility matters and reflect on personal behaviour."
         },
         {
-          "lessonId": "pry4-civ-lesson2",
-          "lessonTitle": "Rights and Duties of Children",
-          "lessonType": "text",
-          "description": "Learning about the basic rights every child has.",
-          "textContent": "Pupils learn they have rights to education, health, play, and protection. Teachers explain duties such as respecting elders, attending school, and helping at home. Pupils discuss how rights and responsibilities balance each other."
+          "lessonId":"pry4-civ-lesson2",
+          "lessonTitle":"Rights and Duties of Children",
+          "lessonType":"text",
+          "description":"Learning about the basic rights every child has.",
+          "textContent":"Pupils learn they have rights to education, health, play, and protection. Teachers explain duties such as respecting elders, attending school, and helping at home. Pupils discuss how rights and responsibilities balance each other."
         },
         {
-          "lessonId": "pry4-civ-lesson3",
-          "lessonTitle": "Helping the Community",
-          "lessonType": "text",
-          "description": "Ways to contribute positively to society.",
-          "textContent": "Pupils learn small acts like cleaning, planting trees, and assisting neighbors. Teachers encourage class projects and teamwork. Pupils share ideas on making the community better, promoting empathy and civic pride."
+          "lessonId":"pry4-civ-lesson3",
+          "lessonTitle":"Helping the Community",
+          "lessonType":"text",
+          "description":"Ways to contribute positively to society.",
+          "textContent":"Pupils learn small acts like cleaning, planting trees, and assisting neighbours. Teachers encourage class projects and teamwork. Pupils share ideas on making the community better, promoting empathy and civic pride."
         },
         {
-          "lessonId": "pry4-civ-lesson4",
-          "lessonTitle": "Honesty and Respect",
-          "lessonType": "text",
-          "description": "Understanding moral values in daily life.",
-          "textContent": "Pupils learn that telling the truth, keeping promises, and respecting others are important traits. Teachers use role-play and stories. Pupils practice these values in classroom and at home, reinforcing good character."
+          "lessonId":"pry4-civ-lesson4",
+          "lessonTitle":"Honesty and Respect",
+          "lessonType":"text",
+          "description":"Understanding moral values in daily life.",
+          "textContent":"Pupils learn that telling the truth, keeping promises, and respecting others are important traits. Teachers use role-play and stories. Pupils practise these values in classroom and at home, reinforcing good character."
         },
         {
-          "lessonId": "pry4-civ-lesson5",
-          "lessonTitle": "Following Rules and Laws",
-          "lessonType": "text",
-          "description": "Importance of rules in society for safety and fairness.",
-          "textContent": "Pupils learn that rules in school, community, and country ensure safety and fairness. Teachers give examples like road safety, classroom behavior, and obeying elders. Pupils discuss consequences of breaking rules and ways to follow them responsibly."
+          "lessonId":"pry4-civ-lesson5",
+          "lessonTitle":"Following Rules and Laws",
+          "lessonType":"text",
+          "description":"Importance of rules in society for safety and fairness.",
+          "textContent":"Pupils learn that rules in school, community, and country ensure safety and fairness. Teachers give examples like road safety, classroom behaviour, and obeying elders. Pupils discuss consequences of breaking rules and ways to follow them responsibly."
         }
       ],
-      "quiz": {
-        "quizId": "pry4-civ-quiz",
-        "quizTitle": "Civic Education — Primary 4 Quiz",
-        "totalQuestions": 3,
-        "passingScore": 60,
-        "timeLimit": "10 mins",
-        "questions": [
+      "quiz":{
+        "quizId":"pry4-civ-quiz",
+        "quizTitle":"Civic Education — Primary 4 Quiz",
+        "totalQuestions":3,
+        "passingScore":60,
+        "timeLimit":"10 mins",
+        "questions":[
           {
-            "questionId": "q1",
-            "questionText": "Being a responsible citizen means:",
-            "options": ["Helping others", "Breaking rules", "Ignoring laws", "Fighting"],
-            "correctAnswer": "Helping others"
+            "questionId":"q1",
+            "questionText":"Being a responsible citizen means:",
+            "options":["Helping others","Breaking rules","Ignoring laws","Fighting"],
+            "correctAnswer":"Helping others"
           },
           {
-            "questionId": "q2",
-            "questionText": "Children have the right to:",
-            "options": ["Education", "Stealing", "Skipping school", "Ignoring rules"],
-            "correctAnswer": "Education"
+            "questionId":"q2",
+            "questionText":"Children have the right to:",
+            "options":["Education","Stealing","Skipping school","Ignoring rules"],
+            "correctAnswer":"Education"
           },
           {
-            "questionId": "q3",
-            "questionText": "Following rules helps to:",
-            "options": ["Create chaos", "Ensure safety", "Confuse people", "Make noise"],
-            "correctAnswer": "Ensure safety"
+            "questionId":"q3",
+            "questionText":"Following rules helps to:",
+            "options":["Create chaos","Ensure safety","Confuse people","Make noise"],
+            "correctAnswer":"Ensure safety"
           }
         ]
       }
     }
-  ]
-}
   ]
 }

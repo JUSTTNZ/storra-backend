@@ -17,8 +17,8 @@
           "lessonType": "video",
           "description": "Learning to count from 1 to 100 confidently.",
           "textContent": "Pupils will practice counting from 1 to 100 using number charts, objects like pencils and fruits, and by chanting aloud. They will recognize number patterns and understand how numbers increase sequentially. Teachers encourage pupils to identify numbers around them, like in the classroom or market, to connect counting to real life.",
-          "videoUrl": "https://www.youtube.com/watch?v=7TAvGrxSxS4",
-          "audioUrl": "https://www.youtube.com/watch?v=7TAvGrxSxS4"
+          "videoUrl": "https://www.youtube.com/watch?v=0TgLtF3PMOc",
+          "audioUrl": "https://www.youtube.com/watch?v=0TgLtF3PMOc"
         },
         {
           "lessonId": "pry2-math-lesson2",
@@ -26,17 +26,17 @@
           "lessonType": "text",
           "description": "Learning to add numbers up to 50.",
           "textContent": "Pupils will learn addition using objects and drawings. They will practice problems like 12 + 15, visualizing the sum with everyday items such as fruits or coins. Teachers can guide pupils to use number lines to simplify addition. Emphasis is on accuracy and understanding the concept of combining quantities.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=_Oo1JyozH4Q",
+          "audioUrl": "https://www.youtube.com/watch?v=_Oo1JyozH4Q"
         },
         {
           "lessonId": "pry2-math-lesson3",
           "lessonTitle": "Subtraction within 50",
           "lessonType": "text",
           "description": "Learning to subtract numbers up to 50.",
-          "textContent": "Pupils will subtract using objects or drawings, e.g., 30 - 12, removing items from a set to understand the result. They will use number lines and fingers to help visualize subtraction. Teachers encourage pupils to check answers by reversing the operation (adding back the subtracted number).",
-          "videoUrl": "",
-          "audioUrl": ""
+          "textContent": "Pupils will subtract using objects or drawings, e.g., 30 − 12, removing items from a set to understand the result. They will use number lines and fingers to help visualize subtraction. Teachers encourage pupils to check answers by reversing the operation (adding back the subtracted number).",
+          "videoUrl": "https://www.youtube.com/watch?v=73tt3Je5Ie8",
+          "audioUrl": "https://www.youtube.com/watch?v=73tt3Je5Ie8"
         },
         {
           "lessonId": "pry2-math-lesson4",
@@ -44,8 +44,8 @@
           "lessonType": "video",
           "description": "Recognizing and naming squares, rectangles, triangles, and circles.",
           "textContent": "Pupils will explore 2D shapes in the classroom and at home. They will identify shapes in objects like windows, books, and clocks. Teachers may provide drawing exercises for pupils to sketch these shapes and discuss their sides, corners, and properties. Understanding shapes helps in geometry and everyday observations.",
-          "videoUrl": "https://www.youtube.com/watch?v=F6nKQ1gH2Io",
-          "audioUrl": "https://www.youtube.com/watch?v=F6nKQ1gH2Io"
+          "videoUrl": "https://www.youtube.com/watch?v=3kYbAKN9xn0",
+          "audioUrl": "https://www.youtube.com/watch?v=3kYbAKN9xn0"
         },
         {
           "lessonId": "pry2-math-lesson5",
@@ -53,8 +53,8 @@
           "lessonType": "video",
           "description": "Introduction to measuring objects using rulers and other tools.",
           "textContent": "Pupils will learn about units of measurement like centimeters and meters. They will measure objects in the classroom using rulers, sticks, or strings. Teachers will explain the concept of long, short, tall, and small, helping pupils compare lengths. Measurement introduces real-world math applications.",
-          "videoUrl": "https://www.youtube.com/watch?v=4jCEgSeMQZw",
-          "audioUrl": "https://www.youtube.com/watch?v=4jCEgSeMQZw"
+          "videoUrl": "https://www.youtube.com/watch?v=ftB5VU64yGA",
+          "audioUrl": "https://www.youtube.com/watch?v=ftB5VU64yGA"
         }
       ],
       "quiz": {
@@ -107,17 +107,17 @@
           "lessonType": "text",
           "description": "Learning new words related to school, home, and environment.",
           "textContent": "Pupils are introduced to new words through reading and conversations. Teachers explain meanings and use the words in sentences. Pupils practice spelling and pronunciation. Vocabulary lessons help improve communication and reading comprehension.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A",
+          "audioUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A"
         },
         {
           "lessonId": "pry2-eng-lesson3",
           "lessonTitle": "Writing Simple Sentences",
           "lessonType": "text",
           "description": "Forming sentences using nouns, verbs, and adjectives.",
-          "textContent": "Pupils practice writing sentences about their family, school, and surroundings. Teachers guide them to use correct punctuation and capitalization. Writing sentences improves grammar, clarity, and expression. Pupils also learn to write neatly and organize their ideas.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "textContent": "Pupils practice writing sentences about their family, school, and surroundings. Teachers guide them to use correct punctuation and capitalization. Writing sentences improves grammar, clarity, and expression. Pupils also learn to write neatly and organise their ideas.",
+          "videoUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A",
+          "audioUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A"
         },
         {
           "lessonId": "pry2-eng-lesson4",
@@ -125,14 +125,14 @@
           "lessonType": "text",
           "description": "Understanding nouns, verbs, adjectives, and pronouns.",
           "textContent": "Teachers introduce basic grammar concepts using examples from everyday life. Pupils learn to identify and use different parts of speech in sentences. Activities include identifying nouns in the classroom, acting out verbs, and describing objects with adjectives.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A",
+          "audioUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A"
         },
         {
           "lessonId": "pry2-eng-lesson5",
           "lessonTitle": "Listening and Speaking",
           "lessonType": "audio",
-          "description": "Practicing clear pronunciation, listening comprehension, and short dialogues.",
+          "description": "Practising clear pronunciation, listening comprehension, and short dialogues.",
           "textContent": "Pupils listen to simple stories, instructions, or songs. They answer questions and repeat sentences for pronunciation practice. Teachers encourage pupils to participate in short dialogues and oral presentations. Listening and speaking improve communication skills and confidence.",
           "videoUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A",
           "audioUrl": "https://www.youtube.com/watch?v=6qZfK3TcA0A"
@@ -188,8 +188,8 @@
           "lessonType": "text",
           "description": "Learning the names and functions of basic body parts.",
           "textContent": "Pupils explore major body parts like the head, hands, legs, eyes, ears, nose, and mouth. Teachers explain the function of each part using drawings, demonstrations, and games. Pupils also learn about basic body care, hygiene, and healthy habits. Understanding body parts is important for safety, health, and daily activities.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=SqI-NMDeLa8U",
+          "audioUrl": "https://www.youtube.com/watch?v=SqI-NMDeLa8U"
         },
         {
           "lessonId": "pry2-sci-lesson3",
@@ -204,10 +204,10 @@
           "lessonId": "pry2-sci-lesson4",
           "lessonTitle": "Plants Around Us",
           "lessonType": "text",
-          "description": "Recognizing trees, flowers, and crops in our environment.",
+          "description": "Recognising trees, flowers, and crops in our environment.",
           "textContent": "Pupils explore different types of plants, their parts (roots, stem, leaves, flowers), and their importance. Teachers discuss how plants provide food, oxygen, and shelter. Pupils are encouraged to observe plants around them, draw diagrams, and understand simple plant care and growth requirements.",
-          "videoUrl": "",
-          "audioUrl": ""
+          "videoUrl": "https://www.youtube.com/watch?v=SqI-NMDeLa8U",
+          "audioUrl": "https://www.youtube.com/watch?v=SqI-NMDeLa8U"
         },
         {
           "lessonId": "pry2-sci-lesson5",
@@ -259,35 +259,45 @@
           "lessonTitle": "My Family",
           "lessonType": "text",
           "description": "Learning about family members and their roles.",
-          "textContent": "Pupils discuss family members such as father, mother, siblings, grandparents, and their responsibilities. Teachers encourage pupils to talk about their family routines and traditions. Pupils learn respect, cooperation, and basic family values."
+          "textContent": "Pupils discuss family members such as father, mother, siblings, grandparents, and their responsibilities. Teachers encourage pupils to talk about their family routines and traditions. Pupils learn respect, co-operation, and basic family values.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-ss-lesson2",
           "lessonTitle": "My School",
           "lessonType": "text",
           "description": "Understanding the school environment and its people.",
-          "textContent": "Pupils explore the school building, classrooms, playground, and staff members. Teachers guide pupils to identify teachers, principal, librarian, and other roles. They learn about school rules, responsibilities, and the importance of education."
+          "textContent": "Pupils explore the school building, classrooms, playground, and staff members. Teachers guide pupils to identify teachers, principal, librarian, and other roles. They learn about school rules, responsibilities, and the importance of education.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-ss-lesson3",
           "lessonTitle": "Community Helpers",
           "lessonType": "text",
-          "description": "Recognizing people who help in the community.",
-          "textContent": "Pupils learn about doctors, nurses, police officers, firemen, and market sellers. Teachers discuss their jobs and contributions to society. Pupils engage in role-play activities to understand different professions."
+          "description": "Recognising people who help in the community.",
+          "textContent": "Pupils learn about doctors, nurses, police officers, fire-men, and market sellers. Teachers discuss their jobs and contributions to society. Pupils engage in role-play activities to understand different professions.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-ss-lesson4",
           "lessonTitle": "Market and Trade",
           "lessonType": "text",
           "description": "Introduction to buying and selling in the market.",
-          "textContent": "Pupils learn about common market items, money handling, and simple exchanges. Teachers explain basic concepts of trade, price, and quantity. Pupils participate in pretend play to simulate market activities."
+          "textContent": "Pupils learn about common market items, money handling, and simple exchanges. Teachers explain basic concepts of trade, price, and quantity. Pupils participate in pretend play to simulate market activities.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-ss-lesson5",
           "lessonTitle": "Transport and Roads",
           "lessonType": "text",
           "description": "Learning about different modes of transport.",
-          "textContent": "Pupils identify bicycles, cars, buses, motorcycles, and boats. Teachers explain safety rules on the road and the importance of transportation in daily life. Pupils discuss ways to travel safely and observe traffic signs."
+          "textContent": "Pupils identify bicycles, cars, buses, motorcycles, and boats. Teachers explain safety rules on the road and the importance of transportation in daily life. Pupils discuss ways to travel safely and observe traffic signs.",
+          "videoUrl": "",
+          "audioUrl": ""
         }
       ],
       "quiz": {
@@ -312,7 +322,7 @@
           {
             "questionId": "q3",
             "questionText": "Who is part of your family?",
-            "options": ["Friend", "Father", "Neighbor", "Shopkeeper"],
+            "options": ["Friend", "Father", "Neighbour", "Shop-keeper"],
             "correctAnswer": "Father"
           }
         ]
@@ -330,21 +340,25 @@
           "lessonTitle": "Simple Tools Around Us",
           "lessonType": "text",
           "description": "Learning about common household and school tools.",
-          "textContent": "Pupils explore scissors, pencils, hammers, knives, and rulers. Teachers explain their uses, safety precautions, and maintenance. Pupils learn to identify and handle tools correctly, enhancing safety awareness."
+          "textContent": "Pupils explore scissors, pencils, hammers, knives, and rulers. Teachers explain their uses, safety precautions, and maintenance. Pupils learn to identify and handle tools correctly, enhancing safety awareness.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-tech-lesson2",
           "lessonTitle": "Using Materials",
           "lessonType": "text",
           "description": "Introduction to materials like wood, metal, cloth, and plastic.",
-          "textContent": "Pupils learn characteristics of materials, their uses, and how to care for them. Teachers provide examples such as wooden chairs, metal spoons, and plastic containers. Pupils also engage in simple sorting activities based on material type."
+          "textContent": "Pupils learn characteristics of materials, their uses, and how to care for them. Teachers provide examples such as wooden chairs, metal spoons, and plastic containers. Pupils also engage in simple sorting activities based on material type.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-tech-lesson3",
           "lessonTitle": "Simple Machines",
           "lessonType": "video",
           "description": "Understanding basic machines like pulleys and levers.",
-          "textContent": "Pupils explore simple machines and how they help reduce effort. Teachers demonstrate using examples like seesaws, pulleys, and wheelbarrows. Pupils participate in practical activities to observe and describe machine functions.",
+          "textContent": "Pupils explore simple machines and how they help reduce effort. Teachers demonstrate using examples like seesaws, pulleys, and wheelbarrows. Pupils participate in practical activities to observe machine functions.",
           "videoUrl": "https://www.youtube.com/watch?v=w2_Wiop0NYk",
           "audioUrl": "https://www.youtube.com/watch?v=w2_Wiop0NYk"
         },
@@ -353,14 +367,16 @@
           "lessonTitle": "Safety with Tools",
           "lessonType": "text",
           "description": "Learning safe practices when using tools.",
-          "textContent": "Teachers demonstrate how to use scissors, knives, and other tools safely. Pupils learn to store tools properly and avoid injuries. Safety practices include wearing protective items and following instructions carefully."
+          "textContent": "Teachers demonstrate how to use scissors, knives, and other tools safely. Pupils learn to store tools properly and avoid injuries. Safety practices include wearing protective items and following instructions carefully.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-tech-lesson5",
           "lessonTitle": "Making Simple Items",
           "lessonType": "video",
-          "description": "Creating simple items like paper boats and handcrafts.",
-          "textContent": "Pupils use materials like paper, cloth, and sticks to create simple items. Teachers guide them in folding, cutting, and assembling. This lesson promotes creativity, problem-solving, and fine motor skills.",
+          "description": "Creating simple items like paper boats and hand-crafts.",
+          "textContent": "Pupils use materials like paper, cloth, and sticks to create simple items. Teachers guide them in folding, cutting, and assembling materials. This lesson promotes creativity, problem-solving, and fine motor skills.",
           "videoUrl": "https://www.youtube.com/watch?v=E4cOWqZbWJ4",
           "audioUrl": "https://www.youtube.com/watch?v=E4cOWqZbWJ4"
         }
@@ -411,10 +427,10 @@
         },
         {
           "lessonId": "pry2-art-lesson2",
-          "lessonTitle": "Painting with Colors",
+          "lessonTitle": "Painting with Colours",
           "lessonType": "video",
-          "description": "Exploring primary and secondary colors in painting.",
-          "textContent": "Pupils learn to mix colors and apply them on paper using brushes or fingers. Teachers demonstrate blending techniques and encourage creativity. Pupils paint simple scenes and objects, learning about color combinations and aesthetics.",
+          "description": "Exploring primary and secondary colours in painting.",
+          "textContent": "Pupils learn to mix colours and apply them on paper using brushes or fingers. Teachers demonstrate blending techniques and encourage creativity. Pupils paint simple scenes and objects, learning about colour combinations and aesthetics.",
           "videoUrl": "https://www.youtube.com/watch?v=IuHYYHrnctA",
           "audioUrl": "https://www.youtube.com/watch?v=IuHYYHrnctA"
         },
@@ -433,7 +449,7 @@
           "lessonType": "audio",
           "description": "Learning songs, rhythms, and basic musical instruments.",
           "textContent": "Pupils learn simple songs, clapping rhythms, and how to play basic instruments like drums and xylophones. Teachers encourage participation, listening skills, and coordination. Music lessons enhance memory, expression, and cultural appreciation.",
-          "videoUrl": "",
+          "videoUrl": "https://www.youtube.com/watch?v=H4V0QIXlW0M",
           "audioUrl": "https://www.youtube.com/watch?v=H4V0QIXlW0M"
         },
         {
@@ -441,7 +457,9 @@
           "lessonTitle": "Art Appreciation",
           "lessonType": "text",
           "description": "Understanding and enjoying different forms of art.",
-          "textContent": "Pupils observe paintings, sculptures, and craftwork. Teachers discuss colors, patterns, and messages in artworks. Pupils express opinions and create their interpretations. This lesson develops observation skills, creativity, and cultural awareness."
+          "textContent": "Pupils observe paintings, sculptures, and craft-work. Teachers discuss colours, patterns, and messages in artworks. Pupils express opinions and create their interpretations. This lesson develops observation skills, creativity, and cultural awareness.",
+          "videoUrl": "",
+          "audioUrl": ""
         }
       ],
       "quiz": {
@@ -453,7 +471,7 @@
         "questions": [
           {
             "questionId": "q1",
-            "questionText": "Which color is primary?",
+            "questionText": "Which colour is primary?",
             "options": ["Green", "Red", "Purple", "Orange"],
             "correctAnswer": "Red"
           },
@@ -493,7 +511,7 @@
           "lessonTitle": "Games and Team Activities",
           "lessonType": "video",
           "description": "Playing simple outdoor and indoor games.",
-          "textContent": "Pupils learn games like tag, skipping, and ball games. Teachers organize team activities to promote cooperation, fairness, and participation. Games improve social skills, agility, and physical fitness.",
+          "textContent": "Pupils learn games like tag, skipping, and ball games. Teachers organise team activities to promote co-operation, fairness, and participation. Games improve social skills, agility, and physical fitness.",
           "videoUrl": "https://www.youtube.com/watch?v=0yBjG6fR28A",
           "audioUrl": "https://www.youtube.com/watch?v=0yBjG6fR28A"
         },
@@ -502,21 +520,27 @@
           "lessonTitle": "Healthy Eating",
           "lessonType": "text",
           "description": "Learning about nutritious foods and balanced diet.",
-          "textContent": "Pupils learn the importance of eating fruits, vegetables, grains, and protein. Teachers discuss foods that promote growth and those to consume less. Pupils also learn hygiene practices like washing hands before eating."
+          "textContent": "Pupils learn the importance of eating fruits, vegetables, grains, and protein. Teachers discuss foods that promote growth and those to consume less. Pupils also learn hygiene practices like washing hands before eating.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-phe-lesson4",
           "lessonTitle": "Personal Hygiene",
           "lessonType": "text",
           "description": "Maintaining cleanliness for good health.",
-          "textContent": "Pupils learn to brush teeth, bathe regularly, wash hands, and keep nails clean. Teachers explain the benefits of hygiene and the consequences of poor habits. Activities include demonstrations and group discussions."
+          "textContent": "Pupils learn to brush teeth, bathe regularly, wash hands, and keep nails clean. Teachers explain the benefits of hygiene and the consequences of poor habits. Activities include demonstrations and group discussions.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-phe-lesson5",
           "lessonTitle": "Safety Rules",
           "lessonType": "text",
           "description": "Learning to stay safe at home, school, and on the road.",
-          "textContent": "Pupils learn about traffic safety, avoiding dangerous objects, and emergency procedures. Teachers provide examples of hazards and teach pupils how to respond safely. Safety awareness helps prevent accidents and injuries."
+          "textContent": "Pupils learn about traffic safety, avoiding dangerous objects, and emergency procedures. Teachers provide examples of hazards and teach pupils how to respond safely. Safety awareness helps prevent accidents and injuries.",
+          "videoUrl": "",
+          "audioUrl": ""
         }
       ],
       "quiz": {
@@ -551,43 +575,51 @@
       "courseId": "pry2-civic-education",
       "courseName": "Civic Education",
       "courseCode": "CIV-P2",
-      "description": "Learning about good behavior, respect, community, and national values.",
+      "description": "Learning about good behaviour, respect, community, and national values.",
       "courseImage": "https://upload.wikimedia.org/wikipedia/commons/4/49/Primary_civic_education_class.jpg",
       "lessons": [
         {
           "lessonId": "pry2-civ-lesson1",
           "lessonTitle": "Good Manners",
           "lessonType": "text",
-          "description": "Understanding polite behavior and respect for others.",
-          "textContent": "Pupils learn greetings, saying thank you, and listening to others. Teachers demonstrate proper behavior at home, school, and community. Good manners help build relationships and positive social interaction."
+          "description": "Understanding polite behaviour and respect for others.",
+          "textContent": "Pupils learn greetings, saying thank you, and listening to others. Teachers demonstrate proper behaviour at home, school, and community. Good manners help build relationships and positive social interaction.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-civ-lesson2",
           "lessonTitle": "Helping Others",
           "lessonType": "text",
-          "description": "Learning to assist friends, family, and neighbors.",
-          "textContent": "Pupils participate in small acts of kindness, such as helping carry items or sharing. Teachers emphasize empathy, cooperation, and teamwork. Activities include role-plays and discussions on helping behaviors."
+          "description": "Learning to assist friends, family, and neighbours.",
+          "textContent": "Pupils participate in small acts of kindness, such as helping carry items or sharing. Teachers emphasise empathy, co-operation, and teamwork. Activities include role-plays and discussions on helping behaviours.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-civ-lesson3",
           "lessonTitle": "Rules and Discipline",
           "lessonType": "text",
           "description": "Understanding the importance of rules at home and school.",
-          "textContent": "Pupils learn why rules exist, consequences of breaking them, and benefits of following rules. Teachers use examples from classroom routines and school regulations. Pupils discuss how rules help everyone stay safe and organized."
+          "textContent": "Pupils learn why rules exist, consequences of breaking them, and benefits of following rules. Teachers use examples from classroom routines and school regulations. Pupils discuss how rules help everyone stay safe and organised.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-civ-lesson4",
-          "lessonTitle": "Community and Neighborhood",
+          "lessonTitle": "Community and Neighbourhood",
           "lessonType": "text",
           "description": "Learning about people and activities in the local community.",
-          "textContent": "Pupils identify local places like markets, hospitals, schools, and churches/mosques. Teachers discuss roles of community members and how everyone contributes to a healthy neighborhood. Pupils may take walks or observe their surroundings to learn practically."
+          "textContent": "Pupils identify local places like markets, hospitals, schools, and churches/mosques. Teachers discuss roles of community members and how everyone contributes to a healthy neighbourhood. Pupils may take walks or observe their surroundings to learn practically.",
+          "videoUrl": "",
+          "audioUrl": ""
         },
         {
           "lessonId": "pry2-civ-lesson5",
           "lessonTitle": "National Symbols",
           "lessonType": "video",
           "description": "Introducing the Nigerian flag, anthem, and coat of arms.",
-          "textContent": "Pupils learn about the Nigerian flag colors, meaning, and national anthem. Teachers explain symbols on the coat of arms and their significance. Pupils sing the anthem and discuss patriotism and pride for their country.",
+          "textContent": "Pupils learn about the Nigerian flag colours, meaning, and national anthem. Teachers explain symbols on the coat of arms and their significance. Pupils sing the anthem and discuss patriotism and pride for their country.",
           "videoUrl": "https://www.youtube.com/watch?v=U5B-K6QW47s",
           "audioUrl": "https://www.youtube.com/watch?v=U5B-K6QW47s"
         }
