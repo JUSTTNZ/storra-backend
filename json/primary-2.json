@@ -85,7 +85,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry2-english",
       "courseName": "English Language",
@@ -168,8 +167,6 @@
       }
     },
     {
-  "courses": [
-    {
       "courseId": "pry2-basic-science",
       "courseName": "Basic Science",
       "courseCode": "SCI-P2",
@@ -250,7 +247,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry2-social-studies",
       "courseName": "Social Studies",
@@ -322,7 +318,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry2-basic-technology",
       "courseName": "Basic Technology",
@@ -398,7 +393,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry2-creative-arts",
       "courseName": "Creative Arts",
@@ -478,7 +472,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry2-physical-health-education",
       "courseName": "Physical & Health Education",
@@ -554,7 +547,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry2-civic-education",
       "courseName": "Civic Education",

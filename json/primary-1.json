@@ -164,11 +164,7 @@
           }
         ]
       }
-    }
-  ]
-},
-{
-  "courses": [
+    },
     {
       "courseId": "pry1-basicscience",
       "courseName": "Basic Science",
@@ -411,11 +407,7 @@
           }
         ]
       }
-    }
-  ]
-},
-{
-  "courses": [
+    },
     {
       "courseId": "pry1-creativearts",
       "courseName": "Creative Arts",

@@ -1,4 +1,7 @@
 {
+  "classId": "primary-1",
+  "className": "Primary 1",
+  "educationLevel": "primary",
   "courses": [
     {
       "courseId": "pry6-mathematics",
@@ -146,7 +149,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry6-basic-science",
       "courseName": "Basic Science",
@@ -592,5 +594,7 @@
         ]
       }
     }
+  ]
+}
   ]
 }
