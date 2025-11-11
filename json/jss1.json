@@ -1,0 +1,351 @@
+{
+  "classId": "jss-1",
+  "className": "JSS 1",
+  "educationLevel": "junior-secondary",
+  "courses": [
+    {
+      "courseId": "jss1-math",
+      "courseName": "Mathematics",
+      "courseCode": "MATH-JSS1",
+      "description": "JSS1 Mathematics course covering whole numbers, fractions, algebra, and geometry.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Elementary_math_classroom.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss1-math-lesson1",
+          "lessonTitle": "Whole Numbers",
+          "lessonType": "text",
+          "description": "Counting, writing, and place value of whole numbers.",
+          "textContent": "This lesson introduces whole numbers, including how to count, write, and determine the place value of digits in large numbers."
+        },
+        {
+          "lessonId": "jss1-math-lesson2",
+          "lessonTitle": "Fractions, Decimals, and Percentages",
+          "lessonType": "text",
+          "description": "Introduction to fractions, decimals, and percentages.",
+          "textContent": "This lesson provides an introduction to fractions, decimals, and percentages, and how to convert between them."
+        },
+        {
+          "lessonId": "jss1-math-lesson3",
+          "lessonTitle": "Algebra: Basic Concepts",
+          "lessonType": "text",
+          "description": "Using symbols, identifying coefficients, and simplifying like terms.",
+          "textContent": "This lesson introduces basic algebraic concepts, such as using symbols to represent numbers, identifying coefficients, and simplifying algebraic expressions by collecting like terms."
+        },
+        {
+          "lessonId": "jss1-math-lesson4",
+          "lessonTitle": "Geometry: Plane Shapes",
+          "lessonType": "text",
+          "description": "Perimeter and area of regular and irregular shapes.",
+          "textContent": "This lesson covers plane shapes, including how to calculate the perimeter and area of regular and irregular shapes like squares, rectangles, and triangles."
+        },
+        {
+          "lessonId": "jss1-math-lesson5",
+          "lessonTitle": "Statistics: Introduction",
+          "lessonType": "text",
+          "description": "Introduction to statistics and calculating mean, median, and mode.",
+          "textContent": "This lesson provides an introduction to statistics, including how to calculate the mean, median, and mode of a set of data."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss1-math-quiz",
+        "quizTitle": "Mathematics — JSS1 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "What is the place value of the digit 5 in the number 25,834?",
+            "options": [
+              "Tens",
+              "Hundreds",
+              "Thousands",
+              "Ten thousands"
+            ],
+            "correctAnswer": "Thousands"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Convert 0.75 to a percentage.",
+            "options": [
+              "7.5%",
+              "75%",
+              "0.75%",
+              "750%"
+            ],
+            "correctAnswer": "75%"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What is the perimeter of a square with a side length of 5cm?",
+            "options": [
+              "10cm",
+              "15cm",
+              "20cm",
+              "25cm"
+            ],
+            "correctAnswer": "20cm"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss1-english",
+      "courseName": "English Language",
+      "courseCode": "ENG-JSS1",
+      "description": "JSS1 English Language course focusing on speech, grammar, reading, and writing.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Children_reading_books.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss1-english-lesson1",
+          "lessonTitle": "Speech Work: Organs of Speech",
+          "lessonType": "text",
+          "description": "Introduction to the organs of speech.",
+          "textContent": "This lesson introduces the organs of speech and their functions in producing sounds."
+        },
+        {
+          "lessonId": "jss1-english-lesson2",
+          "lessonTitle": "Grammar: Parts of Speech",
+          "lessonType": "text",
+          "description": "Introduction to the eight parts of speech.",
+          "textContent": "This lesson provides an introduction to the eight parts of speech: nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections."
+        },
+        {
+          "lessonId": "jss1-english-lesson3",
+          "lessonTitle": "Reading and Comprehension: Identifying Main Ideas",
+          "lessonType": "text",
+          "description": "Strategies for identifying main and supporting ideas in a passage.",
+          "textContent": "This lesson teaches strategies for identifying the main and supporting ideas in a reading passage."
+        },
+        {
+          "lessonId": "jss1-english-lesson4",
+          "lessonTitle": "Composition: Informal Letter Writing",
+          "lessonType": "text",
+          "description": "Learning the format and style of informal letters.",
+          "textContent": "This lesson introduces the format and style of informal letter writing, for communicating with friends and family."
+        },
+        {
+          "lessonId": "jss1-english-lesson5",
+          "lessonTitle": "Literature: Introduction to Literature",
+          "lessonType": "text",
+          "description": "Definition and features of literature, including African folktales.",
+          "textContent": "This lesson provides an introduction to literature, including its definition and features, with a focus on African folktales."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss1-english-quiz",
+        "quizTitle": "English Language — JSS1 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is NOT an organ of speech?",
+            "options": [
+              "Lungs",
+              "Tongue",
+              "Stomach",
+              "Lips"
+            ],
+            "correctAnswer": "Stomach"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which part of speech is the word 'beautiful'?",
+            "options": [
+              "Noun",
+              "Verb",
+              "Adjective",
+              "Adverb"
+            ],
+            "correctAnswer": "Adjective"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What is the main purpose of an informal letter?",
+            "options": [
+              "To apply for a job",
+              "To complain about a product",
+              "To communicate with friends and family",
+              "To request official information"
+            ],
+            "correctAnswer": "To communicate with friends and family"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss1-basicscience",
+      "courseName": "Basic Science",
+      "courseCode": "BSC-JSS1",
+      "description": "JSS1 Basic Science covering living and non-living things, human development, and energy.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/0/05/Primary_science_lab.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss1-basicscience-lesson1",
+          "lessonTitle": "Living and Non-Living Things",
+          "lessonType": "text",
+          "description": "Classification and characteristics of living and non-living things.",
+          "textContent": "This lesson covers the classification and characteristics of living and non-living things."
+        },
+        {
+          "lessonId": "jss1-basicscience-lesson2",
+          "lessonTitle": "Human Development: Sanitation",
+          "lessonType": "text",
+          "description": "Understanding sanitation and refuse and sewage management.",
+          "textContent": "This lesson focuses on human development, with a focus on sanitation and the management of refuse and sewage."
+        },
+        {
+          "lessonId": "jss1-basicscience-lesson3",
+          "lessonTitle": "Nutrition",
+          "lessonType": "text",
+          "description": "Understanding the classes of food and the importance of a balanced diet.",
+          "textContent": "This lesson introduces the different classes of food and explains the importance of a balanced diet for human health."
+        },
+        {
+          "lessonId": "jss1-basicscience-lesson4",
+          "lessonTitle": "Energy",
+          "lessonType": "text",
+          "description": "Meaning, sources, and forms of energy.",
+          "textContent": "This lesson introduces the concept of energy, its various sources (renewable and non-renewable), and its different forms."
+        },
+        {
+          "lessonId": "jss1-basicscience-lesson5",
+          "lessonTitle": "Forces",
+          "lessonType": "text",
+          "description": "Meaning, types, and uses of forces.",
+          "textContent": "This lesson introduces the concept of forces, including their meaning, different types (e.g., gravitational, frictional), and their uses."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss1-basicscience-quiz",
+        "quizTitle": "Basic Science — JSS1 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is a characteristic of living things?",
+            "options": [
+              "They do not move",
+              "They do not grow",
+              "They reproduce",
+              "They do not need food"
+            ],
+            "correctAnswer": "They reproduce"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which of the following is a class of food?",
+            "options": [
+              "Water",
+              "Carbohydrates",
+              "Oxygen",
+              "Sunlight"
+            ],
+            "correctAnswer": "Carbohydrates"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which of the following is a renewable source of energy?",
+            "options": [
+              "Coal",
+              "Petroleum",
+              "Sunlight",
+              "Natural gas"
+            ],
+            "correctAnswer": "Sunlight"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "jss1-socialstudies",
+      "courseName": "Social Studies",
+      "courseCode": "SOS-JSS1",
+      "description": "JSS1 Social Studies covering culture, socialization, family, and safety.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Children_in_classroom_learning_together.jpg",
+      "lessons": [
+        {
+          "lessonId": "jss1-socialstudies-lesson1",
+          "lessonTitle": "Culture",
+          "lessonType": "text",
+          "description": "Definition, types, and components of culture.",
+          "textContent": "This lesson introduces the concept of culture, including its definition, different types, and various components."
+        },
+        {
+          "lessonId": "jss1-socialstudies-lesson2",
+          "lessonTitle": "Socialization",
+          "lessonType": "text",
+          "description": "Definition, types, and agents of socialization.",
+          "textContent": "This lesson defines socialization and discusses its different types and the various agents of socialization, such as the family, school, and peers."
+        },
+        {
+          "lessonId": "jss1-socialstudies-lesson3",
+          "lessonTitle": "The Family",
+          "lessonType": "text",
+          "description": "The family as a primary social group, its types, roles, and functions.",
+          "textContent": "This lesson discusses the family as a primary social group, its different types, and the roles and responsibilities of its members."
+        },
+        {
+          "lessonId": "jss1-socialstudies-lesson4",
+          "lessonTitle": "Contemporary Social Problems",
+          "lessonType": "text",
+          "description": "Causes, effects, and solutions to social problems like cultism and examination malpractices.",
+          "textContent": "This lesson explores contemporary social problems in Nigeria, such as cultism and examination malpractices, discussing their causes, effects, and potential solutions."
+        },
+        {
+          "lessonId": "jss1-socialstudies-lesson5",
+          "lessonTitle": "Safety",
+          "lessonType": "text",
+          "description": "The importance of safety and safety measures in the home and environment.",
+          "textContent": "This lesson emphasizes the importance of safety and discusses various safety measures that should be taken in the home and the wider environment."
+        }
+      ],
+      "quiz": {
+        "quizId": "jss1-socialstudies-quiz",
+        "quizTitle": "Social Studies — JSS1 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is an agent of socialization?",
+            "options": [
+              "The family",
+              "The school",
+              "The media",
+              "All of the above"
+            ],
+            "correctAnswer": "All of the above"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "A family made up of a man, his wife, and their children is called...",
+            "options": [
+              "an extended family",
+              "a nuclear family",
+              "a polygamous family",
+              "a monogamous family"
+            ],
+            "correctAnswer": "a nuclear family"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which of the following is a social problem in Nigeria?",
+            "options": [
+              "Cultism",
+              "Examination malpractice",
+              "HIV/AIDS",
+              "All of the above"
+            ],
+            "correctAnswer": "All of the above"
+          }
+        ]
+      }
+    }
+  ]
+}

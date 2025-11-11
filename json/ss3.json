@@ -1,0 +1,351 @@
+{
+  "classId": "ss-3",
+  "className": "SS 3",
+  "educationLevel": "senior-secondary",
+  "courses": [
+    {
+      "courseId": "ss3-math",
+      "courseName": "Mathematics",
+      "courseCode": "MATH-SS3",
+      "description": "SS3 Mathematics course covering calculus, coordinate geometry, matrices, and trigonometry.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Elementary_math_classroom.jpg",
+      "lessons": [
+        {
+          "lessonId": "ss3-math-lesson1",
+          "lessonTitle": "Calculus: Differentiation",
+          "lessonType": "text",
+          "description": "Introduction to differentiation of algebraic functions.",
+          "textContent": "This lesson introduces the basic concepts of differentiation, including finding the derivative of simple algebraic functions from first principles."
+        },
+        {
+          "lessonId": "ss3-math-lesson2",
+          "lessonTitle": "Calculus: Integration",
+          "lessonType": "text",
+          "description": "Introduction to integration of simple algebraic functions.",
+          "textContent": "This lesson introduces the basic concepts of integration as the reverse of differentiation, and finding the integral of simple algebraic functions."
+        },
+        {
+          "lessonId": "ss3-math-lesson3",
+          "lessonTitle": "Coordinate Geometry",
+          "lessonType": "text",
+          "description": "Gradient and equation of a straight line.",
+          "textContent": "This lesson covers coordinate geometry, including finding the gradient of a straight line and determining the equation of a straight line."
+        },
+        {
+          "lessonId": "ss3-math-lesson4",
+          "lessonTitle": "Matrices and Determinants",
+          "lessonType": "text",
+          "description": "Determinants of 2x2 and 3x3 matrices.",
+          "textContent": "This lesson introduces determinants of 2x2 and 3x3 matrices and their application in solving simultaneous linear equations."
+        },
+        {
+          "lessonId": "ss3-math-lesson5",
+          "lessonTitle": "Longitude and Latitude",
+          "lessonType": "text",
+          "description": "Calculating distances between two points on the Earth's surface.",
+          "textContent": "This lesson covers the concepts of longitude and latitude and how to calculate the distance between two points on the Earth's surface along great circles and parallels of latitude."
+        }
+      ],
+      "quiz": {
+        "quizId": "ss3-math-quiz",
+        "quizTitle": "Mathematics — SS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "What is the derivative of 3x² + 2x + 1?",
+            "options": [
+              "6x + 2",
+              "3x + 2",
+              "6x",
+              "3x"
+            ],
+            "correctAnswer": "6x + 2"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What is the gradient of the line passing through the points (2, 3) and (4, 7)?",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "What is the determinant of the matrix [[2, 1], [3, 4]]?",
+            "options": [
+              "5",
+              "8",
+              "11",
+              "3"
+            ],
+            "correctAnswer": "5"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "ss3-english",
+      "courseName": "English Language",
+      "courseCode": "ENG-SS3",
+      "description": "SS3 English Language course focusing on oracy, vocabulary, grammar, and writing.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Children_reading_books.jpg",
+      "lessons": [
+        {
+          "lessonId": "ss3-english-lesson1",
+          "lessonTitle": "Oracy Skills: Sentence Intonation",
+          "lessonType": "text",
+          "description": "Revision of sentence intonation patterns.",
+          "textContent": "This lesson revises sentence intonation patterns in spoken English, helping students to convey the correct meaning and attitude."
+        },
+        {
+          "lessonId": "ss3-english-lesson2",
+          "lessonTitle": "Vocabulary Development: Government and Law",
+          "lessonType": "text",
+          "description": "Learning words associated with government, administration, law, and order.",
+          "textContent": "This lesson expands vocabulary with words related to government, administration, law, and order, such as 'legislature', 'judiciary', and 'litigation'."
+        },
+        {
+          "lessonId": "ss3-english-lesson3",
+          "lessonTitle": "Grammar: Figures of Speech",
+          "lessonType": "text",
+          "description": "Revision of figures of speech.",
+          "textContent": "This lesson revises various figures of speech, such as simile, metaphor, personification, and irony, and their use in literature and everyday language."
+        },
+        {
+          "lessonId": "ss3-english-lesson4",
+          "lessonTitle": "Writing: Argumentative Essays",
+          "lessonType": "text",
+          "description": "Developing skills in writing argumentative essays.",
+          "textContent": "This lesson focuses on developing the skills needed to write effective argumentative essays, including constructing a strong thesis statement, providing evidence, and refuting counter-arguments."
+        },
+        {
+          "lessonId": "ss3-english-lesson5",
+          "lessonTitle": "Reading Comprehension: Summarizing Passages",
+          "lessonType": "text",
+          "description": "Practicing summarizing expository and argumentative passages.",
+          "textContent": "This lesson provides practice in summarizing expository and argumentative passages, focusing on identifying the main points and presenting them concisely."
+        }
+      ],
+      "quiz": {
+        "quizId": "ss3-english-quiz",
+        "quizTitle": "English Language — SS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is a figure of speech?",
+            "options": [
+              "A noun",
+              "A verb",
+              "A metaphor",
+              "A clause"
+            ],
+            "correctAnswer": "A metaphor"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "What is the main purpose of an argumentative essay?",
+            "options": [
+              "To tell a story",
+              "To describe something",
+              "To persuade the reader",
+              "To explain a process"
+            ],
+            "correctAnswer": "To persuade the reader"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "A summary should be...",
+            "options": [
+              "longer than the original text",
+              "the same length as the original text",
+              "shorter than the original text",
+              "an exact copy of the original text"
+            ],
+            "correctAnswer": "shorter than the original text"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "ss3-civiceducation",
+      "courseName": "Civic Education",
+      "courseCode": "CIVIC-SS3",
+      "description": "SS3 Civic Education covering human rights, popular participation, and the rule of law.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Civic_education_class.jpg",
+      "lessons": [
+        {
+          "lessonId": "ss3-civiceducation-lesson1",
+          "lessonTitle": "Human Rights",
+          "lessonType": "text",
+          "description": "Citizens' fundamental rights and how they are protected.",
+          "textContent": "This lesson discusses the fundamental rights of citizens, such as the right to life, personal liberty, and fair hearing, and the factors that protect these rights."
+        },
+        {
+          "lessonId": "ss3-civiceducation-lesson2",
+          "lessonTitle": "Popular Participation",
+          "lessonType": "text",
+          "description": "The need for popular participation in civil society.",
+          "textContent": "This lesson explains the need for popular participation in civil society and discusses traditional and modern modes of participation."
+        },
+        {
+          "lessonId": "ss3-civiceducation-lesson3",
+          "lessonTitle": "Rule of Law",
+          "lessonType": "text",
+          "description": "Definition, importance, and problems of the rule of law.",
+          "textContent": "This lesson defines the rule of law and discusses its importance, the process of upholding it, and the problems associated with it."
+        },
+        {
+          "lessonId": "ss3-civiceducation-lesson4",
+          "lessonTitle": "Constitutional Democracy",
+          "lessonType": "text",
+          "description": "Meaning, types, and advantages of constitutional democracy.",
+          "textContent": "This lesson explains the meaning and types of constitutional democracy, its concepts, and its advantages as a system of government."
+        },
+        {
+          "lessonId": "ss3-civiceducation-lesson5",
+          "lessonTitle": "Human Trafficking",
+          "lessonType": "text",
+          "description": "Government and individual efforts to combat human trafficking.",
+          "textContent": "This lesson discusses the efforts of the government and individuals to combat human trafficking, including the role of organizations like WOTCLEF."
+        }
+      ],
+      "quiz": {
+        "quizId": "ss3-civiceducation-quiz",
+        "quizTitle": "Civic Education — SS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "Which of the following is a fundamental human right?",
+            "options": [
+              "The right to own a car",
+              "The right to a fair hearing",
+              "The right to vote",
+              "The right to education"
+            ],
+            "correctAnswer": "The right to a fair hearing"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "The principle that everyone is equal before the law is called...",
+            "options": [
+              "popular participation",
+              "the rule of law",
+              "constitutional democracy",
+              "civil society"
+            ],
+            "correctAnswer": "the rule of law"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which organization was established to combat human trafficking in Nigeria?",
+            "options": [
+              "NAFDAC",
+              "NDLEA",
+              "WOTCLEF",
+              "EFCC"
+            ],
+            "correctAnswer": "WOTCLEF"
+          }
+        ]
+      }
+    },
+    {
+      "courseId": "ss3-economics",
+      "courseName": "Economics",
+      "courseCode": "ECON-SS3",
+      "description": "SS3 Economics covering international trade, economic development, and financial markets.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/6/65/New_York_Stock_Exchange_Facade.jpg",
+      "lessons": [
+        {
+          "lessonId": "ss3-economics-lesson1",
+          "lessonTitle": "International Trade",
+          "lessonType": "text",
+          "description": "Reasons for international trade and the theory of comparative cost.",
+          "textContent": "This lesson explains the reasons for international trade and introduces the theory of comparative cost advantage."
+        },
+        {
+          "lessonId": "ss3-economics-lesson2",
+          "lessonTitle": "Balance of Payments",
+          "lessonType": "text",
+          "description": "Understanding balance of payments deficits, surpluses, and correction measures.",
+          "textContent": "This lesson explains the concept of the balance of payments, including deficits and surpluses, and the measures that can be taken to correct them."
+        },
+        {
+          "lessonId": "ss3-economics-lesson3",
+          "lessonTitle": "Economic Development",
+          "lessonType": "text",
+          "description": "Economic lessons from the Asian Tigers and challenges in Nigeria.",
+          "textContent": "This lesson discusses the economic development of the Asian Tigers and examines the challenges to economic growth and development in Nigeria."
+        },
+        {
+          "lessonId": "ss3-economics-lesson4",
+          "lessonTitle": "Financial Markets",
+          "lessonType": "text",
+          "description": "Agencies that regulate financial markets and their functions.",
+          "textContent": "This lesson introduces the agencies that regulate financial markets in Nigeria, such as the CBN, SEC, and NDIC, and their functions."
+        },
+        {
+          "lessonId": "ss3-economics-lesson5",
+          "lessonTitle": "International Economic Organizations",
+          "lessonType": "text",
+          "description": "Aims and objectives of organizations like ECOWAS, IMF, and OPEC.",
+          "textContent": "This lesson discusses the aims and objectives of various international economic organizations, such as ECOWAS, IMF, IBRD, and OPEC."
+        }
+      ],
+      "quiz": {
+        "quizId": "ss3-economics-quiz",
+        "quizTitle": "Economics — SS3 Quiz",
+        "totalQuestions": 3,
+        "passingScore": 60,
+        "timeLimit": "15 mins",
+        "questions": [
+          {
+            "questionId": "q1",
+            "questionText": "A tax on imported goods is called a...",
+            "options": [
+              "quota",
+              "tariff",
+              "subsidy",
+              "value-added tax"
+            ],
+            "correctAnswer": "tariff"
+          },
+          {
+            "questionId": "q2",
+            "questionText": "Which of the following is a measure of economic development?",
+            "options": [
+              "GDP",
+              "GNP",
+              "Human Development Index (HDI)",
+              "Inflation rate"
+            ],
+            "correctAnswer": "Human Development Index (HDI)"
+          },
+          {
+            "questionId": "q3",
+            "questionText": "Which organization is responsible for regulating the Nigerian capital market?",
+            "options": [
+              "CBN",
+              "SEC",
+              "NDIC",
+              "FIRS"
+            ],
+            "correctAnswer": "SEC"
+          }
+        ]
+      }
+    }
+  ]
+}
