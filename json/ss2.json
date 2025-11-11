@@ -15,35 +15,45 @@
           "lessonTitle": "Algebra: Simultaneous Equations",
           "lessonType": "text",
           "description": "Solving simultaneous linear and quadratic equations.",
-          "textContent": "This lesson covers methods for solving simultaneous equations, including one linear and one quadratic equation. Students will learn substitution and elimination methods."
+          "textContent": "This lesson covers methods for solving simultaneous equations, including one linear and one quadratic equation. Students will learn substitution and elimination methods.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-math-lesson2",
           "lessonTitle": "Logarithms",
           "lessonType": "text",
           "description": "Logarithms of numbers greater than and less than one.",
-          "textContent": "This lesson delves into logarithms, covering the characteristics of logarithms for numbers greater than and less than one, and their use in calculations."
+          "textContent": "This lesson delves into logarithms, covering the characteristics of logarithms for numbers greater than and less than one, and their use in calculations.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-math-lesson3",
           "lessonTitle": "Sequences and Series",
           "lessonType": "text",
           "description": "Introduction to Arithmetic Progression (AP) and Geometric Progression (GP).",
-          "textContent": "This lesson introduces sequences and series, with a focus on Arithmetic Progression (AP) and Geometric Progression (GP), including finding the nth term and the sum of terms."
+          "textContent": "This lesson introduces sequences and series, with a focus on Arithmetic Progression (AP) and Geometric Progression (GP), including finding the nth term and the sum of terms.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-math-lesson4",
           "lessonTitle": "Geometry: Circle Theorems",
           "lessonType": "text",
           "description": "Understanding and applying circle theorems.",
-          "textContent": "This lesson covers the main circle theorems, such as the angle at the center is twice the angle at the circumference, and angles in the same segment are equal."
+          "textContent": "This lesson covers the main circle theorems, such as the angle at the center is twice the angle at the circumference, and angles in the same segment are equal.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-math-lesson5",
           "lessonTitle": "Trigonometry: Sine and Cosine Rules",
           "lessonType": "text",
           "description": "Derivation and application of the sine and cosine rules.",
-          "textContent": "This lesson covers the derivation and application of the sine and cosine rules for solving non-right-angled triangles."
+          "textContent": "This lesson covers the derivation and application of the sine and cosine rules for solving non-right-angled triangles.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         }
       ],
       "quiz": {
@@ -101,35 +111,45 @@
           "lessonTitle": "Grammar: Pronouns",
           "lessonType": "text",
           "description": "Understanding relative and demonstrative pronouns.",
-          "textContent": "This lesson focuses on the use of relative and demonstrative pronouns in sentences, and how they connect clauses and specify nouns."
+          "textContent": "This lesson focuses on the use of relative and demonstrative pronouns in sentences, and how they connect clauses and specify nouns.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-english-lesson2",
           "lessonTitle": "Vocabulary Development: Health",
           "lessonType": "text",
           "description": "Learning words associated with health.",
-          "textContent": "This lesson expands vocabulary with words related to health, such as 'diagnosis', 'prognosis', and 'ailment'."
+          "textContent": "This lesson expands vocabulary with words related to health, such as 'diagnosis', 'prognosis', and 'ailment'.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-english-lesson3",
           "lessonTitle": "Writing Skills: Expository Essays",
           "lessonType": "text",
           "description": "Learning to write expository essays.",
-          "textContent": "This lesson teaches the structure and style of expository essays, which are meant to explain or inform the reader about a topic."
+          "textContent": "This lesson teaches the structure and style of expository essays, which are meant to explain or inform the reader about a topic.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-english-lesson4",
           "lessonTitle": "Reading Comprehension: Implied Meaning",
           "lessonType": "text",
           "description": "Reading for implied meaning and identifying topic sentences.",
-          "textContent": "This lesson focuses on advanced reading comprehension skills, such as reading for implied meaning and identifying the topic sentence of a paragraph."
+          "textContent": "This lesson focuses on advanced reading comprehension skills, such as reading for implied meaning and identifying the topic sentence of a paragraph.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-english-lesson5",
           "lessonTitle": "Oral English: Making Toasts",
           "lessonType": "text",
           "description": "Learning how to propose and respond to toasts.",
-          "textContent": "This lesson covers the social skill of making toasts, including what to say and how to say it in different social situations."
+          "textContent": "This lesson covers the social skill of making toasts, including what to say and how to say it in different social situations.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         }
       ],
       "quiz": {
@@ -187,35 +207,45 @@
           "lessonTitle": "Citizenship Education",
           "lessonType": "text",
           "description": "Duties and obligations of citizens.",
-          "textContent": "This lesson focuses on the duties and obligations of citizens in Nigeria, and the skills needed to promote traditions, customs, and beliefs."
+          "textContent": "This lesson focuses on the duties and obligations of citizens in Nigeria, and the skills needed to promote traditions, customs, and beliefs.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-civiceducation-lesson2",
           "lessonTitle": "National Identity",
           "lessonType": "text",
           "description": "Understanding national consciousness, integrity, and unity.",
-          "textContent": "This lesson explores the concepts of national consciousness, integrity, and unity, and the factors that promote or hinder them."
+          "textContent": "This lesson explores the concepts of national consciousness, integrity, and unity, and the factors that promote or hinder them.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-civiceducation-lesson3",
           "lessonTitle": "Political Parties and Elections",
           "lessonType": "text",
           "description": "The role of political parties and the dangers of political apathy.",
-          "textContent": "This lesson discusses the role of political parties in a democracy, how they compete for power through elections, and the dangers of political apathy."
+          "textContent": "This lesson discusses the role of political parties in a democracy, how they compete for power through elections, and the dangers of political apathy.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-civiceducation-lesson4",
           "lessonTitle": "Human Rights",
           "lessonType": "text",
           "description": "Categories and limitations of human rights.",
-          "textContent": "This lesson covers the different categories of human rights (civic, political, economic, social, environmental) and the limitations that can be placed on them."
+          "textContent": "This lesson covers the different categories of human rights (civic, political, economic, social, environmental) and the limitations that can be placed on them.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-civiceducation-lesson5",
           "lessonTitle": "Social Issues: Responsible Parenthood",
           "lessonType": "text",
           "description": "Understanding the concept and importance of responsible parenthood.",
-          "textContent": "This lesson discusses the concept of responsible parenthood and its importance for the well-being of the family and society."
+          "textContent": "This lesson discusses the concept of responsible parenthood and its importance for the well-being of the family and society.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         }
       ],
       "quiz": {
@@ -273,35 +303,45 @@
           "lessonTitle": "Theory of Demand and Supply",
           "lessonType": "text",
           "description": "Analyzing changes in demand and supply and their elasticity.",
-          "textContent": "This lesson analyzes the factors that cause changes in demand and supply, and introduces the concept of elasticity of demand and supply."
+          "textContent": "This lesson analyzes the factors that cause changes in demand and supply, and introduces the concept of elasticity of demand and supply.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-economics-lesson2",
           "lessonTitle": "Production Possibility Curve",
           "lessonType": "text",
           "description": "Understanding the production possibility curve.",
-          "textContent": "This lesson explains the concept of the production possibility curve and what it illustrates about scarcity, choice, and opportunity cost."
+          "textContent": "This lesson explains the concept of the production possibility curve and what it illustrates about scarcity, choice, and opportunity cost.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-economics-lesson3",
           "lessonTitle": "Theory of Cost and Revenue",
           "lessonType": "text",
           "description": "Understanding the concepts of cost and revenue.",
-          "textContent": "This lesson introduces the theory of cost (fixed, variable, total, average, marginal) and revenue (total, average, marginal)."
+          "textContent": "This lesson introduces the theory of cost (fixed, variable, total, average, marginal) and revenue (total, average, marginal).",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-economics-lesson4",
           "lessonTitle": "Market Structures",
           "lessonType": "text",
           "description": "Distinguishing between perfect and imperfect markets.",
-          "textContent": "This lesson distinguishes between perfect and imperfect markets, including monopoly and duopoly, and examines how price and quantity are determined in each."
+          "textContent": "This lesson distinguishes between perfect and imperfect markets, including monopoly and duopoly, and examines how price and quantity are determined in each.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss2-economics-lesson5",
           "lessonTitle": "National Income",
           "lessonType": "text",
           "description": "Elements of national income accounting.",
-          "textContent": "This lesson introduces the elements of national income accounting, its uses, and the different methods of calculating it."
+          "textContent": "This lesson introduces the elements of national income accounting, its uses, and the different methods of calculating it.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         }
       ],
       "quiz": {
