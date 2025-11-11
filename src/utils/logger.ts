@@ -1,10 +1,10 @@
-import { join } from 'path';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 import fs from 'fs';
 import type { Request, Response } from 'express';
 
-// Use CommonJS __filename and __dirname if available, otherwise fallback
-declare const __filename: string;
-declare const __dirname: string;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Create logs directory if it doesn't exist
 const logsDir = join(__dirname, '../../logs');
