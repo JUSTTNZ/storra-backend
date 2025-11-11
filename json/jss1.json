@@ -15,35 +15,45 @@
           "lessonTitle": "Whole Numbers",
           "lessonType": "text",
           "description": "Counting, writing, and place value of whole numbers.",
-          "textContent": "This lesson introduces whole numbers, including how to count, write, and determine the place value of digits in large numbers."
+          "textContent": "This lesson introduces whole numbers, including how to count, write, and determine the place value of digits in large numbers.",
+          "videoUrl": "https://www.youtube.com/watch?v=DR-cfDsHCGA",
+          "audioUrl": "https://www.youtube.com/watch?v=DR-cfDsHCGA"
         },
         {
           "lessonId": "jss1-math-lesson2",
           "lessonTitle": "Fractions, Decimals, and Percentages",
           "lessonType": "text",
           "description": "Introduction to fractions, decimals, and percentages.",
-          "textContent": "This lesson provides an introduction to fractions, decimals, and percentages, and how to convert between them."
+          "textContent": "This lesson provides an introduction to fractions, decimals, and percentages, and how to convert between them.",
+          "videoUrl": "https://www.youtube.com/watch?v=7G8Aw0vVtHk",
+          "audioUrl": "https://www.youtube.com/watch?v=7G8Aw0vVtHk"
         },
         {
           "lessonId": "jss1-math-lesson3",
           "lessonTitle": "Algebra: Basic Concepts",
           "lessonType": "text",
           "description": "Using symbols, identifying coefficients, and simplifying like terms.",
-          "textContent": "This lesson introduces basic algebraic concepts, such as using symbols to represent numbers, identifying coefficients, and simplifying algebraic expressions by collecting like terms."
+          "textContent": "This lesson introduces basic algebraic concepts, such as using symbols to represent numbers, identifying coefficients, and simplifying algebraic expressions by collecting like terms.",
+          "videoUrl": "https://www.youtube.com/watch?v=0_932pytnZM",
+          "audioUrl": "https://www.youtube.com/watch?v=0_932pytnZM"
         },
         {
           "lessonId": "jss1-math-lesson4",
           "lessonTitle": "Geometry: Plane Shapes",
           "lessonType": "text",
           "description": "Perimeter and area of regular and irregular shapes.",
-          "textContent": "This lesson covers plane shapes, including how to calculate the perimeter and area of regular and irregular shapes like squares, rectangles, and triangles."
+          "textContent": "This lesson covers plane shapes, including how to calculate the perimeter and area of regular and irregular shapes like squares, rectangles, and triangles.",
+          "videoUrl": "https://www.youtube.com/watch?v=beTDz9HSNOM",
+          "audioUrl": "https://www.youtube.com/watch?v=beTDz9HSNOM"
         },
         {
           "lessonId": "jss1-math-lesson5",
           "lessonTitle": "Statistics: Introduction",
           "lessonType": "text",
           "description": "Introduction to statistics and calculating mean, median, and mode.",
-          "textContent": "This lesson provides an introduction to statistics, including how to calculate the mean, median, and mode of a set of data."
+          "textContent": "This lesson provides an introduction to statistics, including how to calculate the mean, median, and mode of a set of data.",
+          "videoUrl": "https://www.youtube.com/watch?v=3hgQ03vWUyQ",
+          "audioUrl": "https://www.youtube.com/watch?v=3hgQ03vWUyQ"
         }
       ],
       "quiz": {
@@ -101,35 +111,45 @@
           "lessonTitle": "Speech Work: Organs of Speech",
           "lessonType": "text",
           "description": "Introduction to the organs of speech.",
-          "textContent": "This lesson introduces the organs of speech and their functions in producing sounds."
+          "textContent": "This lesson introduces the organs of speech and their functions in producing sounds.",
+          "videoUrl": "https://www.youtube.com/watch?v=75p-N9YKqNo",
+          "audioUrl": "https://www.youtube.com/watch?v=75p-N9YKqNo"
         },
         {
           "lessonId": "jss1-english-lesson2",
           "lessonTitle": "Grammar: Parts of Speech",
           "lessonType": "text",
           "description": "Introduction to the eight parts of speech.",
-          "textContent": "This lesson provides an introduction to the eight parts of speech: nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections."
+          "textContent": "This lesson provides an introduction to the eight parts of speech: nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections.",
+          "videoUrl": "https://www.youtube.com/watch?v=eI3ApSpR68o",
+          "audioUrl": "https://www.youtube.com/watch?v=eI3ApSpR68o"
         },
         {
           "lessonId": "jss1-english-lesson3",
           "lessonTitle": "Reading and Comprehension: Identifying Main Ideas",
           "lessonType": "text",
           "description": "Strategies for identifying main and supporting ideas in a passage.",
-          "textContent": "This lesson teaches strategies for identifying the main and supporting ideas in a reading passage."
+          "textContent": "This lesson teaches strategies for identifying the main and supporting ideas in a reading passage.",
+          "videoUrl": "https://www.youtube.com/watch?v=NfKZsGm2gKM",
+          "audioUrl": "https://www.youtube.com/watch?v=NfKZsGm2gKM"
         },
         {
           "lessonId": "jss1-english-lesson4",
           "lessonTitle": "Composition: Informal Letter Writing",
           "lessonType": "text",
           "description": "Learning the format and style of informal letters.",
-          "textContent": "This lesson introduces the format and style of informal letter writing, for communicating with friends and family."
+          "textContent": "This lesson introduces the format and style of informal letter writing, for communicating with friends and family.",
+          "videoUrl": "https://www.youtube.com/watch?v=2Ea1weK84SI",
+          "audioUrl": "https://www.youtube.com/watch?v=2Ea1weK84SI"
         },
         {
           "lessonId": "jss1-english-lesson5",
           "lessonTitle": "Literature: Introduction to Literature",
           "lessonType": "text",
           "description": "Definition and features of literature, including African folktales.",
-          "textContent": "This lesson provides an introduction to literature, including its definition and features, with a focus on African folktales."
+          "textContent": "This lesson provides an introduction to literature, including its definition and features, with a focus on African folktales.",
+          "videoUrl": "https://www.youtube.com/watch?v=Bh4ua951SCw",
+          "audioUrl": "https://www.youtube.com/watch?v=Bh4ua951SCw"
         }
       ],
       "quiz": {
@@ -187,35 +207,45 @@
           "lessonTitle": "Living and Non-Living Things",
           "lessonType": "text",
           "description": "Classification and characteristics of living and non-living things.",
-          "textContent": "This lesson covers the classification and characteristics of living and non-living things."
+          "textContent": "This lesson covers the classification and characteristics of living and non-living things.",
+          "videoUrl": "https://www.youtube.com/watch?v=E6OtLfszaVI",
+          "audioUrl": "https://www.youtube.com/watch?v=E6OtLfszaVI"
         },
         {
           "lessonId": "jss1-basicscience-lesson2",
           "lessonTitle": "Human Development: Sanitation",
           "lessonType": "text",
           "description": "Understanding sanitation and refuse and sewage management.",
-          "textContent": "This lesson focuses on human development, with a focus on sanitation and the management of refuse and sewage."
+          "textContent": "This lesson focuses on human development, with a focus on sanitation and the management of refuse and sewage.",
+          "videoUrl": "https://www.youtube.com/watch?v=QWn-dmH7jFQ",
+          "audioUrl": "https://www.youtube.com/watch?v=QWn-dmH7jFQ"
         },
         {
           "lessonId": "jss1-basicscience-lesson3",
           "lessonTitle": "Nutrition",
           "lessonType": "text",
           "description": "Understanding the classes of food and the importance of a balanced diet.",
-          "textContent": "This lesson introduces the different classes of food and explains the importance of a balanced diet for human health."
+          "textContent": "This lesson introduces the different classes of food and explains the importance of a balanced diet for human health.",
+          "videoUrl": "https://www.youtube.com/watch?v=viGuK2QjU04",
+          "audioUrl": "https://www.youtube.com/watch?v=viGuK2QjU04"
         },
         {
           "lessonId": "jss1-basicscience-lesson4",
           "lessonTitle": "Energy",
           "lessonType": "text",
           "description": "Meaning, sources, and forms of energy.",
-          "textContent": "This lesson introduces the concept of energy, its various sources (renewable and non-renewable), and its different forms."
+          "textContent": "This lesson introduces the concept of energy, its various sources (renewable and non-renewable), and its different forms.",
+          "videoUrl": "https://www.youtube.com/watch?v=_uh-8PzT4ds",
+          "audioUrl": "https://www.youtube.com/watch?v=_uh-8PzT4ds"
         },
         {
           "lessonId": "jss1-basicscience-lesson5",
           "lessonTitle": "Forces",
           "lessonType": "text",
           "description": "Meaning, types, and uses of forces.",
-          "textContent": "This lesson introduces the concept of forces, including their meaning, different types (e.g., gravitational, frictional), and their uses."
+          "textContent": "This lesson introduces the concept of forces, including their meaning, different types (e.g., gravitational, frictional), and their uses.",
+          "videoUrl": "https://www.youtube.com/watch?v=Za1kp3bK9s4",
+          "audioUrl": "https://www.youtube.com/watch?v=Za1kp3bK9s4"
         }
       ],
       "quiz": {
@@ -273,35 +303,45 @@
           "lessonTitle": "Culture",
           "lessonType": "text",
           "description": "Definition, types, and components of culture.",
-          "textContent": "This lesson introduces the concept of culture, including its definition, different types, and various components."
+          "textContent": "This lesson introduces the concept of culture, including its definition, different types, and various components.",
+          "videoUrl": "https://www.youtube.com/watch?v=d0jJuxNbt5Y",
+          "audioUrl": "https://www.youtube.com/watch?v=d0jJuxNbt5Y"
         },
         {
           "lessonId": "jss1-socialstudies-lesson2",
           "lessonTitle": "Socialization",
           "lessonType": "text",
           "description": "Definition, types, and agents of socialization.",
-          "textContent": "This lesson defines socialization and discusses its different types and the various agents of socialization, such as the family, school, and peers."
+          "textContent": "This lesson defines socialization and discusses its different types and the various agents of socialization, such as the family, school, and peers.",
+          "videoUrl": "https://www.youtube.com/watch?v=PgUp5v2Yx2k",
+          "audioUrl": "https://www.youtube.com/watch?v=PgUp5v2Yx2k"
         },
         {
           "lessonId": "jss1-socialstudies-lesson3",
           "lessonTitle": "The Family",
           "lessonType": "text",
           "description": "The family as a primary social group, its types, roles, and functions.",
-          "textContent": "This lesson discusses the family as a primary social group, its different types, and the roles and responsibilities of its members."
+          "textContent": "This lesson discusses the family as a primary social group, its different types, and the roles and responsibilities of its members.",
+          "videoUrl": "https://www.youtube.com/watch?v=9yud1VdC42E",
+          "audioUrl": "https://www.youtube.com/watch?v=9yud1VdC42E"
         },
         {
           "lessonId": "jss1-socialstudies-lesson4",
           "lessonTitle": "Contemporary Social Problems",
           "lessonType": "text",
           "description": "Causes, effects, and solutions to social problems like cultism and examination malpractices.",
-          "textContent": "This lesson explores contemporary social problems in Nigeria, such as cultism and examination malpractices, discussing their causes, effects, and potential solutions."
+          "textContent": "This lesson explores contemporary social problems in Nigeria, such as cultism and examination malpractices, discussing their causes, effects, and potential solutions.",
+          "videoUrl": "https://www.youtube.com/watch?v=hwACyxU3XJQ",
+          "audioUrl": "https://www.youtube.com/watch?v=hwACyxU3XJQ"
         },
         {
           "lessonId": "jss1-socialstudies-lesson5",
           "lessonTitle": "Safety",
           "lessonType": "text",
           "description": "The importance of safety and safety measures in the home and environment.",
-          "textContent": "This lesson emphasizes the importance of safety and discusses various safety measures that should be taken in the home and the wider environment."
+          "textContent": "This lesson emphasizes the importance of safety and discusses various safety measures that should be taken in the home and the wider environment.",
+          "videoUrl": "https://www.youtube.com/watch?v=zd8J7i5P1aE",
+          "audioUrl": "https://www.youtube.com/watch?v=zd8J7i5P1aE"
         }
       ],
       "quiz": {

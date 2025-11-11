@@ -15,35 +15,45 @@
           "lessonTitle": "Number Bases",
           "lessonType": "text",
           "description": "Operations and conversions between different number bases.",
-          "textContent": "This lesson covers operations (addition, subtraction, multiplication) and conversions between different number bases, including binary (base 2), octal (base 8), and hexadecimal (base 16)."
+          "textContent": "This lesson covers operations (addition, subtraction, multiplication) and conversions between different number bases, including binary (base 2), octal (base 8), and hexadecimal (base 16).",
+          "videoUrl": "https://www.youtube.com/watch?v=FdfY3-i_0Cg",
+          "audioUrl": "https://www.youtube.com/watch?v=FdfY3-i_0Cg"
         },
         {
           "lessonId": "ss1-math-lesson2",
           "lessonTitle": "Modular Arithmetic",
           "lessonType": "text",
           "description": "Concepts and applications of modular arithmetic.",
-          "textContent": "This lesson introduces the concepts of modular arithmetic, including congruence, residue classes, and their applications in solving problems."
+          "textContent": "This lesson introduces the concepts of modular arithmetic, including congruence, residue classes, and their applications in solving problems.",
+          "videoUrl": "https://www.youtube.com/watch?v=8e_nS-n_4zY",
+          "audioUrl": "https://www.youtube.com/watch?v=8e_nS-n_4zY"
         },
         {
           "lessonId": "ss1-math-lesson3",
           "lessonTitle": "Indices and Logarithms",
           "lessonType": "text",
           "description": "Laws of indices and logarithms and their applications.",
-          "textContent": "This lesson covers the laws of indices and logarithms, and their application in solving equations and simplifying expressions."
+          "textContent": "This lesson covers the laws of indices and logarithms, and their application in solving equations and simplifying expressions.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-math-lesson4",
           "lessonTitle": "Sets",
           "lessonType": "text",
           "description": "Universal sets, finite and infinite sets, subsets, union, and intersection.",
-          "textContent": "This lesson introduces the basic concepts of set theory, including universal sets, finite and infinite sets, subsets, and the operations of union and intersection."
+          "textContent": "This lesson introduces the basic concepts of set theory, including universal sets, finite and infinite sets, subsets, and the operations of union and intersection.",
+          "videoUrl": "https://www.youtube.com/watch?v=2-3-sRra6Yw",
+          "audioUrl": "https://www.youtube.com/watch?v=2-3-sRra6Yw"
         },
         {
           "lessonId": "ss1-math-lesson5",
           "lessonTitle": "Trigonometry",
           "lessonType": "text",
           "description": "Trigonometric ratios of right-angled triangles and special angles.",
-          "textContent": "This lesson covers the trigonometric ratios (sine, cosine, tangent) in right-angled triangles and the values of these ratios for special angles (30°, 45°, 60°)."
+          "textContent": "This lesson covers the trigonometric ratios (sine, cosine, tangent) in right-angled triangles and the values of these ratios for special angles (30°, 45°, 60°).",
+          "videoUrl": "https://www.youtube.com/watch?v=t_K8-I8v9sY",
+          "audioUrl": "https://www.youtube.com/watch?v=t_K8-I8v9sY"
         }
       ],
       "quiz": {
@@ -101,35 +111,45 @@
           "lessonTitle": "Grammar: Noun Clauses",
           "lessonType": "text",
           "description": "Understanding noun clauses and their functions in sentences.",
-          "textContent": "This lesson explains what noun clauses are and how they function as subjects, objects, and complements in sentences."
+          "textContent": "This lesson explains what noun clauses are and how they function as subjects, objects, and complements in sentences.",
+          "videoUrl": "https://www.youtube.com/watch?v=__-hM3k-3i4",
+          "audioUrl": "https://www.youtube.com/watch?v=__-hM3k-3i4"
         },
         {
           "lessonId": "ss1-english-lesson2",
           "lessonTitle": "Vocabulary Development: Journalism",
           "lessonType": "text",
           "description": "Learning words associated with journalism.",
-          "textContent": "This lesson focuses on expanding vocabulary with words commonly used in the field of journalism, such as 'byline', 'scoop', and 'libel'."
+          "textContent": "This lesson focuses on expanding vocabulary with words commonly used in the field of journalism, such as 'byline', 'scoop', and 'libel'.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-english-lesson3",
           "lessonTitle": "Comprehension: Skimming and Scanning",
           "lessonType": "text",
           "description": "Practicing the reading skills of skimming and scanning.",
-          "textContent": "This lesson provides practice in the reading skills of skimming (reading for main ideas) and scanning (reading for specific information)."
+          "textContent": "This lesson provides practice in the reading skills of skimming (reading for main ideas) and scanning (reading for specific information).",
+          "videoUrl": "https://www.youtube.com/watch?v=s-k-8-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=s-k-8-s-s"
         },
         {
           "lessonId": "ss1-english-lesson4",
           "lessonTitle": "Essay Writing: Formal Letters",
           "lessonType": "text",
           "description": "Learning to write formal letters, including letters of complaint.",
-          "textContent": "This lesson teaches the format and style of formal letters, with a focus on writing effective letters of complaint."
+          "textContent": "This lesson teaches the format and style of formal letters, with a focus on writing effective letters of complaint.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-english-lesson5",
           "lessonTitle": "Speech Work: Stress Patterns",
           "lessonType": "text",
           "description": "Understanding stress patterns in two-syllable words.",
-          "textContent": "This lesson focuses on the stress patterns of two-syllable words in English, helping students to improve their pronunciation."
+          "textContent": "This lesson focuses on the stress patterns of two-syllable words in English, helping students to improve their pronunciation.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         }
       ],
       "quiz": {
@@ -187,35 +207,45 @@
           "lessonTitle": "Values",
           "lessonType": "text",
           "description": "Meaning and types of values, including honesty, justice, and discipline.",
-          "textContent": "This lesson defines values and discusses different types of values, such as honesty, justice, discipline, and integrity, and their importance in society."
+          "textContent": "This lesson defines values and discusses different types of values, such as honesty, justice, discipline, and integrity, and their importance in society.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-civiceducation-lesson2",
           "lessonTitle": "Citizenship",
           "lessonType": "text",
           "description": "Meaning, types, and ways of acquiring citizenship in Nigeria.",
-          "textContent": "This lesson explains the meaning of citizenship, the different types of citizenship, and the ways in which citizenship can be acquired in Nigeria."
+          "textContent": "This lesson explains the meaning of citizenship, the different types of citizenship, and the ways in which citizenship can be acquired in Nigeria.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-civiceducation-lesson3",
           "lessonTitle": "Nationalism",
           "lessonType": "text",
           "description": "Meaning, attributes, and importance of nationalism.",
-          "textContent": "This lesson defines nationalism and discusses its attributes and importance in building a strong and united nation."
+          "textContent": "This lesson defines nationalism and discusses its attributes and importance in building a strong and united nation.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-civiceducation-lesson4",
           "lessonTitle": "Democracy",
           "lessonType": "text",
           "description": "Meaning, features, and importance of democracy.",
-          "textContent": "This lesson explains the meaning of democracy, its key features, and its importance as a system of government."
+          "textContent": "This lesson explains the meaning of democracy, its key features, and its importance as a system of government.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-civiceducation-lesson5",
           "lessonTitle": "Human Rights",
           "lessonType": "text",
           "description": "Meaning and classification of human rights.",
-          "textContent": "This lesson introduces the concept of human rights, their classification (civil, political, economic, social), and the importance of the Universal Declaration of Human Rights (UDHR)."
+          "textContent": "This lesson introduces the concept of human rights, their classification (civil, political, economic, social), and the importance of the Universal Declaration of Human Rights (UDHR).",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         }
       ],
       "quiz": {
@@ -273,35 +303,45 @@
           "lessonTitle": "Introduction to Economics",
           "lessonType": "text",
           "description": "Definition, scope, and importance of economics.",
-          "textContent": "This lesson introduces the field of economics, defining its scope and importance, and distinguishing between microeconomics and macroeconomics."
+          "textContent": "This lesson introduces the field of economics, defining its scope and importance, and distinguishing between microeconomics and macroeconomics.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-economics-lesson2",
           "lessonTitle": "Basic Economic Concepts",
           "lessonType": "text",
           "description": "Understanding wants, scarcity, choice, and opportunity cost.",
-          "textContent": "This lesson explains fundamental economic concepts such as wants, scarcity, choice, and opportunity cost, and how they relate to the scale of preference."
+          "textContent": "This lesson explains fundamental economic concepts such as wants, scarcity, choice, and opportunity cost, and how they relate to the scale of preference.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-economics-lesson3",
           "lessonTitle": "Economic Systems",
           "lessonType": "text",
           "description": "Types and basic concepts of economic systems.",
-          "textContent": "This lesson discusses the different types of economic systems, including capitalism, socialism, and mixed economies, and their basic concepts."
+          "textContent": "This lesson discusses the different types of economic systems, including capitalism, socialism, and mixed economies, and their basic concepts.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-economics-lesson4",
           "lessonTitle": "Theory of Production",
           "lessonType": "text",
           "description": "Meaning of production and factors of production.",
-          "textContent": "This lesson defines production and explains the four factors of production: land, labor, capital, and entrepreneurship, along with their rewards."
+          "textContent": "This lesson defines production and explains the four factors of production: land, labor, capital, and entrepreneurship, along with their rewards.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         },
         {
           "lessonId": "ss1-economics-lesson5",
           "lessonTitle": "Demand and Supply",
           "lessonType": "text",
           "description": "Definition, determinants, and laws of demand and supply.",
-          "textContent": "This lesson introduces the concepts of demand and supply, their determinants, and the laws that govern them in a market economy."
+          "textContent": "This lesson introduces the concepts of demand and supply, their determinants, and the laws that govern them in a market economy.",
+          "videoUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s",
+          "audioUrl": "https://www.youtube.com/watch?v=8-K1-4-s-s"
         }
       ],
       "quiz": {
