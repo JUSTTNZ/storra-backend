@@ -1,9 +1,10 @@
+// models/user.model.ts
 import mongoose, { Schema, Document } from 'mongoose';
 import validator from 'validator';
 
 export interface IUser {
   supabase_user_id: string;
-  username: string;
+  username?: string;
   email: string;
   fullname: string;
   role: 'user' | 'admin' | 'superadmin';
@@ -12,9 +13,20 @@ export interface IUser {
   isVerified: boolean;
   isGoogleAuth?: boolean;
   
-  // Class enrollment info
-  currentClassId?: string; // e.g., "jss-1", "primary-1"
+  // Onboarding/Personalization fields
+  age?: number;
+  currentClassLevel?: 'primary' | 'secondary';
+  preferredLanguage?: string;
+  learningGoals?: string[];
+  learningDaysPerWeek?: string;
+  learningTimePerDay?: string;
+  
+  // Specific class enrollment (for primary & secondary)
+  currentClassId?: string; // e.g., "primary-1", "jss-1", "sss-3"
   educationLevel?: 'primary' | 'junior-secondary' | 'senior-secondary';
+  
+  // Onboarding status
+  hasCompletedOnboarding: boolean;
   
   createdAt: Date;
   updatedAt: Date;
@@ -32,7 +44,6 @@ const UserSchema = new Schema<UserDocument>(
     },
     username: {
       type: String,
-      required: false,
       unique: true,
       sparse: true,
       lowercase: true,
@@ -75,7 +86,33 @@ const UserSchema = new Schema<UserDocument>(
     isVerified: { type: Boolean, default: true },
     isGoogleAuth: { type: Boolean, default: false },
     
-    // Current class enrollment
+    // Onboarding fields
+    age: {
+      type: Number,
+      min: 1,
+      max: 150,
+    },
+    currentClassLevel: {
+      type: String,
+      enum: ['primary', 'secondary'],
+      index: true,
+    },
+    preferredLanguage: {
+      type: String,
+      default: 'English',
+    },
+    learningGoals: [{
+      type: String,
+      trim: true,
+    }],
+    learningDaysPerWeek: {
+      type: String,
+    },
+    learningTimePerDay: {
+      type: String,
+    },
+    
+    // Specific class enrollment (for primary & secondary)
     currentClassId: {
       type: String,
       index: true,
@@ -83,6 +120,13 @@ const UserSchema = new Schema<UserDocument>(
     educationLevel: {
       type: String,
       enum: ['primary', 'junior-secondary', 'senior-secondary'],
+      index: true,
+    },
+    
+    // Onboarding status
+    hasCompletedOnboarding: {
+      type: Boolean,
+      default: false,
       index: true,
     },
   },
