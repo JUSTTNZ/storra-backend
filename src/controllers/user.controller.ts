@@ -20,7 +20,7 @@ export const registerUser = async (req: Request, res: Response, next: NextFuncti
     const { data, error } = await supabaseAdmin.auth.admin.createUser({
       email,
       password,
-      email_confirm: true, // auto-confirm for testing
+      email_confirm: true,
       user_metadata: {
         fullName: finalFullName,
         phoneNumber,
@@ -39,7 +39,12 @@ export const registerUser = async (req: Request, res: Response, next: NextFuncti
 });
 
     if (error || !data.user) {
-      logger.error('Supabase signup failed', { error });
+      logger.error('Supabase signup failed', { 
+        message: error?.message,
+        status: error?.status,
+        code: error?.code,
+        fullError: JSON.stringify(error, null, 2)
+      });
       return res.status(400).json({ message: error?.message || 'Failed to create user' });
     }
 
@@ -69,12 +74,12 @@ export const registerUser = async (req: Request, res: Response, next: NextFuncti
       profile = await User.create({
         supabase_user_id: supaUser.id,
         email: email.toLowerCase(),
-
         fullname: finalFullName,
         phoneNumber: phoneNumber || supaUser.user_metadata?.phoneNumber || '',
         parentPhoneNumber: parentPhoneNumber || supaUser.user_metadata?.parentPhoneNumber || '',
         role,
         isVerified: true,
+        hasCompletedOnboarding: false, // Explicitly set default value
       });
 
       logger.info('MongoDB profile created', { userId: profile._id, role });
@@ -154,27 +159,28 @@ export const loginUser = async (req: Request, res: Response, next: NextFunction)
 
 export const getCurrentUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    // The supabaseUser object is attached to the request by the auth middleware
     const supabaseUser = req.supabaseUser;
 
     if (!supabaseUser) {
-      throw new ApiError({statusCode:401, message: 'Not authenticated'});
+      throw new ApiError({ statusCode: 401, message: 'Not authenticated' });
     }
 
-    const profile = await User.findOne({ supabase_user_id: supabaseUser.id })
-      .select('email username fullname role phoneNumber createdAt');
+    // ✅ Include all relevant onboarding + class fields
+    const profile = await User.findOne({ supabase_user_id: supabaseUser.id }).select(
+      'email username fullname role phoneNumber createdAt currentClassId currentClassLevel educationLevel preferredLanguage age learningGoals hasCompletedOnboarding'
+    );
 
     if (!profile) {
-      throw new ApiError({statusCode: 404, message: 'User profile not found'});
+      throw new ApiError({ statusCode: 404, message: 'User profile not found' });
     }
 
-    return res.status(200).json(
-      new ApiResponse(200, 'User profile fetched successfully', profile)
-    );
+    logger.info('✅ Current user fetched', { userId: supabaseUser.id });
+
+    return res
+      .status(200)
+      .json(new ApiResponse(200, 'User profile fetched successfully', profile));
   } catch (err: any) {
     logger.error('Get current user error', { error: err.message });
     next(err);
   }
 };
-
-

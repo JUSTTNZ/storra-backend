@@ -1,6 +1,6 @@
 {
-  "classId": "primary-1",
-  "className": "Primary 1",
+  "classId": "primary-6",
+  "className": "Primary 6",
   "educationLevel": "primary",
   "courses": [
     {
@@ -76,7 +76,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry6-english-language",
       "courseName": "English Language",
@@ -222,8 +221,6 @@
         ]
       }
     },
-     {
-  "courses": [
     {
       "courseId": "pry6-social-studies",
       "courseName": "Social Studies",
@@ -297,7 +294,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry6-basic-technology",
       "courseName": "Basic Technology",
@@ -371,7 +367,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry6-creative-arts",
       "courseName": "Creative Arts",
@@ -446,7 +441,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry6-physical-health-education",
       "courseName": "Physical & Health Education",
@@ -520,7 +514,6 @@
         ]
       }
     },
-
     {
       "courseId": "pry6-civic-education",
       "courseName": "Civic Education",
@@ -594,7 +587,5 @@
         ]
       }
     }
-  ]
-}
   ]
 }
