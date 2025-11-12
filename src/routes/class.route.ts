@@ -1,9 +1,10 @@
 import { Router } from 'express';
-import { getCoursesByClass } from '../controllers/class.controller.js';
+import { getCoursesByClass, getCourseTopics } from '../controllers/class.controller.js';
 import { requireSupabaseUser } from '../middlewares/supabaseAuth.js';
 
 const router = Router();
 
-router.route('/').get(requireSupabaseUser, getCoursesByClass);
+router.get('/courses', requireSupabaseUser, getCoursesByClass);
+router.get('/courses/:courseId/topics', requireSupabaseUser, getCourseTopics);
 
 export default router;

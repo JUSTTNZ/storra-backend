@@ -12,7 +12,7 @@ import { requireSupabaseUser } from '../middlewares/supabaseAuth.js'; // Your au
 const router = express.Router();
 
 // All routes require authentication
-router.use(requireSupabaseUser);
+// router.use(requireSupabaseUser);
 
 // ============================================
 // ONBOARDING FLOW ROUTES
@@ -21,7 +21,7 @@ router.use(requireSupabaseUser);
 // Step 1: Update basic personalization (age, class level, language)
 router.patch('/personalization/:userId', updatePersonalization);
 // PATCH /api/v1/onboarding/personalization/USER_ID
-// Body: { age: 15, currentClassLevel: 'secondary', preferredLanguage: 'English' }
+// Body: { age: 15, currentClassLevel: 'primary', preferredLanguage: 'English' }
 
 // Step 2: Update learning goals
 router.patch('/learning-goals/:userId', updateLearningGoals);
@@ -40,7 +40,7 @@ router.get('/classes/:userId', getAvailableClasses);
 // Step 4: Select specific class
 router.post('/select-class/:userId', selectClass);
 // POST /api/v1/onboarding/select-class/USER_ID
-// Body: { classId: 'jss-1' }
+// Body: { classId: 'primary-1' }
 
 // ============================================
 // USER COURSES ROUTE
