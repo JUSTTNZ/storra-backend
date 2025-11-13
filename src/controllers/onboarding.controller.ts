@@ -58,6 +58,8 @@ export const updatePersonalization = async (
 // ============================================
 // STEP 2: Update Learning Goals
 // ============================================
+// controllers/onboarding.controller.ts
+
 export const updateLearningGoals = async (
   req: Request,
   res: Response,
@@ -65,58 +67,60 @@ export const updateLearningGoals = async (
 ) => {
   try {
     const { userId } = req.params;
-    const { learningGoals, learningDaysPerWeek, learningTimePerDay } = req.body;
+    const { goals, learningGoals } = req.body;
 
-    // Validate
-    if (!learningGoals || !learningDaysPerWeek || !learningTimePerDay) {
+    // Accept either "goals" or "learningGoals" from frontend
+    const finalGoals = learningGoals || goals;
+
+    // Validate input
+    if (!finalGoals || !Array.isArray(finalGoals) || finalGoals.length === 0) {
       throw new ApiError({
         statusCode: 400,
-        message: 'Learning goals, days per week, and time per day are required',
+        message: "At least one learning goal is required",
       });
     }
 
-    // Update user
+    // Update user in MongoDB
     const user = await User.findByIdAndUpdate(
       userId,
-      {
-        learningGoals,
-        learningDaysPerWeek,
-        learningTimePerDay,
-      },
+      { learningGoals: finalGoals },
       { new: true, runValidators: true }
     );
 
     if (!user) {
-      throw new ApiError({ statusCode: 404, message: 'User not found' });
+      throw new ApiError({ statusCode: 404, message: "User not found" });
     }
 
-    logger.info('User learning goals updated', { userId });
+    logger.info("✅ User learning goals updated", { userId, goals: finalGoals });
 
-    // Determine next step based on class level
-    let nextStep = 'dashboard';
+    // Decide next step
+    let nextStep = "dashboard";
     let requiresClassSelection = false;
 
-    if (user.currentClassLevel === 'primary' || user.currentClassLevel === 'secondary') {
-      nextStep = 'class-selection';
+    if (
+      user.currentClassLevel === "primary" ||
+      user.currentClassLevel === "secondary"
+    ) {
+      nextStep = "class-selection";
       requiresClassSelection = true;
     } else {
-      // For nursery, tertiary, general-studies - mark onboarding as complete
       user.hasCompletedOnboarding = true;
       await user.save();
     }
 
     return res.status(200).json(
-      new ApiResponse(200, 'Learning goals updated successfully', {
+      new ApiResponse(200, "Learning goals updated successfully", {
         user,
         nextStep,
         requiresClassSelection,
       })
     );
   } catch (error: any) {
-    logger.error('Update learning goals error', { error: error.message });
+    logger.error("❌ Update learning goals error", { error: error.message });
     next(error);
   }
 };
+
 
 // ============================================
 // STEP 3: Get Available Classes
