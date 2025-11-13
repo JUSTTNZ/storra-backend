@@ -24,19 +24,23 @@ const getCoursesByClass = asyncHandler(async (req: Request, res: Response) => {
         name: course.courseName,
         code: course.courseCode,
         image: course.courseImage,
+        paragraph: course.description,
         topics: course.lessons.map(lesson => ({
             id: lesson.lessonId,
             title: lesson.lessonTitle,
             paragraph: lesson.description,
-            coverImage: lesson.videoUrl || lesson.audioUrl || '', // Use video/audio URL as cover
+             coverImage: course.courseImage ,
+          
             lessonType: lesson.lessonType,
             content: {
                 text: lesson.textContent,
                 video: lesson.videoUrl,
                 audio: lesson.audioUrl
             }
-        }))
+        })),
+           quiz: course.quiz 
     }));
+     console.log("s",subjects)
 
     return res.status(200).json(
         new ApiResponse(200, 'Courses fetched successfully', {
@@ -72,7 +76,7 @@ const getCourseTopics = asyncHandler(async (req: Request, res: Response) => {
         id: lesson.lessonId,
         title: lesson.lessonTitle,
         paragraph: lesson.description,
-        coverImage: lesson.videoUrl || lesson.audioUrl || '',
+        coverImage: course.courseImage, 
         lessonType: lesson.lessonType,
         content: {
             text: lesson.textContent,
@@ -80,11 +84,13 @@ const getCourseTopics = asyncHandler(async (req: Request, res: Response) => {
             audio: lesson.audioUrl
         }
     }));
-
+      const quiz = course.quiz || null;
+ console.log("t",topics)
     return res.status(200).json(
         new ApiResponse(200, 'Topics fetched successfully', {
             courseName: course.courseName,
-            topics
+            topics,
+            quiz
         })
     );
 });
