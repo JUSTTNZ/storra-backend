@@ -4,9 +4,10 @@ import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
 import {supabase } from '../config/supabaseClient.js';
 import connectDB  from '../config/db/db.js';
-import { Class } from '../models/class.model.js';
+import { Class } from '../Models/class.model.js';
 import dotenv from 'dotenv';
 dotenv.config();
+
 
 const CLASSES_DIR = path.join(process.cwd(), 'data', 'classes');
 const IMAGES_DIR = path.join(process.cwd(), 'data', 'images');

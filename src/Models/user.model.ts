@@ -4,9 +4,9 @@ import validator from 'validator';
 
 export interface IUser {
   supabase_user_id: string;
-  username?: string;
   email: string;
   fullname: string;
+  profilePictureUrl?: string;
   role: 'user' | 'admin' | 'superadmin';
   phoneNumber: string;
   parentPhoneNumber?: string;
@@ -42,14 +42,6 @@ const UserSchema = new Schema<UserDocument>(
       unique: true,
       index: true,
     },
-    username: {
-      type: String,
-      unique: true,
-      sparse: true,
-      lowercase: true,
-      trim: true,
-      index: true,
-    },
     email: {
       type: String,
       required: [true, 'Email is required'],
@@ -66,6 +58,10 @@ const UserSchema = new Schema<UserDocument>(
       required: [true, 'Full name is required'],
       trim: true,
       index: true,
+    },
+    profilePictureUrl: {
+      type: String,
+      trim: true,
     },
     role: {
       type: String,
@@ -133,4 +129,6 @@ const UserSchema = new Schema<UserDocument>(
   { timestamps: true }
 );
 
-export const User = mongoose.model<UserDocument>('User', UserSchema);
+export const User =
+  (mongoose.models.User as mongoose.Model<UserDocument>) ||
+  mongoose.model<UserDocument>('User', UserSchema);
