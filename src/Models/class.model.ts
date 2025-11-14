@@ -21,6 +21,7 @@ export interface IQuizQuestion {
 export interface IQuiz {
   quizId: string;
   quizTitle: string;
+  quizImage?: string;
   totalQuestions: number;
   passingScore: number;
   timeLimit: string;
@@ -73,6 +74,7 @@ const QuizQuestionSchema = new Schema({
 const QuizSchema = new Schema({
   quizId: { type: String, required: true },
   quizTitle: { type: String, required: true },
+  quizImage: { type: String },
   totalQuestions: { type: Number, required: true },
   passingScore: { type: Number, required: true },
   timeLimit: { type: String, required: true },
@@ -114,4 +116,6 @@ const ClassSchema = new Schema<ClassDocument>(
   { timestamps: true }
 );
 
-export const Class = mongoose.model<ClassDocument>('Class', ClassSchema);
+export const Class =
+  (mongoose.models.Class as mongoose.Model<ClassDocument>) ||
+  mongoose.model<ClassDocument>('Class', ClassSchema);

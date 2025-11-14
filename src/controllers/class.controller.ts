@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { asyncHandler } from '../utils/AsyncHandler.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { ApiError } from '../utils/ApiError.js';
-import { Class } from '../models/class.model.js';
+import { Class } from '../Models/class.model.js';
 
 // Get all courses (subjects) for the user's class
 const getCoursesByClass = asyncHandler(async (req: Request, res: Response) => {
@@ -28,7 +28,7 @@ const getCoursesByClass = asyncHandler(async (req: Request, res: Response) => {
             id: lesson.lessonId,
             title: lesson.lessonTitle,
             paragraph: lesson.description,
-            coverImage: lesson.videoUrl || lesson.audioUrl || '', // Use video/audio URL as cover
+            coverImage: course.courseImage || '', // Use course image as cover
             lessonType: lesson.lessonType,
             content: {
                 text: lesson.textContent,
@@ -72,7 +72,7 @@ const getCourseTopics = asyncHandler(async (req: Request, res: Response) => {
         id: lesson.lessonId,
         title: lesson.lessonTitle,
         paragraph: lesson.description,
-        coverImage: lesson.videoUrl || lesson.audioUrl || '',
+        coverImage: course.courseImage || '',
         lessonType: lesson.lessonType,
         content: {
             text: lesson.textContent,

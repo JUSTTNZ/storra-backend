@@ -10,6 +10,7 @@ interface ApiErrorParams {
   message?: string;
   errors?: ApiErrorDetail[];
   stack?: string;
+  originalError?: any;
 }
 
 class ApiError extends Error {
@@ -22,7 +23,8 @@ class ApiError extends Error {
     statusCode,
     message = "Something went wrong",
     errors = [],
-    stack
+    stack,
+    originalError
   }: ApiErrorParams) {
     super(message);
 
@@ -47,6 +49,7 @@ class ApiError extends Error {
         statusCode: this.statusCode,
         message: this.message,
         errors: this.errors,
+        originalError: originalError ? originalError.message : undefined,
         stack: this.stack
       });
     }

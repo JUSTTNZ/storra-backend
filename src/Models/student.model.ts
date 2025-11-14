@@ -105,7 +105,9 @@ const StudentProgressSchema = new Schema<StudentProgressDocument>(
 // Compound index for efficient queries
 StudentProgressSchema.index({ userId: 1, classId: 1 }, { unique: true });
 
-export const StudentProgress = mongoose.model<StudentProgressDocument>(
-  'StudentProgress',
-  StudentProgressSchema
-);
+export const StudentProgress =
+  (mongoose.models.StudentProgress as mongoose.Model<StudentProgressDocument>) ||
+  mongoose.model<StudentProgressDocument>(
+    'StudentProgress',
+    StudentProgressSchema
+  );

@@ -1,7 +1,7 @@
 // controllers/onboarding.controller.ts
 import { Request, Response, NextFunction } from 'express';
-import { User } from '../models/user.model.js';
-import { Class } from '../models/class.model.js';
+import { User } from '../Models/user.model.js';
+import { Class } from '../Models/class.model.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { ApiError } from '../utils/ApiError.js';
 import { logger } from '../utils/logger.js';
@@ -188,7 +188,7 @@ export const selectClass = async (
 ) => {
   try {
     const { userId } = req.params;
-    const { classId } = req.body;
+    const { classId, profilePictureUrl } = req.body;
 
     if (!classId) {
       throw new ApiError({ statusCode: 400, message: 'Class ID is required' });
@@ -206,6 +206,7 @@ export const selectClass = async (
       {
         currentClassId: classId,
         educationLevel: classData.educationLevel,
+        profilePictureUrl,
         hasCompletedOnboarding: true, // Mark onboarding as complete
       },
       { new: true, runValidators: true }
