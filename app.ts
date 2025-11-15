@@ -8,6 +8,7 @@ const app = express();
 import userRouter from './src/routes/user.route.js'
 import classRouter from './src/routes/class.route.js'
 import onboardingRouter from './src/routes/onboarding.route.js'
+import quizRouter from './src/routes/quiz.route.js'
 // import healthcheckRouter from './src/HealthCheck/healthcheck.route.js';
 // import countryRouter from './src/Country/countryRoute.js'
 // import schoolRouter from './src/School/schoolRoute.js';
@@ -31,6 +32,7 @@ app.get("/api/v1/test", (req, res) => {
 app.use("/api/v1/student", userRouter);
 app.use("/api/v1/classes", classRouter);
 app.use("/api/v1/onboarding", onboardingRouter)
+app.use("/api/v1/quiz", quizRouter)
 // app.use("/api/v1", healthcheckRouter);
 // app.use("/api/v1/country", countryRouter);
 // app.use("/api/v1/school", schoolRouter);
