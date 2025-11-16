@@ -9,6 +9,7 @@ import { logger } from '../utils/logger.js';
 // ============================================
 // STEP 1: Update Basic Personalization
 // ============================================
+// STEP 1: Update Basic Personalization
 export const updatePersonalization = async (
   req: Request,
   res: Response,
@@ -16,9 +17,9 @@ export const updatePersonalization = async (
 ) => {
   try {
     const { userId } = req.params;
-    const { age, currentClassLevel, preferredLanguage } = req.body;
+    const { age, currentClassLevel, preferredLanguage, profilePictureUrl } = req.body;
 
-    // Validate required fields
+    // 1️⃣ Validate required fields
     if (!age || !currentClassLevel || !preferredLanguage) {
       throw new ApiError({
         statusCode: 400,
@@ -26,31 +27,39 @@ export const updatePersonalization = async (
       });
     }
 
-    // Update user
-    const user = await User.findByIdAndUpdate(
-      userId,
-      {
-        age,
-        currentClassLevel,
-        preferredLanguage,
-      },
-      { new: true, runValidators: true }
-    );
+    // 2️⃣ Build update object dynamically (include profilePictureUrl only if provided)
+    const updateData: any = {
+      age,
+      currentClassLevel,
+      preferredLanguage,
+    };
+    if (profilePictureUrl) updateData.profilePictureUrl = profilePictureUrl;
+
+    // 3️⃣ Update user in MongoDB
+    const user = await User.findByIdAndUpdate(userId, updateData, {
+      new: true,
+      runValidators: true,
+    });
 
     if (!user) {
       throw new ApiError({ statusCode: 404, message: 'User not found' });
     }
 
-    logger.info('User personalization updated', { userId, currentClassLevel });
+    logger.info('✅ User personalization updated', {
+      userId,
+      currentClassLevel,
+      profilePictureUrl: profilePictureUrl || null,
+    });
 
+    // 4️⃣ Return response to frontend
     return res.status(200).json(
       new ApiResponse(200, 'Personalization updated successfully', {
         user,
-        nextStep: 'learning-goals', // Tell frontend what screen is next
+        nextStep: 'learning-goals', // frontend uses this to navigate
       })
     );
   } catch (error: any) {
-    logger.error('Update personalization error', { error: error.message });
+    logger.error('❌ Update personalization error', { error: error.message });
     next(error);
   }
 };
