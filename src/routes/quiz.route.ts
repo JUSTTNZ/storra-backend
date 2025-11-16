@@ -5,7 +5,7 @@ import {
   submitQuizAttempt,
   getUserQuizProgress,
   getUserQuizStats,
-  getLeaderboard,
+
 } from '../controllers/quiz.controller.js';
 import { requireSupabaseUser } from '../middlewares/supabaseAuth.js'
 
@@ -17,10 +17,6 @@ router.use(requireSupabaseUser);
 // ============================================
 // QUIZ ROUTES
 // ============================================
-
-router.get('/test', (req, res) => {
-  res.json({ message: 'Quiz routes are working!' });
-});
 
 // Get specific quiz with user progress
 router.get('/course/:courseId/quiz/:quizId', getQuizById);
@@ -49,16 +45,6 @@ router.get('/stats', getUserQuizStats);
 // GET /api/v1/quiz/stats
 // Returns: Total quizzes, completed, incomplete, total points, etc.
 
-// ============================================
-// LEADERBOARD ROUTES
-// ============================================
-
-// Get leaderboard
-router.get('/leaderboard', getLeaderboard);
-// GET /api/v1/quiz/leaderboard?scope=class
-// GET /api/v1/quiz/leaderboard?scope=education
-// GET /api/v1/quiz/leaderboard?scope=global
-// Returns: Top 100 users ranked by points
 
 export default router;
 
