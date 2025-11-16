@@ -66,6 +66,7 @@ export const registerUser = async (req: Request, res: Response, next: NextFuncti
           parentPhoneNumber: parentPhoneNumber || supaUser.user_metadata?.parentPhoneNumber || '',
           role,
           isVerified: true,
+          profilePictureUrl: supaUser.user_metadata?.profilePictureUrl || '',
           hasCompletedOnboarding: false,
         });
 
