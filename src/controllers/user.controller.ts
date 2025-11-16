@@ -185,7 +185,7 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
 
     // ✅ Include all relevant onboarding + class fields
     const profile = await User.findOne({ supabase_user_id: supabaseUser.id }).select(
-      'email username fullname role phoneNumber createdAt currentClassId currentClassLevel educationLevel preferredLanguage age learningGoals hasCompletedOnboarding'
+      'email username fullname role phoneNumber profilePictureUrl createdAt currentClassId currentClassLevel educationLevel preferredLanguage age learningGoals hasCompletedOnboarding'
     );
 
     if (!profile) {
