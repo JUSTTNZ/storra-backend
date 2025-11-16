@@ -46,9 +46,28 @@ export const getLeaderboard = async (
       ...entry,
     }));
 
+    // Pagination: support ?page=1&limit=50 (defaults: page=1, limit=50)
+    const page = parseInt((req.query.page as string) || '1', 10);
+    const limit = parseInt((req.query.limit as string) || '50', 10);
+
+    if (Number.isNaN(page) || Number.isNaN(limit) || page < 1 || limit < 1) {
+      return next(new ApiError({ statusCode: 400, message: 'Invalid pagination parameters' }));
+    }
+
+    const total = rankedLeaderboard.length;
+    const totalPages = Math.ceil(total / limit);
+    const startIndex = (page - 1) * limit;
+    const paginated = rankedLeaderboard.slice(startIndex, startIndex + limit);
+
     return res.status(200).json(
       new ApiResponse(200, 'Leaderboard fetched successfully', {
-        leaderboard: rankedLeaderboard,
+        leaderboard: paginated,
+        meta: {
+          total,
+          page,
+          limit,
+          totalPages,
+        },
       })
     );
   } catch (error: any) {

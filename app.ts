@@ -41,7 +41,7 @@ app.use("/api/v1/onboarding", onboardingRouter)
 app.use("/api/v1/quiz", quizRouter)
 app.use("/api/v1/rewards", rewardsRouter)
 app.use("/api/v1/profile", profileRouter)
-app.use("/api/v1/leadboard", leadboardRouter)
+app.use("/api/v1/leaderboard", leadboardRouter)
 // app.use("/api/v1", healthcheckRouter);
 // app.use("/api/v1/country", countryRouter);
 // app.use("/api/v1/school", schoolRouter);
