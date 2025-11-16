@@ -227,7 +227,7 @@ const submitQuizAttempt = asyncHandler(async (req: Request, res: Response) => {
           : percentage >= 70
           ? '✅ Quiz completed!'
           : percentage >= 50
-          ? '⚠️ You passed, but try to improve your score'
+          ? '⚠️ Nice one, but try to improve your score'
           : '❌ You need to retake this quiz',
     })
   );

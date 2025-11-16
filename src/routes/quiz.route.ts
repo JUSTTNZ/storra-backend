@@ -18,6 +18,10 @@ router.use(requireSupabaseUser);
 // QUIZ ROUTES
 // ============================================
 
+router.get('/test', (req, res) => {
+  res.json({ message: 'Quiz routes are working!' });
+});
+
 // Get specific quiz with user progress
 router.get('/course/:courseId/quiz/:quizId', getQuizById);
 // GET /api/v1/quiz/course/jss1-math/quiz/jss1-math-quiz
