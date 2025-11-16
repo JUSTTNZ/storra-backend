@@ -200,15 +200,7 @@ const submitQuizAttempt = asyncHandler(async (req: Request, res: Response) => {
 
   await quizProgress.save();
 
-  // Update user leaderboard
-  await updateUserLeaderboard(
-    user._id,
-    user.currentClassId,
-    user.educationLevel || 'primary',
-    pointsEarned,
-    newStatus === 'complete',
-    percentage === 100
-  );
+
 
   return res.status(200).json(
     new ApiResponse(200, 'Quiz submitted successfully', {
@@ -293,95 +285,8 @@ const getUserQuizStats = asyncHandler(async (req: Request, res: Response) => {
   );
 });
 
-// ============================================
-// GET LEADERBOARD
-// ============================================
-const getLeaderboard = asyncHandler(async (req: Request, res: Response) => {
-  const { scope } = req.query; // 'class' | 'education' | 'global'
-  const user = req.user;
-
-  let query: any = {};
-
-  if (scope === 'class' && user?.currentClassId) {
-    query.classId = user.currentClassId;
-  } else if (scope === 'education' && user?.educationLevel) {
-    query.educationLevel = user.educationLevel;
-  }
-  // 'global' scope has no filter
-
-  const leaderboard = await UserLeaderboard.find(query)
-    .populate('userId', 'fullname username email')
-    .sort({ totalPoints: -1, quizzesCompleted: -1 })
-    .limit(100);
-
-  // Add rank
-  const rankedLeaderboard = leaderboard.map((entry, index) => ({
-    rank: index + 1,
-    userId: entry.userId,
-    totalPoints: entry.totalPoints,
-    quizzesCompleted: entry.quizzesCompleted,
-    perfectScores: entry.perfectScores,
-  }));
-
-  // Find current user's rank
-  let userRank = null;
-  if (user) {
-    const userEntry = rankedLeaderboard.find(
-      (entry: any) => entry.userId._id.toString() === user._id.toString()
-    );
-    userRank = userEntry ? userEntry.rank : null;
-  }
-
-  return res.status(200).json(
-    new ApiResponse(200, 'Leaderboard fetched successfully', {
-      leaderboard: rankedLeaderboard,
-      userRank,
-      scope: scope || 'global',
-    })
-  );
-});
-
-// ============================================
-// HELPER: Update User Leaderboard
-// ============================================
-async function updateUserLeaderboard(
-  userId: any,
-  classId: string,
-  educationLevel: string,
-  pointsEarned: number,
-  isCompleted: boolean,
-  isPerfectScore: boolean
-) {
-  let leaderboard = await UserLeaderboard.findOne({ userId });
-
-  if (!leaderboard) {
-    leaderboard = new UserLeaderboard({
-      userId,
-      classId,
-      educationLevel,
-      totalPoints: 0,
-      quizzesCompleted: 0,
-      perfectScores: 0,
-    });
-  }
-
-  // Update points
-  if (pointsEarned > 0) {
-    leaderboard.totalPoints += pointsEarned;
-  }
-
-  // Update completion count (only count once per quiz)
-  if (isCompleted) {
-    leaderboard.quizzesCompleted += 1;
-  }
-
-  // Update perfect score count
-  if (isPerfectScore) {
-    leaderboard.perfectScores += 1;
-  }
-
-  await leaderboard.save();
-}
 
 
-export { getLeaderboard, getQuizById, getUserQuizProgress, getUserQuizStats, updateUserLeaderboard, submitQuizAttempt}
+
+
+export { getQuizById, getUserQuizProgress, getUserQuizStats,  submitQuizAttempt}
