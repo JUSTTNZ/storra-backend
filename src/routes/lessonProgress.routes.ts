@@ -11,11 +11,13 @@ import {
   getCourseProgressOverview,
   getUserLearningStats,
 } from '../controllers/lessonProgress.controller.js';
-import { requireSupabaseUser } from '../middlewares/supabaseAuth.js';
+
+import { requireSupabaseUser, requireMongoProfile } from '../middlewares/supabaseAuth.js';
+
 const router = Router();
 
-// All routes require authentication
-router.use(requireSupabaseUser);
+// All routes require authentication + Mongo profile
+router.use(requireSupabaseUser, requireMongoProfile);
 
 // GET /api/v1/progress/stats - Get overall learning stats
 router.get('/stats', getUserLearningStats);

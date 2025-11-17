@@ -2,14 +2,14 @@
 import 'dotenv/config'
 import { Request, Response, NextFunction } from 'express'
 import { createClient, User as SupaUser } from '@supabase/supabase-js'
-import { User } from '../models/user.model.js'
+import { User } from '../Models/user.model.js'
 
 
 declare global {
   namespace Express {
     interface Request {
       supabaseUser?: SupaUser;
-      user?: import('../models/user.model.js').UserDocument;
+      user?: import('../Models/user.model.js').UserDocument;
     }
   }
 }

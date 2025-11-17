@@ -1,11 +1,9 @@
-import { Router } from 'express'
-import { requireSupabaseUser } from '../middlewares/supabaseAuth.js'
-import {  getLeaderboard } from '../controllers/leadboard.controller.js'
+import { Router } from 'express';
+import { requireSupabaseUser, requireMongoProfile } from '../middlewares/supabaseAuth.js';
+import { getLeaderboard } from '../controllers/leadboard.controller.js';
 
-const router = Router()
-router.get('/',  getLeaderboard)
+const router = Router();
 
+router.get('/', requireSupabaseUser, requireMongoProfile, getLeaderboard);
 
-
-
-export default router
+export default router;
