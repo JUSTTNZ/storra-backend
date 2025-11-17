@@ -11,6 +11,13 @@ import { requireSupabaseUser, requireMongoProfile } from '../middlewares/supabas
 
 const router = express.Router();
 
+/**
+ * @swagger
+ * tags:
+ *   name: Quiz
+ *   description: API for managing quizzes and user attempts
+ */
+
 // All quiz routes require authentication + Mongo profile
 router.use(requireSupabaseUser, requireMongoProfile);
 
@@ -18,16 +25,111 @@ router.use(requireSupabaseUser, requireMongoProfile);
 // QUIZ ROUTES
 // ============================================
 
-// Get specific quiz with user progress
+/**
+ * @swagger
+ * /quiz/course/{courseId}/quiz/{quizId}:
+ *   get:
+ *     summary: Get a specific quiz with user's progress
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: courseId
+ *         required: true
+ *         schema:
+ *           type: string
+ *       - in: path
+ *         name: quizId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved quiz data.
+ *       401:
+ *         description: Unauthorized
+ *       404:
+ *         description: Quiz not found.
+ */
 router.get('/course/:courseId/quiz/:quizId', getQuizById);
 
-// Submit quiz attempt
+/**
+ * @swagger
+ * /quiz/course/{courseId}/quiz/{quizId}/submit:
+ *   post:
+ *     summary: Submit a quiz attempt
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: courseId
+ *         required: true
+ *         schema:
+ *           type: string
+ *       - in: path
+ *         name: quizId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               answers:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *     responses:
+ *       200:
+ *         description: Quiz attempt submitted successfully.
+ *       400:
+ *         description: Invalid input.
+ *       401:
+ *         description: Unauthorized
+ */
 router.post('/course/:courseId/quiz/:quizId/submit', submitQuizAttempt);
 
-// Get user's quiz progress for a course
+/**
+ * @swagger
+ * /quiz/course/{courseId}/progress:
+ *   get:
+ *     summary: Get user's quiz progress for a course
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: courseId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved quiz progress.
+ *       401:
+ *         description: Unauthorized
+ */
 router.get('/course/:courseId/progress', getUserQuizProgress);
 
-// Get all user's quiz statistics
+/**
+ * @swagger
+ * /quiz/stats:
+ *   get:
+ *     summary: Get all of a user's quiz statistics
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved quiz stats.
+ *       401:
+ *         description: Unauthorized
+ */
 router.get('/stats', getUserQuizStats);
 
 export default router;
