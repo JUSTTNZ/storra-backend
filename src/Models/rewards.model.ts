@@ -114,7 +114,6 @@ const UserRewardsSchema = new Schema<UserRewardsDocument>(
       ref: 'User',
       required: true,
       unique: true,
-      index: true,
     },
     
     // Balances
@@ -156,7 +155,6 @@ const UserRewardsSchema = new Schema<UserRewardsDocument>(
 );
 
 // Index for efficient queries
-UserRewardsSchema.index({ userId: 1 });
 UserRewardsSchema.index({ 'dailyRewards.day': 1, 'dailyRewards.month': 1, 'dailyRewards.year': 1 });
 
 export const UserRewards = mongoose.model<UserRewardsDocument>(
