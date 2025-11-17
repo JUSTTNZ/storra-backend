@@ -23,6 +23,7 @@ import rewardsRouter from './src/routes/rewards.route.js'
 import profileRouter from './src/routes/profile.route.js';
 import leadboardRouter from './src/routes/leadboard.route.js';
 import lessonProgress from './src/routes/lessonProgress.routes.js'
+import spinTheWheelRouter from './src/routes/spinTheWheel.route.js'
 // import healthcheckRouter from './src/HealthCheck/healthcheck.route.js';
 // import countryRouter from './src/Country/countryRoute.js'
 // import schoolRouter from './src/School/schoolRoute.js';
@@ -53,6 +54,8 @@ app.use("/api/v1/rewards", rewardsRouter)
 app.use("/api/v1/profile", profileRouter)
 app.use("/api/v1/leaderboard", leadboardRouter)
 app.use("/api/v1/progress", lessonProgress)
+app.use("/api/v1/spin", spinTheWheelRouter);
+
 // app.use("/api/v1", healthcheckRouter);
 // app.use("/api/v1/country", countryRouter);
 // app.use("/api/v1/school", schoolRouter);

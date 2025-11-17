@@ -137,7 +137,17 @@ export const updateLessonProgress = asyncHandler(async (req: Request, res: Respo
 
   // Update course progress
   await updateCourseProgressHelper(user._id, courseId);
+console.log('Updated lesson progress:', {
+  lessonProgress,
 
+  progress: {
+    progress,
+    timeSpent,
+    videoWatchPercentage,
+    audioListenPercentage,
+    textReadPercentage
+  },
+});
   return res.status(200).json(
     new ApiResponse(200, 'Lesson progress updated successfully', lessonProgress)
   );
@@ -190,7 +200,11 @@ export const markLessonCompleted = asyncHandler(async (req: Request, res: Respon
   if (completedLessonsCount === 1) {
     await unlockAchievementHelper(user._id, 'first_course_completed');
   }
-
+console.log('Lesson completed result:', {
+  lessonProgress,
+  courseProgress,
+  completedLessonsCount,
+});
   return res.status(200).json(
     new ApiResponse(
       200,

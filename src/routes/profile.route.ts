@@ -44,7 +44,7 @@ const upload = multer({ storage });
  */
 router.post(
   '/upload-profile',
-  requireSupabaseUser,     // Auth required
+  // requireSupabaseUser,     // Auth required
   requireMongoProfile,     // Must load Mongo user profile
   upload.single('profile'),
   uploadProfilePicture

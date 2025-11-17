@@ -25,6 +25,6 @@ const router = Router();
  *       401:
  *         description: Not authenticated
  */
-router.get('/', requireSupabaseUser, requireMongoProfile, getLeaderboard);
+router.get('/', getLeaderboard);
 
 export default router;
