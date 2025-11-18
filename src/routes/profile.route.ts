@@ -32,20 +32,39 @@ const upload = multer({ storage });
  *               profile:
  *                 type: string
  *                 format: binary
+ *                 description: The profile picture file to upload.
  *     responses:
- *       200:
+ *       '200':
  *         description: Profile picture uploaded successfully
- *       400:
- *         description: No file uploaded
- *       401:
- *         description: Not authenticated
- *       500:
- *         description: File upload failed
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 statusCode:
+ *                   type: integer
+ *                   example: 200
+ *                 message:
+ *                   type: string
+ *                   example: "Profile picture uploaded successfully"
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     profilePictureUrl:
+ *                       type: string
+ *                       format: uri
+ *                       example: "https://example.com/new-avatar.png"
+ *       '400':
+ *         description: No file uploaded or invalid file type.
+ *       '401':
+ *         description: Not authenticated.
+ *       '500':
+ *         description: File upload failed due to server error.
  */
 router.post(
   '/upload-profile',
   // requireSupabaseUser,     // Auth required
-  requireMongoProfile,     // Must load Mongo user profile
+  // requireMongoProfile,     // Must load Mongo user profile
   upload.single('profile'),
   uploadProfilePicture
 );

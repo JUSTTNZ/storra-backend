@@ -4,6 +4,8 @@ import { supabaseAdmin } from '../lib/supabase.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { ApiError } from '../utils/ApiError.js';
 import { logger } from '../utils/logger.js';
+import { UserRewards } from '../Models/rewards.model.js';
+import { QuizProgress } from '../Models/quiz.model.js';
 import { User } from '../Models/user.model.js';
 
 export const registerUser = async (req: Request, res: Response, next: NextFunction) => {
@@ -193,11 +195,30 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
       throw new ApiError({ statusCode: 404, message: 'User profile not found' });
     }
 
+    const rewards = await UserRewards.findOne({ userId: profile._id });
+
+    // Calculate user's total points
+    const userQuizProgress = await QuizProgress.find({ userId: profile._id }).select('pointsEarned');
+    const totalPoints = userQuizProgress.reduce((sum, qp) => sum + (qp.pointsEarned || 0), 0);
+
+    // Calculate rank
+    const allUsers = await User.find().select('_id');
+    const allUsersPoints = await Promise.all(
+      allUsers.map(async (user) => {
+        const quizProgress = await QuizProgress.find({ userId: user._id }).select('pointsEarned');
+        const userTotalPoints = quizProgress.reduce((sum, qp) => sum + (qp.pointsEarned || 0), 0);
+        return { userId: user._id, totalPoints: userTotalPoints };
+      })
+    );
+
+    const sortedUsers = allUsersPoints.sort((a, b) => b.totalPoints - a.totalPoints);
+    const rank = sortedUsers.findIndex((entry) => entry.userId.equals(profile._id)) + 1;
+
     logger.info('✅ Current user fetched', { userId: supabaseUser.id });
 
     return res
       .status(200)
-      .json(new ApiResponse(200, 'User profile fetched successfully', profile));
+      .json(new ApiResponse(200, 'User profile fetched successfully', { profile, rewards, leaderboard: { totalPoints, rank } }));
   } catch (err: any) {
     logger.error('Get current user error', { error: err.message });
     next(err);
