@@ -11,6 +11,13 @@ import { requireSupabaseUser } from '../middlewares/supabaseAuth.js'; // Your au
 
 const router = express.Router();
 
+/**
+ * @swagger
+ * tags:
+ *   name: Onboarding
+ *   description: User onboarding process
+ */
+
 // All routes require authentication
 // router.use(requireSupabaseUser);
 
@@ -18,37 +25,146 @@ const router = express.Router();
 // ONBOARDING FLOW ROUTES
 // ============================================
 
-// Step 1: Update basic personalization (age, class level, language)
+/**
+ * @swagger
+ * /onboarding/personalization/{userId}:
+ *   patch:
+ *     summary: "Step 1: Update user's basic personalization info"
+ *     tags: [Onboarding]
+ *     parameters:
+ *       - in: path
+ *         name: userId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               age:
+ *                 type: number
+ *               currentClassLevel:
+ *                 type: string
+ *                 enum: [primary, secondary]
+ *               preferredLanguage:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Personalization updated successfully.
+ *       404:
+ *         description: User not found.
+ */
 router.patch('/personalization/:userId', updatePersonalization);
-// PATCH /api/v1/onboarding/personalization/USER_ID
-// Body: { age: 15, currentClassLevel: 'primary', preferredLanguage: 'English' }
 
-// Step 2: Update learning goals
+/**
+ * @swagger
+ * /onboarding/learning-goals/{userId}:
+ *   patch:
+ *     summary: "Step 2: Update user's learning goals"
+ *     tags: [Onboarding]
+ *     parameters:
+ *       - in: path
+ *         name: userId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               learningGoals:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *               learningDaysPerWeek:
+ *                 type: string
+ *               learningTimePerDay:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Learning goals updated successfully.
+ *       404:
+ *         description: User not found.
+ */
 router.patch('/learning-goals/:userId', updateLearningGoals);
-// PATCH /api/v1/onboarding/learning-goals/USER_ID
-// Body: {
-//   learningGoals: ['Reading faster', 'Spelling'],
-//   learningDaysPerWeek: '3 days',
-//   learningTimePerDay: '15-30 mins'
-// }
 
-// Step 3: Get available classes (for primary & secondary students)
+/**
+ * @swagger
+ * /onboarding/classes/{userId}:
+ *   get:
+ *     summary: "Step 3: Get available classes for the user"
+ *     tags: [Onboarding]
+ *     parameters:
+ *       - in: path
+ *         name: userId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved available classes.
+ *       404:
+ *         description: User not found.
+ */
 router.get('/classes/:userId', getAvailableClasses);
-// GET /api/v1/onboarding/classes/USER_ID
-// Returns: List of available classes based on user's currentClassLevel
 
-// Step 4: Select specific class
+/**
+ * @swagger
+ * /onboarding/select-class/{userId}:
+ *   post:
+ *     summary: "Step 4: Select a specific class for the user"
+ *     tags: [Onboarding]
+ *     parameters:
+ *       - in: path
+ *         name: userId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               classId:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Class selected successfully.
+ *       404:
+ *         description: User or class not found.
+ */
 router.post('/select-class/:userId', selectClass);
-// POST /api/v1/onboarding/select-class/USER_ID
-// Body: { classId: 'primary-1' }
 
 // ============================================
 // USER COURSES ROUTE
 // ============================================
 
-// Get user's courses based on selected class
+/**
+ * @swagger
+ * /onboarding/my-courses/{userId}:
+ *   get:
+ *     summary: Get user's courses based on their selected class
+ *     tags: [Onboarding]
+ *     parameters:
+ *       - in: path
+ *         name: userId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved user's courses.
+ *       404:
+ *         description: User or class not found.
+ */
 router.get('/my-courses/:userId', getUserCourses);
-// GET /api/v1/onboarding/my-courses/USER_ID
-// Returns: All courses for the user's selected class
 
 export default router;

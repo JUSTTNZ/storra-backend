@@ -1,9 +1,19 @@
 import dotenv from "dotenv";
+import { swaggerUi, swaggerSpec } from './src/swagger.js';
 dotenv.config({ path: './.env' });
 
 import express from 'express';
 import { errorHandler } from './src/middlewares/ErrorHandler.js'
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Swagger UI
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.get("/api-docs-json", (req, res) => {
+  res.setHeader("Content-Type", "application/json");
+  res.send(swaggerSpec);
+});
 
 import userRouter from './src/routes/user.route.js'
 import classRouter from './src/routes/class.route.js'
@@ -12,7 +22,8 @@ import quizRouter from './src/routes/quiz.route.js'
 import rewardsRouter from './src/routes/rewards.route.js'
 import profileRouter from './src/routes/profile.route.js';
 import leadboardRouter from './src/routes/leadboard.route.js';
-
+import lessonProgress from './src/routes/lessonProgress.routes.js'
+import spinTheWheelRouter from './src/routes/spinTheWheel.route.js'
 // import healthcheckRouter from './src/HealthCheck/healthcheck.route.js';
 // import countryRouter from './src/Country/countryRoute.js'
 // import schoolRouter from './src/School/schoolRoute.js';
@@ -42,6 +53,9 @@ app.use("/api/v1/quiz", quizRouter)
 app.use("/api/v1/rewards", rewardsRouter)
 app.use("/api/v1/profile", profileRouter)
 app.use("/api/v1/leaderboard", leadboardRouter)
+app.use("/api/v1/progress", lessonProgress)
+app.use("/api/v1/spin", spinTheWheelRouter);
+
 // app.use("/api/v1", healthcheckRouter);
 // app.use("/api/v1/country", countryRouter);
 // app.use("/api/v1/school", schoolRouter);

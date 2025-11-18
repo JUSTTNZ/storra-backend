@@ -4,6 +4,7 @@ import { asyncHandler } from '../utils/AsyncHandler.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { ApiError } from '../utils/ApiError.js';
 import { UserRewards, getDailyRewardForDay, PREDEFINED_ACHIEVEMENTS } from '../Models/rewards.model.js';
+import mongoose from 'mongoose';
 
 // ============================================
 // GET USER REWARDS (Dashboard)
@@ -289,8 +290,8 @@ export const getDailyRewardsCalendar = asyncHandler(async (req: Request, res: Re
 
 // ============================================
 // HELPER: Check and Unlock Achievements
-// ============================================
-async function checkAndUnlockAchievements(rewards: any, userId: any) {
+// =-==========================================
+async function checkAndUnlockAchievements(rewards: any, userId: mongoose.Types.ObjectId) {
   const now = new Date();
 
   // Check streak achievements
@@ -315,7 +316,7 @@ async function checkAndUnlockAchievements(rewards: any, userId: any) {
 // ============================================
 // UNLOCK ACHIEVEMENT (Called from other controllers)
 // ============================================
-export const unlockAchievement = async (userId: any, achievementId: string) => {
+export const unlockAchievement = async (userId: mongoose.Types.ObjectId, achievementId: string) => {
   const rewards = await UserRewards.findOne({ userId });
 
   if (!rewards) return;

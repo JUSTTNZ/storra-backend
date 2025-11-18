@@ -3,7 +3,7 @@ import mongoose, { Schema, Document } from 'mongoose';
 import validator from 'validator';
 
 export interface IUser {
-  _id: string;
+  _id: mongoose.Types.ObjectId;
   supabase_user_id: string;
   email: string;
   fullname: string;

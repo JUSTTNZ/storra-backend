@@ -203,3 +203,84 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
     next(err);
   }
 };
+
+export const forgetPassword = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { email } = req.body;
+
+    if (!email) {
+      throw new ApiError({ statusCode: 400, message: 'Email is required' });
+    }
+
+    
+    const { data, error } = await supabaseAdmin.auth.admin.generateLink({
+      type: 'recovery',
+      email: email,
+    });
+
+    if (error) {
+      logger.error('Password reset request failed', { error });
+      throw new ApiError({ statusCode: 500, message: 'Failed to send password reset email' });
+    }
+
+    return res
+      .status(200)
+      .json(new ApiResponse(200, 'Password reset instructions sent to your email', {}));
+  } catch (err: any) {
+    logger.error('Forget password error', { error: err.message });
+    next(err);
+  }
+};
+
+export const editProfile = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const supabaseUser = req.supabaseUser;
+
+    if (!supabaseUser) {
+      throw new ApiError({ statusCode: 401, message: 'Not authenticated' });
+    }
+
+    const { fullname, phoneNumber, parentPhoneNumber } = req.body;
+
+    // 1️⃣ Update Supabase user metadata
+    const { data: updatedSupaUser, error: supaError } = await supabaseAdmin.auth.admin.updateUserById(
+      supabaseUser.id,
+      {
+        user_metadata: {
+          fullName: fullname,
+          phoneNumber,
+          parentPhoneNumber,
+        },
+      }
+    );
+
+    if (supaError) {
+      logger.error('Failed to update Supabase user', { error: supaError });
+      throw new ApiError({ statusCode: 500, message: 'Failed to update profile' });
+    }
+
+    // 2️⃣ Update MongoDB profile
+    const updatedProfile = await User.findOneAndUpdate(
+      { supabase_user_id: supabaseUser.id },
+      {
+        $set: {
+          fullname,
+          phoneNumber,
+          parentPhoneNumber,
+        },
+      },
+      { new: true }
+    );
+
+    if (!updatedProfile) {
+      throw new ApiError({ statusCode: 404, message: 'User profile not found' });
+    }
+
+    return res
+      .status(200)
+      .json(new ApiResponse(200, 'Profile updated successfully', updatedProfile));
+  } catch (err: any) {
+    logger.error('Edit profile error', { error: err.message });
+    next(err);
+  }
+};

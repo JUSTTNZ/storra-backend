@@ -5,48 +5,135 @@ import {
   submitQuizAttempt,
   getUserQuizProgress,
   getUserQuizStats,
-
 } from '../controllers/quiz.controller.js';
-import { requireSupabaseUser } from '../middlewares/supabaseAuth.js'
+
+import { requireSupabaseUser, requireMongoProfile } from '../middlewares/supabaseAuth.js';
 
 const router = express.Router();
 
-// All routes require authentication
-router.use(requireSupabaseUser);
+/**
+ * @swagger
+ * tags:
+ *   name: Quiz
+ *   description: API for managing quizzes and user attempts
+ */
+
+// All quiz routes require authentication + Mongo profile
+router.use(requireSupabaseUser, requireMongoProfile);
 
 // ============================================
 // QUIZ ROUTES
 // ============================================
 
-// Get specific quiz with user progress
+/**
+ * @swagger
+ * /quiz/course/{courseId}/quiz/{quizId}:
+ *   get:
+ *     summary: Get a specific quiz with user's progress
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: courseId
+ *         required: true
+ *         schema:
+ *           type: string
+ *       - in: path
+ *         name: quizId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved quiz data.
+ *       401:
+ *         description: Unauthorized
+ *       404:
+ *         description: Quiz not found.
+ */
 router.get('/course/:courseId/quiz/:quizId', getQuizById);
-// GET /api/v1/quiz/course/jss1-math/quiz/jss1-math-quiz
-// Returns: Quiz questions (without correct answers) + user's progress
 
-// Submit quiz attempt
+/**
+ * @swagger
+ * /quiz/course/{courseId}/quiz/{quizId}/submit:
+ *   post:
+ *     summary: Submit a quiz attempt
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: courseId
+ *         required: true
+ *         schema:
+ *           type: string
+ *       - in: path
+ *         name: quizId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               answers:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *     responses:
+ *       200:
+ *         description: Quiz attempt submitted successfully.
+ *       400:
+ *         description: Invalid input.
+ *       401:
+ *         description: Unauthorized
+ */
 router.post('/course/:courseId/quiz/:quizId/submit', submitQuizAttempt);
-// POST /api/v1/quiz/course/jss1-math/quiz/jss1-math-quiz/submit
-// Body: {
-//   answers: [
-//     { questionId: "q1", selectedAnswer: "Option B" },
-//     { questionId: "q2", selectedAnswer: "Option A" }
-//   ],
-//   timeSpent: 300 // seconds
-// }
-// Returns: Score, percentage, status (complete/incomplete), points earned
 
-// Get user's quiz progress for a course
+/**
+ * @swagger
+ * /quiz/course/{courseId}/progress:
+ *   get:
+ *     summary: Get user's quiz progress for a course
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: courseId
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved quiz progress.
+ *       401:
+ *         description: Unauthorized
+ */
 router.get('/course/:courseId/progress', getUserQuizProgress);
-// GET /api/v1/quiz/course/jss1-math/progress
-// Returns: All quiz progress for the course
 
-// Get all user's quiz statistics
+/**
+ * @swagger
+ * /quiz/stats:
+ *   get:
+ *     summary: Get all of a user's quiz statistics
+ *     tags: [Quiz]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved quiz stats.
+ *       401:
+ *         description: Unauthorized
+ */
 router.get('/stats', getUserQuizStats);
-// GET /api/v1/quiz/stats
-// Returns: Total quizzes, completed, incomplete, total points, etc.
-
 
 export default router;
+
 
 // ============================================
 // Add to your main app.ts or server.ts:

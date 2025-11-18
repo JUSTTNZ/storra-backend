@@ -56,22 +56,18 @@ const QuizProgressSchema = new Schema<QuizProgressDocument>(
       type: Schema.Types.ObjectId,
       ref: 'User',
       required: true,
-      index: true,
     },
     classId: {
       type: String,
       required: true,
-      index: true,
     },
     courseId: {
       type: String,
       required: true,
-      index: true,
     },
     quizId: {
       type: String,
       required: true,
-      index: true,
     },
     status: {
       type: String,
@@ -149,12 +145,10 @@ const UserLeaderboardSchema = new Schema<UserLeaderboardDocument>(
     classId: {
       type: String,
       required: true,
-      index: true,
     },
     educationLevel: {
       type: String,
       required: true,
-      index: true,
     },
   },
   { timestamps: true }
