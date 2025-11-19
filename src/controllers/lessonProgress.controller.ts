@@ -5,10 +5,9 @@ import { ApiResponse } from '../utils/ApiResponse.js';
 import { ApiError } from '../utils/ApiError.js';
 import { LessonProgress, LessonProgressDocument } from '../Models/lessonProgress.model.js';
 import { CourseProgress, CourseProgressDocument } from '../Models/courseProgress.model.js';
-import { Class, ILesson } from '../Models/class.model.js';
+import { Class } from '../Models/class.model.js';
 import { unlockAchievementHelper } from './rewards.controller.js';
 import mongoose from 'mongoose';
-
 // ============================================
 // GET LESSON PROGRESS
 // ============================================
@@ -72,7 +71,143 @@ export const getCourseLessonsProgress = asyncHandler(async (req: Request, res: R
 });
 
 // ============================================
-// START/UPDATE LESSON PROGRESS
+// MARK VIDEO AS PLAYED (AUTO-COMPLETE)
+// ============================================
+export const markVideoPlayed = asyncHandler(async (req: Request, res: Response) => {
+  const user = req.user;
+  const { lessonId } = req.params;
+  const { courseId } = req.body;
+
+  if (!user) {
+    throw new ApiError({ statusCode: 401, message: 'User not authenticated' });
+  }
+
+  if (!courseId) {
+    throw new ApiError({ statusCode: 400, message: 'Course ID is required' });
+  }
+
+  // Find or create lesson progress
+  let lessonProgress: LessonProgressDocument | null = await LessonProgress.findOne({
+    userId: user._id,
+    courseId,
+    lessonId,
+  });
+
+  if (!lessonProgress) {
+    lessonProgress = await LessonProgress.create({
+      userId: user._id,
+      courseId,
+      lessonId,
+    });
+  }
+
+  // Mark video as completed (100%)
+  lessonProgress.videoWatchPercentage = 100;
+  lessonProgress.progress = 100;
+  lessonProgress.status = 'completed';
+  lessonProgress.completedAt = new Date();
+  lessonProgress.lastAccessedAt = new Date();
+  
+  await lessonProgress.save();
+
+  // Update course progress
+  const courseProgress = await updateCourseProgressHelper(user._id, courseId);
+
+  // Check for achievements
+  const completedLessonsCount = await LessonProgress.countDocuments({
+    userId: user._id,
+    status: 'completed',
+  });
+
+  // First lesson completed
+  if (completedLessonsCount === 1) {
+    await unlockAchievementHelper(user._id, 'first_course_completed');
+  }
+
+  console.log('Video marked as played:', {
+    lessonId,
+    courseId,
+    lessonProgress: lessonProgress.toObject(),
+  });
+
+  return res.status(200).json(
+    new ApiResponse(200, 'Video marked as completed', {
+      lessonProgress,
+      courseProgress,
+    })
+  );
+});
+
+// ============================================
+// MARK AUDIO AS PLAYED (AUTO-COMPLETE)
+// ============================================
+export const markAudioPlayed = asyncHandler(async (req: Request, res: Response) => {
+  const user = req.user;
+  const { lessonId } = req.params;
+  const { courseId } = req.body;
+
+  if (!user) {
+    throw new ApiError({ statusCode: 401, message: 'User not authenticated' });
+  }
+
+  if (!courseId) {
+    throw new ApiError({ statusCode: 400, message: 'Course ID is required' });
+  }
+
+  // Find or create lesson progress
+  let lessonProgress: LessonProgressDocument | null = await LessonProgress.findOne({
+    userId: user._id,
+    courseId,
+    lessonId,
+  });
+
+  if (!lessonProgress) {
+    lessonProgress = await LessonProgress.create({
+      userId: user._id,
+      courseId,
+      lessonId,
+    });
+  }
+
+  // Mark audio as completed (100%)
+  lessonProgress.audioListenPercentage = 100;
+  lessonProgress.progress = 100;
+  lessonProgress.status = 'completed';
+  lessonProgress.completedAt = new Date();
+  lessonProgress.lastAccessedAt = new Date();
+  
+  await lessonProgress.save();
+
+  // Update course progress
+  const courseProgress = await updateCourseProgressHelper(user._id, courseId);
+
+  // Check for achievements
+  const completedLessonsCount = await LessonProgress.countDocuments({
+    userId: user._id,
+    status: 'completed',
+  });
+
+  // First lesson completed
+  if (completedLessonsCount === 1) {
+    await unlockAchievementHelper(user._id, 'first_course_completed');
+  }
+
+  console.log('Audio marked as played:', {
+    lessonId,
+    courseId,
+    lessonProgress: lessonProgress.toObject(),
+  });
+
+  return res.status(200).json(
+    new ApiResponse(200, 'Audio marked as completed', {
+      lessonProgress,
+      courseProgress,
+    })
+  );
+});
+
+// ============================================
+// START/UPDATE LESSON PROGRESS (for text lessons)
 // ============================================
 export const updateLessonProgress = asyncHandler(async (req: Request, res: Response) => {
   const user = req.user;
@@ -81,8 +216,6 @@ export const updateLessonProgress = asyncHandler(async (req: Request, res: Respo
     courseId,
     progress,
     timeSpent,
-    videoWatchPercentage,
-    audioListenPercentage,
     textReadPercentage,
   } = req.body;
 
@@ -121,13 +254,7 @@ export const updateLessonProgress = asyncHandler(async (req: Request, res: Respo
     lessonProgress.timeSpent += timeSpent;
   }
 
-  // Update media-specific progress
-  if (videoWatchPercentage !== undefined) {
-    lessonProgress.videoWatchPercentage = videoWatchPercentage;
-  }
-  if (audioListenPercentage !== undefined) {
-    lessonProgress.audioListenPercentage = audioListenPercentage;
-  }
+  // Update text read percentage
   if (textReadPercentage !== undefined) {
     lessonProgress.textReadPercentage = textReadPercentage;
   }
@@ -137,24 +264,23 @@ export const updateLessonProgress = asyncHandler(async (req: Request, res: Respo
 
   // Update course progress
   await updateCourseProgressHelper(user._id, courseId);
-console.log('Updated lesson progress:', {
-  lessonProgress,
 
-  progress: {
-    progress,
-    timeSpent,
-    videoWatchPercentage,
-    audioListenPercentage,
-    textReadPercentage
-  },
-});
+  console.log('Updated lesson progress:', {
+    lessonProgress,
+    progress: {
+      progress,
+      timeSpent,
+      textReadPercentage,
+    },
+  });
+
   return res.status(200).json(
     new ApiResponse(200, 'Lesson progress updated successfully', lessonProgress)
   );
 });
 
 // ============================================
-// MARK LESSON AS COMPLETED
+// MARK LESSON AS COMPLETED (Manual completion)
 // ============================================
 export const markLessonCompleted = asyncHandler(async (req: Request, res: Response) => {
   const user = req.user;
@@ -200,20 +326,18 @@ export const markLessonCompleted = asyncHandler(async (req: Request, res: Respon
   if (completedLessonsCount === 1) {
     await unlockAchievementHelper(user._id, 'first_course_completed');
   }
-console.log('Lesson completed result:', {
-  lessonProgress,
-  courseProgress,
-  completedLessonsCount,
-});
+
+  console.log('Lesson completed result:', {
+    lessonProgress,
+    courseProgress,
+    completedLessonsCount,
+  });
+
   return res.status(200).json(
-    new ApiResponse(
-      200,
-      'Lesson marked as completed',
-      {
-        lessonProgress,
-        courseProgress,
-      }
-    )
+    new ApiResponse(200, 'Lesson marked as completed', {
+      lessonProgress,
+      courseProgress,
+    })
   );
 });
 
@@ -230,7 +354,7 @@ export const toggleLessonBookmark = asyncHandler(async (req: Request, res: Respo
   }
 
   // Find or create lesson progress
-  let lessonProgress: LessonProgressDocument | null = await LessonProgress.findOne({
+  let lessonProgress = await LessonProgress.findOne({
     userId: user._id,
     courseId,
     lessonId,
@@ -248,13 +372,9 @@ export const toggleLessonBookmark = asyncHandler(async (req: Request, res: Respo
   await lessonProgress.save();
 
   return res.status(200).json(
-    new ApiResponse(
-      200,
-      'Bookmark toggled successfully',
-      {
-        isBookmarked: lessonProgress.isBookmarked,
-      }
-    )
+    new ApiResponse(200, 'Bookmark toggled successfully', {
+      isBookmarked: lessonProgress.isBookmarked,
+    })
   );
 });
 
@@ -271,7 +391,7 @@ export const updateLessonNotes = asyncHandler(async (req: Request, res: Response
   }
 
   // Find or create lesson progress
-  let lessonProgress: LessonProgressDocument | null = await LessonProgress.findOne({
+  let lessonProgress = await LessonProgress.findOne({
     userId: user._id,
     courseId,
     lessonId,
@@ -325,7 +445,7 @@ export const getCourseProgressOverview = asyncHandler(async (req: Request, res: 
   }
 
   // Get course progress
-  const courseProgress: CourseProgressDocument | null = await CourseProgress.findOne({
+  const courseProgress = await CourseProgress.findOne({
     userId: user._id,
     courseId,
   });
@@ -345,7 +465,7 @@ export const getCourseProgressOverview = asyncHandler(async (req: Request, res: 
   }
 
   // Map lesson progress
-  const lessonsWithProgress = course.lessons.map((lesson: ILesson) => {
+  const lessonsWithProgress = course.lessons.map((lesson) => {
     const progress = lessonProgresses.find((lp) => lp.lessonId === lesson.lessonId);
     return {
       ...lesson,
@@ -357,16 +477,12 @@ export const getCourseProgressOverview = asyncHandler(async (req: Request, res: 
   });
 
   return res.status(200).json(
-    new ApiResponse(
-      200,
-      'Course progress overview fetched successfully',
-      {
-        courseProgress,
-        lessons: lessonsWithProgress,
-        totalLessons: course.lessons.length,
-        completedLessons: lessonProgresses.filter((lp) => lp.status === 'completed').length,
-      }
-    )
+    new ApiResponse(200, 'Course progress overview fetched successfully', {
+      courseProgress,
+      lessons: lessonsWithProgress,
+      totalLessons: course.lessons.length,
+      completedLessons: lessonProgresses.filter((lp) => lp.status === 'completed').length,
+    })
   );
 });
 
@@ -397,38 +513,33 @@ export const getUserLearningStats = asyncHandler(async (req: Request, res: Respo
 
   const totalTimeSpent = lessonProgresses.reduce((sum, lp) => sum + lp.timeSpent, 0);
 
-  const averageCourseProgress =
-    totalCourses > 0
-      ? courseProgresses.reduce((sum, cp) => sum + cp.overallProgress, 0) / totalCourses
-      : 0;
+  const averageCourseProgress = totalCourses > 0
+    ? courseProgresses.reduce((sum, cp) => sum + cp.overallProgress, 0) / totalCourses
+    : 0;
 
   return res.status(200).json(
-    new ApiResponse(
-      200,
-      'Learning stats fetched successfully',
-      {
-        courses: {
-          total: totalCourses,
-          completed: completedCourses,
-          inProgress: inProgressCourses,
-          averageProgress: Math.round(averageCourseProgress),
-        },
-        lessons: {
-          total: totalLessons,
-          completed: completedLessons,
-          inProgress: inProgressLessons,
-        },
-        totalTimeSpent, // in seconds
-        totalTimeSpentHours: Math.round(totalTimeSpent / 3600),
-      }
-    )
+    new ApiResponse(200, 'Learning stats fetched successfully', {
+      courses: {
+        total: totalCourses,
+        completed: completedCourses,
+        inProgress: inProgressCourses,
+        averageProgress: Math.round(averageCourseProgress),
+      },
+      lessons: {
+        total: totalLessons,
+        completed: completedLessons,
+        inProgress: inProgressLessons,
+      },
+      totalTimeSpent, // in seconds
+      totalTimeSpentHours: Math.round(totalTimeSpent / 3600),
+    })
   );
 });
 
 // ============================================
 // HELPER: UPDATE COURSE PROGRESS
 // ============================================
-async function updateCourseProgressHelper(userId: mongoose.Types.ObjectId, courseId: string) {
+async function updateCourseProgressHelper(userId: any, courseId: string) {
   // Get all lesson progresses for this course
   const lessonProgresses = await LessonProgress.find({ userId, courseId });
 
@@ -445,7 +556,7 @@ async function updateCourseProgressHelper(userId: mongoose.Types.ObjectId, cours
   const totalTimeSpent = lessonProgresses.reduce((sum, lp) => sum + lp.timeSpent, 0);
 
   // Find or create course progress
-  let courseProgress: CourseProgressDocument | null = await CourseProgress.findOne({ userId, courseId });
+  let courseProgress = await CourseProgress.findOne({ userId, courseId });
 
   if (!courseProgress) {
     courseProgress = await CourseProgress.create({
