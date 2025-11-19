@@ -18,14 +18,25 @@ export const spinTheWheel = asyncHandler(async (req: Request, res: Response) => 
   }
 
   // Load reward profile for this user
-  const userRewards = await UserRewards.findOne({ userId: user._id });
 
-  if (!userRewards) {
-    throw new ApiError({
-      statusCode: 404,
-      message: "User reward profile not found",
-    });
-  }
+let userRewards = await UserRewards.findOne({ userId: user._id });
+if (!userRewards) {
+  userRewards = await UserRewards.create({
+    userId: user._id,
+    totalCoins: 0,
+    totalPoints: 0,
+    totalDiamonds: 0,
+    spinChances: 1,
+    trialDaysRemaining: 0,
+    currentStreak: 0,
+    longestStreak: 0,
+    lastLoginDate: null,
+    dailyRewards: [],
+    achievements: [],
+    transactionHistory: [],
+  });
+}
+
 
   // -----------------------------------------
   // 1. CHECK AVAILABLE SPIN CHANCES
