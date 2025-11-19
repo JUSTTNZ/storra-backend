@@ -13,7 +13,7 @@ const router = Router();
 
 /**
  * @swagger
- * /class/courses:
+ * /classes/courses:
  *   get:
  *     summary: Get courses for the user's current class
  *     tags: [Class]
@@ -31,7 +31,7 @@ router.get('/courses', requireSupabaseUser, requireMongoProfile, getCoursesByCla
 
 /**
  * @swagger
- * /class/courses/{courseId}/topics:
+ * /classes/courses/{courseId}/topics:
  *   get:
  *     summary: Get topics for a specific course
  *     tags: [Class]
