@@ -1,6 +1,7 @@
 import swaggerJsdoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 
+/** @type {import("swagger-jsdoc").Options} */
 const options = {
   definition: {
     openapi: "3.0.0",
@@ -21,9 +22,11 @@ const options = {
     ],
   },
 
-  // Path to the API docs (your route files)
+  // Paths to route files
   apis: ["./src/routes/*.ts", "./src/routes/*.js"],
 };
 
 export const swaggerSpec = swaggerJsdoc(options);
-export { swaggerUi };
+
+// If you want to export swaggerUi for app.use(...)
+export const swaggerUiHandler = swaggerUi;
