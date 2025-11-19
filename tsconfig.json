@@ -5,7 +5,6 @@
     "moduleResolution": "NodeNext",
     "outDir": "dist",
     "resolveJsonModule": true,
-     "noImplicitAny": false,
     "noEmitOnError": false,
     "checkJs": false,
     "rootDir": "src",
