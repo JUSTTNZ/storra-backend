@@ -25,5 +25,5 @@ const options = {
 
 export const swaggerSpec = swaggerJsdoc(options);
 
-// THIS IS THE FIX
-export const swaggerUiHandler = swaggerUi;
+// Simple export - THIS IS THE FIX
+export { swaggerUi };

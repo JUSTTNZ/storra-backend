@@ -20,17 +20,17 @@ import spinTheWheelRouter from './src/routes/spinTheWheel.route.js'
 // import individualRouter from './src/Individual/individualRoute.js'
 // import parentRouter from './src/Parent/parentRoute.js'
 import cookieParser from 'cookie-parser';
-import { swaggerSpec, swaggerUiHandler } from "./src/swagger.js";
+// import { swaggerSpec, swaggerUi } from "./src/swagger.js";
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Swagger UI  
-app.use("/api-docs", swaggerUiHandler.serve, swaggerUiHandler.setup(swaggerSpec));
-app.get("/api-docs-json", (req, res) => {
-  res.setHeader("Content-Type", "application/json");
-  res.send(swaggerSpec);
-});
+// app.use("/api-docs", swaggerUiHandler.serve, swaggerUiHandler.setup(swaggerSpec));
+// app.get("/api-docs-json", (req, res) => {
+//   res.setHeader("Content-Type", "application/json");
+//   res.send(swaggerSpec);
+// });
 
 app.use(express.json({limit: "16kb"}));
 app.use(express.urlencoded({ extended: true, limit: '16kb' }));
