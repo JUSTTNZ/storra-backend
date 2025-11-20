@@ -1,12 +1,6 @@
 import dotenv from "dotenv";
-import { app } from "./app.js";
+import  app  from "./src/app.js";
 import connectDB from "./src/config/db/db.js";
-// import { connectRedis} from './src/config/redis/redis';
-// import { initCountryCounter } from './src/config/redis/redisCountryCounter';
-// import { initSchoolCounter } from './src/config/redis/redisSchoolCounter';
-// import { initStudentCounter } from './src/config/redis/redisStudentCounter';
-// import { initIndividualCounter, checkCounterHealth } from './src/config/redis/redisIndividualCounter'
-// import { initChildCounter } from "./src/config/redis/redisChildCounter";
 import { logger } from "./src/utils/logger.js";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
@@ -23,26 +17,6 @@ const startup = async () => {
 
     await connectDB();
     logger.info('✅ MongoDB connected');
-
-    // await connectRedis();
-    // logger.info('✅ Redis connected');
-
-    // await initCountryCounter();
-    // logger.info('✅ Country counter initialized');
-
-    // await initSchoolCounter();
-    // logger.info('✅ School counter initialized');
-
-    // await initStudentCounter();
-    // logger.info('✅ Student counter initialized');
-
-    // await checkCounterHealth();
-    
-    // await initIndividualCounter();
-    // logger.info('✅ Individual counter initialized')
-
-    // await initChildCounter();
-    // logger.info('✅ Individual counter initialized')
 
  app.listen(PORT, HOST, () => {
   console.log(`🚀 Server running on http://${HOST}:${PORT}`);
