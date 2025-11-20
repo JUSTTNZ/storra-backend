@@ -20,10 +20,10 @@ const options = {
       },
     ],
   },
-
-  // Path to the API docs (your route files)
   apis: ["./src/routes/*.ts", "./src/routes/*.js"],
 };
 
 export const swaggerSpec = swaggerJsdoc(options);
+
+// Simple export - THIS IS THE FIX
 export { swaggerUi };

@@ -218,7 +218,9 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
 
     return res
       .status(200)
-      .json(new ApiResponse(200, 'User profile fetched successfully', { profile, rewards, leaderboard: { totalPoints, rank } }));
+      .json(new ApiResponse(200, 'User profile fetched successfully', { profile, rewards,
+            spinChances: rewards?.spinChances || 1,
+        leaderboard: { totalPoints, rank } }));
   } catch (err: any) {
     logger.error('Get current user error', { error: err.message });
     next(err);
