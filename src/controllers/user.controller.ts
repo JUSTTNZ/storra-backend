@@ -7,6 +7,9 @@ import { logger } from '../utils/logger.js';
 import { UserRewards } from '../Models/rewards.model.js';
 import { QuizProgress } from '../Models/quiz.model.js';
 import { User } from '../Models/user.model.js';
+import { LessonProgress } from '../Models/lessonProgress.model.js';
+import { CourseProgress } from '../Models/courseProgress.model.js';
+import { Class } from '../Models/class.model.js';
 
 export const registerUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
@@ -186,46 +189,88 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
       throw new ApiError({ statusCode: 401, message: 'Not authenticated' });
     }
 
-    // ✅ Include all relevant onboarding + class fields
-    const profile = await User.findOne({ supabase_user_id: supabaseUser.id }).select(
+    // Fetch user profile
+    const user = await User.findOne({ supabase_user_id: supabaseUser.id }).select(
       'email username fullname role phoneNumber profilePictureUrl createdAt currentClassId currentClassLevel educationLevel preferredLanguage age learningGoals hasCompletedOnboarding'
     );
 
-    if (!profile) {
+    if (!user) {
       throw new ApiError({ statusCode: 404, message: 'User profile not found' });
     }
+  
 
-    const rewards = await UserRewards.findOne({ userId: profile._id });
+    // Fetch user rewards
+    const rewards = await UserRewards.findOne({ userId: user._id });
 
-    // Calculate user's total points
-    const userQuizProgress = await QuizProgress.find({ userId: profile._id }).select('pointsEarned');
+    // Calculate user's total points from quizzes
+    const userQuizProgress = await QuizProgress.find({ userId: user._id }).select('pointsEarned');
     const totalPoints = userQuizProgress.reduce((sum, qp) => sum + (qp.pointsEarned || 0), 0);
 
-    // Calculate rank
+    // Calculate leaderboard rank
     const allUsers = await User.find().select('_id');
     const allUsersPoints = await Promise.all(
-      allUsers.map(async (user) => {
-        const quizProgress = await QuizProgress.find({ userId: user._id }).select('pointsEarned');
+      allUsers.map(async (u) => {
+        const quizProgress = await QuizProgress.find({ userId: u._id }).select('pointsEarned');
         const userTotalPoints = quizProgress.reduce((sum, qp) => sum + (qp.pointsEarned || 0), 0);
-        return { userId: user._id, totalPoints: userTotalPoints };
+        return { userId: u._id, totalPoints: userTotalPoints };
       })
     );
-
     const sortedUsers = allUsersPoints.sort((a, b) => b.totalPoints - a.totalPoints);
-    const rank = sortedUsers.findIndex((entry) => entry.userId.equals(profile._id)) + 1;
+    const rank = sortedUsers.findIndex((entry) => entry.userId.equals(user._id)) + 1;
 
-    logger.info('✅ Current user fetched', { userId: supabaseUser.id });
+    // Fetch all courses for the user's class
+    const userClass = await Class.findOne({ classId: user.currentClassId });
+    const allCourses = userClass?.courses || [];
 
-    return res
-      .status(200)
-      .json(new ApiResponse(200, 'User profile fetched successfully', { profile, rewards,
-            spinChances: rewards?.spinChances || 1,
-        leaderboard: { totalPoints, rank } }));
+    // Fetch user's course progress
+    const userProgressRecords = await CourseProgress.find({ userId: user._id });
+
+    // Merge all courses with user's progress
+    const coursesProgress = allCourses.map((course) => {
+      const progress = userProgressRecords.find((p) => p.courseId === course.courseId);
+      return {
+        courseId: course.courseId,
+        courseName: course.courseName,
+        overallProgress: progress?.overallProgress || 0,
+        status: progress?.status || 'not_started',
+        completedLessons: progress?.completedLessons || 0,
+        totalLessons: course.lessons.length,
+        lastAccessedAt: progress?.lastAccessedAt || null,
+      };
+    });
+
+    // Calculate overall progress % across all courses
+    const totalLessonsAcrossCourses = coursesProgress.reduce((sum, c) => sum + c.totalLessons, 0);
+    const completedLessonsAcrossCourses = coursesProgress.reduce((sum, c) => sum + c.completedLessons, 0);
+    const overallProgressPercent =
+      totalLessonsAcrossCourses > 0
+        ? Math.round((completedLessonsAcrossCourses / totalLessonsAcrossCourses) * 100)
+        : 0;
+
+    // console.log('✅ Courses progress (including not started):', coursesProgress);
+    // console.log('🌟 Overall progress %:', overallProgressPercent);
+
+    logger.info('✅ Current user fetched', { userId: user._id });
+  console.log('us', user)
+    return res.status(200).json(
+      new ApiResponse(200, 'User profile fetched successfully', {
+        profile: user,
+        coursesProgress,
+        overallProgressPercent, // new field
+        rewards,
+        spinChances: rewards?.spinChances || 1,
+        leaderboard: { totalPoints, rank },
+      })
+    );
+    
   } catch (err: any) {
     logger.error('Get current user error', { error: err.message });
     next(err);
   }
 };
+
+
+
 
 export const forgetPassword = async (req: Request, res: Response, next: NextFunction) => {
   try {
@@ -263,7 +308,7 @@ export const editProfile = async (req: Request, res: Response, next: NextFunctio
       throw new ApiError({ statusCode: 401, message: 'Not authenticated' });
     }
 
-    const { fullname, phoneNumber, parentPhoneNumber } = req.body;
+    const { fullname, age, } = req.body;
 
     // 1️⃣ Update Supabase user metadata
     const { data: updatedSupaUser, error: supaError } = await supabaseAdmin.auth.admin.updateUserById(
@@ -271,8 +316,7 @@ export const editProfile = async (req: Request, res: Response, next: NextFunctio
       {
         user_metadata: {
           fullName: fullname,
-          phoneNumber,
-          parentPhoneNumber,
+          age
         },
       }
     );
@@ -288,8 +332,7 @@ export const editProfile = async (req: Request, res: Response, next: NextFunctio
       {
         $set: {
           fullname,
-          phoneNumber,
-          parentPhoneNumber,
+          age
         },
       },
       { new: true }
