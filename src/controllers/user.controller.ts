@@ -197,6 +197,7 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
     if (!user) {
       throw new ApiError({ statusCode: 404, message: 'User profile not found' });
     }
+  
 
     // Fetch user rewards
     const rewards = await UserRewards.findOne({ userId: user._id });
@@ -246,11 +247,11 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
         ? Math.round((completedLessonsAcrossCourses / totalLessonsAcrossCourses) * 100)
         : 0;
 
-    console.log('✅ Courses progress (including not started):', coursesProgress);
-    console.log('🌟 Overall progress %:', overallProgressPercent);
+    // console.log('✅ Courses progress (including not started):', coursesProgress);
+    // console.log('🌟 Overall progress %:', overallProgressPercent);
 
     logger.info('✅ Current user fetched', { userId: user._id });
-
+  console.log('us', user)
     return res.status(200).json(
       new ApiResponse(200, 'User profile fetched successfully', {
         profile: user,
@@ -261,6 +262,7 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
         leaderboard: { totalPoints, rank },
       })
     );
+    
   } catch (err: any) {
     logger.error('Get current user error', { error: err.message });
     next(err);
@@ -306,7 +308,7 @@ export const editProfile = async (req: Request, res: Response, next: NextFunctio
       throw new ApiError({ statusCode: 401, message: 'Not authenticated' });
     }
 
-    const { fullname, phoneNumber, parentPhoneNumber } = req.body;
+    const { fullname, age, } = req.body;
 
     // 1️⃣ Update Supabase user metadata
     const { data: updatedSupaUser, error: supaError } = await supabaseAdmin.auth.admin.updateUserById(
@@ -314,8 +316,7 @@ export const editProfile = async (req: Request, res: Response, next: NextFunctio
       {
         user_metadata: {
           fullName: fullname,
-          phoneNumber,
-          parentPhoneNumber,
+          age
         },
       }
     );
@@ -331,8 +332,7 @@ export const editProfile = async (req: Request, res: Response, next: NextFunctio
       {
         $set: {
           fullname,
-          phoneNumber,
-          parentPhoneNumber,
+          age
         },
       },
       { new: true }
