@@ -63,6 +63,14 @@ export interface IUserRewards {
   longestStreak: number;
   lastLoginDate: Date | null;
   dailyRewards: IDailyLoginReward[];
+    /* 7-day cycle tracking */
+  currentCycleDay: number; // current day in the 7-day cycle (1-7)
+  cycleHistory: Array<{
+    day: number;
+    reward: IReward;
+    claimedAt: Date;
+  }>;
+
 
   /* Achievements */
   achievements: IAchievement[];
@@ -154,6 +162,18 @@ const UserRewardsSchema = new Schema<UserRewardsDocument>(
     lastLoginDate: { type: Date, default: null },
     dailyRewards: { type: [DailyLoginRewardSchema], default: [] as IDailyLoginReward[] },
 
+        // ✅ Add cycle tracking fields
+    currentCycleDay: { type: Number, default: 1 }, // day 1–7
+    cycleHistory: {
+      type: [
+        {
+          day: { type: Number, required: true },
+          reward: { type: RewardSchema, required: true },
+          claimedAt: { type: Date, required: true },
+        },
+      ],
+      default: [],
+    },
     /* Achievements */
     achievements: { type: [AchievementSchema], default: [] as IAchievement[] },
 
@@ -200,6 +220,19 @@ export const PREDEFINED_ACHIEVEMENTS = [
 /* ===========================================
    DAILY REWARD SCHEDULE
 =========================================== */
+export const cycleRewards = [
+  { type: "coins", amount: 10, description: "Day 1 Coins" },
+  { type: "coins", amount: 20, description: "Day 2 Coins" },
+  { type: "coins", amount: 30, description: "Day 3 Coins" },
+  { type: "coins", amount: 40, description: "Day 4 Coins" },
+  { type: "coins", amount: 50, description: "Day 5 Coins" },
+  { type: "coins", amount: 60, description: "Day 6 Coins" },
+
+  // DAY 7 → DIAMOND SPECIAL
+  { type: "diamonds", amount: 5, description: "Day 7 Diamonds" }
+];
+
+export const getRewardForCycleDay = (day: number) => cycleRewards[day - 1];
 
 export const getDailyRewardForDay = (day: number): IReward[] => {
   if (day <= 6) return [{ type: 'coins', amount: 10 * day, description: `Day ${day} login bonus` }];
