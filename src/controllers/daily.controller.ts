@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 import { asyncHandler } from "../utils/AsyncHandler.js";
 import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
-import { UserRewards, getRewardForCycleDay, cycleRewards } from "../Models/rewards.model.js";
+import { UserRewards, getRewardForCycleDay, cycleRewards, RewardType, IReward } from "../Models/rewards.model.js";
 
 /**
  * POST /daily/claim
@@ -49,7 +49,7 @@ export const claimDailyLoginReward = asyncHandler(async (req: Request, res: Resp
 
   // Determine today's cycle reward
   const todayCycleDay = rewards.currentCycleDay;
-  const reward = getRewardForCycleDay(todayCycleDay);
+  const reward = getRewardForCycleDay(todayCycleDay) as IReward;
 
   // Apply reward
   switch (reward.type) {
@@ -70,7 +70,7 @@ export const claimDailyLoginReward = asyncHandler(async (req: Request, res: Resp
 
   rewards.transactionHistory.push({
     type: "earn",
-    rewardType: reward.type,
+    rewardType: reward.type as RewardType,
     amount: reward.amount,
     source: "daily_cycle",
     description: reward.description,
