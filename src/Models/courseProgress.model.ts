@@ -20,7 +20,7 @@ export interface ICourseProgress extends Document {
   createdAt: Date;
   updatedAt: Date;
 
-  // Methods
+  
   updateOverallProgress(): Promise<this>;
 }
 

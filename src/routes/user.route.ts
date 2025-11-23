@@ -1,3 +1,4 @@
+
 import { Router } from 'express'
 import { requireSupabaseUser } from '../middlewares/supabaseAuth.js'
 import { registerUser, loginUser, getCurrentUser, forgetPassword, editProfile } from '../controllers/user.controller.js'
@@ -99,7 +100,7 @@ router.post('/loginuser', loginUser)
  */
 router.get('/me', requireSupabaseUser, getCurrentUser)
 router.post('/resetpassword', forgetPassword)
-router.post('/editprofile', editProfile)
+router.put('/editprofile', requireSupabaseUser, editProfile)
 // router.put('/update', requireSupabaseUser, updateUserDetails)
 // router.delete('/delete', requireSupabaseUser, deleteUser)
 // router.put('/changepassword', requireSupabaseUser, changeUserCurrentPassword)
