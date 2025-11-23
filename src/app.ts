@@ -3,7 +3,7 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import { errorHandler } from "./middlewares/ErrorHandler.js";
-
+import "../src/cron/dailySpinReset.js"
 import userRouter from "./routes/user.route.js";
 import classRouter from "./routes/class.route.js";
 import onboardingRouter from "./routes/onboarding.route.js";

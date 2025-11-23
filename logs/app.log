@@ -187,3 +187,32 @@
 {"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T01:34:35.509Z","userId":"6919aad4b7be6b376e7054c3"}
 {"ip":"::ffff:192.168.0.106","level":"error","message":"[400] User class information is missing","method":"GET","path":"/api/v1/classes/courses","stack":"ApiError: User class information is missing\n    at <anonymous> (C:\\Users\\HP\\storra-backend\\src\\controllers\\class.controller.ts:18:11)\n    at <anonymous> (C:\\Users\\HP\\storra-backend\\src\\utils\\AsyncHandler.ts:7:21)\n    at Layer.handleRequest (C:\\Users\\HP\\storra-backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\storra-backend\\node_modules\\router\\lib\\route.js:157:13)\n    at requireMongoProfile (C:\\Users\\HP\\storra-backend\\src\\middlewares\\supabaseAuth.ts:74:3)\n    at Layer.handleRequest (C:\\Users\\HP\\storra-backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\storra-backend\\node_modules\\router\\lib\\route.js:157:13)\n    at requireSupabaseUser (C:\\Users\\HP\\storra-backend\\src\\middlewares\\supabaseAuth.ts:52:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-11-23T01:34:36.208Z","userAgent":"okhttp/4.12.0"}
 {"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T01:57:19.196Z","userId":"6919aad4b7be6b376e7054c3"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T01:57:59.546Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T01:58:04.079Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:00:05.713Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:00:14.806Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:00:27.458Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:20:12.936Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:22:57.696Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:23:15.238Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:23:19.232Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:23:28.424Z","userId":"6919a7ddfefd942d9ae70e9a"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:31:08.882Z","userId":"691992ef757446fa524ca7b7"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:31:12.712Z","userId":"691992ef757446fa524ca7b7"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:31:23.412Z","userId":"691992ef757446fa524ca7b7"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:34:05.709Z","userId":"691992ef757446fa524ca7b7"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:40:23.251Z","userId":"691992ef757446fa524ca7b7"}
+{"ip":"::ffff:192.168.0.106","level":"error","message":"[400] No spin chances available for today","method":"POST","path":"/api/v1/spin/spinthewheel","stack":"ApiError: No spin chances available for today\n    at <anonymous> (C:\\Users\\HP\\storra-backend\\src\\controllers\\spinTheWheel.controller.ts:68:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-11-23T02:40:27.279Z","userAgent":"okhttp/4.12.0"}
+{"ip":"::ffff:192.168.0.106","level":"error","message":"[400] No spin chances available for today","method":"POST","path":"/api/v1/spin/spinthewheel","stack":"ApiError: No spin chances available for today\n    at <anonymous> (C:\\Users\\HP\\storra-backend\\src\\controllers\\spinTheWheel.controller.ts:68:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-11-23T02:40:32.849Z","userAgent":"okhttp/4.12.0"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:42:58.564Z","userId":"691992ef757446fa524ca7b7"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:42:59.308Z","userId":"691992ef757446fa524ca7b7"}
+{"level":"info","message":"MongoDB profile created","role":"user","timestamp":"2025-11-23T02:43:24.226Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"currentClassLevel":"primary","level":"info","message":"✅ User personalization updated","profilePictureUrl":"https://jcthcymlysinaoqbouln.supabase.co/storage/v1/object/public/avatars/1763865823087.jpg","timestamp":"2025-11-23T02:43:44.994Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"goals":["ace_tests"],"level":"info","message":"✅ User learning goals updated","timestamp":"2025-11-23T02:43:47.646Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"classId":"primary-3","educationLevel":"primary","level":"info","message":"User class selected","timestamp":"2025-11-23T02:43:50.096Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:44:07.429Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:44:11.039Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:44:28.427Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:44:44.558Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:47:01.717Z","userId":"692274cbebb3d4bf8cbc1336"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-11-23T02:52:26.469Z","userId":"692274cbebb3d4bf8cbc1336"}

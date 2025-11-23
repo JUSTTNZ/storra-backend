@@ -74,7 +74,13 @@ export const registerUser = async (req: Request, res: Response, next: NextFuncti
           profilePictureUrl: supaUser.user_metadata?.profilePictureUrl || '',
           hasCompletedOnboarding: false,
         });
-
+  await UserRewards.create({
+    userId: profile._id,
+    spinChances: 3,  // initial spins
+    totalCoins: 0,
+    totalDiamonds: 0,
+    totalPoints: 0,
+  });
         logger.info('MongoDB profile created', { userId: profile._id, role });
       }
 
@@ -258,7 +264,7 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
         coursesProgress,
         overallProgressPercent, // new field
         rewards,
-        spinChances: rewards?.spinChances || 1,
+        spinChances: rewards?.spinChances  ,
         leaderboard: { totalPoints, rank },
       })
     );
