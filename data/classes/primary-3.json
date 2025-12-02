@@ -15,14 +15,24 @@
           "lessonTitle": "Multiplication Basics",
           "lessonType": "text",
           "description": "Introduction to multiplying numbers.",
-          "textContent": "Pupils learn multiplication as repeated addition. For example, 2 multiplied by 3 is the same as adding 2 three times: 2 + 2 + 2 = 6. Teachers use objects like pencils, fruits, or sticks to make examples practical. Pupils practice multiplying small numbers, gradually increasing difficulty. Exercises include using arrays and visual aids to help understand the concept. Multiplication is essential for everyday tasks such as calculating money, dividing items, and problem-solving."
+          "textContent": "Pupils learn multiplication as repeated addition. For example, 2 multiplied by 3 is the same as adding 2 three times: 2 + 2 + 2 = 6. Teachers use objects like pencils, fruits, or sticks to make examples practical. Pupils practice multiplying small numbers, gradually increasing difficulty. Exercises include using arrays and visual aids to help understand the concept. Multiplication is essential for everyday tasks such as calculating money, dividing items, and problem-solving.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Multiplication_array_3x4.svg/800px-Multiplication_array_3x4.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Repeated_addition_multiplication.svg/800px-Repeated_addition_multiplication.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Multiplication_chart.png/800px-Multiplication_chart.png"
+          ]
         },
         {
           "lessonId": "pry3-math-lesson2",
           "lessonTitle": "Division Basics",
           "lessonType": "text",
           "description": "Understanding division as sharing or grouping.",
-          "textContent": "Pupils learn that division is splitting a number into equal parts. For instance, dividing 12 candies among 4 friends means each friend gets 3 candies. Teachers use real-life examples and objects to demonstrate. Pupils practice simple division facts and solve problems in groups. Division helps in sharing, distributing items, and understanding fractions. Pupils also connect division to multiplication to reinforce learning."
+          "textContent": "Pupils learn that division is splitting a number into equal parts. For instance, dividing 12 candies among 4 friends means each friend gets 3 candies. Teachers use real-life examples and objects to demonstrate. Pupils practice simple division facts and solve problems in groups. Division helps in sharing, distributing items, and understanding fractions. Pupils also connect division to multiplication to reinforce learning.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Division_sharing.svg/800px-Division_sharing.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Division_grouping.svg/800px-Division_grouping.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Division_chart.png/800px-Division_chart.png"
+          ]
         },
         {
           "lessonId": "pry3-math-lesson3",
@@ -31,14 +41,24 @@
           "description": "Learning about halves, thirds, and quarters.",
           "textContent": "Pupils are introduced to fractions using visual aids such as sliced fruits, cakes, and shapes. Teachers explain that a fraction represents a part of a whole. Pupils practice identifying halves, thirds, and quarters in everyday objects. Activities include colouring parts of shapes and dividing items into equal parts. Understanding fractions is important for sharing, cooking, and basic measurements.",
           "videoUrl": "https://www.youtube.com/watch?v=yT1WuyxTCmo",
-          "audioUrl": "https://www.youtube.com/watch?v=yT1WuyxTCmo"
+          "audioUrl": "https://www.youtube.com/watch?v=yT1WuyxTCmo",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Pie_chart_fraction_05.svg/800px-Pie_chart_fraction_05.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pie_chart_fraction_04.svg/800px-Pie_chart_fraction_04.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Pie_chart_fraction_03.svg/800px-Pie_chart_fraction_03.svg.png"
+          ]
         },
         {
           "lessonId": "pry3-math-lesson4",
           "lessonTitle": "Measurement and Length",
           "lessonType": "text",
           "description": "Learning to measure length using rulers and other tools.",
-          "textContent": "Pupils explore standard and non-standard units to measure objects. Teachers demonstrate measuring pencils, books, desks, and classroom items. Pupils practice using rulers, measuring tapes, and their own hand spans. Exercises include comparing lengths, estimating measurements, and solving practical problems. Measurement is useful for daily life and other subjects like science and technology."
+          "textContent": "Pupils explore standard and non-standard units to measure objects. Teachers demonstrate measuring pencils, books, desks, and classroom items. Pupils practice using rulers, measuring tapes, and their own hand spans. Exercises include comparing lengths, estimating measurements, and solving practical problems. Measurement is useful for daily life and other subjects like science and technology.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ruler.svg/800px-Ruler.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Measuring_tape.jpg/800px-Measuring_tape.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Measurement_comparison.png/800px-Measurement_comparison.png"
+          ]
         },
         {
           "lessonId": "pry3-math-lesson5",
@@ -47,7 +67,12 @@
           "description": "Identifying 2D and 3D shapes around us.",
           "textContent": "Pupils learn names and properties of 2D shapes like squares, rectangles, triangles, and circles, and 3D shapes like cubes, spheres, and cylinders. Teachers use classroom objects to illustrate shapes. Pupils observe, draw, and describe shapes. Geometry helps with spatial understanding, design, and everyday problem-solving.",
           "videoUrl": "https://www.youtube.com/watch?v=kmzfCsythZE",
-          "audioUrl": "https://www.youtube.com/watch?v=kmzfCsythZE"
+          "audioUrl": "https://www.youtube.com/watch?v=kmzfCsythZE",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Simple_2D_shapes.svg/800px-Simple_2D_shapes.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/3D_shapes.png/800px-3D_shapes.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Shapes_in_nature.jpg/800px-Shapes_in_nature.jpg"
+          ]
         }
       ],
       "quiz": {
@@ -59,21 +84,33 @@
         "questions": [
           {
             "questionId": "q1",
-            "questionText": "What is 3 × 4?",
+            "questionText": "What is 3 ×x 4?",
             "options": ["7", "12", "8", "9"],
-            "correctAnswer": "12"
+            "correctAnswer": "12",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Multiplication_array_3x4.svg/400px-Multiplication_array_3x4.svg.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Three_groups_of_four.jpg/400px-Three_groups_of_four.jpg"
+            ]
           },
           {
             "questionId": "q2",
             "questionText": "Divide 12 candies among 4 friends. How many each?",
             "options": ["2", "3", "4", "6"],
-            "correctAnswer": "3"
+            "correctAnswer": "3",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Division_sharing.svg/400px-Division_sharing.svg.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Candy_sharing.jpg/400px-Candy_sharing.jpg"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Which is a 3D shape?",
             "options": ["Circle", "Cube", "Triangle", "Rectangle"],
-            "correctAnswer": "Cube"
+            "correctAnswer": "Cube",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cube.svg/400px-Cube.svg.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/3D_shapes.png/400px-3D_shapes.png"
+            ]
           }
         ]
       }
@@ -90,21 +127,36 @@
           "lessonTitle": "Reading Simple Stories",
           "lessonType": "text",
           "description": "Understanding stories and answering questions.",
-          "textContent": "Pupils read short, age-appropriate stories about daily life, animals, and adventures. Teachers guide pupils to understand the main ideas, characters, and events. Pupils answer questions to demonstrate comprehension and practice retelling stories. Reading stories enhances vocabulary, imagination, and critical thinking."
+          "textContent": "Pupils read short, age-appropriate stories about daily life, animals, and adventures. Teachers guide pupils to understand the main ideas, characters, and events. Pupils answer questions to demonstrate comprehension and practice retelling stories. Reading stories enhances vocabulary, imagination, and critical thinking.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Children_reading_books.jpg/800px-Children_reading_books.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Storybook_illustration.jpg/800px-Storybook_illustration.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Reading_comprehension.png/800px-Reading_comprehension.png"
+          ]
         },
         {
           "lessonId": "pry3-eng-lesson2",
           "lessonTitle": "Writing Simple Sentences",
           "lessonType": "text",
           "description": "Practicing writing grammatically correct sentences.",
-          "textContent": "Pupils practice writing sentences about themselves, family, school, and daily activities. Teachers explain capitalization, punctuation, and spacing. Pupils are encouraged to write neatly and expand ideas. Writing improves communication skills and reinforces reading comprehension."
+          "textContent": "Pupils practice writing sentences about themselves, family, school, and daily activities. Teachers explain capitalization, punctuation, and spacing. Pupils are encouraged to write neatly and expand ideas. Writing improves communication skills and reinforces reading comprehension.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Child_writing.jpg/800px-Child_writing.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sentence_structure_diagram.png/800px-Sentence_structure_diagram.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Handwriting_practice.jpg/800px-Handwriting_practice.jpg"
+          ]
         },
         {
           "lessonId": "pry3-eng-lesson3",
           "lessonTitle": "Grammar Basics",
           "lessonType": "text",
           "description": "Introducing nouns, verbs, and adjectives.",
-          "textContent": "Pupils identify nouns as names of people, places, or things; verbs as action words; and adjectives as describing words. Teachers provide examples and exercises in sentences. Pupils practice identifying parts of speech in short paragraphs. Grammar helps pupils construct correct and meaningful sentences."
+          "textContent": "Pupils identify nouns as names of people, places, or things; verbs as action words; and adjectives as describing words. Teachers provide examples and exercises in sentences. Pupils practice identifying parts of speech in short paragraphs. Grammar helps pupils construct correct and meaningful sentences.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Parts_of_speech_chart.png/800px-Parts_of_speech_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Noun_verb_adjective_examples.jpg/800px-Noun_verb_adjective_examples.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Grammar_exercises.jpg/800px-Grammar_exercises.jpg"
+          ]
         },
         {
           "lessonId": "pry3-eng-lesson4",
@@ -112,14 +164,25 @@
           "lessonType": "audio",
           "description": "Improving pronunciation and oral communication.",
           "textContent": "Pupils listen to simple dialogues, poems, and instructions, then repeat them. Teachers encourage pupils to speak clearly, answer questions, and participate in discussions. Listening and speaking activities build confidence, comprehension, and vocabulary.",
-          "audioUrl": "https://www.youtube.com/watch?v=BZBfglwC8Tc"
+          "audioUrl": "https://www.youtube.com/watch?v=BZBfglwC8Tc",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Children_listening.jpg/800px-Children_listening.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Speaking_activity.jpg/800px-Speaking_activity.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pronunciation_chart.png/800px-Pronunciation_chart.png"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=BZBfglwC8Tc"
         },
         {
           "lessonId": "pry3-eng-lesson5",
           "lessonTitle": "Vocabulary Development",
           "lessonType": "text",
           "description": "Learning new words and their meanings.",
-          "textContent": "Pupils explore new words from stories, poems, and daily life. Teachers explain meanings, usage, and synonyms. Pupils practice writing sentences with new words. Vocabulary lessons help pupils understand texts better and express themselves clearly."
+          "textContent": "Pupils explore new words from stories, poems, and daily life. Teachers explain meanings, usage, and synonyms. Pupils practice writing sentences with new words. Vocabulary lessons help pupils understand texts better and express themselves clearly.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vocabulary_cards.jpg/800px-Vocabulary_cards.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Word_meanings_chart.png/800px-Word_meanings_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Vocabulary_building.jpg/800px-Vocabulary_building.jpg"
+          ]
         }
       ],
       "quiz": {
@@ -133,19 +196,31 @@
             "questionId": "q1",
             "questionText": "Which is a verb?",
             "options": ["Apple", "Run", "Blue", "Chair"],
-            "correctAnswer": "Run"
+            "correctAnswer": "Run",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Running_child.jpg/400px-Running_child.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Action_verbs_chart.png/400px-Action_verbs_chart.png"
+            ]
           },
           {
             "questionId": "q2",
             "questionText": "What is an adjective?",
             "options": ["Action word", "Describing word", "Place name", "Thing name"],
-            "correctAnswer": "Describing word"
+            "correctAnswer": "Describing word",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Adjectives_examples.jpg/400px-Adjectives_examples.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Describing_words_chart.png/400px-Describing_words_chart.png"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Choose the correct sentence:",
             "options": ["I am happy", "Happy I am", "I happy am", "Am happy I"],
-            "correctAnswer": "I am happy"
+            "correctAnswer": "I am happy",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Happy_child.jpg/400px-Happy_child.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sentence_structure_diagram.png/400px-Sentence_structure_diagram.png"
+            ]
           }
         ]
       }
@@ -162,7 +237,12 @@
           "lessonTitle": "Living and Non-Living Things",
           "lessonType": "text",
           "description": "Understanding what is alive and what is not.",
-          "textContent": "Pupils learn to distinguish living things, such as plants and animals, from non-living things, like stones and chairs. Teachers explain that living things grow, reproduce, move, and respond to their environment. Pupils observe objects in their surroundings and classify them as living or non-living. Activities include drawing, discussion, and simple experiments to reinforce understanding."
+          "textContent": "Pupils learn to distinguish living things, such as plants and animals, from non-living things, like stones and chairs. Teachers explain that living things grow, reproduce, move, and respond to their environment. Pupils observe objects in their surroundings and classify them as living or non-living. Activities include drawing, discussion, and simple experiments to reinforce understanding.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Living_nonliving_chart.png/800px-Living_nonliving_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Living_things_examples.jpg/800px-Living_things_examples.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Non_living_things.jpg/800px-Non_living_things.jpg"
+          ]
         },
         {
           "lessonId": "pry3-sci-lesson2",
@@ -171,7 +251,12 @@
           "description": "Observing different plants in the environment.",
           "textContent": "Pupils learn about trees, flowers, vegetables, and grasses. Teachers explain parts of plants like roots, stems, leaves, and flowers, and their functions. Pupils engage in observation exercises, collecting leaves or drawing plants. Understanding plants helps with appreciation for nature and basic biology.",
           "videoUrl": "https://www.youtube.com/watch?v=O7PiTAGtBNk",
-          "audioUrl": "https://www.youtube.com/watch?v=O7PiTAGtBNk"
+          "audioUrl": "https://www.youtube.com/watch?v=O7PiTAGtBNk",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Plant_parts_diagram.png/800px-Plant_parts_diagram.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Types_of_plants.jpg/800px-Types_of_plants.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Plant_growth_stages.jpg/800px-Plant_growth_stages.jpg"
+          ]
         },
         {
           "lessonId": "pry3-sci-lesson3",
@@ -180,21 +265,38 @@
           "description": "Learning about domestic and wild animals.",
           "textContent": "Pupils identify animals in their environment, discussing what they eat, where they live, and their characteristics. Teachers differentiate domestic and wild animals. Pupils observe pictures or videos and answer questions. Learning about animals fosters care, respect, and awareness of the environment.",
           "videoUrl": "https://www.youtube.com/watch?v=4YfE4Rqz9jo",
-          "audioUrl": "https://www.youtube.com/watch?v=4YfE4Rqz9jo"
+          "audioUrl": "https://www.youtube.com/watch?v=4YfE4Rqz9jo",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Domestic_animals.jpg/800px-Domestic_animals.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wild_animals.jpg/800px-Wild_animals.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Animal_habitats.jpg/800px-Animal_habitats.jpg"
+          ]
         },
         {
           "lessonId": "pry3-sci-lesson4",
           "lessonType": "text",
           "lessonTitle": "Water and Air",
           "description": "Understanding the importance of water and air.",
-          "textContent": "Pupils learn that water is essential for life, used for drinking, cleaning, and cooking. Air is needed for breathing and movement of objects like kites. Teachers demonstrate simple experiments such as blowing air into a balloon and observing water flow. Pupils also learn about pollution and ways to keep water and air clean."
+          "textContent": "Pupils learn that water is essential for life, used for drinking, cleaning, and cooking. Air is needed for breathing and movement of objects like kites. Teachers demonstrate simple experiments such as blowing air into a balloon and observing water flow. Pupils also learn about pollution and ways to keep water and air clean.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Water_cycle_diagram.png/800px-Water_cycle_diagram.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Air_pollution_chart.jpg/800px-Air_pollution_chart.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Clean_water_air.jpg/800px-Clean_water_air.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-water-air"
         },
         {
           "lessonId": "pry3-sci-lesson5",
           "lessonTitle": "Weather and Seasons",
           "lessonType": "text",
           "description": "Learning about sun, rain, wind, and seasonal changes.",
-          "textContent": "Pupils observe and describe daily weather. Teachers explain sunny, rainy, windy, and cloudy days. Pupils learn the four seasons and how weather affects plants, animals, and human activities. Simple experiments like measuring rainfall or temperature can be done. Knowledge of weather is practical for daily planning and understanding nature."
+          "textContent": "Pupils observe and describe daily weather. Teachers explain sunny, rainy, windy, and cloudy days. Pupils learn the four seasons and how weather affects plants, animals, and human activities. Simple experiments like measuring rainfall or temperature can be done. Knowledge of weather is practical for daily planning and understanding nature.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Weather_chart.png/800px-Weather_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Seasons_chart.jpg/800px-Seasons_chart.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Weather_instruments.jpg/800px-Weather_instruments.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-weather-seasons"
         }
       ],
       "quiz": {
@@ -208,19 +310,31 @@
             "questionId": "q1",
             "questionText": "Which of these is a living thing?",
             "options": ["Tree", "Rock", "Chair", "Pen"],
-            "correctAnswer": "Tree"
+            "correctAnswer": "Tree",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Tree_growing.jpg/400px-Tree_growing.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Living_nonliving_chart.png/400px-Living_nonliving_chart.png"
+            ]
           },
           {
             "questionId": "q2",
-          "questionText": "Which animal is domestic?",
+            "questionText": "Which animal is domestic?",
             "options": ["Lion", "Goat", "Elephant", "Tiger"],
-            "correctAnswer": "Goat"
+            "correctAnswer": "Goat",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Goat_on_farm.jpg/400px-Goat_on_farm.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Domestic_animals.jpg/400px-Domestic_animals.jpg"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Why do we need air?",
             "options": ["For breathing", "For eating", "For sleeping", "For sitting"],
-            "correctAnswer": "For breathing"
+            "correctAnswer": "For breathing",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Breathing_diagram.png/400px-Breathing_diagram.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lungs_breathing.jpg/400px-Lungs_breathing.jpg"
+            ]
           }
         ]
       }
@@ -237,14 +351,24 @@
           "lessonTitle": "Our Family",
           "lessonType": "text",
           "description": "Learning about family members and their roles.",
-          "textContent": "Pupils identify parents, siblings, grandparents, and other relatives. Teachers explain responsibilities of each member and how families support one another. Pupils share stories about their families. Understanding family structure helps build respect, cooperation, and care within the household."
+          "textContent": "Pupils identify parents, siblings, grandparents, and other relatives. Teachers explain responsibilities of each member and how families support one another. Pupils share stories about their families. Understanding family structure helps build respect, cooperation, and care within the household.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Family_tree.png/800px-Family_tree.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Family_activities.jpg/800px-Family_activities.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Family_roles_chart.jpg/800px-Family_roles_chart.jpg"
+          ]
         },
         {
           "lessonId": "pry3-ss-lesson2",
           "lessonTitle": "Our Community",
           "lessonType": "text",
           "description": "Understanding the local neighborhood and community roles.",
-          "textContent": "Pupils learn about markets, schools, hospitals, religious places, and community helpers like policemen, doctors, and teachers. Teachers explain the importance of each role and how everyone contributes to a safe and healthy community. Pupils may take walks to observe the community."
+          "textContent": "Pupils learn about markets, schools, hospitals, religious places, and community helpers like policemen, doctors, and teachers. Teachers explain the importance of each role and how everyone contributes to a safe and healthy community. Pupils may take walks to observe the community.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Community_map.png/800px-Community_map.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Community_helpers.jpg/800px-Community_helpers.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Community_places.jpg/800px-Community_places.jpg"
+          ]
         },
         {
           "lessonId": "pry3-ss-lesson3",
@@ -253,21 +377,38 @@
           "description": "Learning about Nigerian cultural events and traditions.",
           "textContent": "Pupils explore traditional festivals like New Yam, Argungu, and Eyo. Teachers show pictures and videos of dances, costumes, and rituals. Pupils learn about the significance of these festivals. Understanding culture fosters pride, tolerance, and respect for diversity.",
           "videoUrl": "https://www.youtube.com/watch?v=WGuy2IP1UPE",
-          "audioUrl": "https://www.youtube.com/watch?v=WGuy2IP1UPE"
+          "audioUrl": "https://www.youtube.com/watch?v=WGuy2IP1UPE",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Nigerian_festivals.jpg/800px-Nigerian_festivals.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cultural_dances.jpg/800px-Cultural_dances.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Traditional_costumes.jpg/800px-Traditional_costumes.jpg"
+          ]
         },
         {
           "lessonId": "pry3-ss-lesson4",
           "lessonType": "text",
           "lessonTitle": "Occupations Around Us",
           "description": "Identifying jobs and how people earn a living.",
-          "textContent": "Pupils learn about farmers, shopkeepers, tailors, doctors, teachers, and artisans. Teachers explain each occupation's role and tools used. Pupils discuss what they want to be when they grow up. Knowledge of occupations helps pupils appreciate work and develop aspirations."
+          "textContent": "Pupils learn about farmers, shopkeepers, tailors, doctors, teachers, and artisans. Teachers explain each occupation's role and tools used. Pupils discuss what they want to be when they grow up. Knowledge of occupations helps pupils appreciate work and develop aspirations.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Occupations_chart.png/800px-Occupations_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/People_at_work.jpg/800px-People_at_work.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Job_tools.jpg/800px-Job_tools.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-occupations"
         },
         {
           "lessonId": "pry3-ss-lesson5",
           "lessonType": "text",
           "lessonTitle": "Caring for Our Environment",
           "description": "Keeping our surroundings clean and safe.",
-          "textContent": "Pupils learn about littering, recycling, planting trees, and conserving water. Teachers organise cleaning activities in the school and community. Pupils understand how caring for the environment protects health and resources for the future."
+          "textContent": "Pupils learn about littering, recycling, planting trees, and conserving water. Teachers organise cleaning activities in the school and community. Pupils understand how caring for the environment protects health and resources for the future.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Recycling_symbols.png/800px-Recycling_symbols.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Cleaning_environment.jpg/800px-Cleaning_environment.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Planting_trees.jpg/800px-Planting_trees.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-environment-care"
         }
       ],
       "quiz": {
@@ -281,19 +422,31 @@
             "questionId": "q1",
             "questionText": "Who helps keep our community safe?",
             "options": ["Doctor", "Policeman", "Teacher", "Farmer"],
-            "correctAnswer": "Policeman"
+            "correctAnswer": "Policeman",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Police_officer.jpg/400px-Police_officer.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Community_helpers.jpg/400px-Community_helpers.jpg"
+            ]
           },
           {
             "questionId": "q2",
             "questionText": "What should we do to care for the environment?",
             "options": ["Litter", "Recycle", "Waste water", "Cut trees randomly"],
-            "correctAnswer": "Recycle"
+            "correctAnswer": "Recycle",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Recycling_bins.jpg/400px-Recycling_bins.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Recycling_symbols.png/400px-Recycling_symbols.png"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Which is part of the family?",
             "options": ["Teacher", "Brother", "Policeman", "Shopkeeper"],
-            "correctAnswer": "Brother"
+            "correctAnswer": "Brother",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Siblings_playing.jpg/400px-Siblings_playing.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Family_tree.png/400px-Family_tree.png"
+            ]
           }
         ]
       }
@@ -310,14 +463,24 @@
           "lessonTitle": "Introduction to Tools",
           "lessonType": "text",
           "description": "Learning about common tools and their uses.",
-          "textContent": "Pupils identify hammers, scissors, knives, brushes, and rulers. Teachers explain each tool’s purpose and safety precautions. Pupils practise handling tools carefully. Understanding tools helps pupils develop problem-solving and practical skills."
+          "textContent": "Pupils identify hammers, scissors, knives, brushes, and rulers. Teachers explain each tool's purpose and safety precautions. Pupils practise handling tools carefully. Understanding tools helps pupils develop problem-solving and practical skills.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Tools_collection.jpg/800px-Tools_collection.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Tool_safety.png/800px-Tool_safety.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Tool_uses_chart.jpg/800px-Tool_uses_chart.jpg"
+          ]
         },
         {
           "lessonId": "pry3-tech-lesson2",
           "lessonTitle": "Materials Around Us",
           "lessonType": "text",
           "description": "Recognising natural and man-made materials.",
-          "textContent": "Pupils learn about wood, metal, clay, plastic, fabric, and paper. Teachers demonstrate properties like hardness, flexibility, and durability. Pupils observe and classify materials in their environment. Knowledge of materials is useful in construction, arts, and crafts."
+          "textContent": "Pupils learn about wood, metal, clay, plastic, fabric, and paper. Teachers demonstrate properties like hardness, flexibility, and durability. Pupils observe and classify materials in their environment. Knowledge of materials is useful in construction, arts, and crafts.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Materials_collection.jpg/800px-Materials_collection.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Natural_materials.jpg/800px-Natural_materials.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Man_made_materials.jpg/800px-Man_made_materials.jpg"
+          ]
         },
         {
           "lessonId": "pry3-tech-lesson3",
@@ -326,21 +489,38 @@
           "description": "Understanding levers, pulleys, and inclined planes.",
           "textContent": "Pupils learn how simple machines make work easier. Teachers show examples using classroom objects. Pupils practise using levers to lift objects or pulleys to move items. Simple machines lessons build understanding of physics and engineering concepts.",
           "videoUrl": "https://www.youtube.com/watch?v=9CbDiVfANAk",
-          "audioUrl": "https://www.youtube.com/watch?v=9CbDiVfANAk"
+          "audioUrl": "https://www.youtube.com/watch?v=9CbDiVfANAk",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Simple_machines_diagram.png/800px-Simple_machines_diagram.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lever_example.jpg/800px-Lever_example.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pulley_system.jpg/800px-Pulley_system.jpg"
+          ]
         },
         {
           "lessonId": "pry3-tech-lesson4",
           "lessonTitle": "Making Models",
           "lessonType": "text",
           "description": "Creating simple models from materials.",
-          "textContent": "Pupils use clay, cardboard, or paper to make simple models like bridges, houses, or vehicles. Teachers explain steps and encourage creativity. Model-making develops problem-solving, planning, and motor skills."
+          "textContent": "Pupils use clay, cardboard, or paper to make simple models like bridges, houses, or vehicles. Teachers explain steps and encourage creativity. Model-making develops problem-solving, planning, and motor skills.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Model_making.jpg/800px-Model_making.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Cardboard_models.jpg/800px-Cardboard_models.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Clay_models.jpg/800px-Clay_models.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-model-making"
         },
         {
           "lessonId": "pry3-tech-lesson5",
           "lessonTitle": "Safety in the Workshop",
           "lessonType": "text",
           "description": "Understanding safety rules while using tools and materials.",
-          "textContent": "Pupils learn to wear protective gear, handle tools properly, and clean up after work. Teachers demonstrate dos and don’ts. Safety awareness prevents accidents and promotes responsible use of tools."
+          "textContent": "Pupils learn to wear protective gear, handle tools properly, and clean up after work. Teachers demonstrate dos and don'ts. Safety awareness prevents accidents and promotes responsible use of tools.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Safety_gear.jpg/800px-Safety_gear.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Workshop_safety.png/800px-Workshop_safety.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Tool_safety_rules.jpg/800px-Tool_safety_rules.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-workshop-safety"
         }
       ],
       "quiz": {
@@ -354,19 +534,31 @@
             "questionId": "q1",
             "questionText": "Which is a simple machine?",
             "options": ["Lever", "Chair", "Book", "Pen"],
-            "correctAnswer": "Lever"
+            "correctAnswer": "Lever",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lever_diagram.png/400px-Lever_diagram.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Simple_machines_diagram.png/400px-Simple_machines_diagram.png"
+            ]
           },
           {
             "questionId": "q2",
             "questionText": "Which material is man-made?",
             "options": ["Clay", "Metal", "Plastic", "Wood"],
-            "correctAnswer": "Plastic"
+            "correctAnswer": "Plastic",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Plastic_objects.jpg/400px-Plastic_objects.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Man_made_materials.jpg/400px-Man_made_materials.jpg"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Why do we wear protective gear?",
             "options": ["For fun", "For safety", "For eating", "For sleeping"],
-            "correctAnswer": "For safety"
+            "correctAnswer": "For safety",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Safety_gear.jpg/400px-Safety_gear.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Workshop_safety.png/400px-Workshop_safety.png"
+            ]
           }
         ]
       }
@@ -383,36 +575,65 @@
           "lessonTitle": "Drawing and Coloring",
           "lessonType": "text",
           "description": "Learning basic drawing and colouring techniques.",
-          "textContent": "Pupils practice drawing shapes, animals, and scenes from daily life. Teachers demonstrate colouring techniques, shading, and combining colours. Pupils are encouraged to express creativity and imagination. Drawing and colouring develop fine motor skills and visual expression."
+          "textContent": "Pupils practice drawing shapes, animals, and scenes from daily life. Teachers demonstrate colouring techniques, shading, and combining colours. Pupils are encouraged to express creativity and imagination. Drawing and colouring develop fine motor skills and visual expression.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Children_drawing.jpg/800px-Children_drawing.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Coloring_techniques.png/800px-Coloring_techniques.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Drawing_tools.jpg/800px-Drawing_tools.jpg"
+          ]
         },
         {
           "lessonId": "pry3-art-lesson2",
           "lessonTitle": "Music and Singing",
           "lessonType": "audio",
           "description": "Learning songs and basic musical rhythms.",
-          "textContent": "Pupils listen to Nigerian children’s songs and sing along. Teachers introduce basic rhythms and clapping patterns. Pupils explore sounds, instruments, and voice modulation. Music lessons develop auditory skills, rhythm, and cultural appreciation.",
-          "audioUrl": "https://www.youtube.com/watch?v=ZZqMuKUwyNs"
+          "textContent": "Pupils listen to Nigerian children's songs and sing along. Teachers introduce basic rhythms and clapping patterns. Pupils explore sounds, instruments, and voice modulation. Music lessons develop auditory skills, rhythm, and cultural appreciation.",
+          "audioUrl": "https://www.youtube.com/watch?v=ZZqMuKUwyNs",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Children_singing.jpg/800px-Children_singing.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Musical_instruments.jpg/800px-Musical_instruments.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Rhythm_patterns.png/800px-Rhythm_patterns.png"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=ZZqMuKUwyNs"
         },
         {
           "lessonId": "pry3-art-lesson3",
           "lessonTitle": "Crafts and Paper Work",
           "lessonType": "text",
           "description": "Creating simple crafts using paper, clay, and recycled materials.",
-          "textContent": "Pupils make paper animals, masks, and models. Teachers guide cutting, folding, and assembling techniques. Crafts develop creativity, problem-solving, and coordination. Pupils are encouraged to display their work and share with classmates."
+          "textContent": "Pupils make paper animals, masks, and models. Teachers guide cutting, folding, and assembling techniques. Crafts develop creativity, problem-solving, and coordination. Pupils are encouraged to display their work and share with classmates.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Paper_crafts.jpg/800px-Paper_crafts.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Craft_materials.jpg/800px-Craft_materials.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Children_crafting.jpg/800px-Children_crafting.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-crafts"
         },
         {
           "lessonId": "pry3-art-lesson4",
           "lessonTitle": "Patterns and Designs",
           "lessonType": "text",
           "description": "Exploring patterns in art and nature.",
-          "textContent": "Pupils observe patterns in textiles, architecture, and nature. Teachers demonstrate repeating shapes, symmetry, and geometric designs. Pupils create patterns using paints, crayons, or paper. Understanding patterns enhances observation and design skills."
+          "textContent": "Pupils observe patterns in textiles, architecture, and nature. Teachers demonstrate repeating shapes, symmetry, and geometric designs. Pupils create patterns using paints, crayons, or paper. Understanding patterns enhances observation and design skills.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Patterns_in_nature.jpg/800px-Patterns_in_nature.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Geometric_patterns.png/800px-Geometric_patterns.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Textile_patterns.jpg/800px-Textile_patterns.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-patterns"
         },
         {
           "lessonId": "pry3-art-lesson5",
           "lessonTitle": "Folk Stories and Illustrations",
           "lessonType": "text",
           "description": "Illustrating traditional stories with drawings.",
-          "textContent": "Pupils listen to folk tales and create illustrations for the stories. Teachers encourage imaginative interpretation and storytelling. Activities include drawing characters, scenes, and moral lessons. This integrates language, culture, and art."
+          "textContent": "Pupils listen to folk tales and create illustrations for the stories. Teachers encourage imaginative interpretation and storytelling. Activities include drawing characters, scenes, and moral lessons. This integrates language, culture, and art.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Folk_story_illustration.jpg/800px-Folk_story_illustration.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Storytelling_art.jpg/800px-Storytelling_art.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Character_drawing.jpg/800px-Character_drawing.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-folk-stories"
         }
       ],
       "quiz": {
@@ -426,19 +647,31 @@
             "questionId": "q1",
             "questionText": "Which activity uses paint?",
             "options": ["Singing", "Drawing", "Crafting", "Reading"],
-            "correctAnswer": "Drawing"
+            "correctAnswer": "Drawing",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Children_painting.jpg/400px-Children_painting.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Painting_tools.jpg/400px-Painting_tools.jpg"
+            ]
           },
           {
             "questionId": "q2",
             "questionText": "Which lesson develops rhythm and listening?",
             "options": ["Music", "Crafts", "Drawing", "Patterns"],
-            "correctAnswer": "Music"
+            "correctAnswer": "Music",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Children_singing.jpg/400px-Children_singing.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Musical_instruments.jpg/400px-Musical_instruments.jpg"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Folk stories help pupils:",
             "options": ["Play football", "Tell stories", "Eat snacks", "Sleep"],
-            "correctAnswer": "Tell stories"
+            "correctAnswer": "Tell stories",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Storytelling_time.jpg/400px-Storytelling_time.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Folk_story_illustration.jpg/400px-Folk_story_illustration.jpg"
+            ]
           }
         ]
       }
@@ -457,7 +690,12 @@
           "description": "Learning basic exercises and stretches.",
           "textContent": "Pupils perform warm-up exercises, stretching, jogging, and simple games to develop strength, flexibility, and coordination. Teachers demonstrate safe techniques and encourage daily activity. Physical activity improves health, energy, and concentration.",
           "videoUrl": "https://www.youtube.com/watch?v=dPksJHBZs4Q",
-          "audioUrl": "https://www.youtube.com/watch?v=dPksJHBZs4Q"
+          "audioUrl": "https://www.youtube.com/watch?v=dPksJHBZs4Q",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Children_exercising.jpg/800px-Children_exercising.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Exercise_routines.png/800px-Exercise_routines.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Warm_up_exercises.jpg/800px-Warm_up_exercises.jpg"
+          ]
         },
         {
           "lessonId": "pry3-phe-lesson2",
@@ -466,28 +704,51 @@
           "description": "Learning games like relay races and simple ball games.",
           "textContent": "Pupils participate in group games, taking turns and following rules. Teachers emphasise teamwork, cooperation, and fair play. Activities include relay races, football drills, and skipping competitions. Team games build social skills, discipline, and sportsmanship.",
           "videoUrl": "https://www.youtube.com/watch?v=LD4zp8ruvaI",
-          "audioUrl": "https://www.youtube.com/watch?v=LD4zp8ruvaI"
+          "audioUrl": "https://www.youtube.com/watch?v=LD4zp8ruvaI",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Team_games.jpg/800px-Team_games.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Relay_race.jpg/800px-Relay_race.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cooperation_skills.png/800px-Cooperation_skills.png"
+          ]
         },
         {
           "lessonId": "pry3-phe-lesson3",
           "lessonTitle": "Healthy Eating",
           "lessonType": "text",
           "description": "Understanding nutritious foods and balanced diet.",
-          "textContent": "Pupils learn about proteins, carbohydrates, vitamins, and minerals. Teachers explain portion sizes and importance of eating fruits, vegetables, grains, and proteins. Pupils discuss daily meals and habits for a healthy body. Healthy eating prevents illness and improves energy and growth."
+          "textContent": "Pupils learn about proteins, carbohydrates, vitamins, and minerals. Teachers explain portion sizes and importance of eating fruits, vegetables, grains, and proteins. Pupils discuss daily meals and habits for a healthy body. Healthy eating prevents illness and improves energy and growth.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Food_groups_pyramid.png/800px-Food_groups_pyramid.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Healthy_foods.jpg/800px-Healthy_foods.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Balanced_meal.jpg/800px-Balanced_meal.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-healthy-eating"
         },
         {
           "lessonId": "pry3-phe-lesson4",
           "lessonType": "text",
           "lessonTitle": "Personal Hygiene",
           "description": "Maintaining cleanliness and preventing sickness.",
-          "textContent": "Pupils practise washing hands, brushing teeth, bathing, and wearing clean clothes. Teachers explain germs, disease prevention, and the importance of clean surroundings. Good hygiene protects health and encourages self-respect."
+          "textContent": "Pupils practise washing hands, brushing teeth, bathing, and wearing clean clothes. Teachers explain germs, disease prevention, and the importance of clean surroundings. Good hygiene protects health and encourages self-respect.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Hand_washing_steps.png/800px-Hand_washing_steps.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Personal_hygiene.jpg/800px-Personal_hygiene.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hygiene_habits.jpg/800px-Hygiene_habits.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-personal-hygiene"
         },
         {
           "lessonId": "pry3-phe-lesson5",
           "lessonTitle": "Safety Rules",
           "lessonType": "text",
           "description": "Understanding safety at home, school, and outdoors.",
-          "textContent": "Pupils learn to avoid sharp objects, play safely, follow road safety rules, and respect animals. Teachers demonstrate dos and don’ts. Safety lessons prevent accidents and promote responsible behavior."
+          "textContent": "Pupils learn to avoid sharp objects, play safely, follow road safety rules, and respect animals. Teachers demonstrate dos and don'ts. Safety lessons prevent accidents and promote responsible behavior.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Road_safety_rules.png/800px-Road_safety_rules.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Playground_safety.jpg/800px-Playground_safety.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Safety_signs.jpg/800px-Safety_signs.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-safety-rules"
         }
       ],
       "quiz": {
@@ -501,19 +762,31 @@
             "questionId": "q1",
             "questionText": "Why should we exercise daily?",
             "options": ["To grow taller", "To stay healthy", "To sleep more", "To eat more"],
-            "correctAnswer": "To stay healthy"
+            "correctAnswer": "To stay healthy",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Children_exercising.jpg/400px-Children_exercising.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Health_benefits.png/400px-Health_benefits.png"
+            ]
           },
           {
             "questionId": "q2",
             "questionText": "Which food is healthy?",
             "options": ["Candy", "Vegetables", "Chips", "Soda"],
-            "correctAnswer": "Vegetables"
+            "correctAnswer": "Vegetables",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Healthy_foods.jpg/400px-Healthy_foods.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Food_groups_pyramid.png/400px-Food_groups_pyramid.png"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Washing hands prevents:",
             "options": ["Accidents", "Germs", "Boredom", "Tiredness"],
-            "correctAnswer": "Germs"
+            "correctAnswer": "Germs",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Hand_washing_steps.png/400px-Hand_washing_steps.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Germs_prevention.jpg/400px-Germs_prevention.jpg"
+            ]
           }
         ]
       }
@@ -530,35 +803,65 @@
           "lessonTitle": "Being a Good Citizen",
           "lessonType": "text",
           "description": "Understanding rules and responsibilities.",
-          "textContent": "Pupils learn that being a good citizen means respecting rules, helping others, and taking care of property. Teachers explain classroom, school, and community rules. Pupils discuss examples from daily life. Civic education fosters discipline, respect, and responsibility."
+          "textContent": "Pupils learn that being a good citizen means respecting rules, helping others, and taking care of property. Teachers explain classroom, school, and community rules. Pupils discuss examples from daily life. Civic education fosters discipline, respect, and responsibility.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Good_citizen_activities.jpg/800px-Good_citizen_activities.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Citizen_responsibilities.png/800px-Citizen_responsibilities.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Respecting_rules.jpg/800px-Respecting_rules.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-good-citizen"
         },
         {
           "lessonId": "pry3-civ-lesson2",
           "lessonType": "text",
           "lessonTitle": "Rights of Children",
           "description": "Learning about basic rights every child has.",
-          "textContent": "Pupils learn that they have the right to education, health, protection, and play. Teachers explain why these rights are important. Pupils share experiences and learn to speak up respectfully for themselves and others."
+          "textContent": "Pupils learn that they have the right to education, health, protection, and play. Teachers explain why these rights are important. Pupils share experiences and learn to speak up respectfully for themselves and others.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Children_rights_chart.png/800px-Children_rights_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Right_to_education.jpg/800px-Right_to_education.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Right_to_play.jpg/800px-Right_to_play.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-children-rights"
         },
         {
           "lessonId": "pry3-civ-lesson3",
           "lessonTitle": "Helping in the Community",
           "lessonType": "text",
           "description": "Ways to contribute positively to society.",
-          "textContent": "Pupils learn small acts like cleaning public spaces, helping neighbours, and following rules. Teachers organise class projects for community service. Activities build empathy, cooperation, and civic-mindedness."
+          "textContent": "Pupils learn small acts like cleaning public spaces, helping neighbours, and following rules. Teachers organise class projects for community service. Activities build empathy, cooperation, and civic-mindedness.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Community_service.jpg/800px-Community_service.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Helping_neighbors.jpg/800px-Helping_neighbors.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Community_projects.jpg/800px-Community_projects.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-helping-community"
         },
         {
           "lessonId": "pry3-civ-lesson4",
           "lessonTitle": "Honesty and Respect",
           "lessonType": "text",
           "description": "Understanding moral values in everyday life.",
-          "textContent": "Pupils learn that telling the truth, keeping promises, and respecting others are important traits. Teachers use role-play and stories to demonstrate honesty and respect. Pupils practise these values in class and at home."
+          "textContent": "Pupils learn that telling the truth, keeping promises, and respecting others are important traits. Teachers use role-play and stories to demonstrate honesty and respect. Pupils practise these values in class and at home.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Honesty_respect_chart.png/800px-Honesty_respect_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Telling_truth.jpg/800px-Telling_truth.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Respecting_others.jpg/800px-Respecting_others.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-honesty-respect"
         },
         {
           "lessonId": "pry3-civ-lesson5",
           "lessonTitle": "Following Rules and Laws",
           "lessonType": "text",
           "description": "Understanding the importance of rules in society.",
-          "textContent": "Pupils learn that rules in school, community, and country ensure safety and fairness. Teachers give examples of road safety, classroom behaviour, and obeying elders. Pupils discuss consequences of breaking rules and ways to follow them responsibly."
+          "textContent": "Pupils learn that rules in school, community, and country ensure safety and fairness. Teachers give examples of road safety, classroom behaviour, and obeying elders. Pupils discuss consequences of breaking rules and ways to follow them responsibly.",
+          "visual": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/School_rules_chart.png/800px-School_rules_chart.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Following_rules.jpg/800px-Following_rules.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Community_laws.jpg/800px-Community_laws.jpg"
+          ],
+          "videoUrl": "https://www.youtube.com/watch?v=example-following-rules"
         }
       ],
       "quiz": {
@@ -572,19 +875,31 @@
             "questionId": "q1",
             "questionText": "Being a good citizen means:",
             "options": ["Breaking rules", "Helping others", "Ignoring laws", "Fighting"],
-            "correctAnswer": "Helping others"
+            "correctAnswer": "Helping others",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Good_citizen_activities.jpg/400px-Good_citizen_activities.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Community_service.jpg/400px-Community_service.jpg"
+            ]
           },
           {
             "questionId": "q2",
             "questionText": "Children have the right to:",
             "options": ["Education", "Stealing", "Skipping school", "Ignoring rules"],
-            "correctAnswer": "Education"
+            "correctAnswer": "Education",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Right_to_education.jpg/400px-Right_to_education.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Children_rights_chart.png/400px-Children_rights_chart.png"
+            ]
           },
           {
             "questionId": "q3",
             "questionText": "Following rules helps to:",
             "options": ["Create chaos", "Ensure safety", "Confuse people", "Make noise"],
-            "correctAnswer": "Ensure safety"
+            "correctAnswer": "Ensure safety",
+            "visual": [
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/School_rules_chart.png/400px-School_rules_chart.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Following_rules.jpg/400px-Following_rules.jpg"
+            ]
           }
         ]
       }
