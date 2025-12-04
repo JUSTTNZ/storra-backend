@@ -1,4 +1,4 @@
-// controllers/course.controller.ts (UPDATED WITH PROGRESS AND VISUAL FIELD)
+// controllers/course.controller.ts (UPDATED WITH PROGRESS)
 import { Request, Response } from 'express';
 import { asyncHandler } from '../utils/AsyncHandler.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
@@ -66,8 +66,6 @@ const getCoursesByClass = asyncHandler(async (req: Request, res: Response) => {
           video: lesson.videoUrl,
           audio: lesson.audioUrl,
         },
-        // ADD VISUAL FIELD HERE
-        visual: lesson.visual || [], // Add this line
       })),
       
       quiz: {
@@ -80,19 +78,9 @@ const getCoursesByClass = asyncHandler(async (req: Request, res: Response) => {
         status: quizProgress?.status || 'new',
         bestPercentage: quizProgress?.bestPercentage || 0,
         pointsEarned: quizProgress?.pointsEarned || 0,
-        // ADD VISUAL TO QUIZ QUESTIONS
-        questions: course.quiz.questions.map((question) => ({
-          questionId: question.questionId,
-          questionText: question.questionText,
-          options: question.options,
-          correctAnswer: question.correctAnswer,
-          visual: question.visual || [], // Add this line
-        })),
       },
     };
   });
-
-  console.log("subjects", subjects);
 
   return res.status(200).json(
     new ApiResponse(200, 'Courses fetched successfully', {
@@ -157,8 +145,6 @@ const getCourseTopics = asyncHandler(async (req: Request, res: Response) => {
         video: lesson.videoUrl,
         audio: lesson.audioUrl,
       },
-      // ADD VISUAL FIELD HERE
-      visual: lesson.visual || [], // Add this line
       
       // Lesson Progress
       progress: progress?.progress || 0,
@@ -187,14 +173,6 @@ const getCourseTopics = asyncHandler(async (req: Request, res: Response) => {
     bestPercentage: quizProgress?.bestPercentage || 0,
     attempts: quizProgress?.attempts.length || 0,
     pointsEarned: quizProgress?.pointsEarned || 0,
-    // ADD VISUAL TO QUIZ QUESTIONS
-    questions: course.quiz.questions.map((question) => ({
-      questionId: question.questionId,
-      questionText: question.questionText,
-      options: question.options,
-      correctAnswer: question.correctAnswer,
-      visual: question.visual || [], // Add this line
-    })),
   };
 
   return res.status(200).json(
@@ -262,8 +240,6 @@ const getTopicById = asyncHandler(async (req: Request, res: Response) => {
           video: lesson.videoUrl,
           audio: lesson.audioUrl,
         },
-        // ADD VISUAL FIELD HERE
-        visual: lesson.visual || [], // Add this line
         
         // Progress
         progress: lessonProgress?.progress || 0,
