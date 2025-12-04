@@ -9,6 +9,7 @@ export interface ILesson {
   textContent?: string;
   videoUrl?: string;
   audioUrl?: string;
+  visual?: string[]; // ADDED: Visual images array
 }
 
 export interface IQuizQuestion {
@@ -16,6 +17,7 @@ export interface IQuizQuestion {
   questionText: string;
   options: string[];
   correctAnswer: string;
+  visual?: string[]; // ADDED: Visual images array
 }
 
 export interface IQuiz {
@@ -61,14 +63,16 @@ const LessonSchema = new Schema({
   description: { type: String },
   textContent: { type: String },
   videoUrl: { type: String },
-  audioUrl: { type: String }
+  audioUrl: { type: String },
+  visual: [{ type: String }] // ADDED: Visual images array
 }, { _id: false });
 
 const QuizQuestionSchema = new Schema({
   questionId: { type: String, required: true },
   questionText: { type: String, required: true },
   options: [{ type: String, required: true }],
-  correctAnswer: { type: String, required: true }
+  correctAnswer: { type: String, required: true },
+  visual: [{ type: String }] // ADDED: Visual images array
 }, { _id: false });
 
 const QuizSchema = new Schema({

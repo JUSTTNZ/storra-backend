@@ -10,9 +10,19 @@ import { UserLeaderboard } from '../Models/quiz.model.js';
 // ============================================
 // GET QUIZ BY ID (with user progress)
 // ============================================
+// Add this right after finding the userClass
+// ============================================
+// GET QUIZ BY ID (with user progress) - DEBUG VERSION
+// ============================================
 const getQuizById = asyncHandler(async (req: Request, res: Response) => {
   const user = req.user;
   const { courseId, quizId } = req.params;
+
+  console.log("\n=== BACKEND DEBUG: QUIZ REQUEST ===");
+  console.log("User ID:", user?._id);
+  console.log("Class ID:", user?.currentClassId);
+  console.log("Course ID:", courseId);
+  console.log("Quiz ID:", quizId);
 
   if (!user || !user.currentClassId) {
     throw new ApiError({ statusCode: 400, message: 'User class information is missing' });
@@ -24,14 +34,49 @@ const getQuizById = asyncHandler(async (req: Request, res: Response) => {
     throw new ApiError({ statusCode: 404, message: 'Class not found' });
   }
 
+  console.log("Found class:", userClass.className);
+  console.log("Number of courses:", userClass.courses.length);
+
   const course = userClass.courses.find((c) => c.courseId === courseId);
   if (!course) {
     throw new ApiError({ statusCode: 404, message: 'Course not found' });
   }
 
+  console.log("Found course:", course.courseName);
+
   if (!course.quiz || course.quiz.quizId !== quizId) {
     throw new ApiError({ statusCode: 404, message: 'Quiz not found' });
   }
+
+  console.log("\n=== DATABASE CONTENT DEBUG ===");
+  console.log("Quiz title:", course.quiz.quizTitle);
+  console.log("Total questions:", course.quiz.questions.length);
+  
+  // Log ALL questions with ALL properties
+  course.quiz.questions.forEach((question, index) => {
+    console.log(`\n--- Question ${index + 1} ---`);
+    console.log("ID:", question.questionId);
+    console.log("Text:", question.questionText);
+    console.log("Options:", question.options);
+    
+    // Check if visual exists and what's in it
+    console.log("Has visual property?", 'visual' in question);
+    console.log("Visual value:", question.visual);
+    console.log("Visual type:", typeof question.visual);
+    
+    if (question.visual && Array.isArray(question.visual)) {
+      console.log("Visual array length:", question.visual.length);
+      if (question.visual.length > 0) {
+        console.log("First visual URL:", question.visual[0]);
+        console.log("All visual URLs:", question.visual);
+      } else {
+        console.log("⚠️ Visual array is EMPTY!");
+      }
+    }
+    
+    // Log ALL properties of the question
+    console.log("All question properties:", Object.keys(question));
+  });
 
   // Get user's progress for this quiz
   let quizProgress = await QuizProgress.findOne({
@@ -66,9 +111,32 @@ const getQuizById = asyncHandler(async (req: Request, res: Response) => {
       questionId: q.questionId,
       questionText: q.questionText,
       options: q.options,
+      visual: q.visual || [],
+      correctAnswer:q.correctAnswer,
       // correctAnswer is NOT included for security
     })),
   };
+
+  console.log("\n=== FINAL RESPONSE DATA ===");
+  console.log("Quiz data being sent:", JSON.stringify(quizData, null, 2));
+  console.log("First question visual:", quizData.questions[0]?.visual);
+  console.log("First question visual length:", quizData.questions[0]?.visual?.length);
+console.log("\n=== RAW DATABASE QUERY ===");
+// Use lean() to get plain JavaScript objects
+const rawClass = await Class.findOne({ classId: user.currentClassId }).lean();
+if (rawClass) {
+  const rawCourse = rawClass.courses.find((c: any) => c.courseId === courseId);
+  if (rawCourse && rawCourse.quiz) {
+    console.log("Raw database quiz questions:", JSON.stringify(rawCourse.quiz.questions, null, 2));
+    
+    // Check specific question
+    const firstQuestion = rawCourse.quiz.questions[0];
+    if (firstQuestion) {
+      console.log("First question raw data:", JSON.stringify(firstQuestion, null, 2));
+      console.log("First question visual from raw:", firstQuestion.visual);
+    }
+  }
+}
 
   return res.status(200).json(
     new ApiResponse(200, 'Quiz fetched successfully', {

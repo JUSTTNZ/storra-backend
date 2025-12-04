@@ -7,7 +7,7 @@ import connectDB  from '../config/db/db.js';
 import { Class } from '../Models/class.model.js';
 import dotenv from 'dotenv';
 dotenv.config();
-
+// node --loader ts-node/esm src/scripts/populateClasses.ts
 
 const CLASSES_DIR = path.join(process.cwd(), 'data', 'classes');
 const IMAGES_DIR = path.join(process.cwd(), 'data', 'images');
@@ -23,10 +23,48 @@ const courseCodeMap: Record<string, string> = {
   "Civic Education": "ce"
 };
 
+const BUCKET_NAME = 'course-images';
+async function ensureBucketExists(bucketName: string) {
+  const { data: buckets, error: listError } = await supabase.storage.listBuckets();
+
+  if (listError) {
+    console.error("❌ Error listing buckets:", listError.message);
+    return false;
+  }
+
+  const exists = buckets.some(b => b.name === bucketName);
+
+  if (exists) {
+    console.log(`📦 Bucket '${bucketName}' already exists`);
+    return true;
+  }
+
+  console.log(`🆕 Bucket '${bucketName}' does not exist. Creating...`);
+
+  const { data: newBucket, error: createError } = await supabase.storage.createBucket(bucketName, {
+    public: true, // set to false if you want private
+    fileSizeLimit: 1024 * 1024 * 5, // 5MB example
+  });
+
+  if (createError) {
+    console.error("❌ Bucket creation failed:", createError.message);
+    return false;
+  }
+
+  console.log(`✅ Bucket '${bucketName}' created successfully`);
+  return true;
+}
+
 async function uploadToSupabase(filePath: string) {
+  const bucketName = process.env.SUPABASE_BUCKET!;
+  
+  // Ensure bucket exists before uploading
+  // await ensureBucketExists(bucketName);
+
   const fileName = `${uuidv4()}-${path.basename(filePath)}`;
+
   const { data, error } = await supabase.storage
-    .from(process.env.SUPABASE_BUCKET!)
+    .from(bucketName)
     .upload(fileName, fs.createReadStream(filePath), {
       cacheControl: '3600',
       upsert: false,
@@ -40,11 +78,12 @@ async function uploadToSupabase(filePath: string) {
 
   const { data: publicUrl } = supabase
     .storage
-    .from(process.env.SUPABASE_BUCKET!)
+    .from(bucketName)
     .getPublicUrl(fileName);
 
   return publicUrl.publicUrl;
 }
+
 
 function isFakeImage(url: string) {
   return (
