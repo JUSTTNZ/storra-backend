@@ -203,7 +203,6 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
     if (!user) {
       throw new ApiError({ statusCode: 404, message: 'User profile not found' });
     }
-  
 
     // Fetch user rewards
     const rewards = await UserRewards.findOne({ userId: user._id });
@@ -253,27 +252,41 @@ export const getCurrentUser = async (req: Request, res: Response, next: NextFunc
         ? Math.round((completedLessonsAcrossCourses / totalLessonsAcrossCourses) * 100)
         : 0;
 
-    // console.log('✅ Courses progress (including not started):', coursesProgress);
-    // console.log('🌟 Overall progress %:', overallProgressPercent);
-
+    // Flatten user object
+    const flattenedUser = {
+      _id: user._id,
+      email: user.email,
+      fullname: user.fullname,
+      role: user.role,
+      phoneNumber: user.phoneNumber,
+      preferredLanguage: user.preferredLanguage,
+      learningGoals: user.learningGoals,
+      hasCompletedOnboarding: user.hasCompletedOnboarding,
+      createdAt: user.createdAt,
+      age: user.age,
+      currentClassLevel: user.currentClassLevel,
+      currentClassId: user.currentClassId,
+      educationLevel: user.educationLevel,
+      profilePictureUrl: user.profilePictureUrl,
+      rewards,
+      coursesProgress,
+      overallProgressPercent,
+      spinChances: rewards?.spinChances,
+      leaderboard: { totalPoints, rank },
+    };
+console.log(user)
+    console.log(flattenedUser)
     logger.info('✅ Current user fetched', { userId: user._id });
-  console.log('us', user)
-    return res.status(200).json(
-      new ApiResponse(200, 'User profile fetched successfully', {
-        profile: user,
-        coursesProgress,
-        overallProgressPercent, // new field
-        rewards,
-        spinChances: rewards?.spinChances  ,
-        leaderboard: { totalPoints, rank },
-      })
-    );
+
+    return res.status(200).json(new ApiResponse(200, 'User profile fetched successfully', flattenedUser));
+    
     
   } catch (err: any) {
     logger.error('Get current user error', { error: err.message });
     next(err);
   }
 };
+
 
 
 
