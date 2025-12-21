@@ -369,3 +369,80 @@ export const editProfile = async (req: Request, res: Response, next: NextFunctio
     next(err);
   }
 };
+
+export const completeOnboarding = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const supabaseUser = req.supabaseUser;
+
+    if (!supabaseUser) {
+      throw new ApiError({ statusCode: 401, message: 'Not authenticated' });
+    }
+
+    const {
+      age,
+      currentClassLevel,
+      preferredLanguage,
+      learningGoals,
+      learningStyle,
+      interests,
+      excitedAbout,
+      daysPerWeek,
+      timePerDay,
+      hasCompletedOnboarding
+    } = req.body;
+
+    // 1️⃣ Update Supabase user metadata
+    const { data: updatedSupaUser, error: supaError } = await supabaseAdmin.auth.admin.updateUserById(
+      supabaseUser.id,
+      {
+        user_metadata: {
+          age,
+          currentClassLevel,
+          preferredLanguage,
+          learningGoals,
+          learningStyle,
+          interests,
+          excitedAbout,
+          daysPerWeek,
+          timePerDay
+        },
+      }
+    );
+
+    if (supaError) {
+      logger.error('Failed to update Supabase user during onboarding', { error: supaError });
+      throw new ApiError({ statusCode: 500, message: 'Failed to complete onboarding' });
+    }
+
+    // 2️⃣ Update MongoDB profile
+    const updatedProfile = await User.findOneAndUpdate(
+      { supabase_user_id: supabaseUser.id },
+      {
+        $set: {
+          age,
+          currentClassLevel,
+          preferredLanguage,
+          learningGoals,
+          learningStyle,
+          interests,
+          excitedAbout,
+          daysPerWeek,
+          timePerDay,
+          hasCompletedOnboarding: true
+        },
+      },
+      { new: true }
+    );
+
+    if (!updatedProfile) {
+      throw new ApiError({ statusCode: 404, message: 'User profile not found' });
+    }
+
+    return res
+      .status(200)
+      .json(new ApiResponse(200, 'Onboarding completed successfully', updatedProfile));
+  } catch (err: any) {
+    logger.error('Complete onboarding error', { error: err.message });
+    next(err);
+  }
+};

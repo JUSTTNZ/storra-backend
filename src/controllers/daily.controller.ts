@@ -129,7 +129,7 @@ export const getDailyRewardInfo = asyncHandler(async (req: Request, res: Respons
   const last = rewards.lastLoginDate ? new Date(rewards.lastLoginDate) : null;
   const claimedToday = last && now.toDateString() === last.toDateString();
 
-  // Build cycle info for frontend
+  
   const cycle = cycleRewards.map((reward, index) => ({
     day: index + 1,
     reward,
