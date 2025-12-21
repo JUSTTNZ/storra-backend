@@ -362,3 +362,34 @@
 {"error":{"__isAuthError":true,"name":"AuthRetryableFetchError","status":0},"level":"warn","message":"Supabase login failed","timestamp":"2025-12-03T22:18:40.925Z"}
 {"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-03T22:18:53.966Z","userId":"69179ca2e0cf5357482bb90c"}
 {"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-03T22:43:58.473Z","userId":"69179ca2e0cf5357482bb90c"}
+{"fullError":"{\n  \"__isAuthError\": true,\n  \"name\": \"AuthRetryableFetchError\",\n  \"status\": 0\n}","level":"error","message":"Supabase signup failed fetch failed","status":0,"timestamp":"2025-12-20T19:14:18.098Z"}
+{"fullError":"{\n  \"__isAuthError\": true,\n  \"name\": \"AuthRetryableFetchError\",\n  \"status\": 0\n}","level":"error","message":"Supabase signup failed fetch failed","status":0,"timestamp":"2025-12-20T19:16:08.134Z"}
+{"fullError":"{\n  \"__isAuthError\": true,\n  \"name\": \"AuthRetryableFetchError\",\n  \"status\": 0\n}","level":"error","message":"Supabase signup failed fetch failed","status":0,"timestamp":"2025-12-20T19:16:13.968Z"}
+{"level":"info","message":"MongoDB profile created","role":"user","timestamp":"2025-12-20T19:28:55.871Z","userId":"6946f8f7a3e2799441f65b2c"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T19:29:00.385Z","userId":"6946f8f7a3e2799441f65b2c"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T19:29:03.007Z","userId":"6946f8f7a3e2799441f65b2c"}
+{"error":"Cast to Number failed for value \"17+\" (type string) at path \"age\"","level":"error","message":"Complete onboarding error","timestamp":"2025-12-20T19:30:22.023Z"}
+{"ip":"::1","level":"error","message":"[500] Cast to Number failed for value \"17+\" (type string) at path \"age\"","method":"PUT","path":"/api/v1/student/completeonboarding","stack":"ApiError: Cast to Number failed for value \"17+\" (type string) at path \"age\"\n    at errorHandler (C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\src\\middlewares\\ErrorHandler.ts:17:13)\n    at Layer.handleError (C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\node_modules\\router\\lib\\layer.js:116:17)\n    at trimPrefix (C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\node_modules\\router\\index.js:340:13)\n    at C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\node_modules\\router\\index.js:582:12)\n    at Immediate.next (C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\node_modules\\router\\index.js:291:5)\n    at Immediate._onImmediate (C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\node_modules\\router\\index.js:688:15)\n    at process.processImmediate (node:internal/timers:506:21)","timestamp":"2025-12-20T19:30:22.027Z","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T19:55:40.948Z","userId":"6946f8f7a3e2799441f65b2c"}
+{"error":"User validation failed: phoneNumber: Invalid phone number format","level":"error","message":"MongoDB profile creation failed, rolling back Supabase user","supabaseUserId":"dc34c902-8a73-4843-8956-6ae4a77e7192","timestamp":"2025-12-20T20:14:36.275Z"}
+{"error":"Registration failed due to a database error. Please try again.","level":"error","message":"Registration error","timestamp":"2025-12-20T20:14:36.521Z"}
+{"ip":"::1","level":"error","message":"[500] Registration failed due to a database error. Please try again.","method":"POST","path":"/api/v1/student/registeruser","stack":"ApiError: Registration failed due to a database error. Please try again.\n    at registerUser (C:\\Users\\LENOVO\\Desktop\\WORK\\STORRA\\storra-backend\\src\\controllers\\user.controller.ts:122:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","timestamp":"2025-12-20T20:14:36.528Z","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"}
+{"level":"info","message":"MongoDB profile created","role":"user","timestamp":"2025-12-20T20:15:17.839Z","userId":"694703d52bf1e3ae86e9cac7"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T20:16:44.578Z","userId":"694703d52bf1e3ae86e9cac7"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T20:16:47.281Z","userId":"694703d52bf1e3ae86e9cac7"}
+{"level":"info","message":"MongoDB profile created","role":"user","timestamp":"2025-12-20T20:38:35.373Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T20:39:23.292Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T20:39:26.248Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:12:38.951Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:12:46.044Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:12:49.105Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:12:55.844Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:13:26.126Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:13:28.971Z","userId":"6947094a2bf1e3ae86e9cb33"}
+{"level":"info","message":"MongoDB profile created","role":"user","timestamp":"2025-12-20T21:17:11.788Z","userId":"694712572bf1e3ae86e9ccd3"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:17:44.766Z","userId":"694712572bf1e3ae86e9ccd3"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:17:47.267Z","userId":"694712572bf1e3ae86e9ccd3"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:18:47.395Z","userId":"694712572bf1e3ae86e9ccd3"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:18:50.314Z","userId":"694712572bf1e3ae86e9ccd3"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:18:57.618Z","userId":"694712572bf1e3ae86e9ccd3"}
+{"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-20T21:19:00.319Z","userId":"694712572bf1e3ae86e9ccd3"}

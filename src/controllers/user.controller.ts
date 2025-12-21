@@ -391,6 +391,10 @@ export const completeOnboarding = async (req: Request, res: Response, next: Next
       hasCompletedOnboarding
     } = req.body;
 
+    // Derive currentClassId and educationLevel from currentClassLevel
+    const educationLevel = currentClassLevel.split(' ')[0].toLowerCase();
+    const currentClassId = currentClassLevel.toLowerCase().replace(' ', '-');
+
     // 1️⃣ Update Supabase user metadata
     const { data: updatedSupaUser, error: supaError } = await supabaseAdmin.auth.admin.updateUserById(
       supabaseUser.id,
@@ -421,6 +425,8 @@ export const completeOnboarding = async (req: Request, res: Response, next: Next
         $set: {
           age,
           currentClassLevel,
+          currentClassId,
+          educationLevel,
           preferredLanguage,
           learningGoals,
           learningStyle,
