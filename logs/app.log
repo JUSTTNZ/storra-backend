@@ -362,3 +362,9 @@
 {"error":{"__isAuthError":true,"name":"AuthRetryableFetchError","status":0},"level":"warn","message":"Supabase login failed","timestamp":"2025-12-03T22:18:40.925Z"}
 {"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-03T22:18:53.966Z","userId":"69179ca2e0cf5357482bb90c"}
 {"level":"info","message":"✅ Current user fetched","timestamp":"2025-12-03T22:43:58.473Z","userId":"69179ca2e0cf5357482bb90c"}
+{"error":{"__isAuthError":true,"name":"AuthRetryableFetchError","status":0},"level":"warn","message":"Supabase login failed","timestamp":"2026-01-22T20:27:39.164Z"}
+{"error":{"__isAuthError":true,"name":"AuthRetryableFetchError","status":0},"level":"warn","message":"Supabase login failed","timestamp":"2026-01-22T20:27:46.572Z"}
+{"error":{"__isAuthError":true,"name":"AuthRetryableFetchError","status":0},"level":"warn","message":"Supabase login failed","timestamp":"2026-01-22T20:27:52.477Z"}
+{"error":{"__isAuthError":true,"name":"AuthRetryableFetchError","status":0},"level":"warn","message":"Supabase login failed","timestamp":"2026-01-22T20:28:09.928Z"}
+{"error":{"__isAuthError":true,"code":"invalid_credentials","name":"AuthApiError","status":400},"level":"warn","message":"Supabase login failed","timestamp":"2026-01-22T21:30:17.762Z"}
+{"error":{"__isAuthError":true,"code":"invalid_credentials","name":"AuthApiError","status":400},"level":"warn","message":"Supabase login failed","timestamp":"2026-01-22T21:30:36.378Z"}

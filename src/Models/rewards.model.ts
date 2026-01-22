@@ -229,7 +229,7 @@ export const cycleRewards = [
   { type: "coins", amount: 60, description: "Day 6 Coins" },
 
   // DAY 7 → DIAMOND SPECIAL
-  { type: "diamonds", amount: 5, description: "Day 7 Diamonds" }
+  { type: "diamond", amount: 5, description: "Day 7 Diamond" }
 ];
 
 export const getRewardForCycleDay = (day: number) => cycleRewards[day - 1];
