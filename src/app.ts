@@ -28,7 +28,7 @@ const corsOptions = {
     'http://localhost:19000', // Expo dev tools
     'http://localhost:19001',
     'http://localhost:19002',
-    
+    'https://storra-web-fe.vercel.app',
     // Expo mobile app origins
     /^https?:\/\/.*\.exp\.direct$/i, // Expo direct URLs
     /^https?:\/\/.*\.exp\.app$/i,    // Expo app URLs
@@ -41,6 +41,7 @@ const corsOptions = {
     'http://localhost:*', // Localhost for mobile
     
     // Production origins
+       'https://storra-web-fe.vercel.app',
     'https://storra-backend.vercel.app',
     'https://storra.vercel.app',
     'https://storra-app.vercel.app',
@@ -51,7 +52,7 @@ const corsOptions = {
     'https://storra.com',
     'https://www.storra.com',
     'https://app.storra.com',
-    
+       'https://storra-web-fe.vercel.app',
     // For testing - be careful in production
     /\.storra\.com$/, // All subdomains of storra.com
   ],
