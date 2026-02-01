@@ -62,6 +62,7 @@ export interface IUserRewards {
   currentStreak: number;
   longestStreak: number;
   lastLoginDate: Date | null;
+  lastSpinResetDate: Date | null;
   dailyRewards: IDailyLoginReward[];
     /* 7-day cycle tracking */
   currentCycleDay: number; // current day in the 7-day cycle (1-7)
@@ -160,6 +161,7 @@ const UserRewardsSchema = new Schema<UserRewardsDocument>(
     currentStreak: { type: Number, default: 0 },
     longestStreak: { type: Number, default: 0 },
     lastLoginDate: { type: Date, default: null },
+    lastSpinResetDate: { type: Date, default: null },
     dailyRewards: { type: [DailyLoginRewardSchema], default: [] as IDailyLoginReward[] },
 
         // ✅ Add cycle tracking fields

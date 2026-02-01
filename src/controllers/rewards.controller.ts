@@ -83,22 +83,25 @@ export const claimDailyReward = asyncHandler(async (req: Request, res: Response)
     throw new ApiError({ statusCode: 400, message: 'Daily reward already claimed today' });
   }
 
-  // Calculate streak
+  // Calculate streak using calendar days (not timestamp diff)
   const lastLogin = rewards.lastLoginDate;
   let newStreak = 1;
 
   if (lastLogin) {
-    const lastLoginDate = new Date(lastLogin);
-    const daysDiff = Math.floor((now.getTime() - lastLoginDate.getTime()) / (1000 * 60 * 60 * 24));
+    const lastDate = new Date(lastLogin);
+    // Normalize both dates to midnight to compare calendar days
+    const todayMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const lastMidnight = new Date(lastDate.getFullYear(), lastDate.getMonth(), lastDate.getDate());
+    const daysDiff = Math.round((todayMidnight.getTime() - lastMidnight.getTime()) / (1000 * 60 * 60 * 24));
 
     if (daysDiff === 1) {
-      // Consecutive day
+      // Consecutive calendar day
       newStreak = rewards.currentStreak + 1;
     } else if (daysDiff === 0) {
-      // Same day (already checked above, but just in case)
+      // Same calendar day (already checked above, but just in case)
       newStreak = rewards.currentStreak;
     } else {
-      // Streak broken
+      // Streak broken (missed a day or more)
       newStreak = 1;
     }
   }
