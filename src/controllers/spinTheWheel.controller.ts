@@ -13,7 +13,13 @@ import { SPIN_REWARDS, getRandomReward, SMALL_REWARDS } from "../utils/spinTheWh
 // 1️⃣ GET WHEEL PREVIEW (COMMON + 1 MYSTERY)
 // ========================================================
 // controllers/spin.controller.ts
-export const getWheelPreview = asyncHandler(async (_req: Request, res: Response) => {
+export const getWheelPreview = asyncHandler(async (req: Request, res: Response) => {
+  const user = req.user;
+
+  if (!user) {
+    throw new ApiError({ statusCode: 401, message: "User not authenticated" });
+  }
+
   // 1️⃣ Get 3 common coin rewards
   const coinRewards = SPIN_REWARDS.filter(r => r.type === "coins").slice(0, 3);
 
@@ -34,10 +40,25 @@ export const getWheelPreview = asyncHandler(async (_req: Request, res: Response)
     type: r.type,
   }));
 
+  // 5️⃣ Get user's current spin chances
+  let spinChances = 3;
+  const userRewards = await UserRewards.findOne({ userId: user._id });
+  if (userRewards) {
+    const today = new Date();
+    const lastSpinReset = userRewards.lastSpinResetDate;
+    // If no reset today yet, they'll get 3 when they spin
+    if (!lastSpinReset || lastSpinReset.toDateString() !== today.toDateString()) {
+      spinChances = 3;
+    } else {
+      spinChances = userRewards.spinChances;
+    }
+  }
+
   return res.status(200).json({
     status: 200,
     message: "Wheel preview rewards",
     data: previewRewards,
+    spinChances,
   });
 });
 
@@ -72,12 +93,13 @@ export const spinTheWheel = asyncHandler(async (req: Request, res: Response) => 
   }
 
   // ------------------------------
-  // Reset spins if last spin was on previous day
+  // Reset spins if last spin reset was on a previous day
   // ------------------------------
   const today = new Date();
-  const lastSpin = userRewards.lastLoginDate;
-  if (!lastSpin || lastSpin.toDateString() !== today.toDateString()) {
+  const lastSpinReset = userRewards.lastSpinResetDate;
+  if (!lastSpinReset || lastSpinReset.toDateString() !== today.toDateString()) {
     userRewards.spinChances = 3; // reset spins for the day
+    userRewards.lastSpinResetDate = today;
   }
 
   // ------------------------------
@@ -131,9 +153,6 @@ export const spinTheWheel = asyncHandler(async (req: Request, res: Response) => 
     description: `Won: ${reward.name}`,
     timestamp: new Date(),
   });
-
-  // Update last login date for daily reset
-  userRewards.lastLoginDate = today;
 
   await userRewards.save();
 
