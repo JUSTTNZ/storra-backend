@@ -11,8 +11,8 @@ export const getLeaderboard = async (
 ) => {
   try {
     // Fetch all users
-    const users = await User.find().select(
-      'fullname username email profilePictureUrl currentClassLevel currentClassId educationLevel'
+    const users = await User.find({ hasCompletedOnboarding: true }).select(
+      'fullname username email profilePictureUrl currentClassLevel currentClassId educationLevel hasCompletedOnboarding'
     );
 
     // Compute total points for each user
