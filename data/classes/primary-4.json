@@ -44,14 +44,14 @@
           "lessonType": "video",
           "description": "Identifying 2D and 3D shapes and measuring length and weight.",
           "textContent": "Pupils explore shapes like squares, rectangles, triangles, circles, cubes, spheres, and cylinders. Teachers show measuring length using rulers, weight using scales, and capacity using containers. Real-life examples include measuring tables, books, and water in bottles. Hands-on activities enhance understanding of geometry and measurement.",
-          "videoUrl": "https://www.youtube.com/watch?v=t3NUb5B-tWI", 
+          "videoUrl": "https://www.youtube.com/watch?v=t3NUb5B-tWI",
           "audioUrl": "https://www.youtube.com/watch?v=t3NUb5B-tWI"
         }
       ],
       "quiz": {
         "quizId": "pry4-math-quiz",
         "quizTitle": "Mathematics — Primary 4 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -63,7 +63,7 @@
           },
           {
             "questionId": "q2",
-          "questionText": "Which fraction represents half of a cake?",
+            "questionText": "Which fraction represents half of a cake?",
             "options": ["1/3", "1/4", "1/2", "1/5"],
             "correctAnswer": "1/2"
           },
@@ -72,6 +72,48 @@
             "questionText": "Which shape has 6 faces?",
             "options": ["Cube", "Sphere", "Cylinder", "Triangle"],
             "correctAnswer": "Cube"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is the place value of 5 in the number 3,527?",
+            "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+            "correctAnswer": "Hundreds"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What is 800 - 365?",
+            "options": ["435", "445", "535", "465"],
+            "correctAnswer": "435"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What is 7 x 8?",
+            "options": ["48", "54", "56", "64"],
+            "correctAnswer": "56"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "If you share 24 sweets equally among 6 friends, how many does each friend get?",
+            "options": ["3", "4", "5", "6"],
+            "correctAnswer": "4"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which fraction is larger: 1/3 or 1/4?",
+            "options": ["1/3", "1/4", "They are equal", "Cannot tell"],
+            "correctAnswer": "1/3"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "How many sides does a rectangle have?",
+            "options": ["3", "4", "5", "6"],
+            "correctAnswer": "4"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Arrange these numbers in ascending order: 472, 247, 742. Which comes first?",
+            "options": ["472", "742", "247", "They are equal"],
+            "correctAnswer": "247"
           }
         ]
       }
@@ -123,7 +165,7 @@
       "quiz": {
         "quizId": "pry4-eng-quiz",
         "quizTitle": "English Language — Primary 4 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -144,6 +186,48 @@
             "questionText": "Which sentence is correct?",
             "options": ["He go to school", "He goes to school", "He going to school", "He gone to school"],
             "correctAnswer": "He goes to school"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which word is a verb?",
+            "options": ["Table", "Beautiful", "Jump", "Slowly"],
+            "correctAnswer": "Jump"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What is a synonym for 'big'?",
+            "options": ["Small", "Tiny", "Large", "Short"],
+            "correctAnswer": "Large"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which word is an adjective in the sentence: 'The tall boy ran fast'?",
+            "options": ["The", "Tall", "Boy", "Ran"],
+            "correctAnswer": "Tall"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What is the correct pronoun to replace 'Mary' in a sentence?",
+            "options": ["He", "She", "It", "They"],
+            "correctAnswer": "She"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which punctuation mark ends a question?",
+            "options": ["Full stop", "Comma", "Question mark", "Exclamation mark"],
+            "correctAnswer": "Question mark"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A paragraph should begin with a:",
+            "options": ["Closing sentence", "Topic sentence", "Question", "Drawing"],
+            "correctAnswer": "Topic sentence"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What is the opposite of 'happy'?",
+            "options": ["Glad", "Sad", "Angry", "Excited"],
+            "correctAnswer": "Sad"
           }
         ]
       }
@@ -174,21 +258,21 @@
           "lessonTitle": "Water and Its Uses",
           "lessonType": "text",
           "description": "Understanding water and its importance to life.",
-          "textContent": "Pupils explore sources of water, such as rivers, wells, and taps, and learn about drinking, cooking, washing, and farming. Teachers explain water conservation and hygiene. Pupils perform simple experiments to see water’s properties, emphasising why clean water is essential for health."
+          "textContent": "Pupils explore sources of water, such as rivers, wells, and taps, and learn about drinking, cooking, washing, and farming. Teachers explain water conservation and hygiene. Pupils perform simple experiments to see water's properties, emphasising why clean water is essential for health."
         },
         {
           "lessonId": "pry4-sci-lesson4",
           "lessonTitle": "Air and Its Importance",
           "lessonType": "text",
           "description": "Recognising air as essential for life.",
-          "textContent": "Pupils understand that air surrounds us and is necessary for breathing. Teachers demonstrate air’s presence through simple experiments like blowing balloons or moving papers. Pupils discuss pollution, ways to keep air clean, and the importance of trees and plants in providing oxygen."
+          "textContent": "Pupils understand that air surrounds us and is necessary for breathing. Teachers demonstrate air's presence through simple experiments like blowing balloons or moving papers. Pupils discuss pollution, ways to keep air clean, and the importance of trees and plants in providing oxygen."
         },
         {
           "lessonId": "pry4-sci-lesson5",
           "lessonTitle": "Weather and Seasons",
           "lessonType": "video",
           "description": "Exploring different weather patterns and seasons in Nigeria.",
-          "textContent": "Pupils learn about sunny, rainy, cloudy, and windy weather, and understand Nigeria’s rainy and dry seasons. Teachers use charts, videos, and outdoor observations. Pupils record daily weather, discuss its effects on activities, crops, and clothing. Lessons encourage observation and scientific thinking.",
+          "textContent": "Pupils learn about sunny, rainy, cloudy, and windy weather, and understand Nigeria's rainy and dry seasons. Teachers use charts, videos, and outdoor observations. Pupils record daily weather, discuss its effects on activities, crops, and clothing. Lessons encourage observation and scientific thinking.",
           "videoUrl": "https://www.youtube.com/watch?v=ZguiIg6sMeE",
           "audioUrl": "https://www.youtube.com/watch?v=ZguiIg6sMeE"
         }
@@ -196,7 +280,7 @@
       "quiz": {
         "quizId": "pry4-sci-quiz",
         "quizTitle": "Basic Science — Primary 4 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -207,16 +291,58 @@
             "correctAnswer": "Leaf"
           },
           {
-          "questionId": "q2",
-          "questionText": "Which animal lives in the forest?",
-          "options": ["Dog", "Lion", "Cat", "Goat"],
-          "correctAnswer": "Lion"
+            "questionId": "q2",
+            "questionText": "Which animal lives in the forest?",
+            "options": ["Dog", "Lion", "Cat", "Goat"],
+            "correctAnswer": "Lion"
           },
           {
             "questionId": "q3",
             "questionText": "Which season is usually dry in Nigeria?",
             "options": ["Rainy", "Dry", "Windy", "Cold"],
             "correctAnswer": "Dry"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which part of a plant absorbs water from the soil?",
+            "options": ["Leaf", "Flower", "Root", "Fruit"],
+            "correctAnswer": "Root"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is a source of water?",
+            "options": ["Rock", "River", "Sand", "Wood"],
+            "correctAnswer": "River"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What gas do we breathe in from the air?",
+            "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+            "correctAnswer": "Oxygen"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "A domestic animal is one that:",
+            "options": ["Lives in the forest", "Lives with humans", "Flies in the sky", "Lives in the ocean"],
+            "correctAnswer": "Lives with humans"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which weather makes us carry an umbrella?",
+            "options": ["Sunny", "Rainy", "Windy", "Cloudy"],
+            "correctAnswer": "Rainy"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Trees help to keep the air clean by producing:",
+            "options": ["Carbon dioxide", "Smoke", "Oxygen", "Dust"],
+            "correctAnswer": "Oxygen"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Why is clean water important?",
+            "options": ["For painting", "For good health", "For making noise", "For building houses"],
+            "correctAnswer": "For good health"
           }
         ]
       }
@@ -269,7 +395,7 @@
       "quiz": {
         "quizId": "pry4-ss-quiz",
         "quizTitle": "Social Studies — Primary 4 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -290,6 +416,48 @@
             "questionText": "Who is part of your family?",
             "options": ["Friend", "Mother", "Teacher", "Stranger"],
             "correctAnswer": "Mother"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Where do you go when you are sick?",
+            "options": ["Market", "Hospital", "School", "Playground"],
+            "correctAnswer": "Hospital"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of the following is a Nigerian cultural festival?",
+            "options": ["Halloween", "Durbar", "Thanksgiving", "Easter only"],
+            "correctAnswer": "Durbar"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "The head of a school is called the:",
+            "options": ["Doctor", "Principal or Headteacher", "Policeman", "Farmer"],
+            "correctAnswer": "Principal or Headteacher"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Littering in the community causes:",
+            "options": ["Beauty", "Pollution", "Happiness", "Growth"],
+            "correctAnswer": "Pollution"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A family tree shows:",
+            "options": ["Types of trees", "Family members and their relationships", "School subjects", "Animal species"],
+            "correctAnswer": "Family members and their relationships"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Who treats sick people in the community?",
+            "options": ["Teacher", "Farmer", "Doctor", "Trader"],
+            "correctAnswer": "Doctor"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What is one way pupils can care for their school environment?",
+            "options": ["Throw rubbish on the floor", "Keep the classroom clean", "Break school property", "Ignore dirty surroundings"],
+            "correctAnswer": "Keep the classroom clean"
           }
         ]
       }
@@ -342,7 +510,7 @@
       "quiz": {
         "quizId": "pry4-tech-quiz",
         "quizTitle": "Basic Technology — Primary 4 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -363,6 +531,48 @@
             "questionText": "Which material is natural?",
             "options": ["Plastic", "Metal", "Wood", "Glass"],
             "correctAnswer": "Wood"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A hammer is used for:",
+            "options": ["Cutting paper", "Driving nails", "Drawing lines", "Measuring length"],
+            "correctAnswer": "Driving nails"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which material is man-made?",
+            "options": ["Cotton", "Rubber tree sap", "Plastic", "Bamboo"],
+            "correctAnswer": "Plastic"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A wheel helps to make work easier by:",
+            "options": ["Making things heavier", "Reducing movement", "Allowing things to roll", "Stopping motion"],
+            "correctAnswer": "Allowing things to roll"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which tool is used to measure length?",
+            "options": ["Hammer", "Ruler", "Scissors", "Pliers"],
+            "correctAnswer": "Ruler"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What provides energy for a torch (flashlight)?",
+            "options": ["Water", "Battery", "Wood", "Paper"],
+            "correctAnswer": "Battery"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "When building a model bridge, what is important for it to stand?",
+            "options": ["Colour", "Stability", "Smell", "Noise"],
+            "correctAnswer": "Stability"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What should you do before using a sharp tool?",
+            "options": ["Run with it", "Ask an adult for help", "Throw it", "Hide it"],
+            "correctAnswer": "Ask an adult for help"
           }
         ]
       }
@@ -416,7 +626,7 @@
       "quiz": {
         "quizId": "pry4-art-quiz",
         "quizTitle": "Creative Arts — Primary 4 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -437,6 +647,48 @@
             "questionText": "Music lessons improve:",
             "options": ["Coordination", "Listening skills", "Cooking skills", "Math"],
             "correctAnswer": "Listening skills"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What do you mix to create new colours?",
+            "options": ["Water and sand", "Primary colours", "Paper and glue", "Clay and sticks"],
+            "correctAnswer": "Primary colours"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Dancing helps to develop:",
+            "options": ["Reading skills", "Coordination and fitness", "Cooking ability", "Writing speed"],
+            "correctAnswer": "Coordination and fitness"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A greeting card is an example of:",
+            "options": ["A dance move", "A craft", "A song", "A sport"],
+            "correctAnswer": "A craft"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Clapping patterns in music help pupils learn about:",
+            "options": ["Spelling", "Rhythm", "Fractions", "Geography"],
+            "correctAnswer": "Rhythm"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "In drama, pupils use their voice and:",
+            "options": ["Calculators", "Gestures", "Rulers", "Textbooks"],
+            "correctAnswer": "Gestures"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which material can be used to make a mask in craft class?",
+            "options": ["Water", "Paper", "Air", "Light"],
+            "correctAnswer": "Paper"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Traditional dances from Nigeria help pupils appreciate:",
+            "options": ["Foreign technology", "Nigerian culture", "Mathematics", "Road safety"],
+            "correctAnswer": "Nigerian culture"
           }
         ]
       }
@@ -466,121 +718,205 @@
         },
         {
           "lessonId": "pry4-phe-lesson3",
-          "lessonType":"text",
-          "lessonTitle":"Personal Hygiene",
-          "description":"Maintaining cleanliness to prevent illness.",
-          "textContent":"Pupils practice washing hands, brushing teeth, bathing, and keeping clothes clean. Teachers explain germs, disease prevention, and safe habits. Pupils share experiences and understand the connection between hygiene and overall health."
+          "lessonType": "text",
+          "lessonTitle": "Personal Hygiene",
+          "description": "Maintaining cleanliness to prevent illness.",
+          "textContent": "Pupils practice washing hands, brushing teeth, bathing, and keeping clothes clean. Teachers explain germs, disease prevention, and safe habits. Pupils share experiences and understand the connection between hygiene and overall health."
         },
         {
           "lessonId": "pry4-phe-lesson4",
           "lessonTitle": "Safety at Home and School",
-          "lessonType":"text",
-          "description":"Learning to avoid accidents and follow safety rules.",
-          "textContent":"Pupils learn about avoiding sharp objects, electrical hazards, and running indoors. Teachers guide safe behaviours on playgrounds and classrooms. Pupils role-play scenarios to understand consequences of unsafe actions and develop responsibility."
+          "lessonType": "text",
+          "description": "Learning to avoid accidents and follow safety rules.",
+          "textContent": "Pupils learn about avoiding sharp objects, electrical hazards, and running indoors. Teachers guide safe behaviours on playgrounds and classrooms. Pupils role-play scenarios to understand consequences of unsafe actions and develop responsibility."
         },
         {
           "lessonId": "pry4-phe-lesson5",
-          "lessonType":"text",
-          "lessonTitle":"First Aid Basics",
-          "description":"Understanding simple first aid procedures.",
-          "textContent":"Pupils learn to clean minor cuts, apply bandages, and seek help for injuries. Teachers demonstrate safe techniques and emphasise asking adults for guidance. First aid lessons build confidence and awareness of caring for themselves and others."
+          "lessonType": "text",
+          "lessonTitle": "First Aid Basics",
+          "description": "Understanding simple first aid procedures.",
+          "textContent": "Pupils learn to clean minor cuts, apply bandages, and seek help for injuries. Teachers demonstrate safe techniques and emphasise asking adults for guidance. First aid lessons build confidence and awareness of caring for themselves and others."
         }
       ],
       "quiz": {
-        "quizId":"pry4-phe-quiz",
-        "quizTitle":"Physical & Health Education — Primary 4 Quiz",
-        "totalQuestions":3,
-        "passingScore":60,
-        "timeLimit":"10 mins",
-        "questions":[
+        "quizId": "pry4-phe-quiz",
+        "quizTitle": "Physical & Health Education — Primary 4 Quiz",
+        "totalQuestions": 10,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
           {
-            "questionId":"q1",
-            "questionText":"Which activity improves physical fitness?",
-            "options":["Reading","Jogging","Sleeping","Watching TV"],
-            "correctAnswer":"Jogging"
+            "questionId": "q1",
+            "questionText": "Which activity improves physical fitness?",
+            "options": ["Reading", "Jogging", "Sleeping", "Watching TV"],
+            "correctAnswer": "Jogging"
           },
           {
-            "questionId":"q2",
-            "questionText":"Washing hands helps to prevent:",
-            "options":["Illness","Homework","Playing","Eating"],
-            "correctAnswer":"Illness"
+            "questionId": "q2",
+            "questionText": "Washing hands helps to prevent:",
+            "options": ["Illness", "Homework", "Playing", "Eating"],
+            "correctAnswer": "Illness"
           },
           {
-            "questionId":"q3",
-            "questionText":"What should you do if someone is injured?",
-            "options":["Ignore","Clean and bandage","Run away","Play"],
-            "correctAnswer":"Clean and bandage"
+            "questionId": "q3",
+            "questionText": "What should you do if someone is injured?",
+            "options": ["Ignore", "Clean and bandage", "Run away", "Play"],
+            "correctAnswer": "Clean and bandage"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A balanced diet means eating foods from:",
+            "options": ["Only one food group", "Different food groups", "Only snacks", "Only fruits"],
+            "correctAnswer": "Different food groups"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of the following is a healthy habit?",
+            "options": ["Skipping meals", "Brushing teeth twice a day", "Sleeping very late", "Eating only sweets"],
+            "correctAnswer": "Brushing teeth twice a day"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Why should you not run indoors?",
+            "options": ["It is fun", "You may have an accident", "It makes you strong", "Teachers enjoy it"],
+            "correctAnswer": "You may have an accident"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Stretching before exercise helps to:",
+            "options": ["Make you tired", "Prevent injuries", "Make you hungry", "Waste time"],
+            "correctAnswer": "Prevent injuries"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which food group gives us energy?",
+            "options": ["Carbohydrates", "Water only", "Vitamins only", "Minerals only"],
+            "correctAnswer": "Carbohydrates"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What should you do if you get a small cut?",
+            "options": ["Ignore it", "Tell an adult and clean it", "Keep playing", "Put sand on it"],
+            "correctAnswer": "Tell an adult and clean it"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Germs can spread through:",
+            "options": ["Clean hands", "Dirty hands", "Reading books", "Sleeping"],
+            "correctAnswer": "Dirty hands"
           }
         ]
       }
     },
     {
-      "courseId":"pry4-civic-education",
-      "courseName":"Civic Education",
-      "courseCode":"CIV-P4",
-      "description":"Learning about rights, responsibilities, and participation in community life.",
-      "courseImage":"https://upload.wikimedia.org/wikipedia/commons/8/80/Primary_civic_education.jpg",
-      "lessons":[
+      "courseId": "pry4-civic-education",
+      "courseName": "Civic Education",
+      "courseCode": "CIV-P4",
+      "description": "Learning about rights, responsibilities, and participation in community life.",
+      "courseImage": "https://upload.wikimedia.org/wikipedia/commons/8/80/Primary_civic_education.jpg",
+      "lessons": [
         {
-          "lessonId":"pry4-civ-lesson1",
-          "lessonTitle":"Being a Responsible Citizen",
-          "lessonType":"text",
-          "description":"Understanding duties in family, school, and community.",
-          "textContent":"Pupils learn that being responsible means following rules, helping others, and taking care of property. Teachers provide examples from school and home. Pupils discuss situations where responsibility matters and reflect on personal behaviour."
+          "lessonId": "pry4-civ-lesson1",
+          "lessonTitle": "Being a Responsible Citizen",
+          "lessonType": "text",
+          "description": "Understanding duties in family, school, and community.",
+          "textContent": "Pupils learn that being responsible means following rules, helping others, and taking care of property. Teachers provide examples from school and home. Pupils discuss situations where responsibility matters and reflect on personal behaviour."
         },
         {
-          "lessonId":"pry4-civ-lesson2",
-          "lessonTitle":"Rights and Duties of Children",
-          "lessonType":"text",
-          "description":"Learning about the basic rights every child has.",
-          "textContent":"Pupils learn they have rights to education, health, play, and protection. Teachers explain duties such as respecting elders, attending school, and helping at home. Pupils discuss how rights and responsibilities balance each other."
+          "lessonId": "pry4-civ-lesson2",
+          "lessonTitle": "Rights and Duties of Children",
+          "lessonType": "text",
+          "description": "Learning about the basic rights every child has.",
+          "textContent": "Pupils learn they have rights to education, health, play, and protection. Teachers explain duties such as respecting elders, attending school, and helping at home. Pupils discuss how rights and responsibilities balance each other."
         },
         {
-          "lessonId":"pry4-civ-lesson3",
-          "lessonTitle":"Helping the Community",
-          "lessonType":"text",
-          "description":"Ways to contribute positively to society.",
-          "textContent":"Pupils learn small acts like cleaning, planting trees, and assisting neighbours. Teachers encourage class projects and teamwork. Pupils share ideas on making the community better, promoting empathy and civic pride."
+          "lessonId": "pry4-civ-lesson3",
+          "lessonTitle": "Helping the Community",
+          "lessonType": "text",
+          "description": "Ways to contribute positively to society.",
+          "textContent": "Pupils learn small acts like cleaning, planting trees, and assisting neighbours. Teachers encourage class projects and teamwork. Pupils share ideas on making the community better, promoting empathy and civic pride."
         },
         {
-          "lessonId":"pry4-civ-lesson4",
-          "lessonTitle":"Honesty and Respect",
-          "lessonType":"text",
-          "description":"Understanding moral values in daily life.",
-          "textContent":"Pupils learn that telling the truth, keeping promises, and respecting others are important traits. Teachers use role-play and stories. Pupils practise these values in classroom and at home, reinforcing good character."
+          "lessonId": "pry4-civ-lesson4",
+          "lessonTitle": "Honesty and Respect",
+          "lessonType": "text",
+          "description": "Understanding moral values in daily life.",
+          "textContent": "Pupils learn that telling the truth, keeping promises, and respecting others are important traits. Teachers use role-play and stories. Pupils practise these values in classroom and at home, reinforcing good character."
         },
         {
-          "lessonId":"pry4-civ-lesson5",
-          "lessonTitle":"Following Rules and Laws",
-          "lessonType":"text",
-          "description":"Importance of rules in society for safety and fairness.",
-          "textContent":"Pupils learn that rules in school, community, and country ensure safety and fairness. Teachers give examples like road safety, classroom behaviour, and obeying elders. Pupils discuss consequences of breaking rules and ways to follow them responsibly."
+          "lessonId": "pry4-civ-lesson5",
+          "lessonTitle": "Following Rules and Laws",
+          "lessonType": "text",
+          "description": "Importance of rules in society for safety and fairness.",
+          "textContent": "Pupils learn that rules in school, community, and country ensure safety and fairness. Teachers give examples like road safety, classroom behaviour, and obeying elders. Pupils discuss consequences of breaking rules and ways to follow them responsibly."
         }
       ],
-      "quiz":{
-        "quizId":"pry4-civ-quiz",
-        "quizTitle":"Civic Education — Primary 4 Quiz",
-        "totalQuestions":3,
-        "passingScore":60,
-        "timeLimit":"10 mins",
-        "questions":[
+      "quiz": {
+        "quizId": "pry4-civ-quiz",
+        "quizTitle": "Civic Education — Primary 4 Quiz",
+        "totalQuestions": 10,
+        "passingScore": 60,
+        "timeLimit": "10 mins",
+        "questions": [
           {
-            "questionId":"q1",
-            "questionText":"Being a responsible citizen means:",
-            "options":["Helping others","Breaking rules","Ignoring laws","Fighting"],
-            "correctAnswer":"Helping others"
+            "questionId": "q1",
+            "questionText": "Being a responsible citizen means:",
+            "options": ["Helping others", "Breaking rules", "Ignoring laws", "Fighting"],
+            "correctAnswer": "Helping others"
           },
           {
-            "questionId":"q2",
-            "questionText":"Children have the right to:",
-            "options":["Education","Stealing","Skipping school","Ignoring rules"],
-            "correctAnswer":"Education"
+            "questionId": "q2",
+            "questionText": "Children have the right to:",
+            "options": ["Education", "Stealing", "Skipping school", "Ignoring rules"],
+            "correctAnswer": "Education"
           },
           {
-            "questionId":"q3",
-            "questionText":"Following rules helps to:",
-            "options":["Create chaos","Ensure safety","Confuse people","Make noise"],
-            "correctAnswer":"Ensure safety"
+            "questionId": "q3",
+            "questionText": "Following rules helps to:",
+            "options": ["Create chaos", "Ensure safety", "Confuse people", "Make noise"],
+            "correctAnswer": "Ensure safety"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Honesty means:",
+            "options": ["Telling lies", "Telling the truth", "Cheating in exams", "Hiding things"],
+            "correctAnswer": "Telling the truth"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which is a way to help your community?",
+            "options": ["Littering", "Planting trees", "Breaking things", "Being rude"],
+            "correctAnswer": "Planting trees"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Respecting elders means:",
+            "options": ["Shouting at them", "Listening to and obeying them", "Ignoring them", "Running from them"],
+            "correctAnswer": "Listening to and obeying them"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of these is a duty of a child?",
+            "options": ["Going to school", "Driving a car", "Working in a factory", "Voting in elections"],
+            "correctAnswer": "Going to school"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What happens when people do not follow rules?",
+            "options": ["Everything is peaceful", "There is disorder and danger", "Everyone is happy", "Nothing changes"],
+            "correctAnswer": "There is disorder and danger"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Keeping a promise is a sign of:",
+            "options": ["Weakness", "Dishonesty", "Trustworthiness", "Laziness"],
+            "correctAnswer": "Trustworthiness"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "A good citizen takes care of:",
+            "options": ["Only themselves", "Public and private property", "Nothing", "Only their toys"],
+            "correctAnswer": "Public and private property"
           }
         ]
       }

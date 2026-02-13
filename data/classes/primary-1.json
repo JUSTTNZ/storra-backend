@@ -7,7 +7,7 @@
       "courseId": "pry1-math",
       "courseName": "Mathematics",
       "courseCode": "MATH-P1",
-      "description": "An introductory course that builds pupils’ understanding of numbers, counting, basic operations, and simple geometry using relatable examples from their environment.",
+      "description": "An introductory course that builds pupils' understanding of numbers, counting, basic operations, and simple geometry using relatable examples from their environment.",
       "courseImage": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Elementary_math_classroom.jpg",
       "lessons": [
         {
@@ -33,7 +33,7 @@
           "lessonTitle": "Introduction to Addition",
           "lessonType": "text",
           "description": "Understanding how to combine two or more numbers together.",
-          "textContent": "Addition means putting things together to find out how many we have in total. For example, if you have two oranges and your friend gives you one more, you now have three oranges. In this lesson, pupils will learn how to add small numbers using real-life examples and pictures. Teachers can demonstrate with bottle tops or counting blocks. Pupils should say each step out loud as they add: ‘Two plus one equals three’. This repetition helps them understand that addition increases a number’s value. With continued practice, they will be able to perform simple additions mentally or by writing them down. Addition is the building block for all higher mathematical operations.",
+          "textContent": "Addition means putting things together to find out how many we have in total. For example, if you have two oranges and your friend gives you one more, you now have three oranges. In this lesson, pupils will learn how to add small numbers using real-life examples and pictures. Teachers can demonstrate with bottle tops or counting blocks. Pupils should say each step out loud as they add: 'Two plus one equals three'. This repetition helps them understand that addition increases a number's value. With continued practice, they will be able to perform simple additions mentally or by writing them down. Addition is the building block for all higher mathematical operations.",
           "videoUrl": "https://www.youtube.com/watch?v=0_932pytnZM",
           "audioUrl": "https://www.youtube.com/watch?v=0_932pytnZM"
         },
@@ -42,7 +42,7 @@
           "lessonTitle": "Understanding Subtraction",
           "lessonType": "text",
           "description": "Learning how to take away or remove numbers.",
-          "textContent": "Subtraction is the opposite of addition. It means taking away a number or object from another. For instance, if you have five apples and you eat two, you have three left. In this lesson, pupils will explore subtraction using items they can see and touch. Teachers can use classroom materials such as pencils or books to show how quantities decrease when something is removed. Pupils will learn subtraction symbols and how to say subtraction sentences like ‘five minus two equals three’. Understanding subtraction helps pupils in solving problems related to sharing, buying, and giving change in real-life situations. The lesson emphasizes practical examples to make learning meaningful.",
+          "textContent": "Subtraction is the opposite of addition. It means taking away a number or object from another. For instance, if you have five apples and you eat two, you have three left. In this lesson, pupils will explore subtraction using items they can see and touch. Teachers can use classroom materials such as pencils or books to show how quantities decrease when something is removed. Pupils will learn subtraction symbols and how to say subtraction sentences like 'five minus two equals three'. Understanding subtraction helps pupils in solving problems related to sharing, buying, and giving change in real-life situations. The lesson emphasizes practical examples to make learning meaningful.",
           "videoUrl": "https://www.youtube.com/watch?v=p8J77xDfnAo",
           "audioUrl": "https://www.youtube.com/watch?v=p8J77xDfnAo"
         },
@@ -59,7 +59,7 @@
       "quiz": {
         "quizId": "pry1-math-quiz",
         "quizTitle": "Mathematics — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -95,6 +95,83 @@
               "2"
             ],
             "correctAnswer": "5"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What number comes before 15?",
+            "options": [
+              "13",
+              "16",
+              "14",
+              "12"
+            ],
+            "correctAnswer": "14"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "How many sides does a triangle have?",
+            "options": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "If you have 5 pencils and give away 2, how many are left?",
+            "options": [
+              "2",
+              "4",
+              "3",
+              "7"
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which number is greater: 6 or 4?",
+            "options": [
+              "4",
+              "6",
+              "They are equal",
+              "0"
+            ],
+            "correctAnswer": "6"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What is 1 + 1?",
+            "options": [
+              "1",
+              "3",
+              "2",
+              "0"
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A door is shaped like a ____.",
+            "options": [
+              "Circle",
+              "Triangle",
+              "Rectangle",
+              "Star"
+            ],
+            "correctAnswer": "Rectangle"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Count the numbers: 1, 2, 3, ____, 5. What is missing?",
+            "options": [
+              "6",
+              "4",
+              "7",
+              "3"
+            ],
+            "correctAnswer": "4"
           }
         ]
       }
@@ -111,7 +188,7 @@
           "lessonTitle": "The Alphabet and Letter Sounds",
           "lessonType": "video",
           "description": "Learning all 26 letters of the English alphabet and their sounds.",
-          "textContent": "Every word in English is made up of letters, and each letter has its own sound. In this lesson, pupils will learn to say and recognize all 26 letters from A to Z. Teachers can sing the alphabet song to make learning enjoyable. Pupils will practice identifying letters in both upper and lower case. They will also learn how each letter sounds — for example, A says ‘ah’, B says ‘buh’, and C says ‘kuh’. Understanding letter sounds helps pupils begin to read and spell words correctly. Teachers should encourage pupils to trace letters with their fingers and match letters to familiar words like A for Apple, B for Ball, and C for Cat.",
+          "textContent": "Every word in English is made up of letters, and each letter has its own sound. In this lesson, pupils will learn to say and recognize all 26 letters from A to Z. Teachers can sing the alphabet song to make learning enjoyable. Pupils will practice identifying letters in both upper and lower case. They will also learn how each letter sounds — for example, A says 'ah', B says 'buh', and C says 'kuh'. Understanding letter sounds helps pupils begin to read and spell words correctly. Teachers should encourage pupils to trace letters with their fingers and match letters to familiar words like A for Apple, B for Ball, and C for Cat.",
           "videoUrl": "https://www.youtube.com/watch?v=75p-N9YKqNo",
           "audioUrl": "https://www.youtube.com/watch?v=75p-N9YKqNo"
         },
@@ -120,7 +197,7 @@
           "lessonTitle": "Simple Words and Their Meanings",
           "lessonType": "text",
           "description": "Introducing short, common words and what they mean.",
-          "textContent": "In this lesson, pupils will learn short and simple words that are part of their everyday life. Words like boy, girl, sun, dog, and cup will be introduced with explanations. The teacher can show pictures or real objects to help pupils understand each word better. Learning word meanings helps pupils communicate clearly and express themselves. They will practice forming simple sentences like ‘The dog runs’ or ‘The sun is hot’. By using words they already know in real life, pupils develop confidence in reading and speaking English. Teachers should repeat new words often to help pupils remember and use them correctly.",
+          "textContent": "In this lesson, pupils will learn short and simple words that are part of their everyday life. Words like boy, girl, sun, dog, and cup will be introduced with explanations. The teacher can show pictures or real objects to help pupils understand each word better. Learning word meanings helps pupils communicate clearly and express themselves. They will practice forming simple sentences like 'The dog runs' or 'The sun is hot'. By using words they already know in real life, pupils develop confidence in reading and speaking English. Teachers should repeat new words often to help pupils remember and use them correctly.",
           "videoUrl": "https://www.youtube.com/watch?v=eI3ApSpR68o",
           "audioUrl": "https://www.youtube.com/watch?v=eI3ApSpR68o"
         },
@@ -129,7 +206,7 @@
           "lessonTitle": "Forming Simple Sentences",
           "lessonType": "text",
           "description": "How to combine words to make short and clear sentences.",
-          "textContent": "A sentence is a group of words that makes sense. In this lesson, pupils learn how to join words together to form short sentences. Teachers will show examples like ‘I am a boy’ or ‘The cat is big’. Pupils will understand that every sentence begins with a capital letter and ends with a full stop. The lesson also covers how to speak in full sentences instead of single words. Practice activities include reading aloud, writing short sentences on the board, and using pictures to describe what they see. Forming sentences correctly is the foundation for reading, writing, and communication.",
+          "textContent": "A sentence is a group of words that makes sense. In this lesson, pupils learn how to join words together to form short sentences. Teachers will show examples like 'I am a boy' or 'The cat is big'. Pupils will understand that every sentence begins with a capital letter and ends with a full stop. The lesson also covers how to speak in full sentences instead of single words. Practice activities include reading aloud, writing short sentences on the board, and using pictures to describe what they see. Forming sentences correctly is the foundation for reading, writing, and communication.",
           "videoUrl": "https://www.youtube.com/watch?v=NfKZsGm2gKM",
           "audioUrl": "https://www.youtube.com/watch?v=NfKZsGm2gKM"
         },
@@ -138,7 +215,7 @@
           "lessonTitle": "Using Action Words",
           "lessonType": "audio",
           "description": "Learning about verbs that describe actions.",
-          "textContent": "Action words tell us what someone or something is doing. Words like run, jump, sing, and eat are examples of verbs. In this lesson, pupils will learn how to use these words in sentences. Teachers can make the lesson active by asking pupils to perform each action while saying the word aloud. This method helps them understand meaning through movement. Pupils will also learn that verbs change when we talk about the past or present. For example, ‘I run’ becomes ‘I ran’. The lesson makes language learning fun and practical through games and chants.",
+          "textContent": "Action words tell us what someone or something is doing. Words like run, jump, sing, and eat are examples of verbs. In this lesson, pupils will learn how to use these words in sentences. Teachers can make the lesson active by asking pupils to perform each action while saying the word aloud. This method helps them understand meaning through movement. Pupils will also learn that verbs change when we talk about the past or present. For example, 'I run' becomes 'I ran'. The lesson makes language learning fun and practical through games and chants.",
           "videoUrl": "https://www.youtube.com/watch?v=Bh4ua951SCw",
           "audioUrl": "https://www.youtube.com/watch?v=Bh4ua951SCw"
         },
@@ -147,7 +224,7 @@
           "lessonTitle": "Reading Short Stories",
           "lessonType": "video",
           "description": "Introducing pupils to short and simple stories to improve reading skills.",
-          "textContent": "Reading stories helps pupils develop imagination and vocabulary. In this lesson, pupils will read short stories with simple words and clear messages. Stories like ‘The Boy and His Dog’ or ‘A Day at School’ teach lessons about kindness, sharing, and honesty. Teachers should read aloud slowly while pupils follow along. Pupils can then act out parts of the story or answer questions about what happened. This builds comprehension and confidence. The goal is for pupils to enjoy reading while learning moral values from each story.",
+          "textContent": "Reading stories helps pupils develop imagination and vocabulary. In this lesson, pupils will read short stories with simple words and clear messages. Stories like 'The Boy and His Dog' or 'A Day at School' teach lessons about kindness, sharing, and honesty. Teachers should read aloud slowly while pupils follow along. Pupils can then act out parts of the story or answer questions about what happened. This builds comprehension and confidence. The goal is for pupils to enjoy reading while learning moral values from each story.",
           "videoUrl": "https://www.youtube.com/watch?v=2Ea1weK84SI",
           "audioUrl": "https://www.youtube.com/watch?v=2Ea1weK84SI"
         }
@@ -155,7 +232,7 @@
       "quiz": {
         "quizId": "pry1-english-quiz",
         "quizTitle": "English Language — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -191,6 +268,83 @@
               "Boy runs the"
             ],
             "correctAnswer": "The boy runs"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What letter does 'Apple' start with?",
+            "options": [
+              "B",
+              "C",
+              "A",
+              "D"
+            ],
+            "correctAnswer": "A"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is NOT an action word?",
+            "options": [
+              "Jump",
+              "Sing",
+              "Chair",
+              "Eat"
+            ],
+            "correctAnswer": "Chair"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Every sentence must begin with a ____.",
+            "options": [
+              "Small letter",
+              "Number",
+              "Capital letter",
+              "Full stop"
+            ],
+            "correctAnswer": "Capital letter"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What does reading stories help us learn?",
+            "options": [
+              "New words",
+              "Good values",
+              "Imagination",
+              "All of the above"
+            ],
+            "correctAnswer": "All of the above"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "B is for ____.",
+            "options": [
+              "Cat",
+              "Dog",
+              "Ball",
+              "Egg"
+            ],
+            "correctAnswer": "Ball"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which sentence ends correctly?",
+            "options": [
+              "I am a girl.",
+              "I am a girl",
+              "i am a girl.",
+              "i am a girl"
+            ],
+            "correctAnswer": "I am a girl."
+          },
+          {
+            "questionId": "q10",
+            "questionText": "The word 'dog' means a type of ____.",
+            "options": [
+              "Plant",
+              "Animal",
+              "Food",
+              "Toy"
+            ],
+            "correctAnswer": "Animal"
           }
         ]
       }
@@ -251,7 +405,7 @@
       "quiz": {
         "quizId": "pry1-basicscience-quiz",
         "quizTitle": "Basic Science — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -287,6 +441,83 @@
               "Darkness"
             ],
             "correctAnswer": "Light and heat"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is a non-living thing?",
+            "options": [
+              "Cat",
+              "Tree",
+              "Stone",
+              "Bird"
+            ],
+            "correctAnswer": "Stone"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "The ears help us to ____.",
+            "options": [
+              "See",
+              "Taste",
+              "Hear",
+              "Smell"
+            ],
+            "correctAnswer": "Hear"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What do plants need to grow?",
+            "options": [
+              "Sunlight and water",
+              "Darkness and ice",
+              "Stones and sand only",
+              "Paper and books"
+            ],
+            "correctAnswer": "Sunlight and water"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "We cannot see ____ but we can feel it.",
+            "options": [
+              "Water",
+              "A book",
+              "Air",
+              "The sun"
+            ],
+            "correctAnswer": "Air"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which part of a plant is under the ground?",
+            "options": [
+              "Leaf",
+              "Flower",
+              "Root",
+              "Stem"
+            ],
+            "correctAnswer": "Root"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Living things need ____ to survive.",
+            "options": [
+              "Food and water",
+              "Stones and sand",
+              "Chairs and tables",
+              "Cups and plates"
+            ],
+            "correctAnswer": "Food and water"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "The sun helps to ____ wet clothes.",
+            "options": [
+              "Wet",
+              "Dry",
+              "Tear",
+              "Fold"
+            ],
+            "correctAnswer": "Dry"
           }
         ]
       }
@@ -321,7 +552,7 @@
           "lessonTitle": "Good Manners",
           "lessonType": "text",
           "description": "Learning how to behave politely and respectfully.",
-          "textContent": "Good manners make us loved and respected by others. Pupils will learn to say ‘please’, ‘thank you’, and ‘sorry’. They will also learn not to interrupt when others are speaking and to greet elders respectfully. Teachers can role-play common situations to practice manners. Developing good manners builds discipline and positive social habits.",
+          "textContent": "Good manners make us loved and respected by others. Pupils will learn to say 'please', 'thank you', and 'sorry'. They will also learn not to interrupt when others are speaking and to greet elders respectfully. Teachers can role-play common situations to practice manners. Developing good manners builds discipline and positive social habits.",
           "videoUrl": "https://www.youtube.com/watch?v=9yud1VdC42E",
           "audioUrl": "https://www.youtube.com/watch?v=9yud1VdC42E"
         },
@@ -347,7 +578,7 @@
       "quiz": {
         "quizId": "pry1-socialstudies-quiz",
         "quizTitle": "Social Studies — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -383,6 +614,83 @@
               "Baker"
             ],
             "correctAnswer": "Cleaner"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Who are the members of a family?",
+            "options": [
+              "Father, mother, brothers, sisters",
+              "Only friends",
+              "Only teachers",
+              "Only neighbours"
+            ],
+            "correctAnswer": "Father, mother, brothers, sisters"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Where do children go to learn?",
+            "options": [
+              "Market",
+              "School",
+              "Farm",
+              "Hospital"
+            ],
+            "correctAnswer": "School"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What should you say when someone helps you?",
+            "options": [
+              "Go away",
+              "I don't care",
+              "Thank you",
+              "Nothing"
+            ],
+            "correctAnswer": "Thank you"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Who treats sick people in the community?",
+            "options": [
+              "Farmer",
+              "Doctor",
+              "Driver",
+              "Tailor"
+            ],
+            "correctAnswer": "Doctor"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Throwing rubbish on the ground is ____.",
+            "options": [
+              "A good habit",
+              "Littering",
+              "Helpful",
+              "Fun"
+            ],
+            "correctAnswer": "Littering"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Children should ____ their elders.",
+            "options": [
+              "Ignore",
+              "Shout at",
+              "Greet and respect",
+              "Run from"
+            ],
+            "correctAnswer": "Greet and respect"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Who grows food for the community?",
+            "options": [
+              "Pilot",
+              "Farmer",
+              "Tailor",
+              "Driver"
+            ],
+            "correctAnswer": "Farmer"
           }
         ]
       }
@@ -443,7 +751,7 @@
       "quiz": {
         "quizId": "pry1-btech-quiz",
         "quizTitle": "Basic Technology — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -479,6 +787,83 @@
               "Chalk"
             ],
             "correctAnswer": "Electric sockets"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A bottle is usually made from ____.",
+            "options": [
+              "Wood",
+              "Glass or plastic",
+              "Paper",
+              "Sand"
+            ],
+            "correctAnswer": "Glass or plastic"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which tool is used to drive nails into wood?",
+            "options": [
+              "Scissors",
+              "Hammer",
+              "Spoon",
+              "Broom"
+            ],
+            "correctAnswer": "Hammer"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "How can we save energy at home?",
+            "options": [
+              "Leave all lights on",
+              "Switch off lights when not needed",
+              "Open the fridge all day",
+              "Turn on all fans"
+            ],
+            "correctAnswer": "Switch off lights when not needed"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of these is a communication tool?",
+            "options": [
+              "Wheelbarrow",
+              "Telephone",
+              "Hammer",
+              "Bucket"
+            ],
+            "correctAnswer": "Telephone"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Chairs are usually made from ____.",
+            "options": [
+              "Glass",
+              "Paper",
+              "Wood or plastic",
+              "Water"
+            ],
+            "correctAnswer": "Wood or plastic"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Why should we not run in the classroom?",
+            "options": [
+              "It is fun",
+              "To avoid accidents",
+              "To make noise",
+              "To play games"
+            ],
+            "correctAnswer": "To avoid accidents"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "A battery gives us ____ energy.",
+            "options": [
+              "Solar",
+              "Wind",
+              "Electric",
+              "Water"
+            ],
+            "correctAnswer": "Electric"
           }
         ]
       }
@@ -539,7 +924,7 @@
       "quiz": {
         "quizId": "pry1-arts-quiz",
         "quizTitle": "Creative Arts — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -575,6 +960,83 @@
               "All of the above"
             ],
             "correctAnswer": "All of the above"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is a primary color?",
+            "options": [
+              "Green",
+              "Orange",
+              "Red",
+              "Purple"
+            ],
+            "correctAnswer": "Red"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What tools can we use to draw shapes?",
+            "options": [
+              "Pencils and crayons",
+              "Hammer and nails",
+              "Spoon and fork",
+              "Stones and sand"
+            ],
+            "correctAnswer": "Pencils and crayons"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Mixing blue and yellow makes which color?",
+            "options": [
+              "Orange",
+              "Purple",
+              "Green",
+              "Red"
+            ],
+            "correctAnswer": "Green"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What material can we use to make crafts?",
+            "options": [
+              "Clay",
+              "Fire",
+              "Water only",
+              "Stones only"
+            ],
+            "correctAnswer": "Clay"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Singing together helps us learn ____.",
+            "options": [
+              "Teamwork",
+              "Fighting",
+              "Shouting",
+              "Sleeping"
+            ],
+            "correctAnswer": "Teamwork"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What do we follow when we clap to a song?",
+            "options": [
+              "The rhythm",
+              "The color",
+              "The shape",
+              "The smell"
+            ],
+            "correctAnswer": "The rhythm"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Mixing red and blue makes which color?",
+            "options": [
+              "Green",
+              "Yellow",
+              "Orange",
+              "Purple"
+            ],
+            "correctAnswer": "Purple"
           }
         ]
       }
@@ -635,7 +1097,7 @@
       "quiz": {
         "quizId": "pry1-phe-quiz",
         "quizTitle": "Physical & Health Education — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -671,6 +1133,83 @@
               "All of the above"
             ],
             "correctAnswer": "All of the above"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is a form of exercise?",
+            "options": [
+              "Sleeping",
+              "Jumping",
+              "Sitting still",
+              "Watching TV"
+            ],
+            "correctAnswer": "Jumping"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "We should brush our teeth ____.",
+            "options": [
+              "Once a week",
+              "Never",
+              "Every day",
+              "Once a month"
+            ],
+            "correctAnswer": "Every day"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which food helps us grow strong?",
+            "options": [
+              "Sweets only",
+              "Fruits and vegetables",
+              "Soft drinks only",
+              "Biscuits only"
+            ],
+            "correctAnswer": "Fruits and vegetables"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What should we do before eating?",
+            "options": [
+              "Play in the sand",
+              "Wash our hands",
+              "Touch the floor",
+              "Run around"
+            ],
+            "correctAnswer": "Wash our hands"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "We should stay away from ____ to be safe.",
+            "options": [
+              "Books",
+              "Friends",
+              "Fire",
+              "Teachers"
+            ],
+            "correctAnswer": "Fire"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which drink is the healthiest?",
+            "options": [
+              "Soft drink",
+              "Clean water",
+              "Coffee",
+              "Juice with lots of sugar"
+            ],
+            "correctAnswer": "Clean water"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Exercise helps our ____ grow stronger.",
+            "options": [
+              "Hair",
+              "Nails",
+              "Muscles and bones",
+              "Shoes"
+            ],
+            "correctAnswer": "Muscles and bones"
           }
         ]
       }
@@ -731,7 +1270,7 @@
       "quiz": {
         "quizId": "pry1-civic-quiz",
         "quizTitle": "Civic Education — Primary 1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -767,6 +1306,83 @@
               "Make noise"
             ],
             "correctAnswer": "Build trust"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A responsible pupil keeps their desk ____.",
+            "options": [
+              "Messy",
+              "Dirty",
+              "Tidy",
+              "Broken"
+            ],
+            "correctAnswer": "Tidy"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "How should we treat our classmates?",
+            "options": [
+              "With respect",
+              "By fighting",
+              "By ignoring them",
+              "By shouting"
+            ],
+            "correctAnswer": "With respect"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What happens when we break rules?",
+            "options": [
+              "Everyone is happy",
+              "There may be problems",
+              "Nothing happens",
+              "We get sweets"
+            ],
+            "correctAnswer": "There may be problems"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of these is an act of kindness?",
+            "options": [
+              "Taking someone's toy",
+              "Helping a friend carry books",
+              "Pushing others",
+              "Refusing to share"
+            ],
+            "correctAnswer": "Helping a friend carry books"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "If you make a mistake, you should ____.",
+            "options": [
+              "Blame someone else",
+              "Run away",
+              "Admit it and say sorry",
+              "Pretend nothing happened"
+            ],
+            "correctAnswer": "Admit it and say sorry"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Respect means treating others ____.",
+            "options": [
+              "Badly",
+              "The way you want to be treated",
+              "With anger",
+              "With silence always"
+            ],
+            "correctAnswer": "The way you want to be treated"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Being responsible means ____.",
+            "options": [
+              "Doing what we are supposed to do",
+              "Playing all day",
+              "Ignoring chores",
+              "Breaking things"
+            ],
+            "correctAnswer": "Doing what we are supposed to do"
           }
         ]
       }

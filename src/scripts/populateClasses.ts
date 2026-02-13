@@ -20,7 +20,8 @@ const courseCodeMap: Record<string, string> = {
   "Creative Arts": "ca",
   "Physical & Health Education": "phe",
   "Social Studies": "ss",
-  "Civic Education": "ce"
+  "Civic Education": "ce",
+  "Economics": "eco"
 };
 
 async function uploadToSupabase(filePath: string) {

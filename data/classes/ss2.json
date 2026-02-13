@@ -59,7 +59,7 @@
       "quiz": {
         "quizId": "ss2-math-quiz",
         "quizTitle": "Mathematics — SS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -95,6 +95,83 @@
               "120°"
             ],
             "correctAnswer": "60°"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Find the value of y if x + y = 5 and x - y = 1.",
+            "options": [
+              "y = 1",
+              "y = 2",
+              "y = 3",
+              "y = 4"
+            ],
+            "correctAnswer": "y = 2"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What is the common difference of the AP: 3, 7, 11, 15, ...?",
+            "options": [
+              "3",
+              "4",
+              "5",
+              "7"
+            ],
+            "correctAnswer": "4"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What is the value of log₁₀(0.01)?",
+            "options": [
+              "-1",
+              "-2",
+              "1",
+              "2"
+            ],
+            "correctAnswer": "-2"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "In a GP with first term 2 and common ratio 3, what is the 3rd term?",
+            "options": [
+              "6",
+              "8",
+              "12",
+              "18"
+            ],
+            "correctAnswer": "18"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Angles in the same segment of a circle are...",
+            "options": [
+              "Supplementary",
+              "Complementary",
+              "Equal",
+              "Right angles"
+            ],
+            "correctAnswer": "Equal"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The sine rule states that a/sin A = ...",
+            "options": [
+              "b/sin B",
+              "b/cos B",
+              "a/cos A",
+              "c/tan C"
+            ],
+            "correctAnswer": "b/sin B"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Find the 10th term of the AP: 1, 4, 7, 10, ...",
+            "options": [
+              "25",
+              "28",
+              "30",
+              "31"
+            ],
+            "correctAnswer": "28"
           }
         ]
       }
@@ -155,7 +232,7 @@
       "quiz": {
         "quizId": "ss2-english-quiz",
         "quizTitle": "English Language — SS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -191,6 +268,83 @@
               "The transition"
             ],
             "correctAnswer": "The topic sentence"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of the following is a relative pronoun?",
+            "options": [
+              "This",
+              "These",
+              "Who",
+              "Those"
+            ],
+            "correctAnswer": "Who"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "In health vocabulary, 'diagnosis' means...",
+            "options": [
+              "Treatment of a disease",
+              "Prevention of a disease",
+              "Identification of a disease",
+              "Cure of a disease"
+            ],
+            "correctAnswer": "Identification of a disease"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "An expository essay should be...",
+            "options": [
+              "Emotional and dramatic",
+              "Objective and informative",
+              "Full of personal opinions only",
+              "Written like a story"
+            ],
+            "correctAnswer": "Objective and informative"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Implied meaning in a text is...",
+            "options": [
+              "Directly stated",
+              "Suggested but not directly stated",
+              "Always in the first sentence",
+              "Never important"
+            ],
+            "correctAnswer": "Suggested but not directly stated"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A toast is typically made to...",
+            "options": [
+              "Complain about food",
+              "Honor or celebrate someone or something",
+              "Argue a point",
+              "Tell a story"
+            ],
+            "correctAnswer": "Honor or celebrate someone or something"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "In health vocabulary, 'prognosis' refers to...",
+            "options": [
+              "The cause of a disease",
+              "The predicted outcome of a disease",
+              "A type of medicine",
+              "A surgical procedure"
+            ],
+            "correctAnswer": "The predicted outcome of a disease"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which sentence contains a relative pronoun?",
+            "options": [
+              "That is my book.",
+              "The man who came here is my uncle.",
+              "These are my shoes.",
+              "I want those."
+            ],
+            "correctAnswer": "The man who came here is my uncle."
           }
         ]
       }
@@ -251,7 +405,7 @@
       "quiz": {
         "quizId": "ss2-civiceducation-quiz",
         "quizTitle": "Civic Education — SS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -287,6 +441,83 @@
               "Political rights"
             ],
             "correctAnswer": "Animal rights"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "National consciousness means...",
+            "options": [
+              "Being aware of only your ethnic group",
+              "Being aware of and committed to national interests",
+              "Ignoring national problems",
+              "Supporting only your political party"
+            ],
+            "correctAnswer": "Being aware of and committed to national interests"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Political parties are important in a democracy because they...",
+            "options": [
+              "Prevent elections",
+              "Provide candidates for elections",
+              "Discourage voting",
+              "Control the judiciary"
+            ],
+            "correctAnswer": "Provide candidates for elections"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Responsible parenthood includes...",
+            "options": [
+              "Having as many children as possible",
+              "Neglecting children's education",
+              "Providing for the physical and emotional needs of children",
+              "Leaving children to raise themselves"
+            ],
+            "correctAnswer": "Providing for the physical and emotional needs of children"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Human rights can be limited when...",
+            "options": [
+              "The government wants to",
+              "They conflict with the rights of others or national security",
+              "A citizen is rich",
+              "They are no longer popular"
+            ],
+            "correctAnswer": "They conflict with the rights of others or national security"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which of the following promotes national unity?",
+            "options": [
+              "Tribalism",
+              "Religious tolerance and respect for diversity",
+              "Nepotism",
+              "Corruption"
+            ],
+            "correctAnswer": "Religious tolerance and respect for diversity"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "An obligation of a citizen is...",
+            "options": [
+              "Optional",
+              "A compulsory duty imposed by law",
+              "Only for government officials",
+              "Not important"
+            ],
+            "correctAnswer": "A compulsory duty imposed by law"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Political apathy can lead to...",
+            "options": [
+              "Better governance",
+              "Bad leadership and poor governance",
+              "More development",
+              "Higher voter turnout"
+            ],
+            "correctAnswer": "Bad leadership and poor governance"
           }
         ]
       }
@@ -347,7 +578,7 @@
       "quiz": {
         "quizId": "ss2-economics-quiz",
         "quizTitle": "Economics — SS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -383,6 +614,83 @@
               "perfect market"
             ],
             "correctAnswer": "monopoly"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Elasticity of demand measures...",
+            "options": [
+              "The total revenue of a firm",
+              "How responsive quantity demanded is to a change in price",
+              "The cost of production",
+              "The profit of a firm"
+            ],
+            "correctAnswer": "How responsive quantity demanded is to a change in price"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Fixed costs are costs that...",
+            "options": [
+              "Change with output",
+              "Do not change with output",
+              "Only exist in the long run",
+              "Are always zero"
+            ],
+            "correctAnswer": "Do not change with output"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A market with two sellers is called a...",
+            "options": [
+              "Monopoly",
+              "Duopoly",
+              "Perfect competition",
+              "Monopsony"
+            ],
+            "correctAnswer": "Duopoly"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Marginal cost is...",
+            "options": [
+              "The total cost of production",
+              "The cost of producing one additional unit",
+              "The average cost per unit",
+              "The fixed cost per unit"
+            ],
+            "correctAnswer": "The cost of producing one additional unit"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A point outside the production possibility curve represents...",
+            "options": [
+              "An efficient use of resources",
+              "An inefficient use of resources",
+              "An unattainable level of production with current resources",
+              "Unemployment"
+            ],
+            "correctAnswer": "An unattainable level of production with current resources"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "National income can be measured by...",
+            "options": [
+              "The income method only",
+              "The output method only",
+              "The expenditure method only",
+              "The income, output, and expenditure methods"
+            ],
+            "correctAnswer": "The income, output, and expenditure methods"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "In a perfect market, products are...",
+            "options": [
+              "All different",
+              "Homogeneous (identical)",
+              "Controlled by one seller",
+              "Very expensive"
+            ],
+            "correctAnswer": "Homogeneous (identical)"
           }
         ]
       }

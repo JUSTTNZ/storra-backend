@@ -59,7 +59,7 @@
       "quiz": {
         "quizId": "jss3-math-quiz",
         "quizTitle": "Mathematics — JSS3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -95,6 +95,83 @@
               "8cm"
             ],
             "correctAnswer": "5cm"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Convert 1010 in base 2 to base 10.",
+            "options": [
+              "8",
+              "10",
+              "12",
+              "14"
+            ],
+            "correctAnswer": "10"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Solve the equation: 3x + 6 = 0",
+            "options": [
+              "x = 2",
+              "x = -2",
+              "x = 6",
+              "x = -6"
+            ],
+            "correctAnswer": "x = -2"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "In trigonometry, sin θ is defined as...",
+            "options": [
+              "Adjacent / Hypotenuse",
+              "Opposite / Hypotenuse",
+              "Opposite / Adjacent",
+              "Hypotenuse / Opposite"
+            ],
+            "correctAnswer": "Opposite / Hypotenuse"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Find the median of the data: 3, 7, 1, 9, 5.",
+            "options": [
+              "3",
+              "5",
+              "7",
+              "9"
+            ],
+            "correctAnswer": "5"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Calculate the compound interest on ₦1000 at 10% for 2 years.",
+            "options": [
+              "₦200",
+              "₦210",
+              "₦100",
+              "₦110"
+            ],
+            "correctAnswer": "₦210"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Factorize: 2x² + 4x",
+            "options": [
+              "2x(x + 2)",
+              "2(x² + 4x)",
+              "x(2x + 4)",
+              "4x(x + 1)"
+            ],
+            "correctAnswer": "2x(x + 2)"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "If y is directly proportional to x, and y = 12 when x = 4, find y when x = 7.",
+            "options": [
+              "18",
+              "21",
+              "24",
+              "28"
+            ],
+            "correctAnswer": "21"
           }
         ]
       }
@@ -155,7 +232,7 @@
       "quiz": {
         "quizId": "jss3-english-quiz",
         "quizTitle": "English Language — JSS3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -191,6 +268,83 @@
               "To make a mistake"
             ],
             "correctAnswer": "To face a difficult situation with courage"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A phrase differs from a clause because a phrase...",
+            "options": [
+              "Has a subject and a verb",
+              "Does not have a subject and a verb",
+              "Is always longer",
+              "Can stand alone as a sentence"
+            ],
+            "correctAnswer": "Does not have a subject and a verb"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Convert to indirect speech: He said, 'I am happy.'",
+            "options": [
+              "He said that he is happy",
+              "He said that he was happy",
+              "He said that I am happy",
+              "He says that he was happy"
+            ],
+            "correctAnswer": "He said that he was happy"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "An argumentative essay aims to...",
+            "options": [
+              "Tell a story",
+              "Describe a scene",
+              "Present and defend a point of view",
+              "Give instructions"
+            ],
+            "correctAnswer": "Present and defend a point of view"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Fiction is a type of writing that is...",
+            "options": [
+              "Based entirely on facts",
+              "Created from imagination",
+              "Always a poem",
+              "Found only in textbooks"
+            ],
+            "correctAnswer": "Created from imagination"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What does the idiom 'break the ice' mean?",
+            "options": [
+              "To break something frozen",
+              "To start a conversation in a social setting",
+              "To cause trouble",
+              "To feel very cold"
+            ],
+            "correctAnswer": "To start a conversation in a social setting"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Rising intonation is typically used for...",
+            "options": [
+              "Statements",
+              "Commands",
+              "Yes/No questions",
+              "Exclamations"
+            ],
+            "correctAnswer": "Yes/No questions"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which of the following is an example of non-fiction?",
+            "options": [
+              "A fairy tale",
+              "A novel",
+              "A biography",
+              "A myth"
+            ],
+            "correctAnswer": "A biography"
           }
         ]
       }
@@ -251,7 +405,7 @@
       "quiz": {
         "quizId": "jss3-basicscience-quiz",
         "quizTitle": "Basic Science — JSS3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -287,6 +441,83 @@
               "Natural gas"
             ],
             "correctAnswer": "Coal"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "NDLEA stands for...",
+            "options": [
+              "National Drug Law Enforcement Agency",
+              "Nigerian Drug Law Education Agency",
+              "National Drug and Liquor Enforcement Agency",
+              "Nigerian Drug Law Enforcement Association"
+            ],
+            "correctAnswer": "National Drug Law Enforcement Agency"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "The passing of traits from parents to offspring is called...",
+            "options": [
+              "Evolution",
+              "Mutation",
+              "Heredity",
+              "Adaptation"
+            ],
+            "correctAnswer": "Heredity"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which of the following is a cause of deforestation?",
+            "options": [
+              "Planting more trees",
+              "Logging and farming",
+              "Watering plants",
+              "Protecting wildlife"
+            ],
+            "correctAnswer": "Logging and farming"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of the following is a resource obtained from animals?",
+            "options": [
+              "Timber",
+              "Leather",
+              "Cotton",
+              "Rubber"
+            ],
+            "correctAnswer": "Leather"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Radioactive substances emit...",
+            "options": [
+              "Sound waves",
+              "Radiation",
+              "Visible light only",
+              "Water"
+            ],
+            "correctAnswer": "Radiation"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which of the following is an effect of drug abuse?",
+            "options": [
+              "Improved memory",
+              "Better sleep",
+              "Organ damage",
+              "Increased concentration"
+            ],
+            "correctAnswer": "Organ damage"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "The depletion of the ozone layer is caused mainly by...",
+            "options": [
+              "Planting trees",
+              "Chlorofluorocarbons (CFCs)",
+              "Drinking water",
+              "Organic farming"
+            ],
+            "correctAnswer": "Chlorofluorocarbons (CFCs)"
           }
         ]
       }
@@ -347,7 +578,7 @@
       "quiz": {
         "quizId": "jss3-socialstudies-quiz",
         "quizTitle": "Social Studies — JSS3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -383,6 +614,83 @@
               "Ignoring the conflict"
             ],
             "correctAnswer": "Identifying the problem"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Human trafficking involves...",
+            "options": [
+              "Legal migration",
+              "The illegal trade and exploitation of people",
+              "Travelling for holidays",
+              "Studying abroad"
+            ],
+            "correctAnswer": "The illegal trade and exploitation of people"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of the following is a cause of human trafficking?",
+            "options": [
+              "Good education",
+              "Poverty and unemployment",
+              "Strong family bonds",
+              "Effective law enforcement"
+            ],
+            "correctAnswer": "Poverty and unemployment"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A goal that can be achieved in a short period is called a...",
+            "options": [
+              "Long-term goal",
+              "Short-term goal",
+              "Impossible goal",
+              "Community goal"
+            ],
+            "correctAnswer": "Short-term goal"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of the following is a method of conflict resolution?",
+            "options": [
+              "Violence",
+              "Mediation",
+              "Ignoring the issue",
+              "Running away"
+            ],
+            "correctAnswer": "Mediation"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Child marriage is an example of...",
+            "options": [
+              "A modern practice",
+              "A harmful traditional practice",
+              "A legal requirement",
+              "Good parenting"
+            ],
+            "correctAnswer": "A harmful traditional practice"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The family is considered the basic unit of society because...",
+            "options": [
+              "It is the largest social group",
+              "It is where socialization first takes place",
+              "It has the most members",
+              "It controls the government"
+            ],
+            "correctAnswer": "It is where socialization first takes place"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Good decision making requires...",
+            "options": [
+              "Acting without thinking",
+              "Following the crowd blindly",
+              "Considering the consequences of your actions",
+              "Ignoring advice from others"
+            ],
+            "correctAnswer": "Considering the consequences of your actions"
           }
         ]
       }

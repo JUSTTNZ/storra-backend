@@ -59,7 +59,7 @@
       "quiz": {
         "quizId": "ss1-math-quiz",
         "quizTitle": "Mathematics — SS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -95,6 +95,83 @@
               "{1, 2, 3, 3, 4, 5}"
             ],
             "correctAnswer": "{1, 2, 3, 4, 5}"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is 17 mod 5?",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Simplify: 2³ × 2⁴",
+            "options": [
+              "2⁷",
+              "2¹²",
+              "4⁷",
+              "2¹"
+            ],
+            "correctAnswer": "2⁷"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∩ B?",
+            "options": [
+              "{1, 2, 3, 4, 5}",
+              "{3}",
+              "{1, 2}",
+              "{4, 5}"
+            ],
+            "correctAnswer": "{3}"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What is the value of sin 30°?",
+            "options": [
+              "1",
+              "1/2",
+              "√3/2",
+              "√2/2"
+            ],
+            "correctAnswer": "1/2"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Convert 1A in hexadecimal (base 16) to base 10.",
+            "options": [
+              "16",
+              "26",
+              "1A",
+              "110"
+            ],
+            "correctAnswer": "26"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What is log₁₀(100)?",
+            "options": [
+              "1",
+              "2",
+              "10",
+              "100"
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What is the value of tan 45°?",
+            "options": [
+              "0",
+              "1/2",
+              "1",
+              "√3"
+            ],
+            "correctAnswer": "1"
           }
         ]
       }
@@ -155,7 +232,7 @@
       "quiz": {
         "quizId": "ss1-english-quiz",
         "quizTitle": "English Language — SS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -191,6 +268,83 @@
               "To memorize the content"
             ],
             "correctAnswer": "To understand the general idea"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A formal letter usually ends with...",
+            "options": [
+              "Your friend",
+              "With love",
+              "Yours faithfully",
+              "See you soon"
+            ],
+            "correctAnswer": "Yours faithfully"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "In journalism, a 'scoop' refers to...",
+            "options": [
+              "A type of ice cream",
+              "An exclusive news story",
+              "A newspaper headline",
+              "A press conference"
+            ],
+            "correctAnswer": "An exclusive news story"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A noun clause can function as all of the following EXCEPT...",
+            "options": [
+              "Subject",
+              "Object",
+              "Complement",
+              "Preposition"
+            ],
+            "correctAnswer": "Preposition"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which syllable is stressed in the word 'record' when used as a noun?",
+            "options": [
+              "The first syllable (RE-cord)",
+              "The second syllable (re-CORD)",
+              "Both syllables equally",
+              "Neither syllable"
+            ],
+            "correctAnswer": "The first syllable (RE-cord)"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Scanning a text is used to find...",
+            "options": [
+              "The general idea",
+              "Specific information like dates or names",
+              "Grammar errors",
+              "The author's opinion"
+            ],
+            "correctAnswer": "Specific information like dates or names"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "In journalism, 'libel' means...",
+            "options": [
+              "A type of interview",
+              "A written defamatory statement",
+              "A newspaper column",
+              "An editorial"
+            ],
+            "correctAnswer": "A written defamatory statement"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "A letter of complaint should include...",
+            "options": [
+              "Insults to the recipient",
+              "A clear description of the problem and what you want done",
+              "Only your feelings",
+              "Informal language"
+            ],
+            "correctAnswer": "A clear description of the problem and what you want done"
           }
         ]
       }
@@ -251,7 +405,7 @@
       "quiz": {
         "quizId": "ss1-civiceducation-quiz",
         "quizTitle": "Civic Education — SS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -287,6 +441,83 @@
               "Oligarchy"
             ],
             "correctAnswer": "Democracy"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Integrity means...",
+            "options": [
+              "Being dishonest",
+              "Being truthful and having strong moral principles",
+              "Being wealthy",
+              "Being popular"
+            ],
+            "correctAnswer": "Being truthful and having strong moral principles"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Naturalization is a way of acquiring citizenship through...",
+            "options": [
+              "Birth",
+              "Legal process after meeting certain conditions",
+              "Inheritance",
+              "Automatic right"
+            ],
+            "correctAnswer": "Legal process after meeting certain conditions"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which of the following is a feature of democracy?",
+            "options": [
+              "Rule by one person",
+              "Free and fair elections",
+              "No freedom of speech",
+              "Military rule"
+            ],
+            "correctAnswer": "Free and fair elections"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Nationalism can be defined as...",
+            "options": [
+              "Hatred for other countries",
+              "Love, devotion, and loyalty to one's country",
+              "Only supporting your ethnic group",
+              "Refusing to follow laws"
+            ],
+            "correctAnswer": "Love, devotion, and loyalty to one's country"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "The Universal Declaration of Human Rights (UDHR) was adopted in...",
+            "options": [
+              "1945",
+              "1948",
+              "1960",
+              "1999"
+            ],
+            "correctAnswer": "1948"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which of the following is a civil right?",
+            "options": [
+              "Right to education",
+              "Right to life",
+              "Right to work",
+              "Right to health care"
+            ],
+            "correctAnswer": "Right to life"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Discipline involves...",
+            "options": [
+              "Doing whatever you want",
+              "Following rules and controlling your behavior",
+              "Breaking laws",
+              "Being rude to others"
+            ],
+            "correctAnswer": "Following rules and controlling your behavior"
           }
         ]
       }
@@ -347,7 +578,7 @@
       "quiz": {
         "quizId": "ss1-economics-quiz",
         "quizTitle": "Economics — SS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -383,6 +614,83 @@
               "does not change with price"
             ],
             "correctAnswer": "decreases when the price increases"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Opportunity cost is...",
+            "options": [
+              "The total cost of production",
+              "The value of the next best alternative forgone",
+              "The price of goods in the market",
+              "The cost of transportation"
+            ],
+            "correctAnswer": "The value of the next best alternative forgone"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which economic system allows private ownership of resources?",
+            "options": [
+              "Socialism",
+              "Communism",
+              "Capitalism",
+              "Command economy"
+            ],
+            "correctAnswer": "Capitalism"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "The reward for labor as a factor of production is...",
+            "options": [
+              "Rent",
+              "Interest",
+              "Wages",
+              "Profit"
+            ],
+            "correctAnswer": "Wages"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Microeconomics focuses on...",
+            "options": [
+              "The economy as a whole",
+              "Individual consumers and firms",
+              "Government spending",
+              "International trade"
+            ],
+            "correctAnswer": "Individual consumers and firms"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A scale of preference is...",
+            "options": [
+              "A weighing scale",
+              "A list of wants arranged in order of priority",
+              "A type of economic system",
+              "A measure of income"
+            ],
+            "correctAnswer": "A list of wants arranged in order of priority"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "In a mixed economy...",
+            "options": [
+              "Only the government controls resources",
+              "Only private individuals control resources",
+              "Both the government and private individuals control resources",
+              "No one controls resources"
+            ],
+            "correctAnswer": "Both the government and private individuals control resources"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "The reward for entrepreneurship is...",
+            "options": [
+              "Rent",
+              "Wages",
+              "Interest",
+              "Profit"
+            ],
+            "correctAnswer": "Profit"
           }
         ]
       }

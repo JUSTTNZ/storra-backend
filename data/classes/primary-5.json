@@ -45,13 +45,13 @@
           "description": "Learning about 2D and 3D shapes and measuring objects.",
           "textContent": "Pupils identify circles, triangles, squares, rectangles, cubes, and spheres. Teachers demonstrate measuring length, weight, and capacity using rulers, scales, and measuring jugs. Pupils solve practical problems involving perimeter, area, and volume. Visual and video examples strengthen understanding.",
           "videoUrl": "https://www.youtube.com/watch?v=gk_u1xr7jQg",
-          "audioUrl": "https://www.youtube.com/watch?v=2wUsdsae0ro"  
+          "audioUrl": "https://www.youtube.com/watch?v=2wUsdsae0ro"
         }
       ],
       "quiz": {
         "quizId": "pry5-math-quiz",
         "quizTitle": "Mathematics — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -72,6 +72,48 @@
             "questionText": "Which shape has 6 faces?",
             "options": ["Cube", "Sphere", "Triangle", "Circle"],
             "correctAnswer": "Cube"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is 3,456 + 2,344?",
+            "options": ["5,700", "5,800", "5,900", "6,000"],
+            "correctAnswer": "5,800"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What is 8 × 7?",
+            "options": ["54", "56", "63", "48"],
+            "correctAnswer": "56"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "If you share 36 oranges equally among 4 children, how many does each child get?",
+            "options": ["7", "8", "9", "10"],
+            "correctAnswer": "9"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What is 0.5 written as a fraction?",
+            "options": ["¼", "⅓", "½", "⅕"],
+            "correctAnswer": "½"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A rectangle has a length of 6 cm and a width of 4 cm. What is its perimeter?",
+            "options": ["10 cm", "20 cm", "24 cm", "14 cm"],
+            "correctAnswer": "20 cm"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What is the number 5,012 written in words?",
+            "options": ["Five thousand and twelve", "Five hundred and twelve", "Fifty thousand and twelve", "Five thousand and twenty"],
+            "correctAnswer": "Five thousand and twelve"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which of these is a 2D shape?",
+            "options": ["Cube", "Sphere", "Rectangle", "Cylinder"],
+            "correctAnswer": "Rectangle"
           }
         ]
       }
@@ -118,13 +160,13 @@
           "lessonType": "audio",
           "description": "Practicing clear speech, listening, and oral presentations.",
           "textContent": "Pupils engage in storytelling, role-play, and discussions. Teachers guide pronunciation, tone, and active listening. Pupils listen to audio recordings and respond appropriately. Activities enhance confidence, comprehension, and communication skills.",
-          "audioUrl": "https://www.youtube.com/watch?v=oc4QS2USKmk"  
+          "audioUrl": "https://www.youtube.com/watch?v=oc4QS2USKmk"
         }
       ],
       "quiz": {
         "quizId": "pry5-eng-quiz",
         "quizTitle": "English Language — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -145,6 +187,48 @@
             "questionText": "Which is a noun?",
             "options": ["Run", "Book", "Quickly", "Blue"],
             "correctAnswer": "Book"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is the antonym of 'big'?",
+            "options": ["Large", "Huge", "Small", "Tall"],
+            "correctAnswer": "Small"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which word is a verb?",
+            "options": ["Table", "Beautiful", "Jump", "Slowly"],
+            "correctAnswer": "Jump"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Choose the correct punctuation: 'What is your name__'",
+            "options": [".", "!", "?", ","],
+            "correctAnswer": "?"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which word is an adjective?",
+            "options": ["Sing", "Bright", "Quickly", "School"],
+            "correctAnswer": "Bright"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A letter usually begins with:",
+            "options": ["Yours faithfully", "Dear", "Goodbye", "The end"],
+            "correctAnswer": "Dear"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The past tense of 'eat' is:",
+            "options": ["Eated", "Eating", "Ate", "Eats"],
+            "correctAnswer": "Ate"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Active listening means:",
+            "options": ["Talking while someone speaks", "Paying attention to the speaker", "Ignoring the speaker", "Sleeping during a lesson"],
+            "correctAnswer": "Paying attention to the speaker"
           }
         ]
       }
@@ -170,7 +254,7 @@
           "lessonType": "video",
           "description": "Learning about roots, stems, leaves, flowers, and fruits.",
           "textContent": "Pupils study plant parts and their functions. Teachers demonstrate using real plants and visual aids. Pupils identify parts in school garden and in pictures. Understanding plants promotes knowledge of food sources, environment, and scientific observation.",
-          "videoUrl": "https://www.youtube.com/watch?v=Ux_kLd7qAcY", 
+          "videoUrl": "https://www.youtube.com/watch?v=Ux_kLd7qAcY",
           "audioUrl": "https://www.youtube.com/watch?v=Ux_kLd7qAcY"
         },
         {
@@ -198,7 +282,7 @@
       "quiz": {
         "quizId": "pry5-sci-quiz",
         "quizTitle": "Basic Science — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -219,6 +303,48 @@
           "questionText": "Which season is characterised by dry and dusty winds in Nigeria?",
             "options": ["Rainy", "Dry", "Harmattan", "Wet"],
             "correctAnswer": "Harmattan"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is a characteristic of living things?",
+            "options": ["Rusting", "Growth", "Melting", "Breaking"],
+            "correctAnswer": "Growth"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which part of a plant makes food?",
+            "options": ["Root", "Stem", "Leaf", "Flower"],
+            "correctAnswer": "Leaf"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "The organ that pumps blood around the body is the:",
+            "options": ["Brain", "Lung", "Heart", "Kidney"],
+            "correctAnswer": "Heart"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of these is NOT a use of water?",
+            "options": ["Drinking", "Cooking", "Breathing", "Washing"],
+            "correctAnswer": "Breathing"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "During the rainy season, we often experience:",
+            "options": ["Snow", "Heavy rainfall", "Dusty winds", "Extreme cold"],
+            "correctAnswer": "Heavy rainfall"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The lungs help us to:",
+            "options": ["Digest food", "Breathe", "See", "Walk"],
+            "correctAnswer": "Breathe"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Soil is important for plants because it provides:",
+            "options": ["Light", "Sound", "Nutrients", "Air"],
+            "correctAnswer": "Nutrients"
           }
         ]
       }
@@ -265,14 +391,14 @@
           "lessonType": "video",
           "description": "Exploring Nigerian festivals and cultural practices.",
           "textContent": "Pupils learn about traditional dances, music, and cultural celebrations. Teachers show videos of Eyo, Osun-Osogbo, and Durbar festivals. Pupils discuss cultural diversity, traditions, and community values.",
-          "videoUrl": "https://www.youtube.com/watch?v=TKDfoy9LsAw",  
-          "audioUrl": "https://www.youtube.com/watch?v=-rG33c1wJzE"   
+          "videoUrl": "https://www.youtube.com/watch?v=TKDfoy9LsAw",
+          "audioUrl": "https://www.youtube.com/watch?v=-rG33c1wJzE"
         }
       ],
       "quiz": {
         "quizId": "pry5-ss-quiz",
         "quizTitle": "Social Studies — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -293,6 +419,48 @@
             "questionText": "Which is a Nigerian national symbol?",
           "options": ["Flag", "Car", "School", "River"],
           "correctAnswer": "Flag"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A community where people live in villages and farm is called:",
+            "options": ["Urban", "Rural", "Industrial", "Commercial"],
+            "correctAnswer": "Rural"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is a mode of water transport?",
+            "options": ["Bicycle", "Aeroplane", "Boat", "Truck"],
+            "correctAnswer": "Boat"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Barter trade means exchanging:",
+            "options": ["Money for goods", "Goods for goods", "Letters for goods", "Nothing for something"],
+            "correctAnswer": "Goods for goods"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "The colours of the Nigerian flag are:",
+            "options": ["Red, white, and blue", "Green, white, and green", "Yellow and black", "Red and green"],
+            "correctAnswer": "Green, white, and green"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "The Durbar festival is celebrated mainly in:",
+            "options": ["Southern Nigeria", "Northern Nigeria", "Western Nigeria", "Eastern Nigeria"],
+            "correctAnswer": "Northern Nigeria"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A market is a place where people:",
+            "options": ["Sleep", "Buy and sell goods", "Play football", "Read books"],
+            "correctAnswer": "Buy and sell goods"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which of these helps people in a community work together?",
+            "options": ["Fighting", "Cooperation", "Laziness", "Selfishness"],
+            "correctAnswer": "Cooperation"
           }
         ]
       }
@@ -339,14 +507,14 @@
           "lessonType": "video",
           "description": "Learning safe practices when using machines and tools.",
           "textContent": "Pupils understand the importance of caution when handling tools. Teachers show videos of proper tool use, wearing protective gear, and avoiding hazards. Pupils practice safety in classroom activities.",
-          "videoUrl": "https://www.youtube.com/watch?v=StetyUnY8jY",  
+          "videoUrl": "https://www.youtube.com/watch?v=StetyUnY8jY",
           "audioUrl": "https://www.youtube.com/watch?v=StetyUnY8jY"
         }
       ],
       "quiz": {
         "quizId": "pry5-bt-quiz",
         "quizTitle": "Basic Technology — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -367,6 +535,48 @@
           "questionText": "Energy can come from:",
             "options": ["Sun", "Pencil", "Chair", "Paper"],
           "correctAnswer": "Sun"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A see-saw is an example of a:",
+            "options": ["Pulley", "Lever", "Wheel", "Screw"],
+            "correctAnswer": "Lever"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which material is commonly used for building houses?",
+            "options": ["Paper", "Bricks", "Cloth", "Rubber"],
+            "correctAnswer": "Bricks"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "An inclined plane makes it easier to:",
+            "options": ["Cut things", "Move heavy loads upward", "Dig holes", "Write letters"],
+            "correctAnswer": "Move heavy loads upward"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of these is a source of renewable energy?",
+            "options": ["Petrol", "Coal", "Wind", "Kerosene"],
+            "correctAnswer": "Wind"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "When using a sharp tool, you should:",
+            "options": ["Run with it", "Point it at others", "Handle it carefully", "Throw it around"],
+            "correctAnswer": "Handle it carefully"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A pulley is used to:",
+            "options": ["Cut wood", "Lift heavy objects", "Measure distance", "Write notes"],
+            "correctAnswer": "Lift heavy objects"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Protective gear like gloves and goggles are worn to:",
+            "options": ["Look fashionable", "Prevent injuries", "Stay warm", "Run faster"],
+            "correctAnswer": "Prevent injuries"
           }
         ]
       }
@@ -420,7 +630,7 @@
       "quiz": {
         "quizId": "pry5-art-quiz",
         "quizTitle": "Creative Arts — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -441,6 +651,48 @@
             "questionText": "Music lessons improve:",
             "options": ["Coordination", "Listening skills", "Cooking skills", "Math"],
             "correctAnswer": "Listening skills"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Shading in drawing helps to show:",
+            "options": ["Colour only", "Light and shadow", "The title", "The artist's name"],
+            "correctAnswer": "Light and shadow"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "A percussion instrument is played by:",
+            "options": ["Blowing", "Striking or shaking", "Reading", "Painting"],
+            "correctAnswer": "Striking or shaking"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Dancing helps to improve:",
+            "options": ["Handwriting", "Body coordination", "Spelling", "Reading speed"],
+            "correctAnswer": "Body coordination"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which material can be used to make craft items?",
+            "options": ["Clay", "Water", "Air", "Smoke"],
+            "correctAnswer": "Clay"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "In drama, a skit is a:",
+            "options": ["Long novel", "Short performance", "Drawing", "Song"],
+            "correctAnswer": "Short performance"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Nigerian folk songs are part of our:",
+            "options": ["Mathematics", "Cultural heritage", "Science experiments", "Transport system"],
+            "correctAnswer": "Cultural heritage"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Greeting cards are examples of:",
+            "options": ["Musical instruments", "Simple machines", "Craft items", "Food items"],
+            "correctAnswer": "Craft items"
           }
         ]
       }
@@ -459,7 +711,7 @@
           "lessonType": "video",
           "description": "Learning exercises to stay fit.",
           "textContent": "Pupils practise stretching, jogging, and games. Teachers demonstrate routines. Exercises improve strength, stamina, and coordination.",
-          "videoUrl": "https://www.youtube.com/watch?v=T8jI4RnHHw",  
+          "videoUrl": "https://www.youtube.com/watch?v=T8jI4RnHHw",
           "audioUrl": "https://www.youtube.com/watch?v=T8jI4RnHHw"
         },
         {
@@ -495,7 +747,7 @@
       "quiz": {
         "quizId": "pry5-phe-quiz",
         "quizTitle": "Physical & Health Education — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -516,6 +768,48 @@
             "questionText": "Personal hygiene helps prevent:",
             "options": ["Illness", "Math errors", "Traffic", "Reading mistakes"],
             "correctAnswer": "Illness"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is an example of exercise?",
+            "options": ["Sleeping", "Jogging", "Eating", "Reading"],
+            "correctAnswer": "Jogging"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "A balanced diet includes all the following EXCEPT:",
+            "options": ["Proteins", "Vitamins", "Junk food", "Carbohydrates"],
+            "correctAnswer": "Junk food"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "How often should you brush your teeth?",
+            "options": ["Once a week", "At least twice a day", "Once a month", "Never"],
+            "correctAnswer": "At least twice a day"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "At home, you should avoid playing near:",
+            "options": ["The garden", "Hot stoves and fire", "Your bedroom", "The living room"],
+            "correctAnswer": "Hot stoves and fire"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "First aid for a small cut includes:",
+            "options": ["Ignoring it", "Cleaning and covering the wound", "Rubbing sand on it", "Putting glue on it"],
+            "correctAnswer": "Cleaning and covering the wound"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Washing your hands with soap helps to remove:",
+            "options": ["Colours", "Germs", "Knowledge", "Strength"],
+            "correctAnswer": "Germs"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Stretching before exercise helps to:",
+            "options": ["Make you hungry", "Prevent muscle injuries", "Make you sleepy", "Slow you down"],
+            "correctAnswer": "Prevent muscle injuries"
           }
         ]
       }
@@ -562,14 +856,14 @@
           "lessonType": "video",
           "description": "Learning about Nigeria, unity, and patriotism.",
           "textContent": "Pupils learn about the Nigerian flag, anthem, and national symbols. Teachers show videos of unity celebrations. Pupils discuss national pride and respect for diversity.",
-          "videoUrl": "https://www.youtube.com/watch?v=TKDfoy9LsAw",  
-          "audioUrl": "https://www.youtube.com/watch?v=-rG33c1wJzE"   
+          "videoUrl": "https://www.youtube.com/watch?v=TKDfoy9LsAw",
+          "audioUrl": "https://www.youtube.com/watch?v=-rG33c1wJzE"
         }
       ],
       "quiz": {
         "quizId": "pry5-ce-quiz",
         "quizTitle": "Civic Education — Primary 5 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -590,6 +884,48 @@
             "questionText": "National symbols include:",
             "options": ["Flag", "Chair", "Pen", "Book"],
             "correctAnswer": "Flag"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Every child has the right to:",
+            "options": ["Drive a car", "Education", "Stay up all night", "Skip school"],
+            "correctAnswer": "Education"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Honesty means:",
+            "options": ["Telling lies", "Being truthful", "Hiding things", "Cheating in exams"],
+            "correctAnswer": "Being truthful"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What happens when people break rules?",
+            "options": ["Everyone is happy", "There are consequences", "Nothing happens", "They get rewards"],
+            "correctAnswer": "There are consequences"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Planting trees in your community is an example of:",
+            "options": ["Wasting time", "Community participation", "Breaking rules", "Being lazy"],
+            "correctAnswer": "Community participation"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A responsibility of a pupil at school is to:",
+            "options": ["Break furniture", "Do homework", "Bully others", "Skip classes"],
+            "correctAnswer": "Do homework"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Unity in Nigeria means people from different tribes:",
+            "options": ["Fighting each other", "Living together peacefully", "Ignoring each other", "Leaving the country"],
+            "correctAnswer": "Living together peacefully"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "The Nigerian national anthem is sung to show:",
+            "options": ["Sadness", "Patriotism and pride", "Anger", "Boredom"],
+            "correctAnswer": "Patriotism and pride"
           }
         ]
       }

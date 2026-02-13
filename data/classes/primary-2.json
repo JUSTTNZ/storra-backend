@@ -60,7 +60,7 @@
       "quiz": {
         "quizId": "pry2-math-quiz",
         "quizTitle": "Mathematics — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -81,6 +81,48 @@
             "questionText": "Which of these is a rectangle?",
             "options": ["Window", "Book", "Triangle", "Circle"],
             "correctAnswer": "Window"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "30 − 12 equals?",
+            "options": ["20", "18", "22", "16"],
+            "correctAnswer": "18"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "How many sides does a triangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correctAnswer": "3"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What number comes before 60?",
+            "options": ["58", "59", "61", "62"],
+            "correctAnswer": "59"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "25 + 13 equals?",
+            "options": ["35", "36", "38", "40"],
+            "correctAnswer": "38"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which tool do we use to measure length?",
+            "options": ["Ruler", "Spoon", "Cup", "Pencil"],
+            "correctAnswer": "Ruler"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A circle has how many corners?",
+            "options": ["0", "1", "2", "4"],
+            "correctAnswer": "0"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "45 − 20 equals?",
+            "options": ["20", "30", "25", "15"],
+            "correctAnswer": "25"
           }
         ]
       }
@@ -141,7 +183,7 @@
       "quiz": {
         "quizId": "pry2-eng-quiz",
         "quizTitle": "English — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -162,6 +204,48 @@
             "questionText": "Which sentence is correct?",
             "options": ["He go school", "He goes to school", "He going school", "He gone school"],
             "correctAnswer": "He goes to school"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which word is a verb?",
+            "options": ["Table", "Jump", "Pretty", "Slowly"],
+            "correctAnswer": "Jump"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What do we put at the end of a sentence?",
+            "options": ["Comma", "Full stop", "Dash", "Colon"],
+            "correctAnswer": "Full stop"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which word describes how something looks?",
+            "options": ["Big", "Run", "Eat", "Go"],
+            "correctAnswer": "Big"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Choose the correct spelling.",
+            "options": ["Skool", "School", "Scool", "Shool"],
+            "correctAnswer": "School"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which is a greeting?",
+            "options": ["Goodbye", "Good morning", "Thank you", "Sorry"],
+            "correctAnswer": "Good morning"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The first letter of a sentence should be a ___.",
+            "options": ["Small letter", "Capital letter", "Number", "Symbol"],
+            "correctAnswer": "Capital letter"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which word is the opposite of 'big'?",
+            "options": ["Tall", "Small", "Long", "Wide"],
+            "correctAnswer": "Small"
           }
         ]
       }
@@ -222,7 +306,7 @@
       "quiz": {
         "quizId": "pry2-sci-quiz",
         "quizTitle": "Basic Science — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -243,6 +327,48 @@
             "questionText": "Which body part do we use to see?",
             "options": ["Ear", "Hand", "Eye", "Leg"],
             "correctAnswer": "Eye"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is a domestic animal?",
+            "options": ["Lion", "Dog", "Elephant", "Tiger"],
+            "correctAnswer": "Dog"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What do we use our nose for?",
+            "options": ["Seeing", "Hearing", "Smelling", "Tasting"],
+            "correctAnswer": "Smelling"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which part of a plant is usually underground?",
+            "options": ["Leaf", "Flower", "Root", "Stem"],
+            "correctAnswer": "Root"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What type of weather brings rain?",
+            "options": ["Sunny", "Rainy", "Windy", "Dry"],
+            "correctAnswer": "Rainy"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which of these is a non-living thing?",
+            "options": ["Cat", "Flower", "Stone", "Fish"],
+            "correctAnswer": "Stone"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What do all living things need to survive?",
+            "options": ["Water", "Toys", "Books", "Television"],
+            "correctAnswer": "Water"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which body part do we use to hear sounds?",
+            "options": ["Eye", "Mouth", "Ear", "Hand"],
+            "correctAnswer": "Ear"
           }
         ]
       }
@@ -303,7 +429,7 @@
       "quiz": {
         "quizId": "pry2-ss-quiz",
         "quizTitle": "Social Studies — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -324,6 +450,48 @@
             "questionText": "Who is part of your family?",
             "options": ["Friend", "Father", "Neighbour", "Shop-keeper"],
             "correctAnswer": "Father"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Where do we go to buy food and other items?",
+            "options": ["Hospital", "School", "Market", "Church"],
+            "correctAnswer": "Market"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Who is in charge of a school?",
+            "options": ["Doctor", "Driver", "Principal", "Farmer"],
+            "correctAnswer": "Principal"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which community helper puts out fires?",
+            "options": ["Nurse", "Teacher", "Fireman", "Policeman"],
+            "correctAnswer": "Fireman"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What do we use money for at the market?",
+            "options": ["Playing", "Buying things", "Drawing", "Sleeping"],
+            "correctAnswer": "Buying things"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which mode of transport moves on water?",
+            "options": ["Car", "Bicycle", "Boat", "Bus"],
+            "correctAnswer": "Boat"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What is one responsibility of parents in a family?",
+            "options": ["Teaching in school", "Taking care of children", "Driving a bus", "Selling in the market"],
+            "correctAnswer": "Taking care of children"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Why should we obey traffic signs on the road?",
+            "options": ["To stay safe", "To run fast", "To play games", "To sleep well"],
+            "correctAnswer": "To stay safe"
           }
         ]
       }
@@ -384,7 +552,7 @@
       "quiz": {
         "quizId": "pry2-tech-quiz",
         "quizTitle": "Basic Technology — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -405,6 +573,48 @@
             "questionText": "Which tool is used for cutting paper?",
             "options": ["Ruler", "Scissors", "Spoon", "Knife"],
             "correctAnswer": "Scissors"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is a wheelbarrow used for?",
+            "options": ["Writing", "Carrying loads", "Cutting", "Cooking"],
+            "correctAnswer": "Carrying loads"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is made from plastic?",
+            "options": ["Water bottle", "Wooden table", "Metal nail", "Cotton shirt"],
+            "correctAnswer": "Water bottle"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What should you do after using a tool?",
+            "options": ["Throw it away", "Leave it on the floor", "Store it properly", "Break it"],
+            "correctAnswer": "Store it properly"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which tool is used to hit nails?",
+            "options": ["Scissors", "Ruler", "Hammer", "Pencil"],
+            "correctAnswer": "Hammer"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What material is cloth made from?",
+            "options": ["Metal", "Wood", "Fibre or cotton", "Plastic"],
+            "correctAnswer": "Fibre or cotton"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which of these can you make by folding paper?",
+            "options": ["Paper boat", "Metal pot", "Wooden chair", "Plastic cup"],
+            "correctAnswer": "Paper boat"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Why is it important to be careful with sharp tools?",
+            "options": ["To avoid injury", "To run faster", "To eat better", "To sleep well"],
+            "correctAnswer": "To avoid injury"
           }
         ]
       }
@@ -465,7 +675,7 @@
       "quiz": {
         "quizId": "pry2-art-quiz",
         "quizTitle": "Creative Arts — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -486,6 +696,48 @@
             "questionText": "Which is a craft material?",
             "options": ["Paper", "Glass", "Stone", "Metal"],
             "correctAnswer": "Paper"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What do you mix red and yellow to get?",
+            "options": ["Green", "Purple", "Orange", "Brown"],
+            "correctAnswer": "Orange"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is a musical instrument?",
+            "options": ["Drum", "Pencil", "Ruler", "Spoon"],
+            "correctAnswer": "Drum"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What tool do we use to paint?",
+            "options": ["Hammer", "Brush", "Scissors", "Ruler"],
+            "correctAnswer": "Brush"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which primary colour can you mix with blue to make green?",
+            "options": ["Red", "Yellow", "White", "Black"],
+            "correctAnswer": "Yellow"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What do we use to draw on paper?",
+            "options": ["Pencil", "Spoon", "Plate", "Cup"],
+            "correctAnswer": "Pencil"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which activity is part of creative arts?",
+            "options": ["Singing", "Running", "Counting", "Reading"],
+            "correctAnswer": "Singing"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What shape can you fold paper into when making crafts?",
+            "options": ["Paper boat", "Metal box", "Wooden chair", "Glass cup"],
+            "correctAnswer": "Paper boat"
           }
         ]
       }
@@ -546,7 +798,7 @@
       "quiz": {
         "quizId": "pry2-phe-quiz",
         "quizTitle": "Physical & Health Education — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -567,6 +819,48 @@
             "questionText": "Which activity is a physical exercise?",
             "options": ["Running", "Reading", "Listening", "Sleeping"],
             "correctAnswer": "Running"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "How many times a day should you brush your teeth?",
+            "options": ["Once", "Twice", "Never", "Five times"],
+            "correctAnswer": "Twice"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which food helps you grow strong?",
+            "options": ["Vegetables", "Sweets", "Soft drinks", "Biscuits"],
+            "correctAnswer": "Vegetables"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What should you do before eating?",
+            "options": ["Wash your hands", "Play a game", "Watch TV", "Run around"],
+            "correctAnswer": "Wash your hands"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which is an example of a team game?",
+            "options": ["Football", "Reading", "Writing", "Drawing"],
+            "correctAnswer": "Football"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Why do we exercise?",
+            "options": ["To stay healthy and strong", "To feel tired", "To miss class", "To sleep more"],
+            "correctAnswer": "To stay healthy and strong"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which is a safety rule at home?",
+            "options": ["Do not play with matches", "Run with scissors", "Touch hot pots", "Jump from high places"],
+            "correctAnswer": "Do not play with matches"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What should you drink plenty of every day?",
+            "options": ["Water", "Soda", "Juice only", "Tea"],
+            "correctAnswer": "Water"
           }
         ]
       }
@@ -627,7 +921,7 @@
       "quiz": {
         "quizId": "pry2-civ-quiz",
         "quizTitle": "Civic Education — Primary 2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -648,6 +942,48 @@
             "questionText": "Why do we follow rules?",
             "options": ["To stay safe", "To sleep", "To eat", "To play"],
             "correctAnswer": "To stay safe"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What colours are on the Nigerian flag?",
+            "options": ["Red and blue", "Green and white", "Yellow and black", "Orange and purple"],
+            "correctAnswer": "Green and white"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which is an example of good manners?",
+            "options": ["Shouting at people", "Saying please", "Pushing others", "Taking without asking"],
+            "correctAnswer": "Saying please"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "How can you help at home?",
+            "options": ["Sweeping the floor", "Breaking things", "Leaving toys around", "Refusing to eat"],
+            "correctAnswer": "Sweeping the floor"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What happens when we break rules?",
+            "options": ["We get rewarded", "There are consequences", "Nothing happens", "We get sweets"],
+            "correctAnswer": "There are consequences"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which place is found in a community?",
+            "options": ["Market", "Ocean", "Desert", "Forest"],
+            "correctAnswer": "Market"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What should you do when an elder is speaking?",
+            "options": ["Talk over them", "Listen quietly", "Walk away", "Cover your ears"],
+            "correctAnswer": "Listen quietly"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What do we sing to show love for our country?",
+            "options": ["A lullaby", "The national anthem", "A birthday song", "A nursery rhyme"],
+            "correctAnswer": "The national anthem"
           }
         ]
       }
