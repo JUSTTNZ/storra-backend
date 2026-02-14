@@ -59,7 +59,7 @@
       "quiz": {
         "quizId": "jss2-math-quiz",
         "quizTitle": "Mathematics — JSS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -95,6 +95,83 @@
               "72"
             ],
             "correctAnswer": "36"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is the HCF of 24 and 36?",
+            "options": [
+              "6",
+              "8",
+              "12",
+              "18"
+            ],
+            "correctAnswer": "12"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Simplify: 3(x + 4) - 2x",
+            "options": [
+              "x + 12",
+              "5x + 4",
+              "x + 4",
+              "5x + 12"
+            ],
+            "correctAnswer": "x + 12"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What is the probability of getting a head when a fair coin is tossed?",
+            "options": [
+              "1",
+              "0",
+              "1/2",
+              "1/4"
+            ],
+            "correctAnswer": "1/2"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "The bearing of East from North is...",
+            "options": [
+              "000°",
+              "090°",
+              "180°",
+              "270°"
+            ],
+            "correctAnswer": "090°"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What is the area of a rectangle with length 12cm and width 5cm?",
+            "options": [
+              "34cm²",
+              "60cm²",
+              "17cm²",
+              "120cm²"
+            ],
+            "correctAnswer": "60cm²"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Express 45,000 in standard form.",
+            "options": [
+              "4.5 × 10³",
+              "4.5 × 10⁴",
+              "45 × 10³",
+              "0.45 × 10⁵"
+            ],
+            "correctAnswer": "4.5 × 10⁴"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Solve the inequality: x - 3 > 7",
+            "options": [
+              "x > 4",
+              "x > 10",
+              "x > 7",
+              "x < 10"
+            ],
+            "correctAnswer": "x > 10"
           }
         ]
       }
@@ -155,7 +232,7 @@
       "quiz": {
         "quizId": "jss2-english-quiz",
         "quizTitle": "English Language — JSS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -191,6 +268,83 @@
               "To request official information"
             ],
             "correctAnswer": "To communicate with friends and family"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What does the 'S' in SPQ3R stand for?",
+            "options": [
+              "Study",
+              "Survey",
+              "Summarize",
+              "Search"
+            ],
+            "correctAnswer": "Survey"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which figure of speech gives human qualities to non-human things?",
+            "options": [
+              "Simile",
+              "Metaphor",
+              "Personification",
+              "Alliteration"
+            ],
+            "correctAnswer": "Personification"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A consonant cluster is...",
+            "options": [
+              "A single consonant sound",
+              "Two or more consonant sounds together",
+              "A vowel sound",
+              "A diphthong"
+            ],
+            "correctAnswer": "Two or more consonant sounds together"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of the following is a conjunction?",
+            "options": [
+              "Beautiful",
+              "And",
+              "Quickly",
+              "Table"
+            ],
+            "correctAnswer": "And"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Scanning a text means reading to find...",
+            "options": [
+              "The general idea",
+              "Specific information",
+              "Enjoyment",
+              "Errors"
+            ],
+            "correctAnswer": "Specific information"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The setting of a story refers to...",
+            "options": [
+              "The main character",
+              "The time and place of the story",
+              "The moral lesson",
+              "The conflict in the story"
+            ],
+            "correctAnswer": "The time and place of the story"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which figure of speech uses words that imitate sounds?",
+            "options": [
+              "Metaphor",
+              "Simile",
+              "Onomatopoeia",
+              "Hyperbole"
+            ],
+            "correctAnswer": "Onomatopoeia"
           }
         ]
       }
@@ -251,7 +405,7 @@
       "quiz": {
         "quizId": "jss2-basicscience-quiz",
         "quizTitle": "Basic Science — JSS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -287,6 +441,83 @@
               "Sugar"
             ],
             "correctAnswer": "Oxygen"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A place where an organism lives is called its...",
+            "options": [
+              "Niche",
+              "Habitat",
+              "Community",
+              "Population"
+            ],
+            "correctAnswer": "Habitat"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "The heart is part of which body system?",
+            "options": [
+              "Skeletal system",
+              "Digestive system",
+              "Circulatory system",
+              "Nervous system"
+            ],
+            "correctAnswer": "Circulatory system"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which of the following provides support and shape to the body?",
+            "options": [
+              "The circulatory system",
+              "The skeletal system",
+              "The digestive system",
+              "The respiratory system"
+            ],
+            "correctAnswer": "The skeletal system"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Water (H₂O) is an example of a...",
+            "options": [
+              "Element",
+              "Compound",
+              "Mixture",
+              "Mineral"
+            ],
+            "correctAnswer": "Compound"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which planet is closest to the Sun?",
+            "options": [
+              "Venus",
+              "Earth",
+              "Mercury",
+              "Mars"
+            ],
+            "correctAnswer": "Mercury"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Energy stored in an object due to its position or height is called...",
+            "options": [
+              "Kinetic energy",
+              "Potential energy",
+              "Sound energy",
+              "Light energy"
+            ],
+            "correctAnswer": "Potential energy"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which method is used to separate an insoluble solid from a liquid?",
+            "options": [
+              "Evaporation",
+              "Filtration",
+              "Distillation",
+              "Chromatography"
+            ],
+            "correctAnswer": "Filtration"
           }
         ]
       }
@@ -347,7 +578,7 @@
       "quiz": {
         "quizId": "jss2-socialstudies-quiz",
         "quizTitle": "Social Studies — JSS2 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -383,6 +614,83 @@
               "Stronger friendships"
             ],
             "correctAnswer": "Addiction"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Social studies helps us to understand...",
+            "options": [
+              "Only science",
+              "Our society and how people live together",
+              "Only mathematics",
+              "Only language"
+            ],
+            "correctAnswer": "Our society and how people live together"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "One of the purposes of marriage is...",
+            "options": [
+              "To live alone",
+              "Companionship and procreation",
+              "To avoid responsibilities",
+              "To leave the community"
+            ],
+            "correctAnswer": "Companionship and procreation"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which of the following is NOT an example of positive group behavior?",
+            "options": [
+              "Cooperation",
+              "Vandalism",
+              "Teamwork",
+              "Sharing ideas"
+            ],
+            "correctAnswer": "Vandalism"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of the following is an example of drug abuse?",
+            "options": [
+              "Taking prescribed medicine",
+              "Drinking clean water",
+              "Using drugs without medical advice",
+              "Eating balanced meals"
+            ],
+            "correctAnswer": "Using drugs without medical advice"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Culture includes all of the following EXCEPT...",
+            "options": [
+              "Language",
+              "Customs and traditions",
+              "Mathematical equations",
+              "Music and art"
+            ],
+            "correctAnswer": "Mathematical equations"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A family where the father has more than one wife is called...",
+            "options": [
+              "A nuclear family",
+              "A polygamous family",
+              "A single-parent family",
+              "An adopted family"
+            ],
+            "correctAnswer": "A polygamous family"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Religion plays an important role in society by...",
+            "options": [
+              "Encouraging bad behavior",
+              "Teaching moral values and guiding behavior",
+              "Promoting conflict only",
+              "Discouraging education"
+            ],
+            "correctAnswer": "Teaching moral values and guiding behavior"
           }
         ]
       }

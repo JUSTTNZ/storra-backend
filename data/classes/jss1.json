@@ -59,7 +59,7 @@
       "quiz": {
         "quizId": "jss1-math-quiz",
         "quizTitle": "Mathematics — JSS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -95,6 +95,83 @@
               "25cm"
             ],
             "correctAnswer": "20cm"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is 3/4 expressed as a decimal?",
+            "options": [
+              "0.25",
+              "0.50",
+              "0.75",
+              "0.34"
+            ],
+            "correctAnswer": "0.75"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Simplify: 3x + 2x",
+            "options": [
+              "6x",
+              "5x",
+              "5x²",
+              "32x"
+            ],
+            "correctAnswer": "5x"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What is the area of a rectangle with length 8cm and width 3cm?",
+            "options": [
+              "11cm²",
+              "22cm²",
+              "24cm²",
+              "16cm²"
+            ],
+            "correctAnswer": "24cm²"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Find the mean of 4, 6, 8, 10, and 12.",
+            "options": [
+              "6",
+              "8",
+              "10",
+              "12"
+            ],
+            "correctAnswer": "8"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What is the value of the digit 7 in 370,215?",
+            "options": [
+              "Seven",
+              "Seventy",
+              "Seven hundred",
+              "Seventy thousand"
+            ],
+            "correctAnswer": "Seventy thousand"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What is 25% of 200?",
+            "options": [
+              "25",
+              "50",
+              "75",
+              "100"
+            ],
+            "correctAnswer": "50"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Find the mode of the data set: 2, 3, 3, 5, 7, 3, 8.",
+            "options": [
+              "2",
+              "3",
+              "5",
+              "7"
+            ],
+            "correctAnswer": "3"
           }
         ]
       }
@@ -155,7 +232,7 @@
       "quiz": {
         "quizId": "jss1-english-quiz",
         "quizTitle": "English Language — JSS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -191,6 +268,83 @@
               "To request official information"
             ],
             "correctAnswer": "To communicate with friends and family"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which part of speech is the word 'quickly'?",
+            "options": [
+              "Adjective",
+              "Adverb",
+              "Verb",
+              "Noun"
+            ],
+            "correctAnswer": "Adverb"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "A word that joins two sentences together is called a...",
+            "options": [
+              "Preposition",
+              "Conjunction",
+              "Pronoun",
+              "Interjection"
+            ],
+            "correctAnswer": "Conjunction"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which of the following is an example of a folktale?",
+            "options": [
+              "A newspaper article",
+              "A science textbook",
+              "The Tortoise and the Hare",
+              "A dictionary entry"
+            ],
+            "correctAnswer": "The Tortoise and the Hare"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "The tongue is an organ of speech used for...",
+            "options": [
+              "Breathing",
+              "Articulating sounds",
+              "Smelling",
+              "Hearing"
+            ],
+            "correctAnswer": "Articulating sounds"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "In the sentence 'She ran to the market', what part of speech is 'ran'?",
+            "options": [
+              "Noun",
+              "Adjective",
+              "Verb",
+              "Adverb"
+            ],
+            "correctAnswer": "Verb"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "An informal letter usually begins with...",
+            "options": [
+              "Dear Sir/Madam",
+              "To whom it may concern",
+              "The writer's address and date",
+              "The recipient's official title"
+            ],
+            "correctAnswer": "The writer's address and date"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What is the main idea of a passage?",
+            "options": [
+              "The first sentence only",
+              "The last sentence only",
+              "The central point the passage is about",
+              "A list of all details in the passage"
+            ],
+            "correctAnswer": "The central point the passage is about"
           }
         ]
       }
@@ -251,7 +405,7 @@
       "quiz": {
         "quizId": "jss1-basicscience-quiz",
         "quizTitle": "Basic Science — JSS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -287,6 +441,83 @@
               "Natural gas"
             ],
             "correctAnswer": "Sunlight"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of the following is a non-living thing?",
+            "options": [
+              "Dog",
+              "Tree",
+              "Stone",
+              "Fish"
+            ],
+            "correctAnswer": "Stone"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What is the importance of proper sanitation?",
+            "options": [
+              "It causes diseases",
+              "It prevents the spread of diseases",
+              "It increases pollution",
+              "It attracts pests"
+            ],
+            "correctAnswer": "It prevents the spread of diseases"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which class of food is needed for body building?",
+            "options": [
+              "Carbohydrates",
+              "Proteins",
+              "Fats and oils",
+              "Vitamins"
+            ],
+            "correctAnswer": "Proteins"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "The force that pulls objects toward the center of the Earth is called...",
+            "options": [
+              "Friction",
+              "Magnetic force",
+              "Gravitational force",
+              "Elastic force"
+            ],
+            "correctAnswer": "Gravitational force"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which of the following is NOT a characteristic of living things?",
+            "options": [
+              "Growth",
+              "Respiration",
+              "Rusting",
+              "Movement"
+            ],
+            "correctAnswer": "Rusting"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Carbohydrates provide the body with...",
+            "options": [
+              "Energy",
+              "Protection from diseases",
+              "Strong bones",
+              "Blood cells"
+            ],
+            "correctAnswer": "Energy"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which of the following is an example of friction?",
+            "options": [
+              "A ball falling from a height",
+              "A magnet attracting iron",
+              "Rubbing your hands together to produce heat",
+              "A balloon sticking to a wall"
+            ],
+            "correctAnswer": "Rubbing your hands together to produce heat"
           }
         ]
       }
@@ -347,7 +578,7 @@
       "quiz": {
         "quizId": "jss1-socialstudies-quiz",
         "quizTitle": "Social Studies — JSS1 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "15 mins",
         "questions": [
@@ -383,6 +614,83 @@
               "All of the above"
             ],
             "correctAnswer": "All of the above"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of the following is a component of culture?",
+            "options": [
+              "Language",
+              "Mathematics",
+              "Chemistry",
+              "Physics"
+            ],
+            "correctAnswer": "Language"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "The process by which a person learns the norms and values of society is called...",
+            "options": [
+              "Education",
+              "Socialization",
+              "Civilization",
+              "Modernization"
+            ],
+            "correctAnswer": "Socialization"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "An extended family includes...",
+            "options": [
+              "Only parents and children",
+              "Parents, children, grandparents, uncles, aunts, and cousins",
+              "Only the husband and wife",
+              "Only children"
+            ],
+            "correctAnswer": "Parents, children, grandparents, uncles, aunts, and cousins"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which of the following is a safety measure at home?",
+            "options": [
+              "Leaving sharp objects on the floor",
+              "Keeping medicines out of children's reach",
+              "Playing with electrical sockets",
+              "Blocking fire exits"
+            ],
+            "correctAnswer": "Keeping medicines out of children's reach"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Culture can be described as...",
+            "options": [
+              "The way of life of a group of people",
+              "A type of food",
+              "A school subject only",
+              "A type of building"
+            ],
+            "correctAnswer": "The way of life of a group of people"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which of the following is a consequence of examination malpractice?",
+            "options": [
+              "Better grades",
+              "Cancellation of results",
+              "More knowledge",
+              "Improved skills"
+            ],
+            "correctAnswer": "Cancellation of results"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "The peer group is an agent of socialization found mainly among...",
+            "options": [
+              "Parents",
+              "Teachers",
+              "People of the same age group",
+              "Government officials"
+            ],
+            "correctAnswer": "People of the same age group"
           }
         ]
       }

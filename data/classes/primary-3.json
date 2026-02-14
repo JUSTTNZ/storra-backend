@@ -78,7 +78,7 @@
       "quiz": {
         "quizId": "pry3-math-quiz",
         "quizTitle": "Mathematics — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -111,6 +111,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cube.svg/400px-Cube.svg.png",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/3D_shapes.png/400px-3D_shapes.png"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is 5 × 2?",
+            "options": ["7", "10", "12", "8"],
+            "correctAnswer": "10"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "If you share 18 oranges equally among 3 children, how many does each child get?",
+            "options": ["5", "6", "7", "9"],
+            "correctAnswer": "6"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What is half of 8?",
+            "options": ["2", "3", "4", "6"],
+            "correctAnswer": "4"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which tool do we use to measure the length of a pencil?",
+            "options": ["Thermometer", "Ruler", "Scale", "Clock"],
+            "correctAnswer": "Ruler"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "How many sides does a triangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correctAnswer": "3"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What is 4 × 5?",
+            "options": ["15", "18", "20", "25"],
+            "correctAnswer": "20"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "A quarter of a cake means the cake is divided into how many equal parts?",
+            "options": ["2", "3", "4", "5"],
+            "correctAnswer": "4"
           }
         ]
       }
@@ -188,7 +230,7 @@
       "quiz": {
         "quizId": "pry3-eng-quiz",
         "quizTitle": "English Language — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -221,6 +263,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Happy_child.jpg/400px-Happy_child.jpg",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sentence_structure_diagram.png/400px-Sentence_structure_diagram.png"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is a noun?",
+            "options": ["Jump", "Beautiful", "School", "Quickly"],
+            "correctAnswer": "School"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Every sentence should begin with a:",
+            "options": ["Small letter", "Capital letter", "Number", "Full stop"],
+            "correctAnswer": "Capital letter"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which word is a synonym for 'happy'?",
+            "options": ["Sad", "Joyful", "Angry", "Tired"],
+            "correctAnswer": "Joyful"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What punctuation mark ends a question?",
+            "options": ["Full stop", "Comma", "Question mark", "Exclamation mark"],
+            "correctAnswer": "Question mark"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "In the sentence 'The cat is big', which word is the adjective?",
+            "options": ["The", "Cat", "Is", "Big"],
+            "correctAnswer": "Big"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which word means the opposite of 'tall'?",
+            "options": ["Big", "Short", "Wide", "Fast"],
+            "correctAnswer": "Short"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What do we call the people in a story?",
+            "options": ["Chapters", "Characters", "Sentences", "Paragraphs"],
+            "correctAnswer": "Characters"
           }
         ]
       }
@@ -302,7 +386,7 @@
       "quiz": {
         "quizId": "pry3-sci-quiz",
         "quizTitle": "Basic Science — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -335,6 +419,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Breathing_diagram.png/400px-Breathing_diagram.png",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lungs_breathing.jpg/400px-Lungs_breathing.jpg"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which part of a plant takes in water from the soil?",
+            "options": ["Leaf", "Flower", "Root", "Stem"],
+            "correctAnswer": "Root"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is a non-living thing?",
+            "options": ["Dog", "Fish", "Stone", "Bird"],
+            "correctAnswer": "Stone"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What type of weather brings rain?",
+            "options": ["Sunny", "Cloudy and rainy", "Windy", "Hot and dry"],
+            "correctAnswer": "Cloudy and rainy"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which animal is a wild animal?",
+            "options": ["Cat", "Hen", "Dog", "Lion"],
+            "correctAnswer": "Lion"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What do plants need to grow?",
+            "options": ["Water, sunlight, and air", "Stones and sand", "Only darkness", "Only heat"],
+            "correctAnswer": "Water, sunlight, and air"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "We use water for all of these EXCEPT:",
+            "options": ["Drinking", "Cooking", "Breathing", "Washing"],
+            "correctAnswer": "Breathing"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Living things can do all of these EXCEPT:",
+            "options": ["Grow", "Move", "Reproduce", "Stay the same forever"],
+            "correctAnswer": "Stay the same forever"
           }
         ]
       }
@@ -414,7 +540,7 @@
       "quiz": {
         "quizId": "pry3-ss-quiz",
         "quizTitle": "Social Studies — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -447,6 +573,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Siblings_playing.jpg/400px-Siblings_playing.jpg",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Family_tree.png/400px-Family_tree.png"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is a cultural festival in Nigeria?",
+            "options": ["Christmas only", "New Yam Festival", "Valentines Day", "April Fool"],
+            "correctAnswer": "New Yam Festival"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "A doctor works in a:",
+            "options": ["Market", "Hospital", "Farm", "Workshop"],
+            "correctAnswer": "Hospital"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "What is the role of a father in the family?",
+            "options": ["To play all day", "To provide and protect the family", "To go to school", "To cook only"],
+            "correctAnswer": "To provide and protect the family"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which place can you find in a community?",
+            "options": ["Ocean", "Market", "Desert", "Forest"],
+            "correctAnswer": "Market"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Planting trees helps the environment because:",
+            "options": ["Trees give us shade and clean air", "Trees are ugly", "Trees waste water", "Trees block sunlight completely"],
+            "correctAnswer": "Trees give us shade and clean air"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A tailor makes:",
+            "options": ["Food", "Clothes", "Shoes", "Tables"],
+            "correctAnswer": "Clothes"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Your mother's mother is your:",
+            "options": ["Aunt", "Sister", "Grandmother", "Cousin"],
+            "correctAnswer": "Grandmother"
           }
         ]
       }
@@ -526,7 +694,7 @@
       "quiz": {
         "quizId": "pry3-tech-quiz",
         "quizTitle": "Basic Technology — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -559,6 +727,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Safety_gear.jpg/400px-Safety_gear.jpg",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Workshop_safety.png/400px-Workshop_safety.png"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which tool is used for cutting paper?",
+            "options": ["Hammer", "Scissors", "Ruler", "Brush"],
+            "correctAnswer": "Scissors"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is a natural material?",
+            "options": ["Plastic", "Nylon", "Wood", "Glass"],
+            "correctAnswer": "Wood"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A pulley is used to:",
+            "options": ["Cut things", "Lift or move heavy objects", "Write on paper", "Measure length"],
+            "correctAnswer": "Lift or move heavy objects"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What can you use cardboard to make?",
+            "options": ["A model house", "A real car", "Real food", "A river"],
+            "correctAnswer": "A model house"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "After using tools in the workshop, you should:",
+            "options": ["Leave them on the floor", "Clean up and put them away", "Throw them outside", "Hide them"],
+            "correctAnswer": "Clean up and put them away"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which material is flexible and bends easily?",
+            "options": ["Stone", "Metal rod", "Rubber", "Brick"],
+            "correctAnswer": "Rubber"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "An inclined plane is like a:",
+            "options": ["Flat table", "Slope or ramp", "Straight stick", "Round ball"],
+            "correctAnswer": "Slope or ramp"
           }
         ]
       }
@@ -639,7 +849,7 @@
       "quiz": {
         "quizId": "pry3-art-quiz",
         "quizTitle": "Creative Arts — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -672,6 +882,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Storytelling_time.jpg/400px-Storytelling_time.jpg",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Folk_story_illustration.jpg/400px-Folk_story_illustration.jpg"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which of these is used for drawing?",
+            "options": ["Hammer", "Pencil", "Spoon", "Bucket"],
+            "correctAnswer": "Pencil"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "When you mix red and yellow paint, you get:",
+            "options": ["Green", "Blue", "Orange", "Purple"],
+            "correctAnswer": "Orange"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Which material can be used to make a paper mask?",
+            "options": ["Metal", "Paper and glue", "Sand", "Water"],
+            "correctAnswer": "Paper and glue"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "A pattern is made by:",
+            "options": ["Random scribbling", "Repeating shapes or colours", "Tearing paper apart", "Sleeping"],
+            "correctAnswer": "Repeating shapes or colours"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which of these is a musical instrument?",
+            "options": ["Drum", "Chair", "Book", "Shoe"],
+            "correctAnswer": "Drum"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Shading in a drawing helps to show:",
+            "options": ["Colour only", "Light and dark areas", "Nothing at all", "The title of the drawing"],
+            "correctAnswer": "Light and dark areas"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "What do folk tales usually teach us?",
+            "options": ["How to cook", "Moral lessons", "How to drive", "How to fly"],
+            "correctAnswer": "Moral lessons"
           }
         ]
       }
@@ -754,7 +1006,7 @@
       "quiz": {
         "quizId": "pry3-phe-quiz",
         "quizTitle": "Physical & Health Education — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -787,6 +1039,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Hand_washing_steps.png/400px-Hand_washing_steps.png",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Germs_prevention.jpg/400px-Germs_prevention.jpg"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Before playing sports, you should first do a:",
+            "options": ["Warm-up exercise", "Homework", "Nap", "Heavy meal"],
+            "correctAnswer": "Warm-up exercise"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is a team game?",
+            "options": ["Reading a book", "Relay race", "Drawing", "Sleeping"],
+            "correctAnswer": "Relay race"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Fruits and vegetables give us:",
+            "options": ["Vitamins and minerals", "Only sugar", "Only fat", "Nothing useful"],
+            "correctAnswer": "Vitamins and minerals"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "How often should you brush your teeth?",
+            "options": ["Once a week", "At least twice a day", "Once a month", "Never"],
+            "correctAnswer": "At least twice a day"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "When crossing the road, you should:",
+            "options": ["Run across quickly", "Look left, right, then left again", "Close your eyes", "Walk backwards"],
+            "correctAnswer": "Look left, right, then left again"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Which of these shows good sportsmanship?",
+            "options": ["Cheating to win", "Congratulating the winner", "Fighting with teammates", "Refusing to play"],
+            "correctAnswer": "Congratulating the winner"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Wearing clean clothes is part of:",
+            "options": ["Personal hygiene", "Mathematics", "Technology", "Music"],
+            "correctAnswer": "Personal hygiene"
           }
         ]
       }
@@ -867,7 +1161,7 @@
       "quiz": {
         "quizId": "pry3-civ-quiz",
         "quizTitle": "Civic Education — Primary 3 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -900,6 +1194,48 @@
               "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/School_rules_chart.png/400px-School_rules_chart.png",
               "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Following_rules.jpg/400px-Following_rules.jpg"
             ]
+          },
+          {
+            "questionId": "q4",
+            "questionText": "An honest person always:",
+            "options": ["Tells lies", "Tells the truth", "Cheats others", "Hides things"],
+            "correctAnswer": "Tells the truth"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which of these is a way to help in your community?",
+            "options": ["Littering the street", "Cleaning public spaces", "Breaking things", "Shouting at neighbours"],
+            "correctAnswer": "Cleaning public spaces"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Respecting others means:",
+            "options": ["Calling them names", "Listening when they speak", "Ignoring them", "Taking their things"],
+            "correctAnswer": "Listening when they speak"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Every child has the right to:",
+            "options": ["Play and rest", "Work in a factory", "Drive a car", "Stay up all night"],
+            "correctAnswer": "Play and rest"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "What happens when people do not follow rules?",
+            "options": ["Everything is peaceful", "There is confusion and danger", "Everyone is happy", "Nothing happens"],
+            "correctAnswer": "There is confusion and danger"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Keeping a promise shows that you are:",
+            "options": ["Dishonest", "Trustworthy", "Careless", "Lazy"],
+            "correctAnswer": "Trustworthy"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "In school, rules help pupils to:",
+            "options": ["Fight freely", "Learn in a safe environment", "Do whatever they want", "Skip classes"],
+            "correctAnswer": "Learn in a safe environment"
           }
         ]
       }

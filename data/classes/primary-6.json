@@ -51,7 +51,7 @@
       "quiz": {
         "quizId": "pry6-math-quiz",
         "quizTitle": "Mathematics — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -72,6 +72,48 @@
             "questionText": "Solve: x + 7 = 12",
             "options": ["x=5", "x=7", "x=12", "x=19"],
             "correctAnswer": "x=5"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is the place value of 6 in 365,420?",
+            "options": ["Sixty", "Six hundred", "Six thousand", "Sixty thousand"],
+            "correctAnswer": "Sixty thousand"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "What is 3/4 + 1/4?",
+            "options": ["1", "2/4", "1/2", "3/8"],
+            "correctAnswer": "1"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A triangle has how many sides?",
+            "options": ["2", "3", "4", "5"],
+            "correctAnswer": "3"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "How many minutes are in 2 hours?",
+            "options": ["60", "90", "100", "120"],
+            "correctAnswer": "120"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which number is greater: 89,432 or 89,342?",
+            "options": ["89,342", "89,432", "They are equal", "Cannot tell"],
+            "correctAnswer": "89,432"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What is 0.25 as a fraction?",
+            "options": ["1/2", "1/3", "1/4", "1/5"],
+            "correctAnswer": "1/4"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "If y = 3, what is 4y?",
+            "options": ["7", "12", "34", "43"],
+            "correctAnswer": "12"
           }
         ]
       }
@@ -123,7 +165,7 @@
       "quiz": {
         "quizId": "pry6-eng-quiz",
         "quizTitle": "English Language — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -144,6 +186,48 @@
             "questionText": "Choose the correct spelling:",
             "options": ["Accomodate", "Accommodate", "Acommodate", "Acommadate"],
             "correctAnswer": "Accommodate"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "What is a collective noun?",
+            "options": ["A name for a group", "A name for one person", "An action word", "A describing word"],
+            "correctAnswer": "A name for a group"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Which word is a synonym for 'happy'?",
+            "options": ["Sad", "Joyful", "Angry", "Tired"],
+            "correctAnswer": "Joyful"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "In a formal letter, which comes first?",
+            "options": ["The body", "The closing", "The address", "The signature"],
+            "correctAnswer": "The address"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "What is the antonym of 'big'?",
+            "options": ["Large", "Huge", "Small", "Tall"],
+            "correctAnswer": "Small"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which sentence is correct?",
+            "options": ["She go to school.", "She goes to school.", "She going to school.", "She gone to school."],
+            "correctAnswer": "She goes to school."
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The main idea of a passage is:",
+            "options": ["The title only", "What the passage is mostly about", "The last sentence", "The author's name"],
+            "correctAnswer": "What the passage is mostly about"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which word is a linking verb?",
+            "options": ["run", "jump", "is", "eat"],
+            "correctAnswer": "is"
           }
         ]
       }
@@ -196,7 +280,7 @@
       "quiz": {
         "quizId": "pry6-sci-quiz",
         "quizTitle": "Basic Science — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -217,6 +301,48 @@
             "questionText": "Solid, liquid, and gas are types of:",
             "options": ["Materials", "Numbers", "Plants", "Animals"],
             "correctAnswer": "Materials"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which is a flowering plant?",
+            "options": ["Fern", "Moss", "Rose", "Mushroom"],
+            "correctAnswer": "Rose"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "The lungs are used for:",
+            "options": ["Digestion", "Breathing", "Pumping blood", "Thinking"],
+            "correctAnswer": "Breathing"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "A push or pull on an object is called:",
+            "options": ["Energy", "Force", "Speed", "Weight"],
+            "correctAnswer": "Force"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which material is flexible?",
+            "options": ["Glass", "Stone", "Rubber", "Iron"],
+            "correctAnswer": "Rubber"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Cutting down trees in large numbers is called:",
+            "options": ["Afforestation", "Deforestation", "Irrigation", "Pollution"],
+            "correctAnswer": "Deforestation"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Animals with backbones are called:",
+            "options": ["Invertebrates", "Vertebrates", "Insects", "Reptiles"],
+            "correctAnswer": "Vertebrates"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which is an example of a gas?",
+            "options": ["Water", "Sand", "Air", "Ice"],
+            "correctAnswer": "Air"
           }
         ]
       }
@@ -269,7 +395,7 @@
       "quiz": {
         "quizId": "pry6-ss-quiz",
         "quizTitle": "Social Studies — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -290,6 +416,48 @@
             "questionText": "A community consists of:",
             "options": ["People living together", "Cars only", "Trees only", "Buildings only"],
             "correctAnswer": "People living together"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "The colours of the Nigerian flag are:",
+            "options": ["Red, white, and blue", "Green, white, and green", "Yellow and black", "Red and green"],
+            "correctAnswer": "Green, white, and green"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "A leader chosen by the people through voting is elected by:",
+            "options": ["Appointment", "Election", "Inheritance", "Force"],
+            "correctAnswer": "Election"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Culture includes:",
+            "options": ["Traditions and customs", "Only food", "Only clothing", "Only music"],
+            "correctAnswer": "Traditions and customs"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Recycling helps to:",
+            "options": ["Increase pollution", "Reduce waste", "Create more trash", "Destroy trees"],
+            "correctAnswer": "Reduce waste"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Trading means:",
+            "options": ["Sleeping all day", "Buying and selling goods", "Breaking things", "Watching television"],
+            "correctAnswer": "Buying and selling goods"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "The coat of arms is a symbol of:",
+            "options": ["A school", "Nigeria as a nation", "A market", "A hospital"],
+            "correctAnswer": "Nigeria as a nation"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "A festival is an example of:",
+            "options": ["Cultural celebration", "Punishment", "Examination", "Homework"],
+            "correctAnswer": "Cultural celebration"
           }
         ]
       }
@@ -342,7 +510,7 @@
       "quiz": {
         "quizId": "pry6-bt-quiz",
         "quizTitle": "Basic Technology — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -363,6 +531,48 @@
             "questionText": "A hammer is a:",
             "options": ["Tool", "Machine", "Plant", "Animal"],
             "correctAnswer": "Tool"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Which is a method of food preservation?",
+            "options": ["Drying", "Breaking", "Throwing away", "Painting"],
+            "correctAnswer": "Drying"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "A pulley is used to:",
+            "options": ["Cut things", "Lift heavy loads", "Write letters", "Cook food"],
+            "correctAnswer": "Lift heavy loads"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Wind energy is generated by:",
+            "options": ["Sunlight", "Moving air", "Water flow", "Burning wood"],
+            "correctAnswer": "Moving air"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "A screwdriver is used to:",
+            "options": ["Cut wood", "Tighten or loosen screws", "Dig soil", "Paint walls"],
+            "correctAnswer": "Tighten or loosen screws"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Freezing food helps to:",
+            "options": ["Make it taste bad", "Keep it fresh longer", "Make it heavier", "Change its colour"],
+            "correctAnswer": "Keep it fresh longer"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "A wheel helps in:",
+            "options": ["Cooking", "Movement and transport", "Reading", "Sleeping"],
+            "correctAnswer": "Movement and transport"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Which material is commonly used for making models in class?",
+            "options": ["Cardboard", "Metal", "Glass", "Concrete"],
+            "correctAnswer": "Cardboard"
           }
         ]
       }
@@ -416,7 +626,7 @@
       "quiz": {
         "quizId": "pry6-ca-quiz",
         "quizTitle": "Creative Arts — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -437,6 +647,48 @@
             "questionText": "Drama improves:",
             "options": ["Acting skills", "Cooking", "Walking", "Swimming"],
             "correctAnswer": "Acting skills"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "The three primary colours are:",
+            "options": ["Red, blue, and yellow", "Green, orange, and purple", "Black, white, and grey", "Pink, brown, and gold"],
+            "correctAnswer": "Red, blue, and yellow"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Rhythm in music refers to:",
+            "options": ["The colour of an instrument", "A pattern of beats", "The size of a drum", "The name of a song"],
+            "correctAnswer": "A pattern of beats"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Traditional dance helps to preserve:",
+            "options": ["Food", "Culture", "Water", "Money"],
+            "correctAnswer": "Culture"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Which material is used in making crafts?",
+            "options": ["Clay", "Petrol", "Electricity", "Water"],
+            "correctAnswer": "Clay"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "A script in drama is:",
+            "options": ["A type of dance", "The written words actors say", "A musical note", "A painting tool"],
+            "correctAnswer": "The written words actors say"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "Singing together in a group is called:",
+            "options": ["Solo", "Chorus", "Drama", "Craft"],
+            "correctAnswer": "Chorus"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Texture in art refers to:",
+            "options": ["The sound of a painting", "How a surface feels", "The weight of a drawing", "The smell of paint"],
+            "correctAnswer": "How a surface feels"
           }
         ]
       }
@@ -489,7 +741,7 @@
       "quiz": {
         "quizId": "pry6-phe-quiz",
         "quizTitle": "Physical & Health Education — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -510,6 +762,48 @@
             "questionText": "Handwashing prevents:",
             "options": ["Illness", "Math errors", "Traffic", "Reading mistakes"],
             "correctAnswer": "Illness"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "A balanced diet contains:",
+            "options": ["Only sweets", "Proteins, carbohydrates, and vitamins", "Only water", "Only bread"],
+            "correctAnswer": "Proteins, carbohydrates, and vitamins"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "First aid is:",
+            "options": ["Immediate help given before a doctor arrives", "A type of game", "A school subject only", "A type of food"],
+            "correctAnswer": "Immediate help given before a doctor arrives"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "How often should you brush your teeth?",
+            "options": ["Once a week", "At least twice a day", "Once a month", "Only when they hurt"],
+            "correctAnswer": "At least twice a day"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "Fair play in games means:",
+            "options": ["Cheating to win", "Following rules and being honest", "Arguing with teammates", "Refusing to play"],
+            "correctAnswer": "Following rules and being honest"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Which is a good source of protein?",
+            "options": ["Eggs", "Sugar", "Salt", "Oil"],
+            "correctAnswer": "Eggs"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "When crossing the road, you should:",
+            "options": ["Run without looking", "Look left, right, then left again", "Close your eyes", "Talk on the phone"],
+            "correctAnswer": "Look left, right, then left again"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Regular exercise strengthens the:",
+            "options": ["Heart and muscles", "Only the brain", "Only the eyes", "Only the fingers"],
+            "correctAnswer": "Heart and muscles"
           }
         ]
       }
@@ -562,7 +856,7 @@
       "quiz": {
         "quizId": "pry6-ce-quiz",
         "quizTitle": "Civic Education — Primary 6 Quiz",
-        "totalQuestions": 3,
+        "totalQuestions": 10,
         "passingScore": 60,
         "timeLimit": "10 mins",
         "questions": [
@@ -583,6 +877,48 @@
             "questionText": "National pride includes:",
             "options": ["Respecting flag", "Ignoring anthem", "Destroying symbols", "Cheating"],
             "correctAnswer": "Respecting flag"
+          },
+          {
+            "questionId": "q4",
+            "questionText": "Every child has the right to:",
+            "options": ["Education", "Drive a car", "Skip school", "Stay up all night"],
+            "correctAnswer": "Education"
+          },
+          {
+            "questionId": "q5",
+            "questionText": "Laws are made to:",
+            "options": ["Punish everyone", "Maintain peace and order", "Make people sad", "Stop people from playing"],
+            "correctAnswer": "Maintain peace and order"
+          },
+          {
+            "questionId": "q6",
+            "questionText": "Honesty means:",
+            "options": ["Telling the truth", "Telling lies", "Hiding things", "Cheating in exams"],
+            "correctAnswer": "Telling the truth"
+          },
+          {
+            "questionId": "q7",
+            "questionText": "A good citizen should:",
+            "options": ["Obey the laws", "Break rules", "Litter the streets", "Bully others"],
+            "correctAnswer": "Obey the laws"
+          },
+          {
+            "questionId": "q8",
+            "questionText": "Planting trees in the community is an example of:",
+            "options": ["Community service", "Punishment", "Waste of time", "Entertainment"],
+            "correctAnswer": "Community service"
+          },
+          {
+            "questionId": "q9",
+            "questionText": "What happens when rules are broken?",
+            "options": ["Nothing at all", "There are consequences", "Everyone is happy", "It is encouraged"],
+            "correctAnswer": "There are consequences"
+          },
+          {
+            "questionId": "q10",
+            "questionText": "Respecting other people's cultures promotes:",
+            "options": ["Division", "Unity and peace", "Conflict", "Isolation"],
+            "correctAnswer": "Unity and peace"
           }
         ]
       }
